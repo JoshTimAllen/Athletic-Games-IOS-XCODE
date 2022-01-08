@@ -1,0 +1,356 @@
+﻿#include "il2cpp-config.h"
+
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+#include <stdint.h>
+
+#include "codegen/il2cpp-codegen.h"
+#include "il2cpp-object-internals.h"
+
+
+// System.Char[]
+struct CharU5BU5D_t4CC6ABF0AD71BEC97E3C2F1E9C5677E46D3A75C2;
+// System.String
+struct String_t;
+// System.Void
+struct Void_t22962CB4C05B1D89B55A6E1139F0E87A90987017;
+
+struct NativeCookie_t0C80C7F4630787E466E4FD34D48D470F20858B9B_marshaled_pinvoke;
+struct unitytls_errorstate_t64FA817A583B1CD3CB1AFCFF9606F1F2782ABBE6 ;
+struct unitytls_key_ref_tE908606656A7C49CA1EB734722E4C3DED7CE6E5B ;
+struct unitytls_tlsctx_t6B948536BDFA3AAC0135FF136ABD7779A0B96A74 ;
+struct unitytls_x509list_ref_tF01A6BF5ADA9C454E6B975D2669AF22D27555BF6 ;
+struct unitytls_x509name_t551F433869F1BAA39C78962C7ACA1BAB9A4D6337 ;
+
+
+IL2CPP_EXTERN_C_BEGIN
+IL2CPP_EXTERN_C_END
+
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.Object
+
+
+// System.ValueType
+struct ValueType_t4D0C27076F7C36E76190FB3328E232BCB1CD1FFF  : public RuntimeObject
+{
+public:
+
+public:
+};
+
+// Native definition for P/Invoke marshalling of System.ValueType
+struct ValueType_t4D0C27076F7C36E76190FB3328E232BCB1CD1FFF_marshaled_pinvoke
+{
+};
+// Native definition for COM marshalling of System.ValueType
+struct ValueType_t4D0C27076F7C36E76190FB3328E232BCB1CD1FFF_marshaled_com
+{
+};
+
+// Mono.Unity.UnityTls/unitytls_x509list_ref
+struct unitytls_x509list_ref_tF01A6BF5ADA9C454E6B975D2669AF22D27555BF6 
+{
+public:
+	// System.UInt64 Mono.Unity.UnityTls/unitytls_x509list_ref::handle
+	uint64_t ___handle_0;
+
+public:
+	inline static int32_t get_offset_of_handle_0() { return static_cast<int32_t>(offsetof(unitytls_x509list_ref_tF01A6BF5ADA9C454E6B975D2669AF22D27555BF6, ___handle_0)); }
+	inline uint64_t get_handle_0() const { return ___handle_0; }
+	inline uint64_t* get_address_of_handle_0() { return &___handle_0; }
+	inline void set_handle_0(uint64_t value)
+	{
+		___handle_0 = value;
+	}
+};
+
+
+// System.Enum
+struct Enum_t2AF27C02B8653AE29442467390005ABC74D8F521  : public ValueType_t4D0C27076F7C36E76190FB3328E232BCB1CD1FFF
+{
+public:
+
+public:
+};
+
+struct Enum_t2AF27C02B8653AE29442467390005ABC74D8F521_StaticFields
+{
+public:
+	// System.Char[] System.Enum::enumSeperatorCharArray
+	CharU5BU5D_t4CC6ABF0AD71BEC97E3C2F1E9C5677E46D3A75C2* ___enumSeperatorCharArray_0;
+
+public:
+	inline static int32_t get_offset_of_enumSeperatorCharArray_0() { return static_cast<int32_t>(offsetof(Enum_t2AF27C02B8653AE29442467390005ABC74D8F521_StaticFields, ___enumSeperatorCharArray_0)); }
+	inline CharU5BU5D_t4CC6ABF0AD71BEC97E3C2F1E9C5677E46D3A75C2* get_enumSeperatorCharArray_0() const { return ___enumSeperatorCharArray_0; }
+	inline CharU5BU5D_t4CC6ABF0AD71BEC97E3C2F1E9C5677E46D3A75C2** get_address_of_enumSeperatorCharArray_0() { return &___enumSeperatorCharArray_0; }
+	inline void set_enumSeperatorCharArray_0(CharU5BU5D_t4CC6ABF0AD71BEC97E3C2F1E9C5677E46D3A75C2* value)
+	{
+		___enumSeperatorCharArray_0 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___enumSeperatorCharArray_0), (void*)value);
+	}
+};
+
+// Native definition for P/Invoke marshalling of System.Enum
+struct Enum_t2AF27C02B8653AE29442467390005ABC74D8F521_marshaled_pinvoke
+{
+};
+// Native definition for COM marshalling of System.Enum
+struct Enum_t2AF27C02B8653AE29442467390005ABC74D8F521_marshaled_com
+{
+};
+
+// System.IntPtr
+struct IntPtr_t 
+{
+public:
+	// System.Void* System.IntPtr::m_value
+	void* ___m_value_0;
+
+public:
+	inline static int32_t get_offset_of_m_value_0() { return static_cast<int32_t>(offsetof(IntPtr_t, ___m_value_0)); }
+	inline void* get_m_value_0() const { return ___m_value_0; }
+	inline void** get_address_of_m_value_0() { return &___m_value_0; }
+	inline void set_m_value_0(void* value)
+	{
+		___m_value_0 = value;
+	}
+};
+
+struct IntPtr_t_StaticFields
+{
+public:
+	// System.IntPtr System.IntPtr::Zero
+	intptr_t ___Zero_1;
+
+public:
+	inline static int32_t get_offset_of_Zero_1() { return static_cast<int32_t>(offsetof(IntPtr_t_StaticFields, ___Zero_1)); }
+	inline intptr_t get_Zero_1() const { return ___Zero_1; }
+	inline intptr_t* get_address_of_Zero_1() { return &___Zero_1; }
+	inline void set_Zero_1(intptr_t value)
+	{
+		___Zero_1 = value;
+	}
+};
+
+
+// System.Void
+struct Void_t22962CB4C05B1D89B55A6E1139F0E87A90987017 
+{
+public:
+	union
+	{
+		struct
+		{
+		};
+		uint8_t Void_t22962CB4C05B1D89B55A6E1139F0E87A90987017__padding[1];
+	};
+
+public:
+};
+
+
+// Admix.AdmixCore.WebViewDesktop.BrowserNative/ChangeType
+struct ChangeType_tD13AF33C28D833F0DA79AC54468A0A7F00DA2BD5 
+{
+public:
+	// System.Int32 Admix.AdmixCore.WebViewDesktop.BrowserNative/ChangeType::value__
+	int32_t ___value___2;
+
+public:
+	inline static int32_t get_offset_of_value___2() { return static_cast<int32_t>(offsetof(ChangeType_tD13AF33C28D833F0DA79AC54468A0A7F00DA2BD5, ___value___2)); }
+	inline int32_t get_value___2() const { return ___value___2; }
+	inline int32_t* get_address_of_value___2() { return &___value___2; }
+	inline void set_value___2(int32_t value)
+	{
+		___value___2 = value;
+	}
+};
+
+
+// Admix.AdmixCore.WebViewDesktop.BrowserNative/ContextMenuOrigin
+struct ContextMenuOrigin_tA08A95E001E6ECF302AB2D37AFDC49C379238269 
+{
+public:
+	// System.Int32 Admix.AdmixCore.WebViewDesktop.BrowserNative/ContextMenuOrigin::value__
+	int32_t ___value___2;
+
+public:
+	inline static int32_t get_offset_of_value___2() { return static_cast<int32_t>(offsetof(ContextMenuOrigin_tA08A95E001E6ECF302AB2D37AFDC49C379238269, ___value___2)); }
+	inline int32_t get_value___2() const { return ___value___2; }
+	inline int32_t* get_address_of_value___2() { return &___value___2; }
+	inline void set_value___2(int32_t value)
+	{
+		___value___2 = value;
+	}
+};
+
+
+// Admix.AdmixCore.WebViewDesktop.BrowserNative/DialogType
+struct DialogType_tFB713FBA08C44D36DB8E6FC5BEB355250CDF8300 
+{
+public:
+	// System.Int32 Admix.AdmixCore.WebViewDesktop.BrowserNative/DialogType::value__
+	int32_t ___value___2;
+
+public:
+	inline static int32_t get_offset_of_value___2() { return static_cast<int32_t>(offsetof(DialogType_tFB713FBA08C44D36DB8E6FC5BEB355250CDF8300, ___value___2)); }
+	inline int32_t get_value___2() const { return ___value___2; }
+	inline int32_t* get_address_of_value___2() { return &___value___2; }
+	inline void set_value___2(int32_t value)
+	{
+		___value___2 = value;
+	}
+};
+
+
+// Mono.Unity.UnityTls/unitytls_x509verify_result
+struct unitytls_x509verify_result_t835FEA0265EFD70F0762B220C663474E03402278 
+{
+public:
+	// System.UInt32 Mono.Unity.UnityTls/unitytls_x509verify_result::value__
+	uint32_t ___value___2;
+
+public:
+	inline static int32_t get_offset_of_value___2() { return static_cast<int32_t>(offsetof(unitytls_x509verify_result_t835FEA0265EFD70F0762B220C663474E03402278, ___value___2)); }
+	inline uint32_t get_value___2() const { return ___value___2; }
+	inline uint32_t* get_address_of_value___2() { return &___value___2; }
+	inline void set_value___2(uint32_t value)
+	{
+		___value___2 = value;
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_OSSpecificSynchronizationContext_InvocationEntry_m056BCE43FF155AAE872FF7E565F8F72A50D26147(intptr_t ___arg0);
+extern "C" intptr_t CDECL ReversePInvokeWrapper_UnityTlsContext_WriteCallback_m5F0468BDEFF636D45C1C6F1C76704F11CDED387F(void* ___userData0, uint8_t* ___data1, intptr_t ___bufferLen2, unitytls_errorstate_t64FA817A583B1CD3CB1AFCFF9606F1F2782ABBE6 * ___errorState3);
+extern "C" intptr_t CDECL ReversePInvokeWrapper_UnityTlsContext_ReadCallback_m0B14F0D383551A47EE106C1A94B86D951C20C8BB(void* ___userData0, uint8_t* ___buffer1, intptr_t ___bufferLen2, unitytls_errorstate_t64FA817A583B1CD3CB1AFCFF9606F1F2782ABBE6 * ___errorState3);
+extern "C" uint32_t CDECL ReversePInvokeWrapper_UnityTlsContext_VerifyCallback_m13D57FD52BD264F536F4CA7E84BC54CCE5E01850(void* ___userData0, unitytls_x509list_ref_tF01A6BF5ADA9C454E6B975D2669AF22D27555BF6  ___chain1, unitytls_errorstate_t64FA817A583B1CD3CB1AFCFF9606F1F2782ABBE6 * ___errorState2);
+extern "C" void CDECL ReversePInvokeWrapper_UnityTlsContext_CertificateCallback_m4CF8B88233EDA0609216D4F30A2C1F0966022347(void* ___userData0, unitytls_tlsctx_t6B948536BDFA3AAC0135FF136ABD7779A0B96A74 * ___ctx1, uint8_t* ___cn2, intptr_t ___cnLen3, unitytls_x509name_t551F433869F1BAA39C78962C7ACA1BAB9A4D6337 * ___caList4, intptr_t ___caListLen5, unitytls_x509list_ref_tF01A6BF5ADA9C454E6B975D2669AF22D27555BF6 * ___chain6, unitytls_key_ref_tE908606656A7C49CA1EB734722E4C3DED7CE6E5B * ___key7, unitytls_errorstate_t64FA817A583B1CD3CB1AFCFF9606F1F2782ABBE6 * ___errorState8);
+extern "C" int32_t CDECL ReversePInvokeWrapper_DeflateStreamNative_UnmanagedRead_mFD20677F91EBF121ACA3C4236C108B356BF376FA(intptr_t ___buffer0, int32_t ___length1, intptr_t ___data2);
+extern "C" int32_t CDECL ReversePInvokeWrapper_DeflateStreamNative_UnmanagedWrite_mC98CAEEAFE9482472AB4D5D78F733ADB7972A87C(intptr_t ___buffer0, int32_t ___length1, intptr_t ___data2);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_AdLoaderClient_AdLoaderDidReceiveNativeCustomTemplateAdCallback_m6AE1662C1F93CF81CE544AA037A612CDEFE3C436(intptr_t ___adLoader0, intptr_t ___nativeCustomTemplateAd1, char* ___templateID2);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_AdLoaderClient_AdLoaderDidFailToReceiveAdWithErrorCallback_mFF3F3656F381624C06EBBCFDFD1259A61089E06E(intptr_t ___adLoader0, char* ___error1);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_BannerClient_AdViewDidReceiveAdCallback_m601670294C589FB92819435BA307AA4541557733(intptr_t ___bannerClient0);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_BannerClient_AdViewDidFailToReceiveAdWithErrorCallback_m487CAE4799CF041A34A5DC70B6CAC974476C075D(intptr_t ___bannerClient0, char* ___error1);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_BannerClient_AdViewWillPresentScreenCallback_m6450825ECEB255F4346A7F4E6A3F7870734684F8(intptr_t ___bannerClient0);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_BannerClient_AdViewDidDismissScreenCallback_mEC7D5C26EA9E31B345FBFF176E76899D5FDA01F5(intptr_t ___bannerClient0);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_BannerClient_AdViewWillLeaveApplicationCallback_mABCDC3E803FB2BE2B924178BCEC958E6BDE46BE6(intptr_t ___bannerClient0);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_BannerClient_AdViewPaidEventCallback_mB03E14F02A7CF4DEF16E3B71EB319CB854F938DC(intptr_t ___bannerClient0, int32_t ___precision1, int64_t ___value2, char* ___currencyCode3);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_CustomNativeTemplateClient_NativeCustomTemplateDidReceiveClickCallback_m9576D01BAE116551FF1E61E4DE186A0C62E1BD43(intptr_t ___nativeCustomAd0, char* ___assetName1);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_InterstitialClient_InterstitialDidReceiveAdCallback_mB36D91F6D6FF389952ADD720AA3705ED74C16348(intptr_t ___interstitialClient0);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_InterstitialClient_InterstitialDidFailToReceiveAdWithErrorCallback_m79B902071329F9C6AD03205A1CDF11ECBA65A89C(intptr_t ___interstitialClient0, char* ___error1);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_InterstitialClient_InterstitialWillPresentScreenCallback_m73197F9FBADEE4C4CE448E58FC2792135BE842D8(intptr_t ___interstitialClient0);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_InterstitialClient_InterstitialDidDismissScreenCallback_mAE268A37C99677BA294BB31724440FC26FE373A5(intptr_t ___interstitialClient0);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_InterstitialClient_InterstitialWillLeaveApplicationCallback_m0702E0D6364F134CA2DFE52A7DAE2F9B6F41A71B(intptr_t ___interstitialClient0);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_InterstitialClient_InterstitialPaidEventCallback_mC9DF723FFB98931507CC4A2F332EC62495017161(intptr_t ___interstitialClient0, int32_t ___precision1, int64_t ___value2, char* ___currencyCode3);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_MobileAdsClient_InitializationCompleteCallback_m365060369E01460FC88AC7AB5260344A6654BD10(intptr_t ___mobileAdsClient0, intptr_t ___initStatus1);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_RewardBasedVideoAdClient_RewardBasedVideoAdDidReceiveAdCallback_m9F4E268292E29FD2617EE6FF2211F5867E9C65D8(intptr_t ___rewardBasedVideoAdClient0);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_RewardBasedVideoAdClient_RewardBasedVideoAdDidFailToReceiveAdWithErrorCallback_mCB51FA1443DB94D2F9F713D19EB16802D79EEA91(intptr_t ___rewardBasedVideoAdClient0, char* ___error1);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_RewardBasedVideoAdClient_RewardBasedVideoAdDidOpenCallback_m393420D1A2AE094BC7A4F7D691523CB484E4B250(intptr_t ___rewardBasedVideoAdClient0);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_RewardBasedVideoAdClient_RewardBasedVideoAdDidStartCallback_mE3F726173EA72F64FFC8DB730162B2B1FFE532F8(intptr_t ___rewardBasedVideoAdClient0);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_RewardBasedVideoAdClient_RewardBasedVideoAdDidCloseCallback_mF0C2C4C0E1BF57984C407E809FBD7E46EE9B3873(intptr_t ___rewardBasedVideoAdClient0);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_RewardBasedVideoAdClient_RewardBasedVideoAdDidRewardUserCallback_m57D83868338260692A3258D72D02B0164A2B284A(intptr_t ___rewardBasedVideoAdClient0, char* ___rewardType1, double ___rewardAmount2);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_RewardBasedVideoAdClient_RewardBasedVideoAdWillLeaveApplicationCallback_m92D18299BD4594D895C28AC045053FE3DF16DAEA(intptr_t ___rewardBasedVideoAdClient0);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_RewardBasedVideoAdClient_RewardBasedVideoAdDidCompleteCallback_m4E4E0E1A99E124A286DEBC6133A0F500EF010B0E(intptr_t ___rewardBasedVideoAdClient0);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_RewardedAdClient_RewardedAdDidReceiveAdCallback_m3203404295C547EC61892CDA8F1A654D2F433B4E(intptr_t ___rewardedAdClient0);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_RewardedAdClient_RewardedAdDidFailToReceiveAdWithErrorCallback_m23D964604E26053B10894C713E143C4D072E3516(intptr_t ___rewardedAdClient0, char* ___error1);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_RewardedAdClient_RewardedAdDidFailToShowAdWithErrorCallback_m4D52378651A5F13521D98E1995DB668634F9422B(intptr_t ___rewardedAdClient0, char* ___error1);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_RewardedAdClient_RewardedAdDidOpenCallback_mFD035444AEECF3E751CED44F328DCD20D22557E8(intptr_t ___rewardedAdClient0);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_RewardedAdClient_RewardedAdDidCloseCallback_mF90AED2AF1B2E17C1378C166AF1F8D558C101EEA(intptr_t ___rewardedAdClient0);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_RewardedAdClient_RewardedAdUserDidEarnRewardCallback_mC83D9A136BB2BFA0E387F44D60E08FECE29AA10D(intptr_t ___rewardedAdClient0, char* ___rewardType1, double ___rewardAmount2);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_RewardedAdClient_RewardedAdPaidEventCallback_m73D6B61B7B52216A2E0C3E5FA0089F8B33828902(intptr_t ___rewardedAdClient0, int32_t ___precision1, int64_t ___value2, char* ___currencyCode3);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_RewardedInterstitialAdClient_RewardedInterstitialAdLoadedCallback_mCE2747DEC9E7A40134CEAEFAD4A7BA5CDF7B9DCF(intptr_t ___rewardedInterstitialAdClient0);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_RewardedInterstitialAdClient_RewardedInterstitialAdFailedToLoadCallback_mCE926802D35D4EF0367D042E18E6DF3AA48F7006(intptr_t ___rewardedInterstitialAdClient0, char* ___error1);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_RewardedInterstitialAdClient_RewardedInterstitialAdUserDidEarnRewardCallback_mFAE55A1B43E9823B5D1A810A0297DFB93A8FD85D(intptr_t ___rewardedInterstitialAdClient0, char* ___rewardType1, double ___rewardAmount2);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_RewardedInterstitialAdClient_RewardedInterstitialAdPaidEventCallback_m07FA5A4044DA79FEEB6ECB7E07591806EE427738(intptr_t ___rewardedInterstitialAdClient0, int32_t ___precision1, int64_t ___value2, char* ___currencyCode3);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_RewardedInterstitialAdClient_AdFailedToPresentFullScreenContentCallback_m0820C225AF8E797646E0D73A9424CD8D1568E6DC(intptr_t ___rewardedInterstitialAdClient0, char* ___error1);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_RewardedInterstitialAdClient_AdDidPresentFullScreenContentCallback_m976DDD9B5D21C4A7D69EB74C8FCBED46C23EFAF3(intptr_t ___rewardedInterstitialAdClient0);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_RewardedInterstitialAdClient_AdDidDismissFullScreenContentCallback_m4C67DF83A76DCF062355DA7EC369A4F5FE7A195F(intptr_t ___rewardedInterstitialAdClient0);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_iOSStepCounter_OnDataReceived_m25F7C38E692300F48C881D2947D6DED8E9F36BFC(int32_t ___deviceId0, int32_t ___numberOfSteps1);
+extern "C" void CDECL ReversePInvokeWrapper_Browser_CB_ForwardJSCallFunc_m15555855A1D8C79744CB83064ABD1A46769430F4(int32_t ___browserId0, int32_t ___callbackId1, char* ___data2, int32_t ___size3);
+extern "C" void CDECL ReversePInvokeWrapper_Browser_CB_ChangeFunc_m20D05780C9141B019870F37DFAAD40918D6431F6(int32_t ___browserId0, int32_t ___changeType1, char* ___arg12);
+extern "C" void CDECL ReversePInvokeWrapper_Browser_CB_DisplayDialogFunc_mE86F7C4668D542CB552530A25EB6E0B7A74F8B3D(int32_t ___browserId0, int32_t ___dialogType1, intptr_t ___textPtr2, intptr_t ___promptTextPtr3, intptr_t ___sourceURL4);
+extern "C" void CDECL ReversePInvokeWrapper_Browser_CB_ShowContextMenuFunc_m241883B1BE6888FA168D131EBD8E51EC577F6281(int32_t ___browserId0, char* ___json1, int32_t ___x2, int32_t ___y3, int32_t ___origin4);
+extern "C" void CDECL ReversePInvokeWrapper_Browser_CB_ConsoleFunc_m3153B6A3B2CD3C31A39E25AFF47FBADBF4CC7B02(int32_t ___browserId0, char* ___message1, char* ___source2, int32_t ___line3);
+extern "C" void CDECL ReversePInvokeWrapper_Browser_CB_ReadyFunc_mDB730411BD91F2E31B3BC10892C9D29A6638DE61(int32_t ___browserId0);
+extern "C" void CDECL ReversePInvokeWrapper_Browser_CB_NavStateFunc_m1DA6F125888BE81CF3E7D54AE65BE0C32CBF1824(int32_t ___browserId0, int32_t ___canGoBack1, int32_t ___canGoForward2, int32_t ___lodaing3, intptr_t ___urlRaw4);
+extern "C" void CDECL ReversePInvokeWrapper_Browser_CB_NewWindowFunc_mA85806561CA1C97DF83E43F2F6712B175519A7E4(int32_t ___creatorBrowserId0, int32_t ___newBrowserId1, intptr_t ___urlPtr2);
+extern "C" void CDECL ReversePInvokeWrapper_BrowserNative_LogCallback_m3EC86C1442C270CCCAD465324435827F6BC935AF(char* ___message0);
+extern "C" void CDECL ReversePInvokeWrapper_BrowserNative_NewRequestCallback_m37D108963FF2BCAD7710157B6E7386C1460A8B90(int32_t ___requestId0, char* ___url1);
+extern "C" void CDECL ReversePInvokeWrapper_CookieManager_CB_GetCookieFunc_m2E5B5D2AA6E45EF92507825B2092DC11BD855354(NativeCookie_t0C80C7F4630787E466E4FD34D48D470F20858B9B_marshaled_pinvoke* ___cookie0);
+
+
+extern const Il2CppMethodPointer g_ReversePInvokeWrapperPointers[];
+const Il2CppMethodPointer g_ReversePInvokeWrapperPointers[57] = 
+{
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_OSSpecificSynchronizationContext_InvocationEntry_m056BCE43FF155AAE872FF7E565F8F72A50D26147),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_UnityTlsContext_WriteCallback_m5F0468BDEFF636D45C1C6F1C76704F11CDED387F),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_UnityTlsContext_ReadCallback_m0B14F0D383551A47EE106C1A94B86D951C20C8BB),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_UnityTlsContext_VerifyCallback_m13D57FD52BD264F536F4CA7E84BC54CCE5E01850),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_UnityTlsContext_CertificateCallback_m4CF8B88233EDA0609216D4F30A2C1F0966022347),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_DeflateStreamNative_UnmanagedRead_mFD20677F91EBF121ACA3C4236C108B356BF376FA),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_DeflateStreamNative_UnmanagedWrite_mC98CAEEAFE9482472AB4D5D78F733ADB7972A87C),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_AdLoaderClient_AdLoaderDidReceiveNativeCustomTemplateAdCallback_m6AE1662C1F93CF81CE544AA037A612CDEFE3C436),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_AdLoaderClient_AdLoaderDidFailToReceiveAdWithErrorCallback_mFF3F3656F381624C06EBBCFDFD1259A61089E06E),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_BannerClient_AdViewDidReceiveAdCallback_m601670294C589FB92819435BA307AA4541557733),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_BannerClient_AdViewDidFailToReceiveAdWithErrorCallback_m487CAE4799CF041A34A5DC70B6CAC974476C075D),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_BannerClient_AdViewWillPresentScreenCallback_m6450825ECEB255F4346A7F4E6A3F7870734684F8),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_BannerClient_AdViewDidDismissScreenCallback_mEC7D5C26EA9E31B345FBFF176E76899D5FDA01F5),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_BannerClient_AdViewWillLeaveApplicationCallback_mABCDC3E803FB2BE2B924178BCEC958E6BDE46BE6),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_BannerClient_AdViewPaidEventCallback_mB03E14F02A7CF4DEF16E3B71EB319CB854F938DC),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_CustomNativeTemplateClient_NativeCustomTemplateDidReceiveClickCallback_m9576D01BAE116551FF1E61E4DE186A0C62E1BD43),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_InterstitialClient_InterstitialDidReceiveAdCallback_mB36D91F6D6FF389952ADD720AA3705ED74C16348),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_InterstitialClient_InterstitialDidFailToReceiveAdWithErrorCallback_m79B902071329F9C6AD03205A1CDF11ECBA65A89C),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_InterstitialClient_InterstitialWillPresentScreenCallback_m73197F9FBADEE4C4CE448E58FC2792135BE842D8),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_InterstitialClient_InterstitialDidDismissScreenCallback_mAE268A37C99677BA294BB31724440FC26FE373A5),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_InterstitialClient_InterstitialWillLeaveApplicationCallback_m0702E0D6364F134CA2DFE52A7DAE2F9B6F41A71B),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_InterstitialClient_InterstitialPaidEventCallback_mC9DF723FFB98931507CC4A2F332EC62495017161),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_MobileAdsClient_InitializationCompleteCallback_m365060369E01460FC88AC7AB5260344A6654BD10),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_RewardBasedVideoAdClient_RewardBasedVideoAdDidReceiveAdCallback_m9F4E268292E29FD2617EE6FF2211F5867E9C65D8),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_RewardBasedVideoAdClient_RewardBasedVideoAdDidFailToReceiveAdWithErrorCallback_mCB51FA1443DB94D2F9F713D19EB16802D79EEA91),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_RewardBasedVideoAdClient_RewardBasedVideoAdDidOpenCallback_m393420D1A2AE094BC7A4F7D691523CB484E4B250),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_RewardBasedVideoAdClient_RewardBasedVideoAdDidStartCallback_mE3F726173EA72F64FFC8DB730162B2B1FFE532F8),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_RewardBasedVideoAdClient_RewardBasedVideoAdDidCloseCallback_mF0C2C4C0E1BF57984C407E809FBD7E46EE9B3873),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_RewardBasedVideoAdClient_RewardBasedVideoAdDidRewardUserCallback_m57D83868338260692A3258D72D02B0164A2B284A),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_RewardBasedVideoAdClient_RewardBasedVideoAdWillLeaveApplicationCallback_m92D18299BD4594D895C28AC045053FE3DF16DAEA),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_RewardBasedVideoAdClient_RewardBasedVideoAdDidCompleteCallback_m4E4E0E1A99E124A286DEBC6133A0F500EF010B0E),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_RewardedAdClient_RewardedAdDidReceiveAdCallback_m3203404295C547EC61892CDA8F1A654D2F433B4E),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_RewardedAdClient_RewardedAdDidFailToReceiveAdWithErrorCallback_m23D964604E26053B10894C713E143C4D072E3516),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_RewardedAdClient_RewardedAdDidFailToShowAdWithErrorCallback_m4D52378651A5F13521D98E1995DB668634F9422B),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_RewardedAdClient_RewardedAdDidOpenCallback_mFD035444AEECF3E751CED44F328DCD20D22557E8),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_RewardedAdClient_RewardedAdDidCloseCallback_mF90AED2AF1B2E17C1378C166AF1F8D558C101EEA),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_RewardedAdClient_RewardedAdUserDidEarnRewardCallback_mC83D9A136BB2BFA0E387F44D60E08FECE29AA10D),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_RewardedAdClient_RewardedAdPaidEventCallback_m73D6B61B7B52216A2E0C3E5FA0089F8B33828902),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_RewardedInterstitialAdClient_RewardedInterstitialAdLoadedCallback_mCE2747DEC9E7A40134CEAEFAD4A7BA5CDF7B9DCF),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_RewardedInterstitialAdClient_RewardedInterstitialAdFailedToLoadCallback_mCE926802D35D4EF0367D042E18E6DF3AA48F7006),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_RewardedInterstitialAdClient_RewardedInterstitialAdUserDidEarnRewardCallback_mFAE55A1B43E9823B5D1A810A0297DFB93A8FD85D),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_RewardedInterstitialAdClient_RewardedInterstitialAdPaidEventCallback_m07FA5A4044DA79FEEB6ECB7E07591806EE427738),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_RewardedInterstitialAdClient_AdFailedToPresentFullScreenContentCallback_m0820C225AF8E797646E0D73A9424CD8D1568E6DC),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_RewardedInterstitialAdClient_AdDidPresentFullScreenContentCallback_m976DDD9B5D21C4A7D69EB74C8FCBED46C23EFAF3),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_RewardedInterstitialAdClient_AdDidDismissFullScreenContentCallback_m4C67DF83A76DCF062355DA7EC369A4F5FE7A195F),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_iOSStepCounter_OnDataReceived_m25F7C38E692300F48C881D2947D6DED8E9F36BFC),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_Browser_CB_ForwardJSCallFunc_m15555855A1D8C79744CB83064ABD1A46769430F4),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_Browser_CB_ChangeFunc_m20D05780C9141B019870F37DFAAD40918D6431F6),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_Browser_CB_DisplayDialogFunc_mE86F7C4668D542CB552530A25EB6E0B7A74F8B3D),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_Browser_CB_ShowContextMenuFunc_m241883B1BE6888FA168D131EBD8E51EC577F6281),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_Browser_CB_ConsoleFunc_m3153B6A3B2CD3C31A39E25AFF47FBADBF4CC7B02),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_Browser_CB_ReadyFunc_mDB730411BD91F2E31B3BC10892C9D29A6638DE61),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_Browser_CB_NavStateFunc_m1DA6F125888BE81CF3E7D54AE65BE0C32CBF1824),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_Browser_CB_NewWindowFunc_mA85806561CA1C97DF83E43F2F6712B175519A7E4),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_BrowserNative_LogCallback_m3EC86C1442C270CCCAD465324435827F6BC935AF),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_BrowserNative_NewRequestCallback_m37D108963FF2BCAD7710157B6E7386C1460A8B90),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_CookieManager_CB_GetCookieFunc_m2E5B5D2AA6E45EF92507825B2092DC11BD855354),
+};
