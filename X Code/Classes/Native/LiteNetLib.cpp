@@ -10195,7 +10195,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Dictionary_2_Remove_m987147F6A14C70118FC
 // System.Boolean System.Collections.Generic.Dictionary`2<LiteNetLib.NativeAddr,System.Object>::TryGetValue(!0,!1&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Dictionary_2_TryGetValue_mC8D0B806D47CFAD7C84E4825723B78E0F384B445_gshared (Dictionary_2_tABD7148BAFCD580FF69E6171995B777C5E870BF2 * __this, NativeAddr_t66B331EEDA1D7BDAFD46F28CF05F1178808398BE  ___key0, RuntimeObject ** ___value1, const RuntimeMethod* method);
 // !!0 UnityEngine.GameObject::AddComponent<System.Object>()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject * GameObject_AddComponent_TisRuntimeObject_mCB8164FB05F8DCF99E098ADC5E13E96FEF6FC4E9_gshared (GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * __this, const RuntimeMethod* method);
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject * GameObject_AddComponent_TisRuntimeObject_m80EDFEAC4927F588A7A702F81524EDBFA8603FE2_gshared (GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * __this, const RuntimeMethod* method);
 // System.Boolean System.Collections.Concurrent.ConcurrentQueue`1<System.Object>::get_IsEmpty()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ConcurrentQueue_1_get_IsEmpty_mD9E0469118F90368746C4A2DBB2809D51C49989C_gshared (ConcurrentQueue_1_t771ECD99D623265C42A1EE4729DA463E4D11A62A * __this, const RuntimeMethod* method);
 
@@ -11248,7 +11248,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object_DontDestroyOnLoad_m4DC90770AD6084
 // !!0 UnityEngine.GameObject::AddComponent<LiteNetLib.UnitySocketFix>()
 inline UnitySocketFix_tCD21033418C9A829469465C51D692FA33D651EDF * GameObject_AddComponent_TisUnitySocketFix_tCD21033418C9A829469465C51D692FA33D651EDF_m2E1C74DD4A620D02D49E5842C6E0A4714C70E6D1 (GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * __this, const RuntimeMethod* method)
 {
-	return ((  UnitySocketFix_tCD21033418C9A829469465C51D692FA33D651EDF * (*) (GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F *, const RuntimeMethod*))GameObject_AddComponent_TisRuntimeObject_mCB8164FB05F8DCF99E098ADC5E13E96FEF6FC4E9_gshared)(__this, method);
+	return ((  UnitySocketFix_tCD21033418C9A829469465C51D692FA33D651EDF * (*) (GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F *, const RuntimeMethod*))GameObject_AddComponent_TisRuntimeObject_m80EDFEAC4927F588A7A702F81524EDBFA8603FE2_gshared)(__this, method);
 }
 // System.Void System.Threading.ParameterizedThreadStart::.ctor(System.Object,System.IntPtr)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParameterizedThreadStart__ctor_m236F11FFFC55CB6AC611B16302E2F5F58C60346B (ParameterizedThreadStart_tB0BBCC1B5B33EBCFE37B9B91840464DBF124218F * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method);

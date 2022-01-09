@@ -156,7 +156,7 @@ static const int32_t s_InvokerIndices[45] =
 	154,
 	3,
 	3,
-	2004,
+	2092,
 	3,
 	154,
 	-1,
@@ -174,7 +174,7 @@ static const int32_t s_InvokerIndices[45] =
 	89,
 	27,
 	23,
-	2748,
+	2757,
 	26,
 	26,
 	23,
@@ -200,8 +200,8 @@ static const Il2CppTokenRangePair s_rgctxIndices[1] =
 };
 static const Il2CppRGCTXDefinition s_rgctxValues[2] = 
 {
-	{ (Il2CppRGCTXDataType)2, 33567 },
-	{ (Il2CppRGCTXDataType)2, 33568 },
+	{ (Il2CppRGCTXDataType)2, 33783 },
+	{ (Il2CppRGCTXDataType)2, 33784 },
 };
 extern const Il2CppCodeGenModule g_Unity_RemoteConfigCodeGenModule;
 const Il2CppCodeGenModule g_Unity_RemoteConfigCodeGenModule = 

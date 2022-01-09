@@ -555,9 +555,9 @@ struct HashSet_1_t6A43244C1E72A5DBECA8B20A594665D99C7665B5;
 // System.Collections.Generic.HashSet`1<RSG.IPromiseInfo>
 struct HashSet_1_t465B54976E6B2F7DCE201637038F0BEAFD51A2E9;
 // System.Collections.Generic.HashSet`1<System.Object>
-struct HashSet_1_t725419BA457D845928B505ACE877FF46BC71E897;
+struct HashSet_1_tCB9A93E0664C5F2540DB06B45AEF3605389EFF8E;
 // System.Collections.Generic.IDictionary`2<System.String,System.String>
-struct IDictionary_2_t992068C957D101948424D9F6912F15183F716FC0;
+struct IDictionary_2_tA30D1CD06BEF2372970C5F484BC3C035A3B71355;
 // System.Collections.Generic.IEnumerable`1<Admix.AdmixCore.WebViewDesktop.IPromise>
 struct IEnumerable_1_t5C0E4D63E63753A9DDD7ED0694ACBBA713191E94;
 // System.Collections.Generic.IEnumerable`1<Admix.AdmixCore.WebViewDesktop.IPromise`1<System.Object>>
@@ -11494,7 +11494,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_1__ctor_mAFC7442D9D3CEC6701C3C559
 // System.Void System.Action`1<System.Object>::Invoke(!0)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_1_Invoke_mB86FC1B303E77C41ED0E94FC3592A9CF8DA571D5_gshared (Action_1_t551A279CEADCF6EEAE8FA2B1E1E757D0D15290D0 * __this, RuntimeObject * ___obj0, const RuntimeMethod* method);
 // System.Boolean System.Collections.Generic.HashSet`1<System.Object>::Add(!0)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool HashSet_1_Add_m263AF496E7EB4748C16C752FDFB519059869BA6A_gshared (HashSet_1_t725419BA457D845928B505ACE877FF46BC71E897 * __this, RuntimeObject * ___item0, const RuntimeMethod* method);
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool HashSet_1_Add_m263AF496E7EB4748C16C752FDFB519059869BA6A_gshared (HashSet_1_tCB9A93E0664C5F2540DB06B45AEF3605389EFF8E * __this, RuntimeObject * ___item0, const RuntimeMethod* method);
 // System.Void System.Collections.Generic.List`1<Admix.AdmixCore.WebViewDesktop.RejectHandler>::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void List_1__ctor_mE9A9DD84A1FEFF7030751FDFA4CFCCF63C2DDC3A_gshared (List_1_tA01BAFE8DE998013F5EF568637E80193A2AA40A9 * __this, const RuntimeMethod* method);
 // System.Void System.Collections.Generic.List`1<Admix.AdmixCore.WebViewDesktop.RejectHandler>::Add(!0)
@@ -11510,7 +11510,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnumerableExt_Each_TisRejectHandler_t58D
 // !0 System.Collections.Generic.List`1<System.Object>::get_Item(System.Int32)
 IL2CPP_EXTERN_C inline IL2CPP_METHOD_ATTR RuntimeObject * List_1_get_Item_mFDB8AD680C600072736579BBF5F38F7416396588_gshared_inline (List_1_t05CC3C859AB5E6024394EF9A42E3E696628CA02D * __this, int32_t ___index0, const RuntimeMethod* method);
 // System.Boolean System.Collections.Generic.HashSet`1<System.Object>::Remove(!0)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool HashSet_1_Remove_m5E23D87996E72EB5D7B135B05E6697D62D3F7511_gshared (HashSet_1_t725419BA457D845928B505ACE877FF46BC71E897 * __this, RuntimeObject * ___item0, const RuntimeMethod* method);
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool HashSet_1_Remove_m5E23D87996E72EB5D7B135B05E6697D62D3F7511_gshared (HashSet_1_tCB9A93E0664C5F2540DB06B45AEF3605389EFF8E * __this, RuntimeObject * ___item0, const RuntimeMethod* method);
 // System.Void System.Action`1<System.Single>::.ctor(System.Object,System.IntPtr)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_1__ctor_m31BC390E2E0368C57885B41C5A9D480DE46FD72D_gshared (Action_1_t298B565CF49E0C72E4377AA3B30170F58D9F64FB * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method);
 

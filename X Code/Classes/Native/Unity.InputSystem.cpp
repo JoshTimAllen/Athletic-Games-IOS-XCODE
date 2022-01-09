@@ -135,7 +135,7 @@ struct Dictionary_2_tBA5388DBB42BF620266F9A48E8B859BBBB224E25;
 // System.Collections.Generic.Dictionary`2<UnityEngine.InputSystem.Utilities.InternedString,System.Type>
 struct Dictionary_2_t310C32ED224BE3D0C5C4C4BA0415DB9BF2C29C30;
 // System.Collections.Generic.HashSet`1<System.String>
-struct HashSet_1_tC8214FEC830040D37F12A482FF0284D9C2B9001E;
+struct HashSet_1_t7ED30EEB5279B4F7B38D343D0AF490E2296ACF61;
 // System.Collections.Generic.IEnumerable`1<UnityEngine.InputSystem.InputBinding>
 struct IEnumerable_1_t7A484FD42F5C06F9ABD76C2FB17260AE7F2FFE26;
 // System.Collections.Generic.IEnumerable`1<UnityEngine.InputSystem.InputBindingCompositeContext/PartBinding>
@@ -10245,7 +10245,7 @@ public:
 	// System.Boolean UnityEngine.InputSystem.InputSettings::m_DisableRedundantEventsMerging
 	bool ___m_DisableRedundantEventsMerging_21;
 	// System.Collections.Generic.HashSet`1<System.String> UnityEngine.InputSystem.InputSettings::m_FeatureFlags
-	HashSet_1_tC8214FEC830040D37F12A482FF0284D9C2B9001E * ___m_FeatureFlags_22;
+	HashSet_1_t7ED30EEB5279B4F7B38D343D0AF490E2296ACF61 * ___m_FeatureFlags_22;
 	// UnityEngine.InputSystem.InputSettings/iOSSettings UnityEngine.InputSystem.InputSettings::m_iOSSettings
 	iOSSettings_t2E1F0A006FE2BCDCA4F5C20E22D930E64509FAF1 * ___m_iOSSettings_24;
 
@@ -10396,9 +10396,9 @@ public:
 	}
 
 	inline static int32_t get_offset_of_m_FeatureFlags_22() { return static_cast<int32_t>(offsetof(InputSettings_t5A1C50A7CEC970EFA55322F929F105B562B598D1, ___m_FeatureFlags_22)); }
-	inline HashSet_1_tC8214FEC830040D37F12A482FF0284D9C2B9001E * get_m_FeatureFlags_22() const { return ___m_FeatureFlags_22; }
-	inline HashSet_1_tC8214FEC830040D37F12A482FF0284D9C2B9001E ** get_address_of_m_FeatureFlags_22() { return &___m_FeatureFlags_22; }
-	inline void set_m_FeatureFlags_22(HashSet_1_tC8214FEC830040D37F12A482FF0284D9C2B9001E * value)
+	inline HashSet_1_t7ED30EEB5279B4F7B38D343D0AF490E2296ACF61 * get_m_FeatureFlags_22() const { return ___m_FeatureFlags_22; }
+	inline HashSet_1_t7ED30EEB5279B4F7B38D343D0AF490E2296ACF61 ** get_address_of_m_FeatureFlags_22() { return &___m_FeatureFlags_22; }
+	inline void set_m_FeatureFlags_22(HashSet_1_t7ED30EEB5279B4F7B38D343D0AF490E2296ACF61 * value)
 	{
 		___m_FeatureFlags_22 = value;
 		Il2CppCodeGenWriteBarrier((void**)(&___m_FeatureFlags_22), (void*)value);
@@ -15275,7 +15275,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Record__ctor_m47899C3300058D9A601A33C2BF
 // System.Void UnityEngine.InputSystem.Utilities.ArrayHelpers::InsertAtWithCapacity<UnityEngine.InputSystem.EnhancedTouch.Touch>(TValue[]&,System.Int32&,System.Int32,TValue,System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArrayHelpers_InsertAtWithCapacity_TisTouch_tD662F2F922B54611020E09152A33F6E36F138CAC_m7A61DDFF20B6807BACE28B7D634D651B9D0FBAA6_gshared (TouchU5BU5D_tFE9BB27924490E1C452B640D77BA1E3CF7E865D2** ___array0, int32_t* ___count1, int32_t ___index2, Touch_tD662F2F922B54611020E09152A33F6E36F138CAC  ___value3, int32_t ___capacityIncrement4, const RuntimeMethod* method);
 // !!0 UnityEngine.GameObject::AddComponent<System.Object>()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject * GameObject_AddComponent_TisRuntimeObject_mCB8164FB05F8DCF99E098ADC5E13E96FEF6FC4E9_gshared (GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * __this, const RuntimeMethod* method);
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject * GameObject_AddComponent_TisRuntimeObject_m80EDFEAC4927F588A7A702F81524EDBFA8603FE2_gshared (GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * __this, const RuntimeMethod* method);
 // System.Boolean UnityEngine.InputSystem.Utilities.ArrayHelpers::ContainsReference<System.Object,System.Object>(TFirst[],System.Int32,TSecond)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ArrayHelpers_ContainsReference_TisRuntimeObject_TisRuntimeObject_mF53324C29ED00729A57FA1282AB1473D6545D8C5_gshared (ObjectU5BU5D_t3C9242B5C88A48B2A5BD9FDA6CD0024E792AF08A* ___array0, int32_t ___count1, RuntimeObject * ___value2, const RuntimeMethod* method);
 // System.Int32 UnityEngine.InputSystem.Utilities.ArrayHelpers::AppendWithCapacity<UnityEngine.Vector2>(TValue[]&,System.Int32&,TValue,System.Int32)
@@ -16582,7 +16582,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object_set_hideFlags_mB0B45A19A5871EF407
 // !!0 UnityEngine.GameObject::AddComponent<UnityEngine.InputSystem.EnhancedTouch.TouchSimulation>()
 inline TouchSimulation_tE58E7775D8689DEB2C4C6CC0A5534EF48DF63F1B * GameObject_AddComponent_TisTouchSimulation_tE58E7775D8689DEB2C4C6CC0A5534EF48DF63F1B_mB904D090A95705EBCEFEE0BF52A9D7DFDF106B95 (GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * __this, const RuntimeMethod* method)
 {
-	return ((  TouchSimulation_tE58E7775D8689DEB2C4C6CC0A5534EF48DF63F1B * (*) (GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F *, const RuntimeMethod*))GameObject_AddComponent_TisRuntimeObject_mCB8164FB05F8DCF99E098ADC5E13E96FEF6FC4E9_gshared)(__this, method);
+	return ((  TouchSimulation_tE58E7775D8689DEB2C4C6CC0A5534EF48DF63F1B * (*) (GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F *, const RuntimeMethod*))GameObject_AddComponent_TisRuntimeObject_m80EDFEAC4927F588A7A702F81524EDBFA8603FE2_gshared)(__this, method);
 }
 // UnityEngine.GameObject UnityEngine.Component::get_gameObject()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * Component_get_gameObject_m0B0570BA8DDD3CD78A9DB568EA18D7317686603C (Component_t05064EF382ABCAF4B8C94F8A350EA85184C26621 * __this, const RuntimeMethod* method);
