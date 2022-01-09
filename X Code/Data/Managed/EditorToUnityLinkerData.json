@@ -36,39 +36,6 @@
         },
         {
             "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "Behaviour",
-            "fullManagedTypeName": "UnityEngine.Behaviour",
-            "moduleName": "Core",
-            "usedInScenes": [
-                "Assets/Scenes/StartScreen.unity",
-                "Assets/Scenes/Play.unity",
-                "Assets/Scenes/Lobby.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "Component",
-            "fullManagedTypeName": "UnityEngine.Component",
-            "moduleName": "Core",
-            "usedInScenes": [
-                "Assets/Scenes/StartScreen.unity",
-                "Assets/Scenes/Play.unity",
-                "Assets/Scenes/Lobby.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "MonoBehaviour",
-            "fullManagedTypeName": "UnityEngine.MonoBehaviour",
-            "moduleName": "Core",
-            "usedInScenes": [
-                "Assets/Scenes/StartScreen.unity",
-                "Assets/Scenes/Play.unity",
-                "Assets/Scenes/Lobby.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
             "nativeClass": "MonoScript",
             "fullManagedTypeName": "UnityEditor.MonoScript",
             "moduleName": "Core",
@@ -449,9 +416,42 @@
         },
         {
             "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "Behaviour",
+            "fullManagedTypeName": "UnityEngine.Behaviour",
+            "moduleName": "Core",
+            "usedInScenes": [
+                "Assets/Scenes/StartScreen.unity",
+                "Assets/Scenes/Play.unity",
+                "Assets/Scenes/Lobby.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
             "nativeClass": "Animator",
             "fullManagedTypeName": "UnityEngine.Animator",
             "moduleName": "Animation",
+            "usedInScenes": [
+                "Assets/Scenes/StartScreen.unity",
+                "Assets/Scenes/Play.unity",
+                "Assets/Scenes/Lobby.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "Component",
+            "fullManagedTypeName": "UnityEngine.Component",
+            "moduleName": "Core",
+            "usedInScenes": [
+                "Assets/Scenes/StartScreen.unity",
+                "Assets/Scenes/Play.unity",
+                "Assets/Scenes/Lobby.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "MonoBehaviour",
+            "fullManagedTypeName": "UnityEngine.MonoBehaviour",
+            "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/StartScreen.unity",
                 "Assets/Scenes/Play.unity",
