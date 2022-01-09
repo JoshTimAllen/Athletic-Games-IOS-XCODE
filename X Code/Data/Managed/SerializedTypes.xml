@@ -1,0 +1,111 @@
+<linker>
+	<assembly fullname="Unity.InputSystem">
+		<type fullname="UnityEngine.InputSystem.InputSettings/iOSSettings" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.InputSystem.iOS.PrivacyDataUsage" preserve="nothing" serialized="true"/>
+	</assembly>
+	<assembly fullname="UnityEngine.UI">
+		<type fullname="UnityEngine.UI.MaskableGraphic/CullStateChangedEvent" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.UI.FontData" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.UI.Navigation" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.UI.ColorBlock" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.UI.SpriteState" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.UI.AnimationTriggers" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.UI.Button/ButtonClickedEvent" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.UI.ScrollRect/ScrollRectEvent" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.UI.Scrollbar/ScrollEvent" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.UI.Slider/SliderEvent" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.UI.InputField/SubmitEvent" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.UI.InputField/OnChangeEvent" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.UI.Toggle/ToggleEvent" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.EventSystems.EventTrigger/Entry" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.EventSystems.EventTrigger/TriggerEvent" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.UI.Dropdown/OptionDataList" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.UI.Dropdown/OptionData" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.UI.Dropdown/DropdownEvent" preserve="nothing" serialized="true"/>
+	</assembly>
+	<assembly fullname="UnityEngine.CoreModule">
+		<type fullname="UnityEngine.Events.PersistentCallGroup" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.Events.PersistentListenerMode" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.Events.ArgumentCache" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.Events.UnityEvent" preserve="nothing" serialized="true"/>
+	</assembly>
+	<assembly fullname="Unity.TextMeshPro">
+		<type fullname="TMPro.VertexGradient" preserve="nothing" serialized="true"/>
+		<type fullname="TMPro.FaceInfo_Legacy" preserve="nothing" serialized="true"/>
+		<type fullname="TMPro.KerningTable" preserve="nothing" serialized="true"/>
+		<type fullname="TMPro.TMP_FontFeatureTable" preserve="nothing" serialized="true"/>
+		<type fullname="TMPro.FontAssetCreationSettings" preserve="nothing" serialized="true"/>
+		<type fullname="TMPro.TMP_FontWeightPair" preserve="nothing" serialized="true"/>
+		<type fullname="TMPro.TMP_Character" preserve="nothing" serialized="true"/>
+		<type fullname="TMPro.TMP_GlyphPairAdjustmentRecord" preserve="nothing" serialized="true"/>
+		<type fullname="TMPro.TMP_GlyphAdjustmentRecord" preserve="nothing" serialized="true"/>
+		<type fullname="TMPro.TMP_GlyphValueRecord" preserve="nothing" serialized="true"/>
+		<type fullname="TMPro.TMP_SpriteCharacter" preserve="nothing" serialized="true"/>
+		<type fullname="TMPro.TMP_SpriteGlyph" preserve="nothing" serialized="true"/>
+		<type fullname="TMPro.TMP_Sprite" preserve="nothing" serialized="true"/>
+		<type fullname="TMPro.TMP_Style" preserve="nothing" serialized="true"/>
+	</assembly>
+	<assembly fullname="Assembly-CSharp">
+		<type fullname="Discipline" preserve="nothing" serialized="true"/>
+		<type fullname="Gender" preserve="nothing" serialized="true"/>
+		<type fullname="PersonalBest_Data" preserve="nothing" serialized="true"/>
+		<type fullname="Result" preserve="nothing" serialized="true"/>
+		<type fullname="CharacterCustomization/CharacterPart" preserve="nothing" serialized="true"/>
+		<type fullname="CharacterCustomization/ClothesAnchor" preserve="nothing" serialized="true"/>
+		<type fullname="CharacterCustomization/EmotionPreset" preserve="nothing" serialized="true"/>
+		<type fullname="CharacterCustomization/FaceValue" preserve="nothing" serialized="true"/>
+		<type fullname="CharacterCustomization/HairPreset" preserve="nothing" serialized="true"/>
+		<type fullname="CharacterCustomization/ClothPreset" preserve="nothing" serialized="true"/>
+		<type fullname="AthleteData" preserve="nothing" serialized="true"/>
+		<type fullname="Attributes" preserve="nothing" serialized="true"/>
+		<type fullname="AppearanceData" preserve="nothing" serialized="true"/>
+		<type fullname="CharacterCustomization/BeardPreset" preserve="nothing" serialized="true"/>
+		<type fullname="PageNavigator" preserve="nothing" serialized="true"/>
+		<type fullname="JSON_StringWrapper" preserve="nothing" serialized="true"/>
+		<type fullname="PlayerData" preserve="nothing" serialized="true"/>
+		<type fullname="GearData" preserve="nothing" serialized="true"/>
+		<type fullname="GearData/GearDataMetaData" preserve="nothing" serialized="true"/>
+		<type fullname="_Event" preserve="nothing" serialized="true"/>
+		<type fullname="AthleteLoadout" preserve="nothing" serialized="true"/>
+		<type fullname="SettingsValues" preserve="nothing" serialized="true"/>
+		<type fullname="CharacterGeneratorSettings/MinMaxIndex" preserve="nothing" serialized="true"/>
+		<type fullname="CharacterGeneratorSettings/MinMaxColor" preserve="nothing" serialized="true"/>
+		<type fullname="CharacterGeneratorSettings/MinMaxBlendshapes" preserve="nothing" serialized="true"/>
+		<type fullname="CharacterGeneratorSettings/MinMaxFacialBlendshapes" preserve="nothing" serialized="true"/>
+		<type fullname="CharacterGeneratorSettings/GeneratorExclude" preserve="nothing" serialized="true"/>
+		<type fullname="CharacterGeneratorSettings/ExcludeIndexes" preserve="nothing" serialized="true"/>
+		<type fullname="Tournaments.Tournament/TournamentData" preserve="nothing" serialized="true"/>
+		<type fullname="LeaderboardResultsPacketContainer" preserve="nothing" serialized="true"/>
+		<type fullname="LanNetworkData" preserve="nothing" serialized="true"/>
+		<type fullname="LanEndpoint" preserve="nothing" serialized="true"/>
+		<type fullname="MatchConfig" preserve="nothing" serialized="true"/>
+		<type fullname="CustomMatchRequest" preserve="nothing" serialized="true"/>
+		<type fullname="RoomData" preserve="nothing" serialized="true"/>
+		<type fullname="MaterialNavigator" preserve="nothing" serialized="true"/>
+		<type fullname="CurveMarker/LaneCurveDistanceMarkerPair" preserve="nothing" serialized="true"/>
+		<type fullname="_hurdleContainer" preserve="nothing" serialized="true"/>
+		<type fullname="ArtificialTeam" preserve="nothing" serialized="true"/>
+		<type fullname="LobbyPlayers" preserve="nothing" serialized="true"/>
+	</assembly>
+	<assembly fullname="UnityEngine.TextCoreModule">
+		<type fullname="UnityEngine.TextCore.FaceInfo" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.TextCore.GlyphRect" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.TextCore.Glyph" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.TextCore.GlyphMetrics" preserve="nothing" serialized="true"/>
+	</assembly>
+	<assembly fullname="Admix.Core">
+		<type fullname="Admix.AdmixCore.Preferences.StorageAppData" preserve="nothing" serialized="true"/>
+		<type fullname="Admix.AdmixCore.AdmixEvents.PlacementsLoad" preserve="nothing" serialized="true"/>
+		<type fullname="Admix.AdmixCore.AdmixEvents.OnPlacementLoadSuccessEvent" preserve="nothing" serialized="true"/>
+		<type fullname="Admix.AdmixCore.AdmixEvents.OnPlacementLoadFailEvent" preserve="nothing" serialized="true"/>
+		<type fullname="Admix.AdmixCore.AdmixEvents.PlacementEvents" preserve="nothing" serialized="true"/>
+		<type fullname="Admix.AdmixCore.AdmixEvents.OnGazeStartEvent" preserve="nothing" serialized="true"/>
+		<type fullname="Admix.AdmixCore.AdmixEvents.OnGazeEndEvent" preserve="nothing" serialized="true"/>
+		<type fullname="Admix.AdmixCore.AdmixEvents.OnPlacementShownEvent" preserve="nothing" serialized="true"/>
+		<type fullname="Admix.AdmixCore.AdmixEvents.OnPlacementHiddenEvent" preserve="nothing" serialized="true"/>
+	</assembly>
+	<assembly fullname="PathCreator">
+		<type fullname="PathCreation.PathCreatorData" preserve="nothing" serialized="true"/>
+		<type fullname="PathCreation.BezierPath" preserve="nothing" serialized="true"/>
+	</assembly>
+</linker>

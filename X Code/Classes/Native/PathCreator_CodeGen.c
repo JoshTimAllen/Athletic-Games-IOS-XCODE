@@ -1,11 +1,9 @@
-﻿#include "il2cpp-config.h"
-
+﻿#include "pch-c.h"
 #ifndef _MSC_VER
 # include <alloca.h>
 #else
 # include <malloc.h>
 #endif
-
 
 
 #include "codegen/il2cpp-codegen-metadata.h"
@@ -14,573 +12,568 @@
 
 
 
-IL2CPP_EXTERN_C_BEGIN
-IL2CPP_EXTERN_C_END
-
-
-
-
 // 0x00000001 System.Void PathCreation.BezierPath::add_OnModified(System.Action)
-extern void BezierPath_add_OnModified_m55951817282FC05659F11F6BFE8318597D2A6C7C (void);
+extern void BezierPath_add_OnModified_m55907110369088B1D0FEBE4B1547587124521C85 (void);
 // 0x00000002 System.Void PathCreation.BezierPath::remove_OnModified(System.Action)
-extern void BezierPath_remove_OnModified_m4DF08B294E411D0861487E7C142D52BEA58238CC (void);
+extern void BezierPath_remove_OnModified_mE4878246DCE71F1EE4C9135CF1533BF67AC8722C (void);
 // 0x00000003 System.Void PathCreation.BezierPath::.ctor(UnityEngine.Vector3,System.Boolean,PathCreation.PathSpace)
-extern void BezierPath__ctor_mDF73925C32B93E8BB3CC4EC2B6810B0C4CF91EEF (void);
+extern void BezierPath__ctor_m7EEB485BCB9BE4AC0BE22912E280E5BA155628C6 (void);
 // 0x00000004 System.Void PathCreation.BezierPath::.ctor(System.Collections.Generic.IEnumerable`1<UnityEngine.Vector3>,System.Boolean,PathCreation.PathSpace)
-extern void BezierPath__ctor_m02CD1F7ADF762914C945F10DF38A471148898B6B (void);
+extern void BezierPath__ctor_mFFA3DCA4C3861A584DB74A7026562534E393A6FE (void);
 // 0x00000005 System.Void PathCreation.BezierPath::.ctor(System.Collections.Generic.IEnumerable`1<UnityEngine.Vector2>,System.Boolean,PathCreation.PathSpace)
-extern void BezierPath__ctor_mB245AFB076F1F7EABF600691C0570ED86BC0F2D6 (void);
+extern void BezierPath__ctor_mD240B3BA48C49B6E449362C4169122DD164FB169 (void);
 // 0x00000006 System.Void PathCreation.BezierPath::.ctor(System.Collections.Generic.IEnumerable`1<UnityEngine.Transform>,System.Boolean,PathCreation.PathSpace)
-extern void BezierPath__ctor_m74EB022D4A290374DA58642129D9677F9F6B9B47 (void);
+extern void BezierPath__ctor_m5DC967A35A1721785656B6C766130DE06E972F28 (void);
 // 0x00000007 System.Void PathCreation.BezierPath::.ctor(System.Collections.Generic.IEnumerable`1<UnityEngine.Vector2>,PathCreation.PathSpace,System.Boolean)
-extern void BezierPath__ctor_m662F91CB3923424817767AE2949B06B4B53CE357 (void);
+extern void BezierPath__ctor_m0251E4CFE35F2B9B752150350DF7B48A8616EE86 (void);
 // 0x00000008 UnityEngine.Vector3 PathCreation.BezierPath::get_Item(System.Int32)
-extern void BezierPath_get_Item_m3266717B3213E4BA12C34ACD5DFF4D6914CF59DE (void);
+extern void BezierPath_get_Item_m1701B002C1E13649800B06235CC157018ED6EF9C (void);
 // 0x00000009 UnityEngine.Vector3 PathCreation.BezierPath::GetPoint(System.Int32)
-extern void BezierPath_GetPoint_m0F74C39466AD00A1068F47E2DF647108280323F2 (void);
+extern void BezierPath_GetPoint_m1EDC696768D4A7917B471925F57D394F39EC70A2 (void);
 // 0x0000000A System.Void PathCreation.BezierPath::SetPoint(System.Int32,UnityEngine.Vector3,System.Boolean)
-extern void BezierPath_SetPoint_m8E06AA033C2A0BF645256A1D2FC76782A609D849 (void);
+extern void BezierPath_SetPoint_m3645A04354CD3F1EA89783D1DDCF6C0E1CA10099 (void);
 // 0x0000000B System.Int32 PathCreation.BezierPath::get_NumPoints()
-extern void BezierPath_get_NumPoints_m431EAD418F2BFD62E278EACAA82AE54F7240B1B0 (void);
+extern void BezierPath_get_NumPoints_mD9897BB2BCD556B7560B90626D9616FCC5EDE726 (void);
 // 0x0000000C System.Int32 PathCreation.BezierPath::get_NumAnchorPoints()
-extern void BezierPath_get_NumAnchorPoints_m229A6F3EDBBE8DCE7C3F60A298D38AC612A74A9D (void);
+extern void BezierPath_get_NumAnchorPoints_m2332B0100A3BC0BDCA8B170AA760CD8F5DA08BA1 (void);
 // 0x0000000D System.Int32 PathCreation.BezierPath::get_NumSegments()
-extern void BezierPath_get_NumSegments_m6246E0AC6BA02B05584E76E0CD28829D92CF492A (void);
+extern void BezierPath_get_NumSegments_m8D616555AFF4A4BF7212AE81D9EDEFAA95435D56 (void);
 // 0x0000000E PathCreation.PathSpace PathCreation.BezierPath::get_Space()
-extern void BezierPath_get_Space_mECB1D43195B104F9683E806B6FA2CE23C4E0FA33 (void);
+extern void BezierPath_get_Space_m419DD54DAF2C480912B6803C6F89227E90E96955 (void);
 // 0x0000000F System.Void PathCreation.BezierPath::set_Space(PathCreation.PathSpace)
-extern void BezierPath_set_Space_m2465DF92AE6C10D78EEF4EE4B38CFFC2EE82AA15 (void);
+extern void BezierPath_set_Space_m55261625671ABC8302E41987CE19FC71A2546932 (void);
 // 0x00000010 System.Boolean PathCreation.BezierPath::get_IsClosed()
-extern void BezierPath_get_IsClosed_m0D663E7565FF86904B733DF66E026793979D09B8 (void);
+extern void BezierPath_get_IsClosed_mF6A01A18821BAE025900E68913A713DFC4AEA597 (void);
 // 0x00000011 System.Void PathCreation.BezierPath::set_IsClosed(System.Boolean)
-extern void BezierPath_set_IsClosed_m753F0299D66186058C70800BCC43CFA7A814299F (void);
+extern void BezierPath_set_IsClosed_m141141151819A1FEFAADF7758A157C437BE88E4C (void);
 // 0x00000012 PathCreation.BezierPath/ControlMode PathCreation.BezierPath::get_ControlPointMode()
-extern void BezierPath_get_ControlPointMode_m4C3D348708FFA15377459106DF0BDE7B25ECB960 (void);
+extern void BezierPath_get_ControlPointMode_m527C29AD4761776EB9EDDCEC4F35B4551493CC33 (void);
 // 0x00000013 System.Void PathCreation.BezierPath::set_ControlPointMode(PathCreation.BezierPath/ControlMode)
-extern void BezierPath_set_ControlPointMode_m09C9651BA90EBE707A83D3D8E54D4695170C8C3C (void);
+extern void BezierPath_set_ControlPointMode_m711885CEB302FB318784257DF8A777ADC47CE908 (void);
 // 0x00000014 System.Single PathCreation.BezierPath::get_AutoControlLength()
-extern void BezierPath_get_AutoControlLength_m8F9D323E54A6938424D37CE2FBB751191938E806 (void);
+extern void BezierPath_get_AutoControlLength_m9B479CD80C66D7F313109AD2958AD3C1A1488CB1 (void);
 // 0x00000015 System.Void PathCreation.BezierPath::set_AutoControlLength(System.Single)
-extern void BezierPath_set_AutoControlLength_m047360636EDE4B3DE60BE292546571A772F06F3E (void);
+extern void BezierPath_set_AutoControlLength_mCCA245F8A7888397B0309B158194C001F9155F27 (void);
 // 0x00000016 System.Void PathCreation.BezierPath::AddSegmentToEnd(UnityEngine.Vector3)
-extern void BezierPath_AddSegmentToEnd_mA17935F42DE159236AF15A39F48292535668E096 (void);
+extern void BezierPath_AddSegmentToEnd_mAF72A062FFE56B7B702C77C9AEB6648489259AF1 (void);
 // 0x00000017 System.Void PathCreation.BezierPath::AddSegmentToStart(UnityEngine.Vector3)
-extern void BezierPath_AddSegmentToStart_m156C4F920EFEBADFA50997596409EAB30999AD85 (void);
+extern void BezierPath_AddSegmentToStart_mBEC063CA0FF14F627D579DA814D68657DEEB7C5D (void);
 // 0x00000018 System.Void PathCreation.BezierPath::SplitSegment(UnityEngine.Vector3,System.Int32,System.Single)
-extern void BezierPath_SplitSegment_mCE05D6CF72E0E4F7A499252CB2237A9B73EFB6A6 (void);
+extern void BezierPath_SplitSegment_m5C0F3ACF1800FF2817B46676824FF19658D0AD33 (void);
 // 0x00000019 System.Void PathCreation.BezierPath::DeleteSegment(System.Int32)
-extern void BezierPath_DeleteSegment_m7FBE01A972BB8CCFFC8152B021E0A7C85D887E13 (void);
+extern void BezierPath_DeleteSegment_mAE38BD417C1EB15211BBE65ECC8E08E77FFFF639 (void);
 // 0x0000001A UnityEngine.Vector3[] PathCreation.BezierPath::GetPointsInSegment(System.Int32)
-extern void BezierPath_GetPointsInSegment_m7711F3292954121A6FA555FB9D1A8D8260A8F15D (void);
+extern void BezierPath_GetPointsInSegment_mE695740C50097F8BB87FF156F4EE05E23691CE53 (void);
 // 0x0000001B System.Void PathCreation.BezierPath::MovePoint(System.Int32,UnityEngine.Vector3,System.Boolean)
-extern void BezierPath_MovePoint_m13C558A7E83F2636B273D874670190F933FB18DB (void);
+extern void BezierPath_MovePoint_m7550CACC18C4C8311A5AA5938DBF3F3C65A63EF7 (void);
 // 0x0000001C UnityEngine.Bounds PathCreation.BezierPath::CalculateBoundsWithTransform(UnityEngine.Transform)
-extern void BezierPath_CalculateBoundsWithTransform_m083DB9455352F18CFDF9E503715EDC8F5DD43B95 (void);
+extern void BezierPath_CalculateBoundsWithTransform_mE9724B5656773F0C41347DF0FDEF9CBAA7F0AA30 (void);
 // 0x0000001D System.Boolean PathCreation.BezierPath::get_FlipNormals()
-extern void BezierPath_get_FlipNormals_m48EC2D9A7C35841976E3902F47B6526AB2C4AA0B (void);
+extern void BezierPath_get_FlipNormals_m39F2C418ABA567C1B2CA91F0D4F60E068CFB4CE7 (void);
 // 0x0000001E System.Void PathCreation.BezierPath::set_FlipNormals(System.Boolean)
-extern void BezierPath_set_FlipNormals_m80515E714702C109AFF7DADBA504453600519D66 (void);
+extern void BezierPath_set_FlipNormals_m3F50FF279250379BF566DE6CE8D09F06AC56DEA3 (void);
 // 0x0000001F System.Single PathCreation.BezierPath::get_GlobalNormalsAngle()
-extern void BezierPath_get_GlobalNormalsAngle_mFEEF53CFD820205C4AF94D3C7D16ACE12413DF7A (void);
+extern void BezierPath_get_GlobalNormalsAngle_m47C9AC07004785838462BB29C16728E2D1FBB794 (void);
 // 0x00000020 System.Void PathCreation.BezierPath::set_GlobalNormalsAngle(System.Single)
-extern void BezierPath_set_GlobalNormalsAngle_mCA3326B5A6C959F52662B1A2D4237759658B074B (void);
+extern void BezierPath_set_GlobalNormalsAngle_mB3C6CF111E90E785C0B816EFA4D4CD9E3ECB7334 (void);
 // 0x00000021 System.Single PathCreation.BezierPath::GetAnchorNormalAngle(System.Int32)
-extern void BezierPath_GetAnchorNormalAngle_m32DF9CD2A1811E0104370B07D4F2C4DAC4CCBC1E (void);
+extern void BezierPath_GetAnchorNormalAngle_m08D59613954484EE170B5CDBD70E7B79D0C96A90 (void);
 // 0x00000022 System.Void PathCreation.BezierPath::SetAnchorNormalAngle(System.Int32,System.Single)
-extern void BezierPath_SetAnchorNormalAngle_m82C41434DB629C5F2A78149CFD1431AE79D643D3 (void);
+extern void BezierPath_SetAnchorNormalAngle_mBE2E9C135873F6F04ED40315053F1DCC11071978 (void);
 // 0x00000023 System.Void PathCreation.BezierPath::ResetNormalAngles()
-extern void BezierPath_ResetNormalAngles_mA5BF56599F4EC27837FE3E90AE74A455DEF2DCC0 (void);
+extern void BezierPath_ResetNormalAngles_m71E50CD6BB546DD99B163E208649C94960EF2ED7 (void);
 // 0x00000024 UnityEngine.Bounds PathCreation.BezierPath::get_PathBounds()
-extern void BezierPath_get_PathBounds_m3D2616A4C58421B9FDF65FFA9E4F366DCB401822 (void);
+extern void BezierPath_get_PathBounds_m762AAE5B2D024E8B8FD84144658DA988E5AA1B35 (void);
 // 0x00000025 System.Void PathCreation.BezierPath::UpdateBounds()
-extern void BezierPath_UpdateBounds_m7F564BC84AB63C5EE75A685195C92001B743316F (void);
+extern void BezierPath_UpdateBounds_mCE2CB2E14FAB1BA25202D4FED8C7B125D6071610 (void);
 // 0x00000026 System.Void PathCreation.BezierPath::AutoSetAllAffectedControlPoints(System.Int32)
-extern void BezierPath_AutoSetAllAffectedControlPoints_m51D9A5A26B20B5DE0D3716604DA68863AA062554 (void);
+extern void BezierPath_AutoSetAllAffectedControlPoints_mE157D050D8F810CCA0B854915A67415340F429F8 (void);
 // 0x00000027 System.Void PathCreation.BezierPath::AutoSetAllControlPoints()
-extern void BezierPath_AutoSetAllControlPoints_m214293444EB547DB52F256156879287B72324B77 (void);
+extern void BezierPath_AutoSetAllControlPoints_m0C0519636ACA8166B24236BE1F93BCEBD62A2B1E (void);
 // 0x00000028 System.Void PathCreation.BezierPath::AutoSetAnchorControlPoints(System.Int32)
-extern void BezierPath_AutoSetAnchorControlPoints_mE792F2BB9146F98F11D03D8ABFAE5ADA391A5A49 (void);
+extern void BezierPath_AutoSetAnchorControlPoints_m310E602BF731F3C0A5ACB5EACA4A69D6A942D3BC (void);
 // 0x00000029 System.Void PathCreation.BezierPath::AutoSetStartAndEndControls()
-extern void BezierPath_AutoSetStartAndEndControls_mFE64BEEB265FA447F8B859080F870558EA20B4B0 (void);
+extern void BezierPath_AutoSetStartAndEndControls_m52B717866B3EAD2BE6E61D906050EDEA940A675D (void);
 // 0x0000002A System.Void PathCreation.BezierPath::UpdateToNewPathSpace(PathCreation.PathSpace)
-extern void BezierPath_UpdateToNewPathSpace_m68673B48A9DD9886D1E55EAF66B8E705BE79F193 (void);
+extern void BezierPath_UpdateToNewPathSpace_mA98A4C7B399C287910DFC2AA846436A00F56D47B (void);
 // 0x0000002B System.Void PathCreation.BezierPath::UpdateClosedState()
-extern void BezierPath_UpdateClosedState_mB3F2E7A18A6DB12777A3EEBFB2F930B8D7FF8543 (void);
+extern void BezierPath_UpdateClosedState_m55E2ECC7C0043E3961E25EAF7AF00F6EB0639144 (void);
 // 0x0000002C System.Int32 PathCreation.BezierPath::LoopIndex(System.Int32)
-extern void BezierPath_LoopIndex_m31BDC5B2B36576206B9300F09208DDE6CBA821D9 (void);
+extern void BezierPath_LoopIndex_m8F91BCE2A032B40EB7450F75AFEBB998EA8B5272 (void);
 // 0x0000002D System.Void PathCreation.BezierPath::NotifyPathModified()
-extern void BezierPath_NotifyPathModified_m655512661DB8B69BF8F0B8EECA9314A4837E068D (void);
-// 0x0000002E System.Void PathCreation.GlobalDisplaySettings::.ctor()
-extern void GlobalDisplaySettings__ctor_m429208BA90E040DE5EE38FF587AC0688E3E85199 (void);
-// 0x0000002F UnityEngine.Vector3 PathCreation.MinMax3D::get_Min()
-extern void MinMax3D_get_Min_m683906162CF2748D14FAAB74ECB0D867F7031AD8 (void);
-// 0x00000030 System.Void PathCreation.MinMax3D::set_Min(UnityEngine.Vector3)
-extern void MinMax3D_set_Min_m0A8D470EFB60ADE06CF50090838DB85521EE9D79 (void);
-// 0x00000031 UnityEngine.Vector3 PathCreation.MinMax3D::get_Max()
-extern void MinMax3D_get_Max_m23F3717EF3F994AFBD03E9C48ACF0D015E95D504 (void);
-// 0x00000032 System.Void PathCreation.MinMax3D::set_Max(UnityEngine.Vector3)
-extern void MinMax3D_set_Max_m46561CAA9DB1D1D5204964E5D5DBE06B52D0E884 (void);
-// 0x00000033 System.Void PathCreation.MinMax3D::.ctor()
-extern void MinMax3D__ctor_m17DDE02199E8CF939D7FB828DB2F42DF57DC6C03 (void);
-// 0x00000034 System.Void PathCreation.MinMax3D::AddValue(UnityEngine.Vector3)
-extern void MinMax3D_AddValue_m771A7BC6141A845C39905229007F9701571324D0 (void);
-// 0x00000035 System.Void PathCreation.PathCreator::add_pathUpdated(System.Action)
-extern void PathCreator_add_pathUpdated_m38E1A67186BFA08F7FB2FF9425897807CAFDA0BF (void);
-// 0x00000036 System.Void PathCreation.PathCreator::remove_pathUpdated(System.Action)
-extern void PathCreator_remove_pathUpdated_m6A0C857AFC7C456BF93A56EE6E2E88FD764413B0 (void);
-// 0x00000037 PathCreation.VertexPath PathCreation.PathCreator::get_path()
-extern void PathCreator_get_path_m14F2AAE80BBBE77BBCB2FAE0AB94C6C771D7E5A0 (void);
-// 0x00000038 PathCreation.BezierPath PathCreation.PathCreator::get_bezierPath()
-extern void PathCreator_get_bezierPath_m8070E411EA805F274D1A27C2175224A137EB73DF (void);
-// 0x00000039 System.Void PathCreation.PathCreator::set_bezierPath(PathCreation.BezierPath)
-extern void PathCreator_set_bezierPath_mDD4B411383ACCCED573E6340A555A4F3CE8C10E3 (void);
-// 0x0000003A System.Void PathCreation.PathCreator::InitializeEditorData(System.Boolean)
-extern void PathCreator_InitializeEditorData_mC11B77386B681EE26F950B9C54CB84C4061E7D79 (void);
-// 0x0000003B PathCreation.PathCreatorData PathCreation.PathCreator::get_EditorData()
-extern void PathCreator_get_EditorData_mC2FFE7471ED721EE80EAFC6401D46F6CCABF6D08 (void);
-// 0x0000003C System.Void PathCreation.PathCreator::TriggerPathUpdate()
-extern void PathCreator_TriggerPathUpdate_m33B7C24EAB66DAD6FE77CDDB563C2B4B0552229B (void);
-// 0x0000003D System.Void PathCreation.PathCreator::.ctor()
-extern void PathCreator__ctor_mD6935E47E9D99215CF77FC15FF33BA56CAD6AB1D (void);
-// 0x0000003E System.Void PathCreation.PathCreatorData::add_bezierOrVertexPathModified(System.Action)
-extern void PathCreatorData_add_bezierOrVertexPathModified_m1B68E670D8AC85256D38A030F00D54A362CD8594 (void);
-// 0x0000003F System.Void PathCreation.PathCreatorData::remove_bezierOrVertexPathModified(System.Action)
-extern void PathCreatorData_remove_bezierOrVertexPathModified_m0C1334C3B57E080E03BAD6772CD1E016627983ED (void);
-// 0x00000040 System.Void PathCreation.PathCreatorData::add_bezierCreated(System.Action)
-extern void PathCreatorData_add_bezierCreated_m3A5E0A17F64F712F17817D011F09EE828EE96CB1 (void);
-// 0x00000041 System.Void PathCreation.PathCreatorData::remove_bezierCreated(System.Action)
-extern void PathCreatorData_remove_bezierCreated_m46B41021653735EF7050E2C7AA1F1DF4A4E9F821 (void);
-// 0x00000042 System.Void PathCreation.PathCreatorData::Initialize(System.Boolean)
-extern void PathCreatorData_Initialize_mAA2976E0C77E144D5627A492256EE5103867C8FD (void);
-// 0x00000043 System.Void PathCreation.PathCreatorData::ResetBezierPath(UnityEngine.Vector3,System.Boolean)
-extern void PathCreatorData_ResetBezierPath_mCC4927F60069F86A30C3670EACA1D9E9A9F7AE5C (void);
-// 0x00000044 System.Void PathCreation.PathCreatorData::CreateBezier(UnityEngine.Vector3,System.Boolean)
-extern void PathCreatorData_CreateBezier_m8A39270C5ECC2CEA5C3EC1105B70057CFCDD9C14 (void);
-// 0x00000045 PathCreation.BezierPath PathCreation.PathCreatorData::get_bezierPath()
-extern void PathCreatorData_get_bezierPath_m6E50528413F7E513D22FCAEB1BCDAD6D6EDBD8B8 (void);
-// 0x00000046 System.Void PathCreation.PathCreatorData::set_bezierPath(PathCreation.BezierPath)
-extern void PathCreatorData_set_bezierPath_m502030DA642E519A48658E1CF7AC43024EA72753 (void);
-// 0x00000047 PathCreation.VertexPath PathCreation.PathCreatorData::GetVertexPath(UnityEngine.Transform)
-extern void PathCreatorData_GetVertexPath_m40B8CBE9774728F2B29D09104791EA324382E156 (void);
-// 0x00000048 System.Void PathCreation.PathCreatorData::PathTransformed()
-extern void PathCreatorData_PathTransformed_mAD85EEA6A4DFBE1A2C4037C925F2C65F4133429E (void);
-// 0x00000049 System.Void PathCreation.PathCreatorData::VertexPathSettingsChanged()
-extern void PathCreatorData_VertexPathSettingsChanged_m1749E291C22D391AE07EC75C3C03043ED139B735 (void);
-// 0x0000004A System.Void PathCreation.PathCreatorData::PathModifiedByUndo()
-extern void PathCreatorData_PathModifiedByUndo_mEB61A0395942A953D7A2ECD80A2492F7BF5C273A (void);
-// 0x0000004B System.Void PathCreation.PathCreatorData::BezierPathEdited()
-extern void PathCreatorData_BezierPathEdited_m890DC63665EC0919958A495D687F3C2C2F3F6C14 (void);
-// 0x0000004C System.Void PathCreation.PathCreatorData::.ctor()
-extern void PathCreatorData__ctor_m2B80A2615C24D5D0D1D536CD3A53BBC32ED67631 (void);
-// 0x0000004D System.Void PathCreation.VertexPath::.ctor(PathCreation.BezierPath,UnityEngine.Transform,System.Single,System.Single)
-extern void VertexPath__ctor_mF6A64D801D283B4208F9097FAC8207EBE98ABB52 (void);
-// 0x0000004E System.Void PathCreation.VertexPath::.ctor(PathCreation.BezierPath,UnityEngine.Transform,System.Single)
-extern void VertexPath__ctor_m21C1694748FE35FD8B7CA3A6D63062243A1FB8AA (void);
-// 0x0000004F System.Void PathCreation.VertexPath::.ctor(PathCreation.BezierPath,PathCreation.Utility.VertexPathUtility/PathSplitData,UnityEngine.Transform)
-extern void VertexPath__ctor_mF2A58AD39490098680BD23B6161DBF639287FB36 (void);
-// 0x00000050 System.Void PathCreation.VertexPath::UpdateTransform(UnityEngine.Transform)
-extern void VertexPath_UpdateTransform_mE342B1FF0B736707D1449BA6A7768518B92064D6 (void);
-// 0x00000051 System.Int32 PathCreation.VertexPath::get_NumPoints()
-extern void VertexPath_get_NumPoints_mFE4599541F11BE790A13D600D4766F17A0909517 (void);
-// 0x00000052 UnityEngine.Vector3 PathCreation.VertexPath::GetTangent(System.Int32)
-extern void VertexPath_GetTangent_m6F79CA4D0B2A7A77E1ED265237BE17E0FE063F9B (void);
-// 0x00000053 UnityEngine.Vector3 PathCreation.VertexPath::GetNormal(System.Int32)
-extern void VertexPath_GetNormal_m02E360B13AD1D76EEDDB3832FD5390EC5B4A467A (void);
-// 0x00000054 UnityEngine.Vector3 PathCreation.VertexPath::GetPoint(System.Int32)
-extern void VertexPath_GetPoint_m1803440E28B474C61CEF4ADE901F89F6D216F9A3 (void);
-// 0x00000055 UnityEngine.Vector3 PathCreation.VertexPath::GetPointAtDistance(System.Single,PathCreation.EndOfPathInstruction)
-extern void VertexPath_GetPointAtDistance_m7F57438C3B3DDBFC510E5FF28EBE85C0FF00330C (void);
-// 0x00000056 UnityEngine.Vector3 PathCreation.VertexPath::GetDirectionAtDistance(System.Single,PathCreation.EndOfPathInstruction)
-extern void VertexPath_GetDirectionAtDistance_m8932E8C01DFF6B17EEF30564A3E971194E6FC11C (void);
-// 0x00000057 UnityEngine.Vector3 PathCreation.VertexPath::GetNormalAtDistance(System.Single,PathCreation.EndOfPathInstruction)
-extern void VertexPath_GetNormalAtDistance_m78ED3D345D6B135FFC43759DF13D9DD49BC2A265 (void);
-// 0x00000058 UnityEngine.Quaternion PathCreation.VertexPath::GetRotationAtDistance(System.Single,PathCreation.EndOfPathInstruction)
-extern void VertexPath_GetRotationAtDistance_mB955E36F5AF18F0AA08FC583F951BED94551879E (void);
-// 0x00000059 UnityEngine.Vector3 PathCreation.VertexPath::GetPointAtTime(System.Single,PathCreation.EndOfPathInstruction)
-extern void VertexPath_GetPointAtTime_m1FC84F2B5BE6ADF00C66963A8C06C84F02AFEC31 (void);
-// 0x0000005A UnityEngine.Vector3 PathCreation.VertexPath::GetDirection(System.Single,PathCreation.EndOfPathInstruction)
-extern void VertexPath_GetDirection_m551D48B990104083A41C4C11971CE6E6DB48AE7E (void);
-// 0x0000005B UnityEngine.Vector3 PathCreation.VertexPath::GetNormal(System.Single,PathCreation.EndOfPathInstruction)
-extern void VertexPath_GetNormal_m510DC55AC7919E230618FAAEF12A20DDB5823A18 (void);
-// 0x0000005C UnityEngine.Quaternion PathCreation.VertexPath::GetRotation(System.Single,PathCreation.EndOfPathInstruction)
-extern void VertexPath_GetRotation_m27D620744E4EC928C45442C6847349469E0DDA2D (void);
-// 0x0000005D UnityEngine.Vector3 PathCreation.VertexPath::GetClosestPointOnPath(UnityEngine.Vector3)
-extern void VertexPath_GetClosestPointOnPath_m0F7ED2B0585DE331B24793BDAB01DFF2AD991E42 (void);
-// 0x0000005E System.Single PathCreation.VertexPath::GetClosestTimeOnPath(UnityEngine.Vector3)
-extern void VertexPath_GetClosestTimeOnPath_m2C3AF240CA5A748231585A2E6EF3F1CBB88A5B83 (void);
-// 0x0000005F System.Single PathCreation.VertexPath::GetClosestDistanceAlongPath(UnityEngine.Vector3)
-extern void VertexPath_GetClosestDistanceAlongPath_mFBA86CFFAA8FB4D763594DE680E146BE2DCC27E0 (void);
-// 0x00000060 PathCreation.VertexPath/TimeOnPathData PathCreation.VertexPath::CalculatePercentOnPathData(System.Single,PathCreation.EndOfPathInstruction)
-extern void VertexPath_CalculatePercentOnPathData_m96F14C6E494C2FFB3E2FDFC2D53D5BD2BE1A8D45 (void);
-// 0x00000061 PathCreation.VertexPath/TimeOnPathData PathCreation.VertexPath::CalculateClosestPointOnPathData(UnityEngine.Vector3)
-extern void VertexPath_CalculateClosestPointOnPathData_m499DB8925993598634FD8BE5CA036916026A844F (void);
-// 0x00000062 UnityEngine.Vector3 PathCreation.Utility.CubicBezierUtility::EvaluateCurve(UnityEngine.Vector3[],System.Single)
-extern void CubicBezierUtility_EvaluateCurve_m28EE1AA0EB40A82E9EB0168F0C3E890B5237B12B (void);
-// 0x00000063 UnityEngine.Vector3 PathCreation.Utility.CubicBezierUtility::EvaluateCurve(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3,System.Single)
-extern void CubicBezierUtility_EvaluateCurve_m9DCB8D9B172845071F0F91BA2C441E4421E9ABC1 (void);
-// 0x00000064 UnityEngine.Vector3 PathCreation.Utility.CubicBezierUtility::EvaluateCurveDerivative(UnityEngine.Vector3[],System.Single)
-extern void CubicBezierUtility_EvaluateCurveDerivative_m9F26C0F23C20C81E6F134FCE38FE6574064A8E63 (void);
-// 0x00000065 UnityEngine.Vector3 PathCreation.Utility.CubicBezierUtility::EvaluateCurveDerivative(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3,System.Single)
-extern void CubicBezierUtility_EvaluateCurveDerivative_m5EC5891BA05DD6C9DC4D39A55766E9B9862C11F8 (void);
-// 0x00000066 UnityEngine.Vector3 PathCreation.Utility.CubicBezierUtility::EvaluateCurveSecondDerivative(UnityEngine.Vector3[],System.Single)
-extern void CubicBezierUtility_EvaluateCurveSecondDerivative_m2532E48B73300130A7258EE3D7A06A6E04B1BB76 (void);
-// 0x00000067 UnityEngine.Vector3 PathCreation.Utility.CubicBezierUtility::EvaluateCurveSecondDerivative(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3,System.Single)
-extern void CubicBezierUtility_EvaluateCurveSecondDerivative_m998FE47C82BAE30BA1942E8C0485EB46B61F8FCF (void);
-// 0x00000068 UnityEngine.Vector3 PathCreation.Utility.CubicBezierUtility::Normal(UnityEngine.Vector3[],System.Single)
-extern void CubicBezierUtility_Normal_mD93ACAD155BBF404057302D4B2F2EBD9DBD9C853 (void);
-// 0x00000069 UnityEngine.Vector3 PathCreation.Utility.CubicBezierUtility::Normal(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3,System.Single)
-extern void CubicBezierUtility_Normal_m908B081DCB913C467A1CF9EB5E2966EB9296D2C9 (void);
-// 0x0000006A UnityEngine.Bounds PathCreation.Utility.CubicBezierUtility::CalculateSegmentBounds(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3)
-extern void CubicBezierUtility_CalculateSegmentBounds_mCAC7D23FCAD7B7DAF1C61B1CBA5796E96B7BF486 (void);
-// 0x0000006B UnityEngine.Vector3[][] PathCreation.Utility.CubicBezierUtility::SplitCurve(UnityEngine.Vector3[],System.Single)
-extern void CubicBezierUtility_SplitCurve_m688F218633FB86A6C3F89D735896F82DEE3C81E0 (void);
-// 0x0000006C System.Single PathCreation.Utility.CubicBezierUtility::EstimateCurveLength(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3)
-extern void CubicBezierUtility_EstimateCurveLength_m93AF8AC8FEF9039C0C706EE6DDD411B9767295B8 (void);
-// 0x0000006D System.Collections.Generic.List`1<System.Single> PathCreation.Utility.CubicBezierUtility::ExtremePointTimes(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3)
-extern void CubicBezierUtility_ExtremePointTimes_m5CA52ADB0765B8BB756C255797C25B0D80D176AF (void);
-// 0x0000006E System.Collections.Generic.IEnumerable`1<System.Single> PathCreation.Utility.CubicBezierUtility::StationaryPointTimes(System.Single,System.Single,System.Single)
-extern void CubicBezierUtility_StationaryPointTimes_m6E9044E8DD44489001916E9C4A2D76DEC2D0E024 (void);
-// 0x0000006F PathCreation.Utility.MathUtility/PosRotScale PathCreation.Utility.MathUtility::LockTransformToSpace(UnityEngine.Transform,PathCreation.PathSpace)
-extern void MathUtility_LockTransformToSpace_m90A413403DFF6B305A47B9EEA76F4A2E4106AA9E (void);
-// 0x00000070 UnityEngine.Vector3 PathCreation.Utility.MathUtility::TransformPoint(UnityEngine.Vector3,UnityEngine.Transform,PathCreation.PathSpace)
-extern void MathUtility_TransformPoint_m7AC291E669163A14BB7890E36152E0B7A4C7D78D (void);
-// 0x00000071 UnityEngine.Vector3 PathCreation.Utility.MathUtility::InverseTransformPoint(UnityEngine.Vector3,UnityEngine.Transform,PathCreation.PathSpace)
-extern void MathUtility_InverseTransformPoint_m50B710F103332FC7AAA3A96A2386FB6E4371E1B8 (void);
-// 0x00000072 UnityEngine.Vector3 PathCreation.Utility.MathUtility::TransformVector(UnityEngine.Vector3,UnityEngine.Transform,PathCreation.PathSpace)
-extern void MathUtility_TransformVector_mA42B5F10B0BFE36EA75B83FDA4DEA32B7D1FB7D9 (void);
-// 0x00000073 UnityEngine.Vector3 PathCreation.Utility.MathUtility::InverseTransformVector(UnityEngine.Vector3,UnityEngine.Transform,PathCreation.PathSpace)
-extern void MathUtility_InverseTransformVector_m825316A2B5D20100223910E11A101B8A87E4CFAF (void);
-// 0x00000074 UnityEngine.Vector3 PathCreation.Utility.MathUtility::TransformDirection(UnityEngine.Vector3,UnityEngine.Transform,PathCreation.PathSpace)
-extern void MathUtility_TransformDirection_mCCC9F3681230028E8865009C361A4C9DE3AED0E2 (void);
-// 0x00000075 UnityEngine.Vector3 PathCreation.Utility.MathUtility::InverseTransformDirection(UnityEngine.Vector3,UnityEngine.Transform,PathCreation.PathSpace)
-extern void MathUtility_InverseTransformDirection_m4B9CF48F5BA03D6AE721E0B918643D1D166D2D84 (void);
-// 0x00000076 System.Boolean PathCreation.Utility.MathUtility::LineSegmentsIntersect(UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Vector2)
-extern void MathUtility_LineSegmentsIntersect_m7B0A3EA2F3AB7164C88A43FDA050333574B790B1 (void);
-// 0x00000077 System.Boolean PathCreation.Utility.MathUtility::LinesIntersect(UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Vector2)
-extern void MathUtility_LinesIntersect_m5324ADD2A74B8B4EB24F6CD33FAD28E44CA8D81E (void);
-// 0x00000078 UnityEngine.Vector2 PathCreation.Utility.MathUtility::PointOfLineLineIntersection(UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Vector2)
-extern void MathUtility_PointOfLineLineIntersection_m14FC9EBC771B94A5888ED838ABDD5613837900BD (void);
-// 0x00000079 UnityEngine.Vector2 PathCreation.Utility.MathUtility::ClosestPointOnLineSegment(UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Vector2)
-extern void MathUtility_ClosestPointOnLineSegment_m71B3E1FA2216447B9E09199E8F613252C59DA1D7 (void);
-// 0x0000007A UnityEngine.Vector3 PathCreation.Utility.MathUtility::ClosestPointOnLineSegment(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3)
-extern void MathUtility_ClosestPointOnLineSegment_mB59CC077BAC8CB01E29F24C077DA62FE720D34B6 (void);
-// 0x0000007B System.Int32 PathCreation.Utility.MathUtility::SideOfLine(UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Vector2)
-extern void MathUtility_SideOfLine_m0CEA46A8E8E7A29384DC0CC48780F97D114D2817 (void);
-// 0x0000007C System.Single PathCreation.Utility.MathUtility::MinAngle(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3)
-extern void MathUtility_MinAngle_m40684A4C8F2A616879FD374299E334F16227F547 (void);
-// 0x0000007D System.Boolean PathCreation.Utility.MathUtility::PointInTriangle(UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Vector2)
-extern void MathUtility_PointInTriangle_m0E663844AA5D829AA7E0652637DFA3B8383272CC (void);
-// 0x0000007E System.Boolean PathCreation.Utility.MathUtility::PointsAreClockwise(UnityEngine.Vector2[])
-extern void MathUtility_PointsAreClockwise_m3DA547A37D5D4B71B09322C1FE817FBAA9C239E9 (void);
-// 0x0000007F PathCreation.Utility.VertexPathUtility/PathSplitData PathCreation.Utility.VertexPathUtility::SplitBezierPathByAngleError(PathCreation.BezierPath,System.Single,System.Single,System.Single)
-extern void VertexPathUtility_SplitBezierPathByAngleError_mB3336A8A628FA191CD4ACF047CFEAC6D6D33FC23 (void);
-// 0x00000080 PathCreation.Utility.VertexPathUtility/PathSplitData PathCreation.Utility.VertexPathUtility::SplitBezierPathEvenly(PathCreation.BezierPath,System.Single,System.Single)
-extern void VertexPathUtility_SplitBezierPathEvenly_m96C9D164F03501353D5F267CBC64E8439619D2F5 (void);
-// 0x00000081 System.Void PathCreation.BezierPath/<>c::.cctor()
-extern void U3CU3Ec__cctor_mEAB1BA49CAC51C8A523E057BC70693D67C085DAA (void);
-// 0x00000082 System.Void PathCreation.BezierPath/<>c::.ctor()
-extern void U3CU3Ec__ctor_m84DD6247D542189FA778115670A4E1CEE3A41EE8 (void);
-// 0x00000083 UnityEngine.Vector3 PathCreation.BezierPath/<>c::<.ctor>b__16_0(UnityEngine.Vector2)
-extern void U3CU3Ec_U3C_ctorU3Eb__16_0_mA29A663EF59DDDB554FC42720F0406C7C24C0748 (void);
-// 0x00000084 UnityEngine.Vector3 PathCreation.BezierPath/<>c::<.ctor>b__17_0(UnityEngine.Transform)
-extern void U3CU3Ec_U3C_ctorU3Eb__17_0_m2BD89319700BD0F78B2D6F0157612F3BB1C6191B (void);
-// 0x00000085 UnityEngine.Vector3 PathCreation.BezierPath/<>c::<.ctor>b__18_0(UnityEngine.Vector2)
-extern void U3CU3Ec_U3C_ctorU3Eb__18_0_m70F3FCE68ADCA197A05AD03C038B6D80CE4A6155 (void);
-// 0x00000086 System.Void PathCreation.VertexPath/TimeOnPathData::.ctor(System.Int32,System.Int32,System.Single)
-extern void TimeOnPathData__ctor_mF26B39F58ECED007C83586828A8E1326B35D3021 (void);
-// 0x00000087 System.Void PathCreation.Utility.MathUtility/PosRotScale::.ctor(UnityEngine.Transform)
-extern void PosRotScale__ctor_m5D384505928A496B33EB7774596EFA793BA3689A (void);
-// 0x00000088 System.Void PathCreation.Utility.MathUtility/PosRotScale::SetTransform(UnityEngine.Transform)
-extern void PosRotScale_SetTransform_mD67B750B860AD775F4A875F6FEECD255AC847DE7 (void);
+extern void BezierPath_NotifyPathModified_m0D12EA092EDFD17C3F4E4CFFDCE50580B6856643 (void);
+// 0x0000002E System.Void PathCreation.BezierPath/<>c::.cctor()
+extern void U3CU3Ec__cctor_m5A2E071308FB9B4962E3077EFAED6299A70217D4 (void);
+// 0x0000002F System.Void PathCreation.BezierPath/<>c::.ctor()
+extern void U3CU3Ec__ctor_m996105A079467C9BE2338833D6AC8E4580E5A2B6 (void);
+// 0x00000030 UnityEngine.Vector3 PathCreation.BezierPath/<>c::<.ctor>b__16_0(UnityEngine.Vector2)
+extern void U3CU3Ec_U3C_ctorU3Eb__16_0_m73EDB18BAB1803D1AA24C21782D8EFDCFB0580FD (void);
+// 0x00000031 UnityEngine.Vector3 PathCreation.BezierPath/<>c::<.ctor>b__17_0(UnityEngine.Transform)
+extern void U3CU3Ec_U3C_ctorU3Eb__17_0_mE822E249E1022DCCDC423A0E622C5343CE26CC09 (void);
+// 0x00000032 UnityEngine.Vector3 PathCreation.BezierPath/<>c::<.ctor>b__18_0(UnityEngine.Vector2)
+extern void U3CU3Ec_U3C_ctorU3Eb__18_0_m99AA3935311E0C197C1B7F116FE1B6CD56A45DBA (void);
+// 0x00000033 System.Void PathCreation.GlobalDisplaySettings::.ctor()
+extern void GlobalDisplaySettings__ctor_m35675B8B63096A3F11F66BDD349EDE741C9FD5FB (void);
+// 0x00000034 UnityEngine.Vector3 PathCreation.MinMax3D::get_Min()
+extern void MinMax3D_get_Min_m27A2B5B03253FDB598A862C4D442C3AA8E708C92 (void);
+// 0x00000035 System.Void PathCreation.MinMax3D::set_Min(UnityEngine.Vector3)
+extern void MinMax3D_set_Min_m9FD8F40067AFD1DE82C63946AC69E206A271BC73 (void);
+// 0x00000036 UnityEngine.Vector3 PathCreation.MinMax3D::get_Max()
+extern void MinMax3D_get_Max_m9FA0BB60BC2F8AF54B40A517C972877DE7827AE6 (void);
+// 0x00000037 System.Void PathCreation.MinMax3D::set_Max(UnityEngine.Vector3)
+extern void MinMax3D_set_Max_m8FD4CF8C1193E6FDF240679623D8A13F6DE3DC68 (void);
+// 0x00000038 System.Void PathCreation.MinMax3D::.ctor()
+extern void MinMax3D__ctor_mF6184498BE0E266EC2E2E112D4EE3D3A98675C63 (void);
+// 0x00000039 System.Void PathCreation.MinMax3D::AddValue(UnityEngine.Vector3)
+extern void MinMax3D_AddValue_mAA012F008363E68713882A3648ADDEDDD0474199 (void);
+// 0x0000003A System.Void PathCreation.PathCreator::add_pathUpdated(System.Action)
+extern void PathCreator_add_pathUpdated_m821CD0FF90A3409BB6F798A380BDDF3A95CFC6BD (void);
+// 0x0000003B System.Void PathCreation.PathCreator::remove_pathUpdated(System.Action)
+extern void PathCreator_remove_pathUpdated_m9D31D7A3761BE9E62CF1284D781B57D66475D1F2 (void);
+// 0x0000003C PathCreation.VertexPath PathCreation.PathCreator::get_path()
+extern void PathCreator_get_path_m1D2BA17B74B561BB4668D206119F238682423791 (void);
+// 0x0000003D PathCreation.BezierPath PathCreation.PathCreator::get_bezierPath()
+extern void PathCreator_get_bezierPath_m8D01E8D974B57BEBE41CF0898880733217591ECA (void);
+// 0x0000003E System.Void PathCreation.PathCreator::set_bezierPath(PathCreation.BezierPath)
+extern void PathCreator_set_bezierPath_mA3D2D0AB742387A9BA201C3CFF073BBA52734F8B (void);
+// 0x0000003F System.Void PathCreation.PathCreator::InitializeEditorData(System.Boolean)
+extern void PathCreator_InitializeEditorData_mE8A616C627C9106C385DE6392115C69CA4A3B572 (void);
+// 0x00000040 PathCreation.PathCreatorData PathCreation.PathCreator::get_EditorData()
+extern void PathCreator_get_EditorData_m199DB3D285CC4B11236F28B59F9FF9F304A36D84 (void);
+// 0x00000041 System.Void PathCreation.PathCreator::TriggerPathUpdate()
+extern void PathCreator_TriggerPathUpdate_m195E2101B1F6A7FB67750798E021400B72A05F30 (void);
+// 0x00000042 System.Void PathCreation.PathCreator::.ctor()
+extern void PathCreator__ctor_mE4BC4561E5736BB0178586D538D882E279CAEC75 (void);
+// 0x00000043 System.Void PathCreation.PathCreatorData::add_bezierOrVertexPathModified(System.Action)
+extern void PathCreatorData_add_bezierOrVertexPathModified_mA850F1226CF2CEEC7B452D928025A31A0429A005 (void);
+// 0x00000044 System.Void PathCreation.PathCreatorData::remove_bezierOrVertexPathModified(System.Action)
+extern void PathCreatorData_remove_bezierOrVertexPathModified_m8071D439BA735C2E0767B9FD68A7381AC6CF8A4F (void);
+// 0x00000045 System.Void PathCreation.PathCreatorData::add_bezierCreated(System.Action)
+extern void PathCreatorData_add_bezierCreated_m36BED7EDAC1E1CE3BBA7D299561F9ADFE2CE40D0 (void);
+// 0x00000046 System.Void PathCreation.PathCreatorData::remove_bezierCreated(System.Action)
+extern void PathCreatorData_remove_bezierCreated_m4CB55AF9EC87568DDCB54BDD27271CC305C176E2 (void);
+// 0x00000047 System.Void PathCreation.PathCreatorData::Initialize(System.Boolean)
+extern void PathCreatorData_Initialize_m40F301A7585B91C81D8A4ABA804E78918A6ED2BF (void);
+// 0x00000048 System.Void PathCreation.PathCreatorData::ResetBezierPath(UnityEngine.Vector3,System.Boolean)
+extern void PathCreatorData_ResetBezierPath_m3798BB5E512630AACD4FDC2E383117A2705232D6 (void);
+// 0x00000049 System.Void PathCreation.PathCreatorData::CreateBezier(UnityEngine.Vector3,System.Boolean)
+extern void PathCreatorData_CreateBezier_m382E6B4AB1085B767C5526F02ECE2D6C4AAC1822 (void);
+// 0x0000004A PathCreation.BezierPath PathCreation.PathCreatorData::get_bezierPath()
+extern void PathCreatorData_get_bezierPath_m094752A18D7FED2C4152C8B0B7E40CFE6E0DAF7F (void);
+// 0x0000004B System.Void PathCreation.PathCreatorData::set_bezierPath(PathCreation.BezierPath)
+extern void PathCreatorData_set_bezierPath_mAD52C6998DFD2D79953B1E8F5A8497C18FF1366A (void);
+// 0x0000004C PathCreation.VertexPath PathCreation.PathCreatorData::GetVertexPath(UnityEngine.Transform)
+extern void PathCreatorData_GetVertexPath_m2EDCC1A5EF58C192CB1B4486B8D9F5C049233EB7 (void);
+// 0x0000004D System.Void PathCreation.PathCreatorData::PathTransformed()
+extern void PathCreatorData_PathTransformed_m4A9758A318957D0E9AAE5473B53325AAA531B451 (void);
+// 0x0000004E System.Void PathCreation.PathCreatorData::VertexPathSettingsChanged()
+extern void PathCreatorData_VertexPathSettingsChanged_m39D6CB2309508F15B4B77EEEC8D543DADFE75623 (void);
+// 0x0000004F System.Void PathCreation.PathCreatorData::PathModifiedByUndo()
+extern void PathCreatorData_PathModifiedByUndo_m0A4EC66325BF44801016A62AC6885083A33F4D3C (void);
+// 0x00000050 System.Void PathCreation.PathCreatorData::BezierPathEdited()
+extern void PathCreatorData_BezierPathEdited_m9451499680AF07402700EA3937DEF77A8A2417DA (void);
+// 0x00000051 System.Void PathCreation.PathCreatorData::.ctor()
+extern void PathCreatorData__ctor_m1068FBEE91F31920807C22533F800E0D7245AFDB (void);
+// 0x00000052 System.Void PathCreation.VertexPath::.ctor(PathCreation.BezierPath,UnityEngine.Transform,System.Single,System.Single)
+extern void VertexPath__ctor_m540AF9C39320F3B89DCC10CF3CB87BE7C50992A9 (void);
+// 0x00000053 System.Void PathCreation.VertexPath::.ctor(PathCreation.BezierPath,UnityEngine.Transform,System.Single)
+extern void VertexPath__ctor_mA8DBEE425DD5566076F025763411A04460C31E30 (void);
+// 0x00000054 System.Void PathCreation.VertexPath::.ctor(PathCreation.BezierPath,PathCreation.Utility.VertexPathUtility/PathSplitData,UnityEngine.Transform)
+extern void VertexPath__ctor_m8FB869600D5F62ACD44825A8BA16116C86671003 (void);
+// 0x00000055 System.Void PathCreation.VertexPath::UpdateTransform(UnityEngine.Transform)
+extern void VertexPath_UpdateTransform_mC6B82D95E954CE35D56D15811628403DFBA759F1 (void);
+// 0x00000056 System.Int32 PathCreation.VertexPath::get_NumPoints()
+extern void VertexPath_get_NumPoints_mD9A77D2B59F88099D6950AB50BDF2D86B3306572 (void);
+// 0x00000057 UnityEngine.Vector3 PathCreation.VertexPath::GetTangent(System.Int32)
+extern void VertexPath_GetTangent_m780A757C8CE1EF5AEFE72060689F611A0AC5B58F (void);
+// 0x00000058 UnityEngine.Vector3 PathCreation.VertexPath::GetNormal(System.Int32)
+extern void VertexPath_GetNormal_mE734782445FBB23E73403FA179580E1981BF8501 (void);
+// 0x00000059 UnityEngine.Vector3 PathCreation.VertexPath::GetPoint(System.Int32)
+extern void VertexPath_GetPoint_mC6D2F5E0E610826A6CCDDF8E76C473383C9BC07B (void);
+// 0x0000005A UnityEngine.Vector3 PathCreation.VertexPath::GetPointAtDistance(System.Single,PathCreation.EndOfPathInstruction)
+extern void VertexPath_GetPointAtDistance_mA36ED1FC59E5ADFB18AF58BB0ADD5DAE3A622BBE (void);
+// 0x0000005B UnityEngine.Vector3 PathCreation.VertexPath::GetDirectionAtDistance(System.Single,PathCreation.EndOfPathInstruction)
+extern void VertexPath_GetDirectionAtDistance_mE4B58F91658D2D9E19A63F13AE8E0E2930B4E993 (void);
+// 0x0000005C UnityEngine.Vector3 PathCreation.VertexPath::GetNormalAtDistance(System.Single,PathCreation.EndOfPathInstruction)
+extern void VertexPath_GetNormalAtDistance_m0A06E8C3D63BAFF3864C4C1E9C19A7B21290C19D (void);
+// 0x0000005D UnityEngine.Quaternion PathCreation.VertexPath::GetRotationAtDistance(System.Single,PathCreation.EndOfPathInstruction)
+extern void VertexPath_GetRotationAtDistance_m373C57D0071F81C1266836D63571C88EB1386BE4 (void);
+// 0x0000005E UnityEngine.Vector3 PathCreation.VertexPath::GetPointAtTime(System.Single,PathCreation.EndOfPathInstruction)
+extern void VertexPath_GetPointAtTime_mCCF19F9658CF55D8E2D6039D00418D8FD5EC318A (void);
+// 0x0000005F UnityEngine.Vector3 PathCreation.VertexPath::GetDirection(System.Single,PathCreation.EndOfPathInstruction)
+extern void VertexPath_GetDirection_m620A97268014E6586AB78838ADAFC4C0ECB5DEEF (void);
+// 0x00000060 UnityEngine.Vector3 PathCreation.VertexPath::GetNormal(System.Single,PathCreation.EndOfPathInstruction)
+extern void VertexPath_GetNormal_mBB6B6D05029D758878BA773DC98445D1ECD078EE (void);
+// 0x00000061 UnityEngine.Quaternion PathCreation.VertexPath::GetRotation(System.Single,PathCreation.EndOfPathInstruction)
+extern void VertexPath_GetRotation_m5F924A0F5F6CA1908A2D6486D52C1CF45591ED53 (void);
+// 0x00000062 UnityEngine.Vector3 PathCreation.VertexPath::GetClosestPointOnPath(UnityEngine.Vector3)
+extern void VertexPath_GetClosestPointOnPath_mF16F2ECDD7C0D53412B1CD0BA52A622559A306E0 (void);
+// 0x00000063 System.Single PathCreation.VertexPath::GetClosestTimeOnPath(UnityEngine.Vector3)
+extern void VertexPath_GetClosestTimeOnPath_mD6DD7A5008427D58A652B3F14F59E66143011089 (void);
+// 0x00000064 System.Single PathCreation.VertexPath::GetClosestDistanceAlongPath(UnityEngine.Vector3)
+extern void VertexPath_GetClosestDistanceAlongPath_mD2C010C35CFF65B1557F5EDF323D262FFEE83CAC (void);
+// 0x00000065 PathCreation.VertexPath/TimeOnPathData PathCreation.VertexPath::CalculatePercentOnPathData(System.Single,PathCreation.EndOfPathInstruction)
+extern void VertexPath_CalculatePercentOnPathData_m94D6688F743C5E64E8FD4B02D5267BCE7EDD1AAD (void);
+// 0x00000066 PathCreation.VertexPath/TimeOnPathData PathCreation.VertexPath::CalculateClosestPointOnPathData(UnityEngine.Vector3)
+extern void VertexPath_CalculateClosestPointOnPathData_m9E9611D7EF6BCA55311C1FE5BDEC8B76E59E79CA (void);
+// 0x00000067 System.Void PathCreation.VertexPath/TimeOnPathData::.ctor(System.Int32,System.Int32,System.Single)
+extern void TimeOnPathData__ctor_mB95318A172EF7BD690D25CD7ACD7911327F92CB3 (void);
+// 0x00000068 UnityEngine.Vector3 PathCreation.Utility.CubicBezierUtility::EvaluateCurve(UnityEngine.Vector3[],System.Single)
+extern void CubicBezierUtility_EvaluateCurve_m4BF82A373803D3A41E1C19FBFC1CA7570744FD35 (void);
+// 0x00000069 UnityEngine.Vector3 PathCreation.Utility.CubicBezierUtility::EvaluateCurve(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3,System.Single)
+extern void CubicBezierUtility_EvaluateCurve_mF2EA92B925B21347765C616ABAD00B43FA975ECD (void);
+// 0x0000006A UnityEngine.Vector3 PathCreation.Utility.CubicBezierUtility::EvaluateCurveDerivative(UnityEngine.Vector3[],System.Single)
+extern void CubicBezierUtility_EvaluateCurveDerivative_m2DBE43F7AAE648BF48A144E9397EB9474B937A1B (void);
+// 0x0000006B UnityEngine.Vector3 PathCreation.Utility.CubicBezierUtility::EvaluateCurveDerivative(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3,System.Single)
+extern void CubicBezierUtility_EvaluateCurveDerivative_m9C596F350098D3F3498A60318373CE5BC06032A9 (void);
+// 0x0000006C UnityEngine.Vector3 PathCreation.Utility.CubicBezierUtility::EvaluateCurveSecondDerivative(UnityEngine.Vector3[],System.Single)
+extern void CubicBezierUtility_EvaluateCurveSecondDerivative_mBD8578757FE2A05337067176876032B35B14CF7B (void);
+// 0x0000006D UnityEngine.Vector3 PathCreation.Utility.CubicBezierUtility::EvaluateCurveSecondDerivative(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3,System.Single)
+extern void CubicBezierUtility_EvaluateCurveSecondDerivative_m48083859787BCDDCC6BB35FCF6C0C9E37E2FD574 (void);
+// 0x0000006E UnityEngine.Vector3 PathCreation.Utility.CubicBezierUtility::Normal(UnityEngine.Vector3[],System.Single)
+extern void CubicBezierUtility_Normal_mD6DF9F3119AFE5F153B869F2372EE11307B50C7E (void);
+// 0x0000006F UnityEngine.Vector3 PathCreation.Utility.CubicBezierUtility::Normal(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3,System.Single)
+extern void CubicBezierUtility_Normal_m3ADEF6CC3A3D32DC09F5131318FFB0650C3D4610 (void);
+// 0x00000070 UnityEngine.Bounds PathCreation.Utility.CubicBezierUtility::CalculateSegmentBounds(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3)
+extern void CubicBezierUtility_CalculateSegmentBounds_mCCA2871209CD586D06F467A59131FBDC3D346B94 (void);
+// 0x00000071 UnityEngine.Vector3[][] PathCreation.Utility.CubicBezierUtility::SplitCurve(UnityEngine.Vector3[],System.Single)
+extern void CubicBezierUtility_SplitCurve_mF1C7E630372A0343B97E94F24CF5F9BE570A224F (void);
+// 0x00000072 System.Single PathCreation.Utility.CubicBezierUtility::EstimateCurveLength(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3)
+extern void CubicBezierUtility_EstimateCurveLength_m1DAC9B1239FCEBB2EAA748420D27240824F374A1 (void);
+// 0x00000073 System.Collections.Generic.List`1<System.Single> PathCreation.Utility.CubicBezierUtility::ExtremePointTimes(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3)
+extern void CubicBezierUtility_ExtremePointTimes_m16AE9EBA5D842E8AB17BEC6D0FAEE0982EB3D6F4 (void);
+// 0x00000074 System.Collections.Generic.IEnumerable`1<System.Single> PathCreation.Utility.CubicBezierUtility::StationaryPointTimes(System.Single,System.Single,System.Single)
+extern void CubicBezierUtility_StationaryPointTimes_m863375C60AD75139347564C715E1675C3502D835 (void);
+// 0x00000075 PathCreation.Utility.MathUtility/PosRotScale PathCreation.Utility.MathUtility::LockTransformToSpace(UnityEngine.Transform,PathCreation.PathSpace)
+extern void MathUtility_LockTransformToSpace_m9387F761D6373A85C32478A297CD57FB7E4689A7 (void);
+// 0x00000076 UnityEngine.Vector3 PathCreation.Utility.MathUtility::TransformPoint(UnityEngine.Vector3,UnityEngine.Transform,PathCreation.PathSpace)
+extern void MathUtility_TransformPoint_m899D845C91EEC3CFCB12DCE77A2F6AE154052039 (void);
+// 0x00000077 UnityEngine.Vector3 PathCreation.Utility.MathUtility::InverseTransformPoint(UnityEngine.Vector3,UnityEngine.Transform,PathCreation.PathSpace)
+extern void MathUtility_InverseTransformPoint_m142FBD065BE626C8535DCBD3B90B33B6A3B4ECD2 (void);
+// 0x00000078 UnityEngine.Vector3 PathCreation.Utility.MathUtility::TransformVector(UnityEngine.Vector3,UnityEngine.Transform,PathCreation.PathSpace)
+extern void MathUtility_TransformVector_m785301EEB53B7C2E311AD862F90CC10C8309A6C6 (void);
+// 0x00000079 UnityEngine.Vector3 PathCreation.Utility.MathUtility::InverseTransformVector(UnityEngine.Vector3,UnityEngine.Transform,PathCreation.PathSpace)
+extern void MathUtility_InverseTransformVector_m475CADC77DB85049D78C14094A2F62218C6D7010 (void);
+// 0x0000007A UnityEngine.Vector3 PathCreation.Utility.MathUtility::TransformDirection(UnityEngine.Vector3,UnityEngine.Transform,PathCreation.PathSpace)
+extern void MathUtility_TransformDirection_m6D6125BE433FE249466C8FFECB159D380C556117 (void);
+// 0x0000007B UnityEngine.Vector3 PathCreation.Utility.MathUtility::InverseTransformDirection(UnityEngine.Vector3,UnityEngine.Transform,PathCreation.PathSpace)
+extern void MathUtility_InverseTransformDirection_m7550CF237D3DFF7C65991256D2088C09E6D3F5E1 (void);
+// 0x0000007C System.Boolean PathCreation.Utility.MathUtility::LineSegmentsIntersect(UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Vector2)
+extern void MathUtility_LineSegmentsIntersect_mF238186D28ECC659F1602A339D358D68B94027F2 (void);
+// 0x0000007D System.Boolean PathCreation.Utility.MathUtility::LinesIntersect(UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Vector2)
+extern void MathUtility_LinesIntersect_m38D522A2B7BECCB198951737B0DF6AB6EB30CE59 (void);
+// 0x0000007E UnityEngine.Vector2 PathCreation.Utility.MathUtility::PointOfLineLineIntersection(UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Vector2)
+extern void MathUtility_PointOfLineLineIntersection_mB47344ACFDF1ECBBB268333F039D61F19ECA20EB (void);
+// 0x0000007F UnityEngine.Vector2 PathCreation.Utility.MathUtility::ClosestPointOnLineSegment(UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Vector2)
+extern void MathUtility_ClosestPointOnLineSegment_m1D50BD297E24B665BC96DA9D644E4C4B4AD19264 (void);
+// 0x00000080 UnityEngine.Vector3 PathCreation.Utility.MathUtility::ClosestPointOnLineSegment(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3)
+extern void MathUtility_ClosestPointOnLineSegment_mA49C996C05AE1553AA970F5706141842B9D47D4D (void);
+// 0x00000081 System.Int32 PathCreation.Utility.MathUtility::SideOfLine(UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Vector2)
+extern void MathUtility_SideOfLine_mE435DEE209180DCAD1BEE2F23F6289EF273894C6 (void);
+// 0x00000082 System.Single PathCreation.Utility.MathUtility::MinAngle(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3)
+extern void MathUtility_MinAngle_mF108AF5914C8359E19B2FCB478D4F744ED2A81E4 (void);
+// 0x00000083 System.Boolean PathCreation.Utility.MathUtility::PointInTriangle(UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Vector2)
+extern void MathUtility_PointInTriangle_m757248C605C7382B80CA692BD8CDA657DA2AB6CD (void);
+// 0x00000084 System.Boolean PathCreation.Utility.MathUtility::PointsAreClockwise(UnityEngine.Vector2[])
+extern void MathUtility_PointsAreClockwise_m2DB08EBF2FD6E34D38C013A377DAAD944E20AA0E (void);
+// 0x00000085 System.Void PathCreation.Utility.MathUtility/PosRotScale::.ctor(UnityEngine.Transform)
+extern void PosRotScale__ctor_mB52752EF59B34AC6AF4474F853656D6C51009A1A (void);
+// 0x00000086 System.Void PathCreation.Utility.MathUtility/PosRotScale::SetTransform(UnityEngine.Transform)
+extern void PosRotScale_SetTransform_m4526410D376727FFC35A096F6272E0BC49F11F24 (void);
+// 0x00000087 PathCreation.Utility.VertexPathUtility/PathSplitData PathCreation.Utility.VertexPathUtility::SplitBezierPathByAngleError(PathCreation.BezierPath,System.Single,System.Single,System.Single)
+extern void VertexPathUtility_SplitBezierPathByAngleError_m2B302FFC32A15AD3A4987F4E8C0E22C3F99C3F17 (void);
+// 0x00000088 PathCreation.Utility.VertexPathUtility/PathSplitData PathCreation.Utility.VertexPathUtility::SplitBezierPathEvenly(PathCreation.BezierPath,System.Single,System.Single)
+extern void VertexPathUtility_SplitBezierPathEvenly_mE70869D933E9F28D38AB9450C87E730D331FF28C (void);
 // 0x00000089 System.Void PathCreation.Utility.VertexPathUtility/PathSplitData::.ctor()
-extern void PathSplitData__ctor_m65F08721719338D2E9BD3531E0BA583F4A780C71 (void);
+extern void PathSplitData__ctor_m7934402391C6F3997802376D1D55DED6149B63A0 (void);
 static Il2CppMethodPointer s_methodPointers[137] = 
 {
-	BezierPath_add_OnModified_m55951817282FC05659F11F6BFE8318597D2A6C7C,
-	BezierPath_remove_OnModified_m4DF08B294E411D0861487E7C142D52BEA58238CC,
-	BezierPath__ctor_mDF73925C32B93E8BB3CC4EC2B6810B0C4CF91EEF,
-	BezierPath__ctor_m02CD1F7ADF762914C945F10DF38A471148898B6B,
-	BezierPath__ctor_mB245AFB076F1F7EABF600691C0570ED86BC0F2D6,
-	BezierPath__ctor_m74EB022D4A290374DA58642129D9677F9F6B9B47,
-	BezierPath__ctor_m662F91CB3923424817767AE2949B06B4B53CE357,
-	BezierPath_get_Item_m3266717B3213E4BA12C34ACD5DFF4D6914CF59DE,
-	BezierPath_GetPoint_m0F74C39466AD00A1068F47E2DF647108280323F2,
-	BezierPath_SetPoint_m8E06AA033C2A0BF645256A1D2FC76782A609D849,
-	BezierPath_get_NumPoints_m431EAD418F2BFD62E278EACAA82AE54F7240B1B0,
-	BezierPath_get_NumAnchorPoints_m229A6F3EDBBE8DCE7C3F60A298D38AC612A74A9D,
-	BezierPath_get_NumSegments_m6246E0AC6BA02B05584E76E0CD28829D92CF492A,
-	BezierPath_get_Space_mECB1D43195B104F9683E806B6FA2CE23C4E0FA33,
-	BezierPath_set_Space_m2465DF92AE6C10D78EEF4EE4B38CFFC2EE82AA15,
-	BezierPath_get_IsClosed_m0D663E7565FF86904B733DF66E026793979D09B8,
-	BezierPath_set_IsClosed_m753F0299D66186058C70800BCC43CFA7A814299F,
-	BezierPath_get_ControlPointMode_m4C3D348708FFA15377459106DF0BDE7B25ECB960,
-	BezierPath_set_ControlPointMode_m09C9651BA90EBE707A83D3D8E54D4695170C8C3C,
-	BezierPath_get_AutoControlLength_m8F9D323E54A6938424D37CE2FBB751191938E806,
-	BezierPath_set_AutoControlLength_m047360636EDE4B3DE60BE292546571A772F06F3E,
-	BezierPath_AddSegmentToEnd_mA17935F42DE159236AF15A39F48292535668E096,
-	BezierPath_AddSegmentToStart_m156C4F920EFEBADFA50997596409EAB30999AD85,
-	BezierPath_SplitSegment_mCE05D6CF72E0E4F7A499252CB2237A9B73EFB6A6,
-	BezierPath_DeleteSegment_m7FBE01A972BB8CCFFC8152B021E0A7C85D887E13,
-	BezierPath_GetPointsInSegment_m7711F3292954121A6FA555FB9D1A8D8260A8F15D,
-	BezierPath_MovePoint_m13C558A7E83F2636B273D874670190F933FB18DB,
-	BezierPath_CalculateBoundsWithTransform_m083DB9455352F18CFDF9E503715EDC8F5DD43B95,
-	BezierPath_get_FlipNormals_m48EC2D9A7C35841976E3902F47B6526AB2C4AA0B,
-	BezierPath_set_FlipNormals_m80515E714702C109AFF7DADBA504453600519D66,
-	BezierPath_get_GlobalNormalsAngle_mFEEF53CFD820205C4AF94D3C7D16ACE12413DF7A,
-	BezierPath_set_GlobalNormalsAngle_mCA3326B5A6C959F52662B1A2D4237759658B074B,
-	BezierPath_GetAnchorNormalAngle_m32DF9CD2A1811E0104370B07D4F2C4DAC4CCBC1E,
-	BezierPath_SetAnchorNormalAngle_m82C41434DB629C5F2A78149CFD1431AE79D643D3,
-	BezierPath_ResetNormalAngles_mA5BF56599F4EC27837FE3E90AE74A455DEF2DCC0,
-	BezierPath_get_PathBounds_m3D2616A4C58421B9FDF65FFA9E4F366DCB401822,
-	BezierPath_UpdateBounds_m7F564BC84AB63C5EE75A685195C92001B743316F,
-	BezierPath_AutoSetAllAffectedControlPoints_m51D9A5A26B20B5DE0D3716604DA68863AA062554,
-	BezierPath_AutoSetAllControlPoints_m214293444EB547DB52F256156879287B72324B77,
-	BezierPath_AutoSetAnchorControlPoints_mE792F2BB9146F98F11D03D8ABFAE5ADA391A5A49,
-	BezierPath_AutoSetStartAndEndControls_mFE64BEEB265FA447F8B859080F870558EA20B4B0,
-	BezierPath_UpdateToNewPathSpace_m68673B48A9DD9886D1E55EAF66B8E705BE79F193,
-	BezierPath_UpdateClosedState_mB3F2E7A18A6DB12777A3EEBFB2F930B8D7FF8543,
-	BezierPath_LoopIndex_m31BDC5B2B36576206B9300F09208DDE6CBA821D9,
-	BezierPath_NotifyPathModified_m655512661DB8B69BF8F0B8EECA9314A4837E068D,
-	GlobalDisplaySettings__ctor_m429208BA90E040DE5EE38FF587AC0688E3E85199,
-	MinMax3D_get_Min_m683906162CF2748D14FAAB74ECB0D867F7031AD8,
-	MinMax3D_set_Min_m0A8D470EFB60ADE06CF50090838DB85521EE9D79,
-	MinMax3D_get_Max_m23F3717EF3F994AFBD03E9C48ACF0D015E95D504,
-	MinMax3D_set_Max_m46561CAA9DB1D1D5204964E5D5DBE06B52D0E884,
-	MinMax3D__ctor_m17DDE02199E8CF939D7FB828DB2F42DF57DC6C03,
-	MinMax3D_AddValue_m771A7BC6141A845C39905229007F9701571324D0,
-	PathCreator_add_pathUpdated_m38E1A67186BFA08F7FB2FF9425897807CAFDA0BF,
-	PathCreator_remove_pathUpdated_m6A0C857AFC7C456BF93A56EE6E2E88FD764413B0,
-	PathCreator_get_path_m14F2AAE80BBBE77BBCB2FAE0AB94C6C771D7E5A0,
-	PathCreator_get_bezierPath_m8070E411EA805F274D1A27C2175224A137EB73DF,
-	PathCreator_set_bezierPath_mDD4B411383ACCCED573E6340A555A4F3CE8C10E3,
-	PathCreator_InitializeEditorData_mC11B77386B681EE26F950B9C54CB84C4061E7D79,
-	PathCreator_get_EditorData_mC2FFE7471ED721EE80EAFC6401D46F6CCABF6D08,
-	PathCreator_TriggerPathUpdate_m33B7C24EAB66DAD6FE77CDDB563C2B4B0552229B,
-	PathCreator__ctor_mD6935E47E9D99215CF77FC15FF33BA56CAD6AB1D,
-	PathCreatorData_add_bezierOrVertexPathModified_m1B68E670D8AC85256D38A030F00D54A362CD8594,
-	PathCreatorData_remove_bezierOrVertexPathModified_m0C1334C3B57E080E03BAD6772CD1E016627983ED,
-	PathCreatorData_add_bezierCreated_m3A5E0A17F64F712F17817D011F09EE828EE96CB1,
-	PathCreatorData_remove_bezierCreated_m46B41021653735EF7050E2C7AA1F1DF4A4E9F821,
-	PathCreatorData_Initialize_mAA2976E0C77E144D5627A492256EE5103867C8FD,
-	PathCreatorData_ResetBezierPath_mCC4927F60069F86A30C3670EACA1D9E9A9F7AE5C,
-	PathCreatorData_CreateBezier_m8A39270C5ECC2CEA5C3EC1105B70057CFCDD9C14,
-	PathCreatorData_get_bezierPath_m6E50528413F7E513D22FCAEB1BCDAD6D6EDBD8B8,
-	PathCreatorData_set_bezierPath_m502030DA642E519A48658E1CF7AC43024EA72753,
-	PathCreatorData_GetVertexPath_m40B8CBE9774728F2B29D09104791EA324382E156,
-	PathCreatorData_PathTransformed_mAD85EEA6A4DFBE1A2C4037C925F2C65F4133429E,
-	PathCreatorData_VertexPathSettingsChanged_m1749E291C22D391AE07EC75C3C03043ED139B735,
-	PathCreatorData_PathModifiedByUndo_mEB61A0395942A953D7A2ECD80A2492F7BF5C273A,
-	PathCreatorData_BezierPathEdited_m890DC63665EC0919958A495D687F3C2C2F3F6C14,
-	PathCreatorData__ctor_m2B80A2615C24D5D0D1D536CD3A53BBC32ED67631,
-	VertexPath__ctor_mF6A64D801D283B4208F9097FAC8207EBE98ABB52,
-	VertexPath__ctor_m21C1694748FE35FD8B7CA3A6D63062243A1FB8AA,
-	VertexPath__ctor_mF2A58AD39490098680BD23B6161DBF639287FB36,
-	VertexPath_UpdateTransform_mE342B1FF0B736707D1449BA6A7768518B92064D6,
-	VertexPath_get_NumPoints_mFE4599541F11BE790A13D600D4766F17A0909517,
-	VertexPath_GetTangent_m6F79CA4D0B2A7A77E1ED265237BE17E0FE063F9B,
-	VertexPath_GetNormal_m02E360B13AD1D76EEDDB3832FD5390EC5B4A467A,
-	VertexPath_GetPoint_m1803440E28B474C61CEF4ADE901F89F6D216F9A3,
-	VertexPath_GetPointAtDistance_m7F57438C3B3DDBFC510E5FF28EBE85C0FF00330C,
-	VertexPath_GetDirectionAtDistance_m8932E8C01DFF6B17EEF30564A3E971194E6FC11C,
-	VertexPath_GetNormalAtDistance_m78ED3D345D6B135FFC43759DF13D9DD49BC2A265,
-	VertexPath_GetRotationAtDistance_mB955E36F5AF18F0AA08FC583F951BED94551879E,
-	VertexPath_GetPointAtTime_m1FC84F2B5BE6ADF00C66963A8C06C84F02AFEC31,
-	VertexPath_GetDirection_m551D48B990104083A41C4C11971CE6E6DB48AE7E,
-	VertexPath_GetNormal_m510DC55AC7919E230618FAAEF12A20DDB5823A18,
-	VertexPath_GetRotation_m27D620744E4EC928C45442C6847349469E0DDA2D,
-	VertexPath_GetClosestPointOnPath_m0F7ED2B0585DE331B24793BDAB01DFF2AD991E42,
-	VertexPath_GetClosestTimeOnPath_m2C3AF240CA5A748231585A2E6EF3F1CBB88A5B83,
-	VertexPath_GetClosestDistanceAlongPath_mFBA86CFFAA8FB4D763594DE680E146BE2DCC27E0,
-	VertexPath_CalculatePercentOnPathData_m96F14C6E494C2FFB3E2FDFC2D53D5BD2BE1A8D45,
-	VertexPath_CalculateClosestPointOnPathData_m499DB8925993598634FD8BE5CA036916026A844F,
-	CubicBezierUtility_EvaluateCurve_m28EE1AA0EB40A82E9EB0168F0C3E890B5237B12B,
-	CubicBezierUtility_EvaluateCurve_m9DCB8D9B172845071F0F91BA2C441E4421E9ABC1,
-	CubicBezierUtility_EvaluateCurveDerivative_m9F26C0F23C20C81E6F134FCE38FE6574064A8E63,
-	CubicBezierUtility_EvaluateCurveDerivative_m5EC5891BA05DD6C9DC4D39A55766E9B9862C11F8,
-	CubicBezierUtility_EvaluateCurveSecondDerivative_m2532E48B73300130A7258EE3D7A06A6E04B1BB76,
-	CubicBezierUtility_EvaluateCurveSecondDerivative_m998FE47C82BAE30BA1942E8C0485EB46B61F8FCF,
-	CubicBezierUtility_Normal_mD93ACAD155BBF404057302D4B2F2EBD9DBD9C853,
-	CubicBezierUtility_Normal_m908B081DCB913C467A1CF9EB5E2966EB9296D2C9,
-	CubicBezierUtility_CalculateSegmentBounds_mCAC7D23FCAD7B7DAF1C61B1CBA5796E96B7BF486,
-	CubicBezierUtility_SplitCurve_m688F218633FB86A6C3F89D735896F82DEE3C81E0,
-	CubicBezierUtility_EstimateCurveLength_m93AF8AC8FEF9039C0C706EE6DDD411B9767295B8,
-	CubicBezierUtility_ExtremePointTimes_m5CA52ADB0765B8BB756C255797C25B0D80D176AF,
-	CubicBezierUtility_StationaryPointTimes_m6E9044E8DD44489001916E9C4A2D76DEC2D0E024,
-	MathUtility_LockTransformToSpace_m90A413403DFF6B305A47B9EEA76F4A2E4106AA9E,
-	MathUtility_TransformPoint_m7AC291E669163A14BB7890E36152E0B7A4C7D78D,
-	MathUtility_InverseTransformPoint_m50B710F103332FC7AAA3A96A2386FB6E4371E1B8,
-	MathUtility_TransformVector_mA42B5F10B0BFE36EA75B83FDA4DEA32B7D1FB7D9,
-	MathUtility_InverseTransformVector_m825316A2B5D20100223910E11A101B8A87E4CFAF,
-	MathUtility_TransformDirection_mCCC9F3681230028E8865009C361A4C9DE3AED0E2,
-	MathUtility_InverseTransformDirection_m4B9CF48F5BA03D6AE721E0B918643D1D166D2D84,
-	MathUtility_LineSegmentsIntersect_m7B0A3EA2F3AB7164C88A43FDA050333574B790B1,
-	MathUtility_LinesIntersect_m5324ADD2A74B8B4EB24F6CD33FAD28E44CA8D81E,
-	MathUtility_PointOfLineLineIntersection_m14FC9EBC771B94A5888ED838ABDD5613837900BD,
-	MathUtility_ClosestPointOnLineSegment_m71B3E1FA2216447B9E09199E8F613252C59DA1D7,
-	MathUtility_ClosestPointOnLineSegment_mB59CC077BAC8CB01E29F24C077DA62FE720D34B6,
-	MathUtility_SideOfLine_m0CEA46A8E8E7A29384DC0CC48780F97D114D2817,
-	MathUtility_MinAngle_m40684A4C8F2A616879FD374299E334F16227F547,
-	MathUtility_PointInTriangle_m0E663844AA5D829AA7E0652637DFA3B8383272CC,
-	MathUtility_PointsAreClockwise_m3DA547A37D5D4B71B09322C1FE817FBAA9C239E9,
-	VertexPathUtility_SplitBezierPathByAngleError_mB3336A8A628FA191CD4ACF047CFEAC6D6D33FC23,
-	VertexPathUtility_SplitBezierPathEvenly_m96C9D164F03501353D5F267CBC64E8439619D2F5,
-	U3CU3Ec__cctor_mEAB1BA49CAC51C8A523E057BC70693D67C085DAA,
-	U3CU3Ec__ctor_m84DD6247D542189FA778115670A4E1CEE3A41EE8,
-	U3CU3Ec_U3C_ctorU3Eb__16_0_mA29A663EF59DDDB554FC42720F0406C7C24C0748,
-	U3CU3Ec_U3C_ctorU3Eb__17_0_m2BD89319700BD0F78B2D6F0157612F3BB1C6191B,
-	U3CU3Ec_U3C_ctorU3Eb__18_0_m70F3FCE68ADCA197A05AD03C038B6D80CE4A6155,
-	TimeOnPathData__ctor_mF26B39F58ECED007C83586828A8E1326B35D3021,
-	PosRotScale__ctor_m5D384505928A496B33EB7774596EFA793BA3689A,
-	PosRotScale_SetTransform_mD67B750B860AD775F4A875F6FEECD255AC847DE7,
-	PathSplitData__ctor_m65F08721719338D2E9BD3531E0BA583F4A780C71,
+	BezierPath_add_OnModified_m55907110369088B1D0FEBE4B1547587124521C85,
+	BezierPath_remove_OnModified_mE4878246DCE71F1EE4C9135CF1533BF67AC8722C,
+	BezierPath__ctor_m7EEB485BCB9BE4AC0BE22912E280E5BA155628C6,
+	BezierPath__ctor_mFFA3DCA4C3861A584DB74A7026562534E393A6FE,
+	BezierPath__ctor_mD240B3BA48C49B6E449362C4169122DD164FB169,
+	BezierPath__ctor_m5DC967A35A1721785656B6C766130DE06E972F28,
+	BezierPath__ctor_m0251E4CFE35F2B9B752150350DF7B48A8616EE86,
+	BezierPath_get_Item_m1701B002C1E13649800B06235CC157018ED6EF9C,
+	BezierPath_GetPoint_m1EDC696768D4A7917B471925F57D394F39EC70A2,
+	BezierPath_SetPoint_m3645A04354CD3F1EA89783D1DDCF6C0E1CA10099,
+	BezierPath_get_NumPoints_mD9897BB2BCD556B7560B90626D9616FCC5EDE726,
+	BezierPath_get_NumAnchorPoints_m2332B0100A3BC0BDCA8B170AA760CD8F5DA08BA1,
+	BezierPath_get_NumSegments_m8D616555AFF4A4BF7212AE81D9EDEFAA95435D56,
+	BezierPath_get_Space_m419DD54DAF2C480912B6803C6F89227E90E96955,
+	BezierPath_set_Space_m55261625671ABC8302E41987CE19FC71A2546932,
+	BezierPath_get_IsClosed_mF6A01A18821BAE025900E68913A713DFC4AEA597,
+	BezierPath_set_IsClosed_m141141151819A1FEFAADF7758A157C437BE88E4C,
+	BezierPath_get_ControlPointMode_m527C29AD4761776EB9EDDCEC4F35B4551493CC33,
+	BezierPath_set_ControlPointMode_m711885CEB302FB318784257DF8A777ADC47CE908,
+	BezierPath_get_AutoControlLength_m9B479CD80C66D7F313109AD2958AD3C1A1488CB1,
+	BezierPath_set_AutoControlLength_mCCA245F8A7888397B0309B158194C001F9155F27,
+	BezierPath_AddSegmentToEnd_mAF72A062FFE56B7B702C77C9AEB6648489259AF1,
+	BezierPath_AddSegmentToStart_mBEC063CA0FF14F627D579DA814D68657DEEB7C5D,
+	BezierPath_SplitSegment_m5C0F3ACF1800FF2817B46676824FF19658D0AD33,
+	BezierPath_DeleteSegment_mAE38BD417C1EB15211BBE65ECC8E08E77FFFF639,
+	BezierPath_GetPointsInSegment_mE695740C50097F8BB87FF156F4EE05E23691CE53,
+	BezierPath_MovePoint_m7550CACC18C4C8311A5AA5938DBF3F3C65A63EF7,
+	BezierPath_CalculateBoundsWithTransform_mE9724B5656773F0C41347DF0FDEF9CBAA7F0AA30,
+	BezierPath_get_FlipNormals_m39F2C418ABA567C1B2CA91F0D4F60E068CFB4CE7,
+	BezierPath_set_FlipNormals_m3F50FF279250379BF566DE6CE8D09F06AC56DEA3,
+	BezierPath_get_GlobalNormalsAngle_m47C9AC07004785838462BB29C16728E2D1FBB794,
+	BezierPath_set_GlobalNormalsAngle_mB3C6CF111E90E785C0B816EFA4D4CD9E3ECB7334,
+	BezierPath_GetAnchorNormalAngle_m08D59613954484EE170B5CDBD70E7B79D0C96A90,
+	BezierPath_SetAnchorNormalAngle_mBE2E9C135873F6F04ED40315053F1DCC11071978,
+	BezierPath_ResetNormalAngles_m71E50CD6BB546DD99B163E208649C94960EF2ED7,
+	BezierPath_get_PathBounds_m762AAE5B2D024E8B8FD84144658DA988E5AA1B35,
+	BezierPath_UpdateBounds_mCE2CB2E14FAB1BA25202D4FED8C7B125D6071610,
+	BezierPath_AutoSetAllAffectedControlPoints_mE157D050D8F810CCA0B854915A67415340F429F8,
+	BezierPath_AutoSetAllControlPoints_m0C0519636ACA8166B24236BE1F93BCEBD62A2B1E,
+	BezierPath_AutoSetAnchorControlPoints_m310E602BF731F3C0A5ACB5EACA4A69D6A942D3BC,
+	BezierPath_AutoSetStartAndEndControls_m52B717866B3EAD2BE6E61D906050EDEA940A675D,
+	BezierPath_UpdateToNewPathSpace_mA98A4C7B399C287910DFC2AA846436A00F56D47B,
+	BezierPath_UpdateClosedState_m55E2ECC7C0043E3961E25EAF7AF00F6EB0639144,
+	BezierPath_LoopIndex_m8F91BCE2A032B40EB7450F75AFEBB998EA8B5272,
+	BezierPath_NotifyPathModified_m0D12EA092EDFD17C3F4E4CFFDCE50580B6856643,
+	U3CU3Ec__cctor_m5A2E071308FB9B4962E3077EFAED6299A70217D4,
+	U3CU3Ec__ctor_m996105A079467C9BE2338833D6AC8E4580E5A2B6,
+	U3CU3Ec_U3C_ctorU3Eb__16_0_m73EDB18BAB1803D1AA24C21782D8EFDCFB0580FD,
+	U3CU3Ec_U3C_ctorU3Eb__17_0_mE822E249E1022DCCDC423A0E622C5343CE26CC09,
+	U3CU3Ec_U3C_ctorU3Eb__18_0_m99AA3935311E0C197C1B7F116FE1B6CD56A45DBA,
+	GlobalDisplaySettings__ctor_m35675B8B63096A3F11F66BDD349EDE741C9FD5FB,
+	MinMax3D_get_Min_m27A2B5B03253FDB598A862C4D442C3AA8E708C92,
+	MinMax3D_set_Min_m9FD8F40067AFD1DE82C63946AC69E206A271BC73,
+	MinMax3D_get_Max_m9FA0BB60BC2F8AF54B40A517C972877DE7827AE6,
+	MinMax3D_set_Max_m8FD4CF8C1193E6FDF240679623D8A13F6DE3DC68,
+	MinMax3D__ctor_mF6184498BE0E266EC2E2E112D4EE3D3A98675C63,
+	MinMax3D_AddValue_mAA012F008363E68713882A3648ADDEDDD0474199,
+	PathCreator_add_pathUpdated_m821CD0FF90A3409BB6F798A380BDDF3A95CFC6BD,
+	PathCreator_remove_pathUpdated_m9D31D7A3761BE9E62CF1284D781B57D66475D1F2,
+	PathCreator_get_path_m1D2BA17B74B561BB4668D206119F238682423791,
+	PathCreator_get_bezierPath_m8D01E8D974B57BEBE41CF0898880733217591ECA,
+	PathCreator_set_bezierPath_mA3D2D0AB742387A9BA201C3CFF073BBA52734F8B,
+	PathCreator_InitializeEditorData_mE8A616C627C9106C385DE6392115C69CA4A3B572,
+	PathCreator_get_EditorData_m199DB3D285CC4B11236F28B59F9FF9F304A36D84,
+	PathCreator_TriggerPathUpdate_m195E2101B1F6A7FB67750798E021400B72A05F30,
+	PathCreator__ctor_mE4BC4561E5736BB0178586D538D882E279CAEC75,
+	PathCreatorData_add_bezierOrVertexPathModified_mA850F1226CF2CEEC7B452D928025A31A0429A005,
+	PathCreatorData_remove_bezierOrVertexPathModified_m8071D439BA735C2E0767B9FD68A7381AC6CF8A4F,
+	PathCreatorData_add_bezierCreated_m36BED7EDAC1E1CE3BBA7D299561F9ADFE2CE40D0,
+	PathCreatorData_remove_bezierCreated_m4CB55AF9EC87568DDCB54BDD27271CC305C176E2,
+	PathCreatorData_Initialize_m40F301A7585B91C81D8A4ABA804E78918A6ED2BF,
+	PathCreatorData_ResetBezierPath_m3798BB5E512630AACD4FDC2E383117A2705232D6,
+	PathCreatorData_CreateBezier_m382E6B4AB1085B767C5526F02ECE2D6C4AAC1822,
+	PathCreatorData_get_bezierPath_m094752A18D7FED2C4152C8B0B7E40CFE6E0DAF7F,
+	PathCreatorData_set_bezierPath_mAD52C6998DFD2D79953B1E8F5A8497C18FF1366A,
+	PathCreatorData_GetVertexPath_m2EDCC1A5EF58C192CB1B4486B8D9F5C049233EB7,
+	PathCreatorData_PathTransformed_m4A9758A318957D0E9AAE5473B53325AAA531B451,
+	PathCreatorData_VertexPathSettingsChanged_m39D6CB2309508F15B4B77EEEC8D543DADFE75623,
+	PathCreatorData_PathModifiedByUndo_m0A4EC66325BF44801016A62AC6885083A33F4D3C,
+	PathCreatorData_BezierPathEdited_m9451499680AF07402700EA3937DEF77A8A2417DA,
+	PathCreatorData__ctor_m1068FBEE91F31920807C22533F800E0D7245AFDB,
+	VertexPath__ctor_m540AF9C39320F3B89DCC10CF3CB87BE7C50992A9,
+	VertexPath__ctor_mA8DBEE425DD5566076F025763411A04460C31E30,
+	VertexPath__ctor_m8FB869600D5F62ACD44825A8BA16116C86671003,
+	VertexPath_UpdateTransform_mC6B82D95E954CE35D56D15811628403DFBA759F1,
+	VertexPath_get_NumPoints_mD9A77D2B59F88099D6950AB50BDF2D86B3306572,
+	VertexPath_GetTangent_m780A757C8CE1EF5AEFE72060689F611A0AC5B58F,
+	VertexPath_GetNormal_mE734782445FBB23E73403FA179580E1981BF8501,
+	VertexPath_GetPoint_mC6D2F5E0E610826A6CCDDF8E76C473383C9BC07B,
+	VertexPath_GetPointAtDistance_mA36ED1FC59E5ADFB18AF58BB0ADD5DAE3A622BBE,
+	VertexPath_GetDirectionAtDistance_mE4B58F91658D2D9E19A63F13AE8E0E2930B4E993,
+	VertexPath_GetNormalAtDistance_m0A06E8C3D63BAFF3864C4C1E9C19A7B21290C19D,
+	VertexPath_GetRotationAtDistance_m373C57D0071F81C1266836D63571C88EB1386BE4,
+	VertexPath_GetPointAtTime_mCCF19F9658CF55D8E2D6039D00418D8FD5EC318A,
+	VertexPath_GetDirection_m620A97268014E6586AB78838ADAFC4C0ECB5DEEF,
+	VertexPath_GetNormal_mBB6B6D05029D758878BA773DC98445D1ECD078EE,
+	VertexPath_GetRotation_m5F924A0F5F6CA1908A2D6486D52C1CF45591ED53,
+	VertexPath_GetClosestPointOnPath_mF16F2ECDD7C0D53412B1CD0BA52A622559A306E0,
+	VertexPath_GetClosestTimeOnPath_mD6DD7A5008427D58A652B3F14F59E66143011089,
+	VertexPath_GetClosestDistanceAlongPath_mD2C010C35CFF65B1557F5EDF323D262FFEE83CAC,
+	VertexPath_CalculatePercentOnPathData_m94D6688F743C5E64E8FD4B02D5267BCE7EDD1AAD,
+	VertexPath_CalculateClosestPointOnPathData_m9E9611D7EF6BCA55311C1FE5BDEC8B76E59E79CA,
+	TimeOnPathData__ctor_mB95318A172EF7BD690D25CD7ACD7911327F92CB3,
+	CubicBezierUtility_EvaluateCurve_m4BF82A373803D3A41E1C19FBFC1CA7570744FD35,
+	CubicBezierUtility_EvaluateCurve_mF2EA92B925B21347765C616ABAD00B43FA975ECD,
+	CubicBezierUtility_EvaluateCurveDerivative_m2DBE43F7AAE648BF48A144E9397EB9474B937A1B,
+	CubicBezierUtility_EvaluateCurveDerivative_m9C596F350098D3F3498A60318373CE5BC06032A9,
+	CubicBezierUtility_EvaluateCurveSecondDerivative_mBD8578757FE2A05337067176876032B35B14CF7B,
+	CubicBezierUtility_EvaluateCurveSecondDerivative_m48083859787BCDDCC6BB35FCF6C0C9E37E2FD574,
+	CubicBezierUtility_Normal_mD6DF9F3119AFE5F153B869F2372EE11307B50C7E,
+	CubicBezierUtility_Normal_m3ADEF6CC3A3D32DC09F5131318FFB0650C3D4610,
+	CubicBezierUtility_CalculateSegmentBounds_mCCA2871209CD586D06F467A59131FBDC3D346B94,
+	CubicBezierUtility_SplitCurve_mF1C7E630372A0343B97E94F24CF5F9BE570A224F,
+	CubicBezierUtility_EstimateCurveLength_m1DAC9B1239FCEBB2EAA748420D27240824F374A1,
+	CubicBezierUtility_ExtremePointTimes_m16AE9EBA5D842E8AB17BEC6D0FAEE0982EB3D6F4,
+	CubicBezierUtility_StationaryPointTimes_m863375C60AD75139347564C715E1675C3502D835,
+	MathUtility_LockTransformToSpace_m9387F761D6373A85C32478A297CD57FB7E4689A7,
+	MathUtility_TransformPoint_m899D845C91EEC3CFCB12DCE77A2F6AE154052039,
+	MathUtility_InverseTransformPoint_m142FBD065BE626C8535DCBD3B90B33B6A3B4ECD2,
+	MathUtility_TransformVector_m785301EEB53B7C2E311AD862F90CC10C8309A6C6,
+	MathUtility_InverseTransformVector_m475CADC77DB85049D78C14094A2F62218C6D7010,
+	MathUtility_TransformDirection_m6D6125BE433FE249466C8FFECB159D380C556117,
+	MathUtility_InverseTransformDirection_m7550CF237D3DFF7C65991256D2088C09E6D3F5E1,
+	MathUtility_LineSegmentsIntersect_mF238186D28ECC659F1602A339D358D68B94027F2,
+	MathUtility_LinesIntersect_m38D522A2B7BECCB198951737B0DF6AB6EB30CE59,
+	MathUtility_PointOfLineLineIntersection_mB47344ACFDF1ECBBB268333F039D61F19ECA20EB,
+	MathUtility_ClosestPointOnLineSegment_m1D50BD297E24B665BC96DA9D644E4C4B4AD19264,
+	MathUtility_ClosestPointOnLineSegment_mA49C996C05AE1553AA970F5706141842B9D47D4D,
+	MathUtility_SideOfLine_mE435DEE209180DCAD1BEE2F23F6289EF273894C6,
+	MathUtility_MinAngle_mF108AF5914C8359E19B2FCB478D4F744ED2A81E4,
+	MathUtility_PointInTriangle_m757248C605C7382B80CA692BD8CDA657DA2AB6CD,
+	MathUtility_PointsAreClockwise_m2DB08EBF2FD6E34D38C013A377DAAD944E20AA0E,
+	PosRotScale__ctor_mB52752EF59B34AC6AF4474F853656D6C51009A1A,
+	PosRotScale_SetTransform_m4526410D376727FFC35A096F6272E0BC49F11F24,
+	VertexPathUtility_SplitBezierPathByAngleError_m2B302FFC32A15AD3A4987F4E8C0E22C3F99C3F17,
+	VertexPathUtility_SplitBezierPathEvenly_mE70869D933E9F28D38AB9450C87E730D331FF28C,
+	PathSplitData__ctor_m7934402391C6F3997802376D1D55DED6149B63A0,
 };
-extern void TimeOnPathData__ctor_mF26B39F58ECED007C83586828A8E1326B35D3021_AdjustorThunk (void);
+extern void TimeOnPathData__ctor_mB95318A172EF7BD690D25CD7ACD7911327F92CB3_AdjustorThunk (void);
 static Il2CppTokenAdjustorThunkPair s_adjustorThunks[1] = 
 {
-	{ 0x06000086, TimeOnPathData__ctor_mF26B39F58ECED007C83586828A8E1326B35D3021_AdjustorThunk },
+	{ 0x06000067, TimeOnPathData__ctor_mB95318A172EF7BD690D25CD7ACD7911327F92CB3_AdjustorThunk },
 };
 static const int32_t s_InvokerIndices[137] = 
 {
-	26,
-	26,
-	2182,
-	1280,
-	1280,
-	1280,
-	352,
-	2183,
-	2183,
-	2184,
-	10,
-	10,
-	10,
-	10,
-	32,
-	89,
-	31,
-	10,
-	32,
-	715,
-	327,
-	1442,
-	1442,
-	2185,
-	32,
-	34,
-	2184,
-	2186,
-	89,
-	31,
-	715,
-	327,
-	1481,
-	1006,
-	23,
-	1476,
-	23,
-	32,
-	23,
-	32,
-	23,
-	32,
-	23,
-	37,
-	23,
-	23,
-	1441,
-	1442,
-	1441,
-	1442,
-	23,
-	1442,
-	26,
-	26,
-	14,
-	14,
-	26,
-	31,
-	14,
-	23,
-	23,
-	26,
-	26,
-	26,
-	26,
-	31,
-	2189,
-	2189,
-	14,
-	26,
-	28,
-	23,
-	23,
-	23,
-	23,
-	23,
-	2190,
-	2191,
-	197,
-	26,
-	10,
-	2183,
-	2183,
-	2183,
-	2192,
-	2192,
-	2192,
-	2193,
-	2192,
-	2192,
-	2192,
-	2193,
+	3533,
+	3533,
+	1244,
+	1213,
+	1213,
+	1213,
+	1191,
+	3259,
+	3259,
+	1163,
+	4323,
+	4323,
+	4323,
+	4323,
+	3511,
+	4378,
+	3560,
+	4323,
+	3511,
+	4383,
+	3563,
+	3600,
+	3600,
+	1242,
+	3511,
+	2711,
+	1163,
+	2237,
+	4378,
+	3560,
+	4383,
+	3563,
+	3198,
+	1831,
+	4425,
+	4269,
+	4425,
+	3511,
+	4425,
+	3511,
+	4425,
+	3511,
+	4425,
+	2473,
+	4425,
+	6579,
+	4425,
+	3267,
+	3263,
+	3267,
+	4425,
+	4422,
+	3600,
+	4422,
+	3600,
+	4425,
+	3600,
+	3533,
+	3533,
+	4346,
+	4346,
+	3533,
+	3560,
+	4346,
+	4425,
+	4425,
+	3533,
+	3533,
+	3533,
+	3533,
+	3560,
+	2036,
+	2036,
+	4346,
+	3533,
+	2719,
+	4425,
+	4425,
+	4425,
+	4425,
+	4425,
+	809,
+	1204,
+	1201,
+	3533,
+	4323,
+	3259,
+	3259,
+	3259,
+	1609,
+	1609,
+	1609,
 	1427,
-	2194,
-	2194,
-	2195,
-	2196,
-	2197,
-	2198,
-	2197,
-	2198,
-	2197,
-	2198,
-	2197,
-	2198,
-	2199,
-	2200,
-	2201,
-	2202,
-	2203,
-	119,
-	2204,
-	2204,
-	2204,
-	2204,
-	2204,
-	2204,
-	2205,
-	2205,
-	2206,
-	2207,
-	2208,
-	2209,
-	1562,
-	2205,
-	114,
-	2210,
-	2211,
-	3,
-	23,
-	2187,
-	2188,
-	2187,
-	1766,
-	26,
-	26,
-	23,
+	1609,
+	1609,
+	1609,
+	1427,
+	3268,
+	3203,
+	3203,
+	2071,
+	3831,
+	1150,
+	5952,
+	4872,
+	5952,
+	4872,
+	5952,
+	4872,
+	5952,
+	4872,
+	4935,
+	5772,
+	5181,
+	5125,
+	5414,
+	5765,
+	5492,
+	5492,
+	5492,
+	5492,
+	5492,
+	5492,
+	5175,
+	5175,
+	5185,
+	5491,
+	5494,
+	5341,
+	5486,
+	5175,
+	6340,
+	3533,
+	3533,
+	5116,
+	5409,
+	4425,
 };
-extern const Il2CppCodeGenModule g_PathCreatorCodeGenModule;
-const Il2CppCodeGenModule g_PathCreatorCodeGenModule = 
+extern const CustomAttributesCacheGenerator g_PathCreator_AttributeGenerators[];
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_PathCreator_CodeGenModule;
+const Il2CppCodeGenModule g_PathCreator_CodeGenModule = 
 {
 	"PathCreator.dll",
 	137,
@@ -593,6 +586,11 @@ const Il2CppCodeGenModule g_PathCreatorCodeGenModule =
 	0,
 	NULL,
 	0,
+	NULL,
+	NULL,
+	g_PathCreator_AttributeGenerators,
+	NULL, // module initializer,
+	NULL,
 	NULL,
 	NULL,
 };

@@ -42,6 +42,9 @@ extern "C" void RegisterStaticallyLinkedModulesGranular()
 	void RegisterModule_GameCenter();
 	RegisterModule_GameCenter();
 
+	void RegisterModule_GI();
+	RegisterModule_GI();
+
 	void RegisterModule_Grid();
 	RegisterModule_Grid();
 
@@ -120,6 +123,9 @@ extern "C" void RegisterStaticallyLinkedModulesGranular()
 	void RegisterModule_UI();
 	RegisterModule_UI();
 
+	void RegisterModule_UIElementsNative();
+	RegisterModule_UIElementsNative();
+
 	void RegisterModule_UIElements();
 	RegisterModule_UIElements();
 
@@ -137,6 +143,9 @@ extern "C" void RegisterStaticallyLinkedModulesGranular()
 
 	void RegisterModule_UnityAnalytics();
 	RegisterModule_UnityAnalytics();
+
+	void RegisterModule_UnityCurl();
+	RegisterModule_UnityCurl();
 
 	void RegisterModule_UnityTestProtocol();
 	RegisterModule_UnityTestProtocol();

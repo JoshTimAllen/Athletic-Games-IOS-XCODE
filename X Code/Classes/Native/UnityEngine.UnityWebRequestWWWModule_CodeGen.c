@@ -1,11 +1,9 @@
-﻿#include "il2cpp-config.h"
-
+﻿#include "pch-c.h"
 #ifndef _MSC_VER
 # include <alloca.h>
 #else
 # include <malloc.h>
 #endif
-
 
 
 #include "codegen/il2cpp-codegen-metadata.h"
@@ -14,32 +12,27 @@
 
 
 
-IL2CPP_EXTERN_C_BEGIN
-IL2CPP_EXTERN_C_END
-
-
-
-
 // 0x00000001 System.String UnityEngine.WWW::UnEscapeURL(System.String)
-extern void WWW_UnEscapeURL_m0430FDFBA4FAD03645B4D8306A02D94F0D411AB7 (void);
+extern void WWW_UnEscapeURL_mD975E845691DE2589A7346F8A84FC7648A9FB75A (void);
 // 0x00000002 System.String UnityEngine.WWW::UnEscapeURL(System.String,System.Text.Encoding)
-extern void WWW_UnEscapeURL_m5D07E9BA042F4FF2879A435F1603C3458840127E (void);
+extern void WWW_UnEscapeURL_mF674DF071974D0C8CB49B5AF168442B59CB149C3 (void);
 // 0x00000003 System.Boolean UnityEngine.WWW::get_keepWaiting()
-extern void WWW_get_keepWaiting_m2C52E54F48964EFD711C55A514E738CDF5D2EEB4 (void);
+extern void WWW_get_keepWaiting_m231A6A7A835610182D78FC414665CC75195ABD70 (void);
 static Il2CppMethodPointer s_methodPointers[3] = 
 {
-	WWW_UnEscapeURL_m0430FDFBA4FAD03645B4D8306A02D94F0D411AB7,
-	WWW_UnEscapeURL_m5D07E9BA042F4FF2879A435F1603C3458840127E,
-	WWW_get_keepWaiting_m2C52E54F48964EFD711C55A514E738CDF5D2EEB4,
+	WWW_UnEscapeURL_mD975E845691DE2589A7346F8A84FC7648A9FB75A,
+	WWW_UnEscapeURL_mF674DF071974D0C8CB49B5AF168442B59CB149C3,
+	WWW_get_keepWaiting_m231A6A7A835610182D78FC414665CC75195ABD70,
 };
 static const int32_t s_InvokerIndices[3] = 
 {
-	0,
-	1,
-	89,
+	6293,
+	5770,
+	4378,
 };
-extern const Il2CppCodeGenModule g_UnityEngine_UnityWebRequestWWWModuleCodeGenModule;
-const Il2CppCodeGenModule g_UnityEngine_UnityWebRequestWWWModuleCodeGenModule = 
+extern const CustomAttributesCacheGenerator g_UnityEngine_UnityWebRequestWWWModule_AttributeGenerators[];
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_UnityEngine_UnityWebRequestWWWModule_CodeGenModule;
+const Il2CppCodeGenModule g_UnityEngine_UnityWebRequestWWWModule_CodeGenModule = 
 {
 	"UnityEngine.UnityWebRequestWWWModule.dll",
 	3,
@@ -52,6 +45,11 @@ const Il2CppCodeGenModule g_UnityEngine_UnityWebRequestWWWModuleCodeGenModule =
 	0,
 	NULL,
 	0,
+	NULL,
+	NULL,
+	g_UnityEngine_UnityWebRequestWWWModule_AttributeGenerators,
+	NULL, // module initializer,
+	NULL,
 	NULL,
 	NULL,
 };
