@@ -849,7 +849,7 @@ struct SlotU5BU5D_t24159D3A6E2BCC50FD68A162FF57B5AB21F6A9A8;
 // System.Collections.Generic.HashSet`1<Admix.AdmixCore.WebViewDesktop.IPromiseInfo>
 struct HashSet_1_t6A43244C1E72A5DBECA8B20A594665D99C7665B5;
 // System.Collections.Generic.HashSet`1<System.Object>
-struct HashSet_1_tCB9A93E0664C5F2540DB06B45AEF3605389EFF8E;
+struct HashSet_1_t725419BA457D845928B505ACE877FF46BC71E897;
 // System.Collections.Generic.IEnumerable`1<Admix.AdmixCore.WebViewDesktop.IPromise>
 struct IEnumerable_1_t5C0E4D63E63753A9DDD7ED0694ACBBA713191E94;
 // System.Collections.Generic.IEnumerable`1<Admix.AdmixCore.WebViewDesktop.IPromiseInfo>
@@ -893,7 +893,7 @@ struct List_1_t709EC2B72D815CE650E6FC4D9C440D865C077893;
 // System.Collections.Generic.List`1<Admix.AdmixCore.WebViewDesktop.RejectHandler>
 struct List_1_tA01BAFE8DE998013F5EF568637E80193A2AA40A9;
 // System.Collections.Generic.List`1<System.Action>
-struct List_1_tF3653E6C83C09A018881AD9B85FEB961C912DF46;
+struct List_1_tF4B622C1ABA386932660D23A459A2974FB56E2EE;
 // System.Collections.Generic.List`1<System.Action`1<System.Collections.Generic.List`1<Admix.AdmixCore.WebViewDesktop.Cookie>>>
 struct List_1_t16381890FABAA9B03F48018611E5E590F524F125;
 // System.Collections.Generic.List`1<System.Object>
@@ -13820,9 +13820,9 @@ public:
 	// System.Boolean Admix.AdmixCore.WebViewDesktop.Browser::isPopup
 	bool ___isPopup_27;
 	// System.Collections.Generic.List`1<System.Action> Admix.AdmixCore.WebViewDesktop.Browser::thingsToDo
-	List_1_tF3653E6C83C09A018881AD9B85FEB961C912DF46 * ___thingsToDo_28;
+	List_1_tF4B622C1ABA386932660D23A459A2974FB56E2EE * ___thingsToDo_28;
 	// System.Collections.Generic.List`1<System.Action> Admix.AdmixCore.WebViewDesktop.Browser::onloadActions
-	List_1_tF3653E6C83C09A018881AD9B85FEB961C912DF46 * ___onloadActions_29;
+	List_1_tF4B622C1ABA386932660D23A459A2974FB56E2EE * ___onloadActions_29;
 	// System.Collections.Generic.List`1<System.Object> Admix.AdmixCore.WebViewDesktop.Browser::thingsToRemember
 	List_1_t05CC3C859AB5E6024394EF9A42E3E696628CA02D * ___thingsToRemember_30;
 	// System.Int32 Admix.AdmixCore.WebViewDesktop.Browser::nextCallbackId
@@ -13876,7 +13876,7 @@ public:
 	// System.Single Admix.AdmixCore.WebViewDesktop.Browser::pageReplacerPriority
 	float ___pageReplacerPriority_58;
 	// System.Collections.Generic.List`1<System.Action> Admix.AdmixCore.WebViewDesktop.Browser::thingsToDoClone
-	List_1_tF3653E6C83C09A018881AD9B85FEB961C912DF46 * ___thingsToDoClone_59;
+	List_1_tF4B622C1ABA386932660D23A459A2974FB56E2EE * ___thingsToDoClone_59;
 	// UnityEngine.Color32[] Admix.AdmixCore.WebViewDesktop.Browser::colorBuffer
 	Color32U5BU5D_tABFBCB467E6D1B791303A0D3A3AA1A482F620983* ___colorBuffer_60;
 
@@ -14073,18 +14073,18 @@ public:
 	}
 
 	inline static int32_t get_offset_of_thingsToDo_28() { return static_cast<int32_t>(offsetof(Browser_tF6F53D58610FED81A27EC0416C30735077DE8416, ___thingsToDo_28)); }
-	inline List_1_tF3653E6C83C09A018881AD9B85FEB961C912DF46 * get_thingsToDo_28() const { return ___thingsToDo_28; }
-	inline List_1_tF3653E6C83C09A018881AD9B85FEB961C912DF46 ** get_address_of_thingsToDo_28() { return &___thingsToDo_28; }
-	inline void set_thingsToDo_28(List_1_tF3653E6C83C09A018881AD9B85FEB961C912DF46 * value)
+	inline List_1_tF4B622C1ABA386932660D23A459A2974FB56E2EE * get_thingsToDo_28() const { return ___thingsToDo_28; }
+	inline List_1_tF4B622C1ABA386932660D23A459A2974FB56E2EE ** get_address_of_thingsToDo_28() { return &___thingsToDo_28; }
+	inline void set_thingsToDo_28(List_1_tF4B622C1ABA386932660D23A459A2974FB56E2EE * value)
 	{
 		___thingsToDo_28 = value;
 		Il2CppCodeGenWriteBarrier((void**)(&___thingsToDo_28), (void*)value);
 	}
 
 	inline static int32_t get_offset_of_onloadActions_29() { return static_cast<int32_t>(offsetof(Browser_tF6F53D58610FED81A27EC0416C30735077DE8416, ___onloadActions_29)); }
-	inline List_1_tF3653E6C83C09A018881AD9B85FEB961C912DF46 * get_onloadActions_29() const { return ___onloadActions_29; }
-	inline List_1_tF3653E6C83C09A018881AD9B85FEB961C912DF46 ** get_address_of_onloadActions_29() { return &___onloadActions_29; }
-	inline void set_onloadActions_29(List_1_tF3653E6C83C09A018881AD9B85FEB961C912DF46 * value)
+	inline List_1_tF4B622C1ABA386932660D23A459A2974FB56E2EE * get_onloadActions_29() const { return ___onloadActions_29; }
+	inline List_1_tF4B622C1ABA386932660D23A459A2974FB56E2EE ** get_address_of_onloadActions_29() { return &___onloadActions_29; }
+	inline void set_onloadActions_29(List_1_tF4B622C1ABA386932660D23A459A2974FB56E2EE * value)
 	{
 		___onloadActions_29 = value;
 		Il2CppCodeGenWriteBarrier((void**)(&___onloadActions_29), (void*)value);
@@ -14320,9 +14320,9 @@ public:
 	}
 
 	inline static int32_t get_offset_of_thingsToDoClone_59() { return static_cast<int32_t>(offsetof(Browser_tF6F53D58610FED81A27EC0416C30735077DE8416, ___thingsToDoClone_59)); }
-	inline List_1_tF3653E6C83C09A018881AD9B85FEB961C912DF46 * get_thingsToDoClone_59() const { return ___thingsToDoClone_59; }
-	inline List_1_tF3653E6C83C09A018881AD9B85FEB961C912DF46 ** get_address_of_thingsToDoClone_59() { return &___thingsToDoClone_59; }
-	inline void set_thingsToDoClone_59(List_1_tF3653E6C83C09A018881AD9B85FEB961C912DF46 * value)
+	inline List_1_tF4B622C1ABA386932660D23A459A2974FB56E2EE * get_thingsToDoClone_59() const { return ___thingsToDoClone_59; }
+	inline List_1_tF4B622C1ABA386932660D23A459A2974FB56E2EE ** get_address_of_thingsToDoClone_59() { return &___thingsToDoClone_59; }
+	inline void set_thingsToDoClone_59(List_1_tF4B622C1ABA386932660D23A459A2974FB56E2EE * value)
 	{
 		___thingsToDoClone_59 = value;
 		Il2CppCodeGenWriteBarrier((void**)(&___thingsToDoClone_59), (void*)value);
@@ -16239,7 +16239,7 @@ IL2CPP_EXTERN_C void NativeCookie_t0C80C7F4630787E466E4FD34D48D470F20858B9B_mars
 IL2CPP_EXTERN_C void NativeCookie_t0C80C7F4630787E466E4FD34D48D470F20858B9B_marshal_pinvoke_cleanup(NativeCookie_t0C80C7F4630787E466E4FD34D48D470F20858B9B_marshaled_pinvoke& marshaled);
 
 // !!0 UnityEngine.GameObject::AddComponent<System.Object>()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject * GameObject_AddComponent_TisRuntimeObject_m80EDFEAC4927F588A7A702F81524EDBFA8603FE2_gshared (GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * __this, const RuntimeMethod* method);
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject * GameObject_AddComponent_TisRuntimeObject_mCB8164FB05F8DCF99E098ADC5E13E96FEF6FC4E9_gshared (GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * __this, const RuntimeMethod* method);
 // System.Void System.Collections.Generic.List`1<System.Object>::Clear()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void List_1_Clear_mC5CFC6C9F3007FC24FE020198265D4B5B0659FFC_gshared (List_1_t05CC3C859AB5E6024394EF9A42E3E696628CA02D * __this, const RuntimeMethod* method);
 // System.Void System.Collections.Generic.List`1<System.Object>::Insert(System.Int32,!0)
@@ -16349,11 +16349,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RaycastHit_t19695F18F9265FE5425062BBA6A4D3304
 // System.Void System.Collections.Generic.Dictionary`2<System.Int32,UnityEngine.RaycastHit>::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Dictionary_2__ctor_mCD86E58A1EC70F6382DBDC4CCF59BC7B3C39D2CB_gshared (Dictionary_2_t3FE3D0CF78302B9135ABA0A6F8125CB241344214 * __this, const RuntimeMethod* method);
 // System.Void System.Collections.Generic.HashSet`1<System.Object>::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HashSet_1__ctor_mB30D7275D69D9EFB8C6645D8D4494778FF64AEE7_gshared (HashSet_1_tCB9A93E0664C5F2540DB06B45AEF3605389EFF8E * __this, const RuntimeMethod* method);
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HashSet_1__ctor_mD42210B24B60EF3FE585AC51F7D237FB59F8C1D7_gshared (HashSet_1_t725419BA457D845928B505ACE877FF46BC71E897 * __this, const RuntimeMethod* method);
 // System.Void System.EventHandler`1<System.Object>::.ctor(System.Object,System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EventHandler_1__ctor_m3D6B301FCEB48533990CFB2386DAAB091D357BAC_gshared (EventHandler_1_t10245A26B14DDE8DDFD5B263BDE0641F17DCFDC3 * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method);
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EventHandler_1__ctor_m2B63E0185E48A8399ABDEB01EBEA4EF5A05797DC_gshared (EventHandler_1_t10245A26B14DDE8DDFD5B263BDE0641F17DCFDC3 * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method);
 // System.Boolean System.Collections.Generic.HashSet`1<System.Object>::Add(!0)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool HashSet_1_Add_m263AF496E7EB4748C16C752FDFB519059869BA6A_gshared (HashSet_1_tCB9A93E0664C5F2540DB06B45AEF3605389EFF8E * __this, RuntimeObject * ___item0, const RuntimeMethod* method);
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool HashSet_1_Add_m263AF496E7EB4748C16C752FDFB519059869BA6A_gshared (HashSet_1_t725419BA457D845928B505ACE877FF46BC71E897 * __this, RuntimeObject * ___item0, const RuntimeMethod* method);
 // System.Void System.Action`2<System.Object,System.Object>::Invoke(!0,!1)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_2_Invoke_m1738FFAE74BE5E599FD42520FA2BEF69D1AC4709_gshared (Action_2_t0DB6FD6F515527EAB552B690A291778C6F00D48C * __this, RuntimeObject * ___arg10, RuntimeObject * ___arg21, const RuntimeMethod* method);
 // System.Void System.Collections.Generic.List`1<Admix.AdmixCore.WebViewDesktop.RejectHandler>::.ctor()
@@ -16375,7 +16375,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_1__ctor_mB44D3BFB2CE302899BAE9B48
 // System.Void Admix.AdmixCore.WebViewDesktop.Promises.EnumerableExt::Each<Admix.AdmixCore.WebViewDesktop.Promise/ResolveHandler>(System.Collections.Generic.IEnumerable`1<T>,System.Action`1<T>)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnumerableExt_Each_TisResolveHandler_t5C70784CA35B62B7642E23A9AE55884979BA0E0B_m1D6E753BED777CE716668EEA0B16B3D0EC20905B_gshared (RuntimeObject* ___source0, Action_1_t6AF6575E12BD475E3D2DABE9924D4C44C4CF63DF * ___fn1, const RuntimeMethod* method);
 // System.Boolean System.Collections.Generic.HashSet`1<System.Object>::Remove(!0)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool HashSet_1_Remove_m5E23D87996E72EB5D7B135B05E6697D62D3F7511_gshared (HashSet_1_tCB9A93E0664C5F2540DB06B45AEF3605389EFF8E * __this, RuntimeObject * ___item0, const RuntimeMethod* method);
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool HashSet_1_Remove_m5E23D87996E72EB5D7B135B05E6697D62D3F7511_gshared (HashSet_1_t725419BA457D845928B505ACE877FF46BC71E897 * __this, RuntimeObject * ___item0, const RuntimeMethod* method);
 // System.Void System.Func`1<System.Object>::.ctor(System.Object,System.IntPtr)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_1__ctor_mE02699FC76D830943069F8FC19D16C3B72A98A1F_gshared (Func_1_t59BE545225A69AFD7B2056D169D0083051F6D386 * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method);
 // !!0[] System.Linq.Enumerable::ToArray<System.Object>(System.Collections.Generic.IEnumerable`1<!!0>)
@@ -16444,7 +16444,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5C
 // !!0 UnityEngine.GameObject::AddComponent<Admix.AdmixCore.WebViewDesktop.ClickMeshBrowserUI>()
 inline ClickMeshBrowserUI_t52BE6DFB2B34858D650560FE1508300642D98633 * GameObject_AddComponent_TisClickMeshBrowserUI_t52BE6DFB2B34858D650560FE1508300642D98633_m21DC21644AF1A1EA695F32879C40A8A277C826FB (GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * __this, const RuntimeMethod* method)
 {
-	return ((  ClickMeshBrowserUI_t52BE6DFB2B34858D650560FE1508300642D98633 * (*) (GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F *, const RuntimeMethod*))GameObject_AddComponent_TisRuntimeObject_m80EDFEAC4927F588A7A702F81524EDBFA8603FE2_gshared)(__this, method);
+	return ((  ClickMeshBrowserUI_t52BE6DFB2B34858D650560FE1508300642D98633 * (*) (GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F *, const RuntimeMethod*))GameObject_AddComponent_TisRuntimeObject_mCB8164FB05F8DCF99E098ADC5E13E96FEF6FC4E9_gshared)(__this, method);
 }
 // System.Void Admix.AdmixCore.WebViewDesktop.BrowserCursor::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BrowserCursor__ctor_mEE10D0A46D95473AA897F7A9B8CD950E50F476BE (BrowserCursor_t230017C7DDFDC5C7445DE91AA74FF11A7D856454 * __this, const RuntimeMethod* method);
@@ -16776,7 +16776,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* TextAsset_get_text_mD3FBCD974CF552C
 // !!0 UnityEngine.GameObject::AddComponent<Admix.AdmixCore.WebViewDesktop.DialogHandler>()
 inline DialogHandler_tD600EF5CC275727101762AB8E3E82150CA5C9C65 * GameObject_AddComponent_TisDialogHandler_tD600EF5CC275727101762AB8E3E82150CA5C9C65_m4A8C339017DF6198543D7C99CDEC2498BEA7A4D5 (GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * __this, const RuntimeMethod* method)
 {
-	return ((  DialogHandler_tD600EF5CC275727101762AB8E3E82150CA5C9C65 * (*) (GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F *, const RuntimeMethod*))GameObject_AddComponent_TisRuntimeObject_m80EDFEAC4927F588A7A702F81524EDBFA8603FE2_gshared)(__this, method);
+	return ((  DialogHandler_tD600EF5CC275727101762AB8E3E82150CA5C9C65 * (*) (GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F *, const RuntimeMethod*))GameObject_AddComponent_TisRuntimeObject_mCB8164FB05F8DCF99E098ADC5E13E96FEF6FC4E9_gshared)(__this, method);
 }
 // System.Void Admix.AdmixCore.WebViewDesktop.Browser::set_UIHandler(Admix.AdmixCore.WebViewDesktop.IBrowserUI)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Browser_set_UIHandler_m72CF10A7266D919779E62C7F94ABAFF13D68D218 (Browser_tF6F53D58610FED81A27EC0416C30735077DE8416 * __this, RuntimeObject* ___value0, const RuntimeMethod* method);
@@ -16865,7 +16865,7 @@ inline FPSBrowserUI_t1D23E56C8C2A77B46414C009AAE8CA560C0FA49C * GameObject_GetCo
 // !!0 UnityEngine.GameObject::AddComponent<Admix.AdmixCore.WebViewDesktop.FPSBrowserUI>()
 inline FPSBrowserUI_t1D23E56C8C2A77B46414C009AAE8CA560C0FA49C * GameObject_AddComponent_TisFPSBrowserUI_t1D23E56C8C2A77B46414C009AAE8CA560C0FA49C_m75877A758759846E89CA75F8EA658448BE6F2857 (GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * __this, const RuntimeMethod* method)
 {
-	return ((  FPSBrowserUI_t1D23E56C8C2A77B46414C009AAE8CA560C0FA49C * (*) (GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F *, const RuntimeMethod*))GameObject_AddComponent_TisRuntimeObject_m80EDFEAC4927F588A7A702F81524EDBFA8603FE2_gshared)(__this, method);
+	return ((  FPSBrowserUI_t1D23E56C8C2A77B46414C009AAE8CA560C0FA49C * (*) (GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F *, const RuntimeMethod*))GameObject_AddComponent_TisRuntimeObject_mCB8164FB05F8DCF99E098ADC5E13E96FEF6FC4E9_gshared)(__this, method);
 }
 // UnityEngine.Vector3 UnityEngine.Transform::get_position()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  Transform_get_position_mF54C3A064F7C8E24F1C56EE128728B2E4485E294 (Transform_tBB9E78A2766C3C83599A8F66EDE7D1FCAFC66EDA * __this, const RuntimeMethod* method);
@@ -16889,7 +16889,7 @@ inline FPSCursorRenderer_t87D352F04EC8C201F7C4AEC1A6040864502E0886 * Object_Find
 // !!0 UnityEngine.GameObject::AddComponent<Admix.AdmixCore.WebViewDesktop.FPSCursorRenderer>()
 inline FPSCursorRenderer_t87D352F04EC8C201F7C4AEC1A6040864502E0886 * GameObject_AddComponent_TisFPSCursorRenderer_t87D352F04EC8C201F7C4AEC1A6040864502E0886_mD37E62767EDCFE12BD9959F344DCE3BF25276EB6 (GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * __this, const RuntimeMethod* method)
 {
-	return ((  FPSCursorRenderer_t87D352F04EC8C201F7C4AEC1A6040864502E0886 * (*) (GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F *, const RuntimeMethod*))GameObject_AddComponent_TisRuntimeObject_m80EDFEAC4927F588A7A702F81524EDBFA8603FE2_gshared)(__this, method);
+	return ((  FPSCursorRenderer_t87D352F04EC8C201F7C4AEC1A6040864502E0886 * (*) (GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F *, const RuntimeMethod*))GameObject_AddComponent_TisRuntimeObject_mCB8164FB05F8DCF99E098ADC5E13E96FEF6FC4E9_gshared)(__this, method);
 }
 // Admix.AdmixCore.WebViewDesktop.FPSCursorRenderer Admix.AdmixCore.WebViewDesktop.FPSCursorRenderer::get_Instance()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR FPSCursorRenderer_t87D352F04EC8C201F7C4AEC1A6040864502E0886 * FPSCursorRenderer_get_Instance_m55317F23DF167A8E8BA1BD412DD5EE68A5FED557 (const RuntimeMethod* method);
@@ -17366,12 +17366,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR LayerMask_tBB9173D8B6939D476E67E849280AC9F4EC
 // System.Void System.Collections.Generic.HashSet`1<Admix.AdmixCore.WebViewDesktop.IPromiseInfo>::.ctor()
 inline void HashSet_1__ctor_m2F8BF923778F4944AD57100AD6704FCE26A88863 (HashSet_1_t6A43244C1E72A5DBECA8B20A594665D99C7665B5 * __this, const RuntimeMethod* method)
 {
-	((  void (*) (HashSet_1_t6A43244C1E72A5DBECA8B20A594665D99C7665B5 *, const RuntimeMethod*))HashSet_1__ctor_mB30D7275D69D9EFB8C6645D8D4494778FF64AEE7_gshared)(__this, method);
+	((  void (*) (HashSet_1_t6A43244C1E72A5DBECA8B20A594665D99C7665B5 *, const RuntimeMethod*))HashSet_1__ctor_mD42210B24B60EF3FE585AC51F7D237FB59F8C1D7_gshared)(__this, method);
 }
 // System.Void System.EventHandler`1<Admix.AdmixCore.WebViewDesktop.ExceptionEventArgs>::.ctor(System.Object,System.IntPtr)
 inline void EventHandler_1__ctor_m83682D9AFAD52F3957868DBB72F2603BFD589167 (EventHandler_1_tA40A604898974DEC73AFEC2B783DDA07BF193BB2 * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method)
 {
-	((  void (*) (EventHandler_1_tA40A604898974DEC73AFEC2B783DDA07BF193BB2 *, RuntimeObject *, intptr_t, const RuntimeMethod*))EventHandler_1__ctor_m3D6B301FCEB48533990CFB2386DAAB091D357BAC_gshared)(__this, ___object0, ___method1, method);
+	((  void (*) (EventHandler_1_tA40A604898974DEC73AFEC2B783DDA07BF193BB2 *, RuntimeObject *, intptr_t, const RuntimeMethod*))EventHandler_1__ctor_m2B63E0185E48A8399ABDEB01EBEA4EF5A05797DC_gshared)(__this, ___object0, ___method1, method);
 }
 // System.Void Admix.AdmixCore.WebViewDesktop.Promise::add_UnhandledException(System.EventHandler`1<Admix.AdmixCore.WebViewDesktop.ExceptionEventArgs>)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Promise_add_UnhandledException_mFB59538BF4C66EA62E82B48C1D92003523C49AF2 (EventHandler_1_tA40A604898974DEC73AFEC2B783DDA07BF193BB2 * ___value0, const RuntimeMethod* method);
@@ -17622,7 +17622,7 @@ inline void List_1__ctor_m6A641145AD666AD6495AFBE05D855AD2882F4EC1 (List_1_t99CE
 // !!0 UnityEngine.GameObject::AddComponent<Admix.AdmixCore.WebViewDesktop.StandaloneShutdown>()
 inline StandaloneShutdown_t31B66995A888624AC3B6D62941834929BE8E7B5B * GameObject_AddComponent_TisStandaloneShutdown_t31B66995A888624AC3B6D62941834929BE8E7B5B_mE7F265FC1D72EBDBAE59C7A58FC097B6FB615F00 (GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * __this, const RuntimeMethod* method)
 {
-	return ((  StandaloneShutdown_t31B66995A888624AC3B6D62941834929BE8E7B5B * (*) (GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F *, const RuntimeMethod*))GameObject_AddComponent_TisRuntimeObject_m80EDFEAC4927F588A7A702F81524EDBFA8603FE2_gshared)(__this, method);
+	return ((  StandaloneShutdown_t31B66995A888624AC3B6D62941834929BE8E7B5B * (*) (GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F *, const RuntimeMethod*))GameObject_AddComponent_TisRuntimeObject_mCB8164FB05F8DCF99E098ADC5E13E96FEF6FC4E9_gshared)(__this, method);
 }
 // System.Void UnityEngine.Object::DontDestroyOnLoad(UnityEngine.Object)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object_DontDestroyOnLoad_m4DC90770AD6084E4B1B8489C6B41205DC020C207 (Object_tAE11E5E46CD5C37C9F3E8950C00CD8B45666A2D0 * ___target0, const RuntimeMethod* method);

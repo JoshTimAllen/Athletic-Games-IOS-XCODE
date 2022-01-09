@@ -1447,7 +1447,7 @@ IL2CPP_EXTERN_C const RuntimeMethod* Action_1__ctor_m36BDDA4161961F2E9C6B8A2AA17
 IL2CPP_EXTERN_C const RuntimeMethod* Action_1__ctor_m7A4CE9EE6E8532AAA3C2DE9DDBD5267F85CABE76_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Action_1__ctor_m92D3B674D6499A58FCB534DF98AFBB466913F1FC_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Action_1__ctor_mB16D62EB01476B28963CCEDE08E023AC83CBCF61_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Action_1__ctor_mD9D4E02AEE600236E03EBAB2449B68B482FAC69B_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Action_1__ctor_mE4BD6ADEAF94C2BE35AF863DB30FA28DBBF2BEA9_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Action_2_Invoke_m7BF2A11FDFF034BCBDE90F10828EAB6A2518AA0B_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Action_2__ctor_mEFC1561EBD7FC25EA8BE2432665F9BA2BC798D49_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Builder_WithUpdatedPlayedTime_m01290CDB042C5EA0555746D5F88178F65CAA42AB_RuntimeMethod_var;
@@ -27076,7 +27076,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Dictionary_2__ctor_mB107519A19171860F08F
 // System.Void System.Collections.Generic.List`1<UnityEngine.Color>::Add(!0)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void List_1_Add_m00234E3A8CBBD2118C5149D6AEDCB9D69371D57C_gshared (List_1_tE764D8284FBBC30DF782E1D0A32E5BB67A8C6E86 * __this, Color_t119BCA590009762C7223FDD3AF9706653AC84ED2  ___item0, const RuntimeMethod* method);
 // !!0[] UnityEngine.GameObject::GetComponentsInChildren<System.Object>()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ObjectU5BU5D_t3C9242B5C88A48B2A5BD9FDA6CD0024E792AF08A* GameObject_GetComponentsInChildren_TisRuntimeObject_mF6284FE6B77A126095C692AA4FAC2A7748448AFA_gshared (GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * __this, const RuntimeMethod* method);
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ObjectU5BU5D_t3C9242B5C88A48B2A5BD9FDA6CD0024E792AF08A* GameObject_GetComponentsInChildren_TisRuntimeObject_m615406921CD720805AC5F99C672532A31C81D1C7_gshared (GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * __this, const RuntimeMethod* method);
 // System.Void System.Collections.Generic.List`1<System.Object>::Add(!0)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void List_1_Add_m6930161974C7504C80F52EC379EF012387D43138_gshared (List_1_t05CC3C859AB5E6024394EF9A42E3E696628CA02D * __this, RuntimeObject * ___item0, const RuntimeMethod* method);
 // System.Void System.Collections.Generic.List`1<PB_Data>::.ctor()
@@ -27735,7 +27735,7 @@ inline void List_1_Add_m00234E3A8CBBD2118C5149D6AEDCB9D69371D57C (List_1_tE764D8
 // !!0[] UnityEngine.GameObject::GetComponentsInChildren<FaceShapeSelecter>()
 inline FaceShapeSelecterU5BU5D_t2A7077017F1645779B555E62DDB9EFBB83FABC4B* GameObject_GetComponentsInChildren_TisFaceShapeSelecter_t8A1558D89BD89223976C11F6F9E798A4DB4A16CD_m647DC6928ACD69302E2FD02F918F582458E5B329 (GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * __this, const RuntimeMethod* method)
 {
-	return ((  FaceShapeSelecterU5BU5D_t2A7077017F1645779B555E62DDB9EFBB83FABC4B* (*) (GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F *, const RuntimeMethod*))GameObject_GetComponentsInChildren_TisRuntimeObject_mF6284FE6B77A126095C692AA4FAC2A7748448AFA_gshared)(__this, method);
+	return ((  FaceShapeSelecterU5BU5D_t2A7077017F1645779B555E62DDB9EFBB83FABC4B* (*) (GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F *, const RuntimeMethod*))GameObject_GetComponentsInChildren_TisRuntimeObject_m615406921CD720805AC5F99C672532A31C81D1C7_gshared)(__this, method);
 }
 // UnityEngine.Transform UnityEngine.Component::get_transform()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tBB9E78A2766C3C83599A8F66EDE7D1FCAFC66EDA * Component_get_transform_m00F05BD782F920C301A7EBA480F3B7A904C07EC9 (Component_t05064EF382ABCAF4B8C94F8A350EA85184C26621 * __this, const RuntimeMethod* method);
@@ -28299,7 +28299,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* PlayerPrefs_GetString_m3031AD2D5DEA
 // System.Void UnityEngine.PlayerPrefs::SetString(System.String,System.String)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerPrefs_SetString_m7AC4E332A5DCA04E0AD91544AF836744BA8C2583 (String_t* ___key0, String_t* ___value1, const RuntimeMethod* method);
 // System.Void System.Action`1<System.String>::.ctor(System.Object,System.IntPtr)
-inline void Action_1__ctor_mD9D4E02AEE600236E03EBAB2449B68B482FAC69B (Action_1_t32A9EECF5D4397CC1B9A7C7079870875411B06D0 * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method)
+inline void Action_1__ctor_mE4BD6ADEAF94C2BE35AF863DB30FA28DBBF2BEA9 (Action_1_t32A9EECF5D4397CC1B9A7C7079870875411B06D0 * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method)
 {
 	((  void (*) (Action_1_t32A9EECF5D4397CC1B9A7C7079870875411B06D0 *, RuntimeObject *, intptr_t, const RuntimeMethod*))Action_1__ctor_mAFC7442D9D3CEC6701C3C5599F8CF12476095510_gshared)(__this, ___object0, ___method1, method);
 }
@@ -41519,7 +41519,7 @@ IL_0025:
 	{
 		// Application.deepLinkActivated += OnDeepLink;
 		Action_1_t32A9EECF5D4397CC1B9A7C7079870875411B06D0 * L_2 = (Action_1_t32A9EECF5D4397CC1B9A7C7079870875411B06D0 *)il2cpp_codegen_object_new(Action_1_t32A9EECF5D4397CC1B9A7C7079870875411B06D0_il2cpp_TypeInfo_var);
-		Action_1__ctor_mD9D4E02AEE600236E03EBAB2449B68B482FAC69B(L_2, __this, (intptr_t)((intptr_t)GameManager_OnDeepLink_mE328E8506DC439E1934FA89AFCF123643BD0EC42_RuntimeMethod_var), /*hidden argument*/Action_1__ctor_mD9D4E02AEE600236E03EBAB2449B68B482FAC69B_RuntimeMethod_var);
+		Action_1__ctor_mE4BD6ADEAF94C2BE35AF863DB30FA28DBBF2BEA9(L_2, __this, (intptr_t)((intptr_t)GameManager_OnDeepLink_mE328E8506DC439E1934FA89AFCF123643BD0EC42_RuntimeMethod_var), /*hidden argument*/Action_1__ctor_mE4BD6ADEAF94C2BE35AF863DB30FA28DBBF2BEA9_RuntimeMethod_var);
 		Application_add_deepLinkActivated_m8EDC8B392F5B5DBCDC0AB835A316739F07DC55ED(L_2, /*hidden argument*/NULL);
 		// if (Instance == null) {
 		GameManager_tAC830B937D5E37F47803FE8AB44CAB0762B77B89 * L_3 = GameManager_get_Instance_m1284638729202F71BCEC9B4E82E81E0C0232B97F_inline(/*hidden argument*/NULL);

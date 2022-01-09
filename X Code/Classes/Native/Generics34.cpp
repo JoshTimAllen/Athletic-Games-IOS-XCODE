@@ -111,7 +111,7 @@ struct IEnumerable_1_t338141662FDBAE130C4DF7116FDC714ED2C61C7A;
 // System.Collections.Generic.IEnumerable`1<System.Collections.Generic.KeyValuePair`2<System.Object,UnityEngine.InputSystem.Utilities.JsonParser/JsonValue>>
 struct IEnumerable_1_t3167D694A6F1433087E8AD1635EC2A39577FBC67;
 // System.Collections.Generic.IEnumerable`1<System.Int32Enum>
-struct IEnumerable_1_tD9DB2F44F492B8C680867FC3F119FDA8C9CD38E1;
+struct IEnumerable_1_tC56EA0BB546ECE3A0AD91B9C58C7ADD73A2C255C;
 // System.Collections.Generic.IEnumerable`1<System.Object>
 struct IEnumerable_1_t2F75FCBEC68AFE08982DA43985F9D04056E2BE73;
 // System.Collections.Generic.IEnumerable`1<UnityEngine.InputSystem.Layouts.InputControlLayout/ControlItem>

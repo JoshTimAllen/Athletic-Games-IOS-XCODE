@@ -145,7 +145,7 @@ struct IEnumerable_1_tC169E14DEC2F60FBFEC46F49B100555B007CE5A6;
 // System.Collections.Generic.IEnumerable`1<System.Int32>
 struct IEnumerable_1_tC8E2D23A5937714ABB338DF7C65563ABED65CF05;
 // System.Collections.Generic.IEnumerable`1<System.Int32Enum>
-struct IEnumerable_1_tD9DB2F44F492B8C680867FC3F119FDA8C9CD38E1;
+struct IEnumerable_1_tC56EA0BB546ECE3A0AD91B9C58C7ADD73A2C255C;
 // System.Collections.Generic.IEnumerable`1<System.Int64>
 struct IEnumerable_1_t2F2484A250796B4908E54C6DDE429BF5AE5F5E8A;
 // System.Collections.Generic.IEnumerable`1<System.Net.NetworkInformation.Win32_IP_ADAPTER_ADDRESSES>

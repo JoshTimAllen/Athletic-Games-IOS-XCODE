@@ -159,7 +159,7 @@ struct KeyCollection_t7C3E14B3ACCFBC78CF5EA6892BAD3C785E4BC919;
 // System.Collections.Generic.Dictionary`2/KeyCollection<System.Object,MS.Internal.Xml.Cache.XPathNodeRef>
 struct KeyCollection_tF0D01A53194FBA594D8605BAFC1CBAF20CFBA160;
 // System.Collections.Generic.Dictionary`2/KeyCollection<System.Object,System.Boolean>
-struct KeyCollection_tA083915A612B5588E3BE3253D7927C86B0242270;
+struct KeyCollection_t35BBEE4BF6694D7EEF3D286B6F9A808FD797F93F;
 // System.Collections.Generic.Dictionary`2/KeyCollection<System.Object,System.Int32>
 struct KeyCollection_tEECFF3D52DBAFA05FAD1589D36F0A8EEF9E2670E;
 // System.Collections.Generic.Dictionary`2/KeyCollection<System.Object,System.Int32Enum>
@@ -3557,7 +3557,7 @@ public:
 	// System.Collections.Generic.IEqualityComparer`1<TKey> System.Collections.Generic.Dictionary`2::comparer
 	RuntimeObject* ___comparer_6;
 	// System.Collections.Generic.Dictionary`2/KeyCollection<TKey,TValue> System.Collections.Generic.Dictionary`2::keys
-	KeyCollection_tA083915A612B5588E3BE3253D7927C86B0242270 * ___keys_7;
+	KeyCollection_t35BBEE4BF6694D7EEF3D286B6F9A808FD797F93F * ___keys_7;
 	// System.Collections.Generic.Dictionary`2/ValueCollection<TKey,TValue> System.Collections.Generic.Dictionary`2::values
 	ValueCollection_t4B2E092EE9A4E61506400C34FE1B5325E692E7E1 * ___values_8;
 	// System.Object System.Collections.Generic.Dictionary`2::_syncRoot
@@ -3624,9 +3624,9 @@ public:
 	}
 
 	inline static int32_t get_offset_of_keys_7() { return static_cast<int32_t>(offsetof(Dictionary_2_t67B76EE53FF18810AB6822EF82D44ADD0E707F21, ___keys_7)); }
-	inline KeyCollection_tA083915A612B5588E3BE3253D7927C86B0242270 * get_keys_7() const { return ___keys_7; }
-	inline KeyCollection_tA083915A612B5588E3BE3253D7927C86B0242270 ** get_address_of_keys_7() { return &___keys_7; }
-	inline void set_keys_7(KeyCollection_tA083915A612B5588E3BE3253D7927C86B0242270 * value)
+	inline KeyCollection_t35BBEE4BF6694D7EEF3D286B6F9A808FD797F93F * get_keys_7() const { return ___keys_7; }
+	inline KeyCollection_t35BBEE4BF6694D7EEF3D286B6F9A808FD797F93F ** get_address_of_keys_7() { return &___keys_7; }
+	inline void set_keys_7(KeyCollection_t35BBEE4BF6694D7EEF3D286B6F9A808FD797F93F * value)
 	{
 		___keys_7 = value;
 		Il2CppCodeGenWriteBarrier((void**)(&___keys_7), (void*)value);

@@ -97,7 +97,7 @@ struct InterfaceActionInvoker0
 // System.Action
 struct Action_t591D2A86165F896B4B800BB5C25CE18672A55579;
 // System.Action[]
-struct ActionU5BU5D_t3A8459FA8B62CBF2720A27FCE8B9896BBE353EF6;
+struct ActionU5BU5D_tBFE34E95F8D5EAA828CD01E01994E4574F55958B;
 // System.Action`1<System.Object>
 struct Action_1_t551A279CEADCF6EEAE8FA2B1E1E757D0D15290D0;
 // System.Action`1<System.Object>[]
@@ -157,7 +157,7 @@ struct Dictionary_2_tA5365FEC737601F9C5F7A0E8779B553E69D0A061;
 // System.Collections.Generic.Dictionary`2<UnityEngine.InputSystem.InputAction,UnityEngine.InputSystem.UI.InputSystemUIInputModule/InputActionReferenceState>
 struct Dictionary_2_tE567554AE1805C2FF8A89D65D4B5340B45B8AC36;
 // System.Collections.Generic.HashSet`1<System.String>
-struct HashSet_1_t7ED30EEB5279B4F7B38D343D0AF490E2296ACF61;
+struct HashSet_1_tC8214FEC830040D37F12A482FF0284D9C2B9001E;
 // System.Collections.Generic.IEnumerable`1<System.Object>
 struct IEnumerable_1_t2F75FCBEC68AFE08982DA43985F9D04056E2BE73;
 // System.Collections.Generic.IEnumerable`1<System.String>
@@ -3703,7 +3703,7 @@ public:
 	// TValue UnityEngine.InputSystem.Utilities.InlinedArray`1::firstValue
 	Action_t591D2A86165F896B4B800BB5C25CE18672A55579 * ___firstValue_1;
 	// TValue[] UnityEngine.InputSystem.Utilities.InlinedArray`1::additionalValues
-	ActionU5BU5D_t3A8459FA8B62CBF2720A27FCE8B9896BBE353EF6* ___additionalValues_2;
+	ActionU5BU5D_tBFE34E95F8D5EAA828CD01E01994E4574F55958B* ___additionalValues_2;
 
 public:
 	inline static int32_t get_offset_of_length_0() { return static_cast<int32_t>(offsetof(InlinedArray_1_tAC69E82172B25A5E8816F286DB22B09F616C2921, ___length_0)); }
@@ -3724,9 +3724,9 @@ public:
 	}
 
 	inline static int32_t get_offset_of_additionalValues_2() { return static_cast<int32_t>(offsetof(InlinedArray_1_tAC69E82172B25A5E8816F286DB22B09F616C2921, ___additionalValues_2)); }
-	inline ActionU5BU5D_t3A8459FA8B62CBF2720A27FCE8B9896BBE353EF6* get_additionalValues_2() const { return ___additionalValues_2; }
-	inline ActionU5BU5D_t3A8459FA8B62CBF2720A27FCE8B9896BBE353EF6** get_address_of_additionalValues_2() { return &___additionalValues_2; }
-	inline void set_additionalValues_2(ActionU5BU5D_t3A8459FA8B62CBF2720A27FCE8B9896BBE353EF6* value)
+	inline ActionU5BU5D_tBFE34E95F8D5EAA828CD01E01994E4574F55958B* get_additionalValues_2() const { return ___additionalValues_2; }
+	inline ActionU5BU5D_tBFE34E95F8D5EAA828CD01E01994E4574F55958B** get_address_of_additionalValues_2() { return &___additionalValues_2; }
+	inline void set_additionalValues_2(ActionU5BU5D_tBFE34E95F8D5EAA828CD01E01994E4574F55958B* value)
 	{
 		___additionalValues_2 = value;
 		Il2CppCodeGenWriteBarrier((void**)(&___additionalValues_2), (void*)value);
@@ -11313,7 +11313,7 @@ public:
 	// System.Boolean UnityEngine.InputSystem.InputSettings::m_DisableRedundantEventsMerging
 	bool ___m_DisableRedundantEventsMerging_21;
 	// System.Collections.Generic.HashSet`1<System.String> UnityEngine.InputSystem.InputSettings::m_FeatureFlags
-	HashSet_1_t7ED30EEB5279B4F7B38D343D0AF490E2296ACF61 * ___m_FeatureFlags_22;
+	HashSet_1_tC8214FEC830040D37F12A482FF0284D9C2B9001E * ___m_FeatureFlags_22;
 	// UnityEngine.InputSystem.InputSettings/iOSSettings UnityEngine.InputSystem.InputSettings::m_iOSSettings
 	iOSSettings_t2E1F0A006FE2BCDCA4F5C20E22D930E64509FAF1 * ___m_iOSSettings_24;
 
@@ -11464,9 +11464,9 @@ public:
 	}
 
 	inline static int32_t get_offset_of_m_FeatureFlags_22() { return static_cast<int32_t>(offsetof(InputSettings_t5A1C50A7CEC970EFA55322F929F105B562B598D1, ___m_FeatureFlags_22)); }
-	inline HashSet_1_t7ED30EEB5279B4F7B38D343D0AF490E2296ACF61 * get_m_FeatureFlags_22() const { return ___m_FeatureFlags_22; }
-	inline HashSet_1_t7ED30EEB5279B4F7B38D343D0AF490E2296ACF61 ** get_address_of_m_FeatureFlags_22() { return &___m_FeatureFlags_22; }
-	inline void set_m_FeatureFlags_22(HashSet_1_t7ED30EEB5279B4F7B38D343D0AF490E2296ACF61 * value)
+	inline HashSet_1_tC8214FEC830040D37F12A482FF0284D9C2B9001E * get_m_FeatureFlags_22() const { return ___m_FeatureFlags_22; }
+	inline HashSet_1_tC8214FEC830040D37F12A482FF0284D9C2B9001E ** get_address_of_m_FeatureFlags_22() { return &___m_FeatureFlags_22; }
+	inline void set_m_FeatureFlags_22(HashSet_1_tC8214FEC830040D37F12A482FF0284D9C2B9001E * value)
 	{
 		___m_FeatureFlags_22 = value;
 		Il2CppCodeGenWriteBarrier((void**)(&___m_FeatureFlags_22), (void*)value);
@@ -16416,7 +16416,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_tA85D2DD88578276CA8A8796756458277E72D
 // System.Void System.Nullable`1<System.Int32Enum>::.ctor(!0)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Nullable_1__ctor_m5C28B34DE8C6D3A1E136828428C71543A08B32D3_gshared (Nullable_1_tBCA4780CE8E9555A53CF0BA48AF742DA998C0833 * __this, int32_t ___value0, const RuntimeMethod* method);
 // System.Boolean System.Nullable`1<System.Int32Enum>::get_HasValue()
-IL2CPP_EXTERN_C inline IL2CPP_METHOD_ATTR bool Nullable_1_get_HasValue_m58742F2DBAEDAA6626C115F9E99209C8F4D8F195_gshared_inline (Nullable_1_tBCA4780CE8E9555A53CF0BA48AF742DA998C0833 * __this, const RuntimeMethod* method);
+IL2CPP_EXTERN_C inline IL2CPP_METHOD_ATTR bool Nullable_1_get_HasValue_mB0A6989529561627BBB65E6E4342DAA6549DD5A9_gshared_inline (Nullable_1_tBCA4780CE8E9555A53CF0BA48AF742DA998C0833 * __this, const RuntimeMethod* method);
 // System.Void UnityEngine.InputSystem.InputControlExtensions::CopyState<UnityEngine.InputSystem.LowLevel.MouseState>(UnityEngine.InputSystem.InputDevice,TState&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputControlExtensions_CopyState_TisMouseState_t1851FFAC4EEB59575D7CD6C9188C270DF8D8624A_m593B58A4D28AC58ABF322968D8D944CB8108B7D5_gshared (InputDevice_tA9668D66ACAA94A00CC8F3C51120290E5B38BDE2 * ___device0, MouseState_t1851FFAC4EEB59575D7CD6C9188C270DF8D8624A * ___state1, const RuntimeMethod* method);
 // !0 System.Nullable`1<System.Int32Enum>::get_Value()
@@ -17659,7 +17659,7 @@ inline void Nullable_1__ctor_m4FB6BA70D89DDFA85E3425E3EBC0ED73B15CF4DE (Nullable
 // System.Boolean System.Nullable`1<UnityEngine.InputSystem.LowLevel.MouseButton>::get_HasValue()
 inline bool Nullable_1_get_HasValue_m5CDB2A0C93F1D0FF492749F201DC2D7F4DF9731F_inline (Nullable_1_t3929071E806022639A0F13DBAF68E447C7A876A3 * __this, const RuntimeMethod* method)
 {
-	return ((  bool (*) (Nullable_1_t3929071E806022639A0F13DBAF68E447C7A876A3 *, const RuntimeMethod*))Nullable_1_get_HasValue_m58742F2DBAEDAA6626C115F9E99209C8F4D8F195_gshared_inline)(__this, method);
+	return ((  bool (*) (Nullable_1_t3929071E806022639A0F13DBAF68E447C7A876A3 *, const RuntimeMethod*))Nullable_1_get_HasValue_mB0A6989529561627BBB65E6E4342DAA6549DD5A9_gshared_inline)(__this, method);
 }
 // System.Boolean UnityEngine.InputSystem.InputControlExtensions::IsPressed(UnityEngine.InputSystem.InputControl,System.Single)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool InputControlExtensions_IsPressed_m48805C44F8B1FD1346F46CE640EF02B0427419C6 (InputControl_t47A04AE9EF9C62591014C146129548F12AADCE8E * ___control0, float ___buttonPressPoint1, const RuntimeMethod* method);
@@ -40044,7 +40044,7 @@ IL2CPP_EXTERN_C inline IL2CPP_METHOD_ATTR int32_t List_1_get_Count_m0EF7E7A65C2B
 		return (int32_t)L_0;
 	}
 }
-IL2CPP_EXTERN_C inline IL2CPP_METHOD_ATTR bool Nullable_1_get_HasValue_m58742F2DBAEDAA6626C115F9E99209C8F4D8F195_gshared_inline (Nullable_1_tBCA4780CE8E9555A53CF0BA48AF742DA998C0833 * __this, const RuntimeMethod* method)
+IL2CPP_EXTERN_C inline IL2CPP_METHOD_ATTR bool Nullable_1_get_HasValue_mB0A6989529561627BBB65E6E4342DAA6549DD5A9_gshared_inline (Nullable_1_tBCA4780CE8E9555A53CF0BA48AF742DA998C0833 * __this, const RuntimeMethod* method)
 {
 	{
 		bool L_0 = (bool)__this->get_has_value_1();

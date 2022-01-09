@@ -98,7 +98,7 @@ struct InterfaceActionInvoker1
 // System.Action
 struct Action_t591D2A86165F896B4B800BB5C25CE18672A55579;
 // System.Action[]
-struct ActionU5BU5D_t3A8459FA8B62CBF2720A27FCE8B9896BBE353EF6;
+struct ActionU5BU5D_tBFE34E95F8D5EAA828CD01E01994E4574F55958B;
 // System.Action`1<System.Object>
 struct Action_1_t551A279CEADCF6EEAE8FA2B1E1E757D0D15290D0;
 // System.Action`1<System.Object>[]
@@ -3868,7 +3868,7 @@ public:
 	// TValue UnityEngine.InputSystem.Utilities.InlinedArray`1::firstValue
 	Action_t591D2A86165F896B4B800BB5C25CE18672A55579 * ___firstValue_1;
 	// TValue[] UnityEngine.InputSystem.Utilities.InlinedArray`1::additionalValues
-	ActionU5BU5D_t3A8459FA8B62CBF2720A27FCE8B9896BBE353EF6* ___additionalValues_2;
+	ActionU5BU5D_tBFE34E95F8D5EAA828CD01E01994E4574F55958B* ___additionalValues_2;
 
 public:
 	inline static int32_t get_offset_of_length_0() { return static_cast<int32_t>(offsetof(InlinedArray_1_tAC69E82172B25A5E8816F286DB22B09F616C2921, ___length_0)); }
@@ -3889,9 +3889,9 @@ public:
 	}
 
 	inline static int32_t get_offset_of_additionalValues_2() { return static_cast<int32_t>(offsetof(InlinedArray_1_tAC69E82172B25A5E8816F286DB22B09F616C2921, ___additionalValues_2)); }
-	inline ActionU5BU5D_t3A8459FA8B62CBF2720A27FCE8B9896BBE353EF6* get_additionalValues_2() const { return ___additionalValues_2; }
-	inline ActionU5BU5D_t3A8459FA8B62CBF2720A27FCE8B9896BBE353EF6** get_address_of_additionalValues_2() { return &___additionalValues_2; }
-	inline void set_additionalValues_2(ActionU5BU5D_t3A8459FA8B62CBF2720A27FCE8B9896BBE353EF6* value)
+	inline ActionU5BU5D_tBFE34E95F8D5EAA828CD01E01994E4574F55958B* get_additionalValues_2() const { return ___additionalValues_2; }
+	inline ActionU5BU5D_tBFE34E95F8D5EAA828CD01E01994E4574F55958B** get_address_of_additionalValues_2() { return &___additionalValues_2; }
+	inline void set_additionalValues_2(ActionU5BU5D_tBFE34E95F8D5EAA828CD01E01994E4574F55958B* value)
 	{
 		___additionalValues_2 = value;
 		Il2CppCodeGenWriteBarrier((void**)(&___additionalValues_2), (void*)value);

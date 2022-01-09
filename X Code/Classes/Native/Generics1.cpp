@@ -425,7 +425,7 @@ struct SlotU5BU5D_t3B7BECE61937D21CC1B3E820A2402F1635491C45;
 // System.Collections.Generic.HashSet`1<RSG.IPromiseInfo>
 struct HashSet_1_t465B54976E6B2F7DCE201637038F0BEAFD51A2E9;
 // System.Collections.Generic.HashSet`1<System.Object>
-struct HashSet_1_tCB9A93E0664C5F2540DB06B45AEF3605389EFF8E;
+struct HashSet_1_t725419BA457D845928B505ACE877FF46BC71E897;
 // System.Collections.Generic.IEnumerable`1<LinkConfig>
 struct IEnumerable_1_tD6BE8F601C44092357D57A0F1E49A38534146C9D;
 // System.Collections.Generic.IEnumerable`1<RSG.IPromise>
@@ -12439,7 +12439,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_1__ctor_m31BC390E2E0368C57885B41C
 // System.Void System.Action`1<System.Object>::.ctor(System.Object,System.IntPtr)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_1__ctor_mAFC7442D9D3CEC6701C3C5599F8CF12476095510_gshared (Action_1_t551A279CEADCF6EEAE8FA2B1E1E757D0D15290D0 * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method);
 // System.Boolean System.Collections.Generic.HashSet`1<System.Object>::Add(!0)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool HashSet_1_Add_m263AF496E7EB4748C16C752FDFB519059869BA6A_gshared (HashSet_1_tCB9A93E0664C5F2540DB06B45AEF3605389EFF8E * __this, RuntimeObject * ___item0, const RuntimeMethod* method);
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool HashSet_1_Add_m263AF496E7EB4748C16C752FDFB519059869BA6A_gshared (HashSet_1_t725419BA457D845928B505ACE877FF46BC71E897 * __this, RuntimeObject * ___item0, const RuntimeMethod* method);
 // System.Void System.Collections.Generic.List`1<RSG.RejectHandler>::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void List_1__ctor_mBEB0D8F8A60F8F8FCC8A11D9900B8C6480DCD729_gshared (List_1_tA6AA9E8CAA8AD5B3729F5BCC781E0E0B4A2E86A4 * __this, const RuntimeMethod* method);
 // System.Void System.Collections.Generic.List`1<RSG.RejectHandler>::Add(!0)
@@ -12463,7 +12463,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_1__ctor_mB7A2F3B5280784CAB436DAAE
 // System.Void RSG.Promises.EnumerableExt::Each<RSG.ProgressHandler>(System.Collections.Generic.IEnumerable`1<T>,System.Action`1<T>)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnumerableExt_Each_TisProgressHandler_tA34B259E48898EF6A919FA0CF9867DD073FC23CE_m83DC9C23BA235292A81F74E706658D4D7351FC9A_gshared (RuntimeObject* ___source0, Action_1_tAB2558C44AD1DEEFDDA3199162749BC71EE698DB * ___fn1, const RuntimeMethod* method);
 // System.Boolean System.Collections.Generic.HashSet`1<System.Object>::Remove(!0)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool HashSet_1_Remove_m5E23D87996E72EB5D7B135B05E6697D62D3F7511_gshared (HashSet_1_tCB9A93E0664C5F2540DB06B45AEF3605389EFF8E * __this, RuntimeObject * ___item0, const RuntimeMethod* method);
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool HashSet_1_Remove_m5E23D87996E72EB5D7B135B05E6697D62D3F7511_gshared (HashSet_1_t725419BA457D845928B505ACE877FF46BC71E897 * __this, RuntimeObject * ___item0, const RuntimeMethod* method);
 
 // System.Void System.Object::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object__ctor_m925ECA5E85CA100E3FB86A4F9E15C120E9A184C0 (RuntimeObject * __this, const RuntimeMethod* method);

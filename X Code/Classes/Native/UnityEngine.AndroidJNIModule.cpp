@@ -386,7 +386,6 @@ IL2CPP_EXTERN_C const uint32_t AndroidJavaObject_AndroidJavaObjectDeleteLocalRef
 IL2CPP_EXTERN_C const uint32_t AndroidJavaObject_DebugPrint_m88F06202527BA5A2848C1533C8B396702D112531_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t AndroidJavaObject_Dispose_m02D1B6D8F3E902E5F0D181BF6C1753856B0DE144_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t AndroidJavaObject__AndroidJavaObject_m596F928EE49384D7C7455920BA6ADFB2D9540CFA_MetadataUsageId;
-IL2CPP_EXTERN_C const uint32_t AndroidJavaObject__CallStatic_mDDE1F0098B08896C3FCB5149B637D4C21E5D2654_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t AndroidJavaObject__Call_mD482F487B0DCC6DA4A7DDB8F9F7EE34BA1CEC1C4_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t AndroidJavaObject__cctor_m46EF3B9E61C141E07E12762F96F777EA8D1A4629_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t AndroidJavaObject__ctor_m22E1E2E5D9F3DA31FF7DFB1339AD3BB0C3813E80_MetadataUsageId;
@@ -3135,8 +3134,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidJavaObject__AndroidJavaObject_m59
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GC_SuppressFinalize_m037319A9B95A5BA437E806DE592802225EE5B425 (RuntimeObject * ___obj0, const RuntimeMethod* method);
 // System.Void UnityEngine.AndroidJavaObject::_Call(System.String,System.Object[])
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidJavaObject__Call_mD482F487B0DCC6DA4A7DDB8F9F7EE34BA1CEC1C4 (AndroidJavaObject_t31F4DD4D4523A77B8AF16FE422B7426248E3093D * __this, String_t* ___methodName0, ObjectU5BU5D_t3C9242B5C88A48B2A5BD9FDA6CD0024E792AF08A* ___args1, const RuntimeMethod* method);
-// System.Void UnityEngine.AndroidJavaObject::_CallStatic(System.String,System.Object[])
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidJavaObject__CallStatic_mDDE1F0098B08896C3FCB5149B637D4C21E5D2654 (AndroidJavaObject_t31F4DD4D4523A77B8AF16FE422B7426248E3093D * __this, String_t* ___methodName0, ObjectU5BU5D_t3C9242B5C88A48B2A5BD9FDA6CD0024E792AF08A* ___args1, const RuntimeMethod* method);
 // System.IntPtr UnityEngine.AndroidJavaObject::_GetRawObject()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AndroidJavaObject__GetRawObject_m4B415E770E265AE32F5523DF0E627626F77E572F (AndroidJavaObject_t31F4DD4D4523A77B8AF16FE422B7426248E3093D * __this, const RuntimeMethod* method);
 // System.IntPtr UnityEngine.AndroidJavaObject::_GetRawClass()
@@ -3165,8 +3162,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GlobalJavaObjectRef_Dispose_mDCFD34D040E
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AndroidJNIHelper_GetMethodID_mBC89CE8CAA4D1898E0B32F3B1055A81DA85A937B (intptr_t ___jclass0, String_t* ___methodName1, ObjectU5BU5D_t3C9242B5C88A48B2A5BD9FDA6CD0024E792AF08A* ___args2, bool ___isStatic3, const RuntimeMethod* method);
 // System.Void UnityEngine.AndroidJNISafe::CallVoidMethod(System.IntPtr,System.IntPtr,UnityEngine.jvalue[])
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidJNISafe_CallVoidMethod_m4B8A11EC23BE58F929D9A72D9D44F88CBC191686 (intptr_t ___obj0, intptr_t ___methodID1, jvalueU5BU5D_t9AA52DD48CAF5296AE8A2F758A488A2B14B820E3* ___args2, const RuntimeMethod* method);
-// System.Void UnityEngine.AndroidJNISafe::CallStaticVoidMethod(System.IntPtr,System.IntPtr,UnityEngine.jvalue[])
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidJNISafe_CallStaticVoidMethod_mC0BC9FA7E2FB69027E1F55E8810C6F619BCD7D59 (intptr_t ___clazz0, intptr_t ___methodID1, jvalueU5BU5D_t9AA52DD48CAF5296AE8A2F758A488A2B14B820E3* ___args2, const RuntimeMethod* method);
 // System.Void UnityEngine.AndroidJavaObject::.ctor(System.IntPtr)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidJavaObject__ctor_m22E1E2E5D9F3DA31FF7DFB1339AD3BB0C3813E80 (AndroidJavaObject_t31F4DD4D4523A77B8AF16FE422B7426248E3093D * __this, intptr_t ___jobject0, const RuntimeMethod* method);
 // System.Void UnityEngine.AndroidJavaClass::.ctor(System.IntPtr)
@@ -3231,6 +3226,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AndroidJNISafe_CallObjectMethod_m4E9
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AndroidJNISafe_CallStaticStringMethod_mBB43D0D0B7D7ED48C90F9D9FF583A629DC40EBA3 (intptr_t ___clazz0, intptr_t ___methodID1, jvalueU5BU5D_t9AA52DD48CAF5296AE8A2F758A488A2B14B820E3* ___args2, const RuntimeMethod* method);
 // System.Int64 System.IntPtr::ToInt64()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t IntPtr_ToInt64_mDD00D5F4AD380F40D31B60E9C57843CC3C12BD6B (intptr_t* __this, const RuntimeMethod* method);
+// System.Void UnityEngine.AndroidJNISafe::CallStaticVoidMethod(System.IntPtr,System.IntPtr,UnityEngine.jvalue[])
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidJNISafe_CallStaticVoidMethod_mC0BC9FA7E2FB69027E1F55E8810C6F619BCD7D59 (intptr_t ___clazz0, intptr_t ___methodID1, jvalueU5BU5D_t9AA52DD48CAF5296AE8A2F758A488A2B14B820E3* ___args2, const RuntimeMethod* method);
 // System.IntPtr UnityEngine.AndroidReflection::GetStaticMethodID(System.String,System.String,System.String)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AndroidReflection_GetStaticMethodID_m1D6770C9A0BC1AA47FDA330B92743324C0441B29 (String_t* ___clazz0, String_t* ___methodName1, String_t* ___signature2, const RuntimeMethod* method);
 // System.IntPtr UnityEngine.AndroidReflection::GetMethodID(System.String,System.String,System.String)
@@ -8248,16 +8245,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidJavaObject_Call_m0FEBE4E59445D852
 		return;
 	}
 }
-// System.Void UnityEngine.AndroidJavaObject::CallStatic(System.String,System.Object[])
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidJavaObject_CallStatic_m12D78F5584C63F5D8B2344CBA8611EFBDDA669AF (AndroidJavaObject_t31F4DD4D4523A77B8AF16FE422B7426248E3093D * __this, String_t* ___methodName0, ObjectU5BU5D_t3C9242B5C88A48B2A5BD9FDA6CD0024E792AF08A* ___args1, const RuntimeMethod* method)
-{
-	{
-		String_t* L_0 = ___methodName0;
-		ObjectU5BU5D_t3C9242B5C88A48B2A5BD9FDA6CD0024E792AF08A* L_1 = ___args1;
-		AndroidJavaObject__CallStatic_mDDE1F0098B08896C3FCB5149B637D4C21E5D2654(__this, L_0, L_1, /*hidden argument*/NULL);
-		return;
-	}
-}
 // System.IntPtr UnityEngine.AndroidJavaObject::GetRawObject()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AndroidJavaObject_GetRawObject_mCEB7EEC51D62A3E4F0D6F62C08CBEF008B556F3D (AndroidJavaObject_t31F4DD4D4523A77B8AF16FE422B7426248E3093D * __this, const RuntimeMethod* method)
 {
@@ -8627,87 +8614,6 @@ IL_002c:
 		intptr_t L_12 = V_0;
 		jvalueU5BU5D_t9AA52DD48CAF5296AE8A2F758A488A2B14B820E3* L_13 = V_1;
 		AndroidJNISafe_CallVoidMethod_m4B8A11EC23BE58F929D9A72D9D44F88CBC191686((intptr_t)L_11, (intptr_t)L_12, L_13, /*hidden argument*/NULL);
-		IL2CPP_LEAVE(0x4E, FINALLY_0043);
-	} // end try (depth: 1)
-	catch(Il2CppExceptionWrapper& e)
-	{
-		__last_unhandled_exception = (Exception_t *)e.ex;
-		goto FINALLY_0043;
-	}
-
-FINALLY_0043:
-	{ // begin finally (depth: 1)
-		ObjectU5BU5D_t3C9242B5C88A48B2A5BD9FDA6CD0024E792AF08A* L_14 = ___args1;
-		jvalueU5BU5D_t9AA52DD48CAF5296AE8A2F758A488A2B14B820E3* L_15 = V_1;
-		AndroidJNIHelper_DeleteJNIArgArray_mEDFD8275CF10A3E0777350597633378776673784(L_14, L_15, /*hidden argument*/NULL);
-		IL2CPP_END_FINALLY(67)
-	} // end finally (depth: 1)
-	IL2CPP_CLEANUP(67)
-	{
-		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t *)
-		IL2CPP_JUMP_TBL(0x4E, IL_004e)
-	}
-
-IL_004e:
-	{
-		return;
-	}
-}
-// System.Void UnityEngine.AndroidJavaObject::_CallStatic(System.String,System.Object[])
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidJavaObject__CallStatic_mDDE1F0098B08896C3FCB5149B637D4C21E5D2654 (AndroidJavaObject_t31F4DD4D4523A77B8AF16FE422B7426248E3093D * __this, String_t* ___methodName0, ObjectU5BU5D_t3C9242B5C88A48B2A5BD9FDA6CD0024E792AF08A* ___args1, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (AndroidJavaObject__CallStatic_mDDE1F0098B08896C3FCB5149B637D4C21E5D2654_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	intptr_t V_0;
-	memset((&V_0), 0, sizeof(V_0));
-	jvalueU5BU5D_t9AA52DD48CAF5296AE8A2F758A488A2B14B820E3* V_1 = NULL;
-	bool V_2 = false;
-	Exception_t * __last_unhandled_exception = 0;
-	NO_UNUSED_WARNING (__last_unhandled_exception);
-	Exception_t * __exception_local = 0;
-	NO_UNUSED_WARNING (__exception_local);
-	void* __leave_targets_storage = alloca(sizeof(int32_t) * 1);
-	il2cpp::utils::LeaveTargetStack __leave_targets(__leave_targets_storage);
-	NO_UNUSED_WARNING (__leave_targets);
-	{
-		ObjectU5BU5D_t3C9242B5C88A48B2A5BD9FDA6CD0024E792AF08A* L_0 = ___args1;
-		V_2 = (bool)((((RuntimeObject*)(ObjectU5BU5D_t3C9242B5C88A48B2A5BD9FDA6CD0024E792AF08A*)L_0) == ((RuntimeObject*)(RuntimeObject *)NULL))? 1 : 0);
-		bool L_1 = V_2;
-		if (!L_1)
-		{
-			goto IL_0011;
-		}
-	}
-	{
-		ObjectU5BU5D_t3C9242B5C88A48B2A5BD9FDA6CD0024E792AF08A* L_2 = (ObjectU5BU5D_t3C9242B5C88A48B2A5BD9FDA6CD0024E792AF08A*)(ObjectU5BU5D_t3C9242B5C88A48B2A5BD9FDA6CD0024E792AF08A*)SZArrayNew(ObjectU5BU5D_t3C9242B5C88A48B2A5BD9FDA6CD0024E792AF08A_il2cpp_TypeInfo_var, (uint32_t)1);
-		___args1 = L_2;
-	}
-
-IL_0011:
-	{
-		GlobalJavaObjectRef_t2B9FA8DBBC53F0C0E0B57ACDC0FA9967CFB22DD0 * L_3 = __this->get_m_jclass_2();
-		intptr_t L_4 = GlobalJavaObjectRef_op_Implicit_m1F52DE72C8F8B11E651F8B31879ED5AFD413EDFF(L_3, /*hidden argument*/NULL);
-		String_t* L_5 = ___methodName0;
-		ObjectU5BU5D_t3C9242B5C88A48B2A5BD9FDA6CD0024E792AF08A* L_6 = ___args1;
-		intptr_t L_7 = AndroidJNIHelper_GetMethodID_mBC89CE8CAA4D1898E0B32F3B1055A81DA85A937B((intptr_t)L_4, L_5, L_6, (bool)1, /*hidden argument*/NULL);
-		V_0 = (intptr_t)L_7;
-		ObjectU5BU5D_t3C9242B5C88A48B2A5BD9FDA6CD0024E792AF08A* L_8 = ___args1;
-		jvalueU5BU5D_t9AA52DD48CAF5296AE8A2F758A488A2B14B820E3* L_9 = AndroidJNIHelper_CreateJNIArgArray_mAA5972FD580D58FA3D30B4E97B9837B439231F34(L_8, /*hidden argument*/NULL);
-		V_1 = L_9;
-	}
-
-IL_002c:
-	try
-	{ // begin try (depth: 1)
-		GlobalJavaObjectRef_t2B9FA8DBBC53F0C0E0B57ACDC0FA9967CFB22DD0 * L_10 = __this->get_m_jclass_2();
-		intptr_t L_11 = GlobalJavaObjectRef_op_Implicit_m1F52DE72C8F8B11E651F8B31879ED5AFD413EDFF(L_10, /*hidden argument*/NULL);
-		intptr_t L_12 = V_0;
-		jvalueU5BU5D_t9AA52DD48CAF5296AE8A2F758A488A2B14B820E3* L_13 = V_1;
-		AndroidJNISafe_CallStaticVoidMethod_mC0BC9FA7E2FB69027E1F55E8810C6F619BCD7D59((intptr_t)L_11, (intptr_t)L_12, L_13, /*hidden argument*/NULL);
 		IL2CPP_LEAVE(0x4E, FINALLY_0043);
 	} // end try (depth: 1)
 	catch(Il2CppExceptionWrapper& e)
