@@ -573,7 +573,7 @@ struct AthleteRegistrationDataU5BU5D_tF620332DB8D7ADE2B18DCEE739F0AAC82615D57E;
 // System.Action
 struct Action_tAF41423D285AE0862865348CF6CE51CD085ABBA6;
 // GoogleMobileAds.Api.AdRequest
-struct AdRequest_tA8E89BB13F960A31B86D8F49ED056E16C071A8A7;
+struct AdRequest_t2F1349A0C7189A7609F81197A2D4F80AAFB8AE88;
 // Ads
 struct Ads_t8DCCC8416DC818E87B92B88E0966AED5AA729A8F;
 // Animate
@@ -24251,7 +24251,7 @@ public:
 	// System.Single PlayerUI::savedTimeScale
 	float ___savedTimeScale_39;
 	// GoogleMobileAds.Api.AdRequest PlayerUI::bannerRequest
-	AdRequest_tA8E89BB13F960A31B86D8F49ED056E16C071A8A7 * ___bannerRequest_40;
+	AdRequest_t2F1349A0C7189A7609F81197A2D4F80AAFB8AE88 * ___bannerRequest_40;
 
 public:
 	inline static int32_t get_offset_of_root_4() { return static_cast<int32_t>(offsetof(PlayerUI_t0C1F7DD31D3A58DB302A4AD162998DFB62E34F73, ___root_4)); }
@@ -24576,9 +24576,9 @@ public:
 	}
 
 	inline static int32_t get_offset_of_bannerRequest_40() { return static_cast<int32_t>(offsetof(PlayerUI_t0C1F7DD31D3A58DB302A4AD162998DFB62E34F73, ___bannerRequest_40)); }
-	inline AdRequest_tA8E89BB13F960A31B86D8F49ED056E16C071A8A7 * get_bannerRequest_40() const { return ___bannerRequest_40; }
-	inline AdRequest_tA8E89BB13F960A31B86D8F49ED056E16C071A8A7 ** get_address_of_bannerRequest_40() { return &___bannerRequest_40; }
-	inline void set_bannerRequest_40(AdRequest_tA8E89BB13F960A31B86D8F49ED056E16C071A8A7 * value)
+	inline AdRequest_t2F1349A0C7189A7609F81197A2D4F80AAFB8AE88 * get_bannerRequest_40() const { return ___bannerRequest_40; }
+	inline AdRequest_t2F1349A0C7189A7609F81197A2D4F80AAFB8AE88 ** get_address_of_bannerRequest_40() { return &___bannerRequest_40; }
+	inline void set_bannerRequest_40(AdRequest_t2F1349A0C7189A7609F81197A2D4F80AAFB8AE88 * value)
 	{
 		___bannerRequest_40 = value;
 		Il2CppCodeGenWriteBarrier((void**)(&___bannerRequest_40), (void*)value);

@@ -118,7 +118,7 @@ struct Dictionary_2_tD7B56EDB7CAA4109FAE2750489A7C75C942E6895;
 // System.EventHandler`1<GoogleMobileAds.Api.AdFailedToLoadEventArgs>
 struct EventHandler_1_tCF3DEF2FE2FAEA15F20E235F1DE1EFFF670CAFCF;
 // System.EventHandler`1<GoogleMobileAds.Api.AdValueEventArgs>
-struct EventHandler_1_t6A9E5D0397FFF074250E6741C8F3D36C5381659D;
+struct EventHandler_1_tF65965FE6AE505F8C2D36014F3DBB28F6CE13A0B;
 // System.EventHandler`1<System.EventArgs>
 struct EventHandler_1_tA707D618BF8F29DB61DFD553B055AE4E516C1722;
 // System.Func`1<System.Single>
@@ -200,7 +200,7 @@ struct List_1_t8969583B489B5590DADEB4D1AA1756A97EBD104D;
 // System.Collections.Generic.List`1<UnityEngine.Material>
 struct List_1_t434825DCF3B4911FA61F9B2A235567430BDDD9F4;
 // System.Collections.Generic.List`1<GoogleMobileAds.Api.Mediation.MediationExtras>
-struct List_1_tC8496B7BE5B23F09C18A35866D6634D824FD694E;
+struct List_1_t50C0B8B75CFA60A3BC928889704474AE375F3DA2;
 // System.Collections.Generic.List`1<LiteNetLib.NetPeer>
 struct List_1_tA0AE79E99C04F71CA6BC030ED3EB474B9E42AE89;
 // System.Collections.Generic.List`1<System.Object>
@@ -386,9 +386,9 @@ struct AthleteRegistrationDataU5BU5D_tF620332DB8D7ADE2B18DCEE739F0AAC82615D57E;
 // System.Action
 struct Action_tAF41423D285AE0862865348CF6CE51CD085ABBA6;
 // GoogleMobileAds.Api.AdRequest
-struct AdRequest_tA8E89BB13F960A31B86D8F49ED056E16C071A8A7;
+struct AdRequest_t2F1349A0C7189A7609F81197A2D4F80AAFB8AE88;
 // GoogleMobileAds.Api.AdSize
-struct AdSize_t5D85E5A6EBA1D66E2F1B1FCA33C529E16AFDE998;
+struct AdSize_t008EA5266A0D6B144216E2EBBCE5E2B6A1CAB95D;
 // Ads
 struct Ads_t8DCCC8416DC818E87B92B88E0966AED5AA729A8F;
 // AllItems
@@ -496,7 +496,7 @@ struct HurdleManager_t96863F9DB8EEEDA4866024756610ACB72BC058E4;
 // System.IAsyncResult
 struct IAsyncResult_tC9F97BF36FCF122D29D3101D80642278297BF370;
 // GoogleMobileAds.Common.IBannerClient
-struct IBannerClient_tE7282EF194166D55229198CFC9C30D05CBF76F2B;
+struct IBannerClient_tCAE3C9BE9900F961A8DC37F11DC13B4A96D263B0;
 // LiteNetLib.IDeliveryEventListener
 struct IDeliveryEventListener_tC0FB86D65782261F246567D525A63D5650F4E96C;
 // System.Collections.IDictionary
@@ -754,7 +754,7 @@ struct Void_t700C6383A2A510C2CF4DD86DABD5CA9FF70ADAC5;
 // UnityEngine.WaitForSecondsRealtime
 struct WaitForSecondsRealtime_t04F2884A9814C3E4E415E788AFE56B5928577C40;
 // GoogleMobileAds.Api.AdRequest/Builder
-struct Builder_t5FB78639500AE3F0ECA378CB9739728D8CE41FC3;
+struct Builder_tDEC3EA9C2617E6B676AF0ABED231D4FDB2B2434C;
 // UnityEngine.UI.Button/ButtonClickedEvent
 struct ButtonClickedEvent_tE6D6D94ED8100451CF00D2BED1FB2253F37BB14F;
 // Finish/Finished
@@ -869,7 +869,7 @@ IL2CPP_EXTERN_C RuntimeClass* Action_2_t79DDE9574D9617D45608CD1822088B4EEC1D3766
 IL2CPP_EXTERN_C RuntimeClass* Action_2_tC5DC4557F02409048CC6B84ED4F9D8F7F4DB4866_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Action_2_tEAEF8572B7E84EE5B7507B5BAFD24D2E9B875E17_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Action_tAF41423D285AE0862865348CF6CE51CD085ABBA6_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* AdSize_t5D85E5A6EBA1D66E2F1B1FCA33C529E16AFDE998_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* AdSize_t008EA5266A0D6B144216E2EBBCE5E2B6A1CAB95D_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Ads_t8DCCC8416DC818E87B92B88E0966AED5AA729A8F_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* AllItems_tDD1999BF1D075F4D753159EDA8635D5AAE9983A2_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* ArgumentNullException_tFB5C4621957BC53A7D1B4FDD5C38B4D6E15DB8FB_il2cpp_TypeInfo_var;
@@ -879,7 +879,7 @@ IL2CPP_EXTERN_C RuntimeClass* AthleteLoadout_t172012291A6013DBFABFEF56101F83C398
 IL2CPP_EXTERN_C RuntimeClass* BannerView_tF8E40603F2B65ED257DB1A29BE3FE190AD13C737_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Boolean_t07D1E3F34E4813023D64F584DFF7B34C9D922F37_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* BotCentralStuff_t1FAC5F1C41886969288BAC8339970EB98F8FE14F_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* Builder_t5FB78639500AE3F0ECA378CB9739728D8CE41FC3_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Builder_tDEC3EA9C2617E6B676AF0ABED231D4FDB2B2434C_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* CameraFollow_tC9B62E254DA1376073E7B793597F9D6CD2A82DF8_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Client_t8953F633032099609444F417EEFFBED62649CECB_il2cpp_TypeInfo_var;
@@ -3412,6 +3412,47 @@ public:
 };
 
 
+// GoogleMobileAds.Api.AdRequest
+struct AdRequest_t2F1349A0C7189A7609F81197A2D4F80AAFB8AE88  : public RuntimeObject
+{
+public:
+	// System.Collections.Generic.HashSet`1<System.String> GoogleMobileAds.Api.AdRequest::<Keywords>k__BackingField
+	HashSet_1_t45F75268054D01D9E70EB33D7F6D2FA609DB9229 * ___U3CKeywordsU3Ek__BackingField_2;
+	// System.Collections.Generic.Dictionary`2<System.String,System.String> GoogleMobileAds.Api.AdRequest::<Extras>k__BackingField
+	Dictionary_2_tDE3227CA5E7A32F5070BD24C69F42204A3ADE9D5 * ___U3CExtrasU3Ek__BackingField_3;
+	// System.Collections.Generic.List`1<GoogleMobileAds.Api.Mediation.MediationExtras> GoogleMobileAds.Api.AdRequest::<MediationExtras>k__BackingField
+	List_1_t50C0B8B75CFA60A3BC928889704474AE375F3DA2 * ___U3CMediationExtrasU3Ek__BackingField_4;
+
+public:
+	inline static int32_t get_offset_of_U3CKeywordsU3Ek__BackingField_2() { return static_cast<int32_t>(offsetof(AdRequest_t2F1349A0C7189A7609F81197A2D4F80AAFB8AE88, ___U3CKeywordsU3Ek__BackingField_2)); }
+	inline HashSet_1_t45F75268054D01D9E70EB33D7F6D2FA609DB9229 * get_U3CKeywordsU3Ek__BackingField_2() const { return ___U3CKeywordsU3Ek__BackingField_2; }
+	inline HashSet_1_t45F75268054D01D9E70EB33D7F6D2FA609DB9229 ** get_address_of_U3CKeywordsU3Ek__BackingField_2() { return &___U3CKeywordsU3Ek__BackingField_2; }
+	inline void set_U3CKeywordsU3Ek__BackingField_2(HashSet_1_t45F75268054D01D9E70EB33D7F6D2FA609DB9229 * value)
+	{
+		___U3CKeywordsU3Ek__BackingField_2 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U3CKeywordsU3Ek__BackingField_2), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U3CExtrasU3Ek__BackingField_3() { return static_cast<int32_t>(offsetof(AdRequest_t2F1349A0C7189A7609F81197A2D4F80AAFB8AE88, ___U3CExtrasU3Ek__BackingField_3)); }
+	inline Dictionary_2_tDE3227CA5E7A32F5070BD24C69F42204A3ADE9D5 * get_U3CExtrasU3Ek__BackingField_3() const { return ___U3CExtrasU3Ek__BackingField_3; }
+	inline Dictionary_2_tDE3227CA5E7A32F5070BD24C69F42204A3ADE9D5 ** get_address_of_U3CExtrasU3Ek__BackingField_3() { return &___U3CExtrasU3Ek__BackingField_3; }
+	inline void set_U3CExtrasU3Ek__BackingField_3(Dictionary_2_tDE3227CA5E7A32F5070BD24C69F42204A3ADE9D5 * value)
+	{
+		___U3CExtrasU3Ek__BackingField_3 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U3CExtrasU3Ek__BackingField_3), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U3CMediationExtrasU3Ek__BackingField_4() { return static_cast<int32_t>(offsetof(AdRequest_t2F1349A0C7189A7609F81197A2D4F80AAFB8AE88, ___U3CMediationExtrasU3Ek__BackingField_4)); }
+	inline List_1_t50C0B8B75CFA60A3BC928889704474AE375F3DA2 * get_U3CMediationExtrasU3Ek__BackingField_4() const { return ___U3CMediationExtrasU3Ek__BackingField_4; }
+	inline List_1_t50C0B8B75CFA60A3BC928889704474AE375F3DA2 ** get_address_of_U3CMediationExtrasU3Ek__BackingField_4() { return &___U3CMediationExtrasU3Ek__BackingField_4; }
+	inline void set_U3CMediationExtrasU3Ek__BackingField_4(List_1_t50C0B8B75CFA60A3BC928889704474AE375F3DA2 * value)
+	{
+		___U3CMediationExtrasU3Ek__BackingField_4 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U3CMediationExtrasU3Ek__BackingField_4), (void*)value);
+	}
+};
+
+
 // UnityEngine.AndroidJavaObject
 struct AndroidJavaObject_t10188D5695DCD09C9F621B44B0A8C93A2281236E  : public RuntimeObject
 {
@@ -3504,10 +3545,8 @@ public:
 	EventHandler_1_tA707D618BF8F29DB61DFD553B055AE4E516C1722 * ___OnAdOpening_3;
 	// System.EventHandler`1<System.EventArgs> GoogleMobileAds.Api.BannerView::OnAdClosed
 	EventHandler_1_tA707D618BF8F29DB61DFD553B055AE4E516C1722 * ___OnAdClosed_4;
-	// System.EventHandler`1<System.EventArgs> GoogleMobileAds.Api.BannerView::OnAdLeavingApplication
-	EventHandler_1_tA707D618BF8F29DB61DFD553B055AE4E516C1722 * ___OnAdLeavingApplication_5;
 	// System.EventHandler`1<GoogleMobileAds.Api.AdValueEventArgs> GoogleMobileAds.Api.BannerView::OnPaidEvent
-	EventHandler_1_t6A9E5D0397FFF074250E6741C8F3D36C5381659D * ___OnPaidEvent_6;
+	EventHandler_1_tF65965FE6AE505F8C2D36014F3DBB28F6CE13A0B * ___OnPaidEvent_5;
 
 public:
 	inline static int32_t get_offset_of_client_0() { return static_cast<int32_t>(offsetof(BannerView_tF8E40603F2B65ED257DB1A29BE3FE190AD13C737, ___client_0)); }
@@ -3555,22 +3594,13 @@ public:
 		Il2CppCodeGenWriteBarrier((void**)(&___OnAdClosed_4), (void*)value);
 	}
 
-	inline static int32_t get_offset_of_OnAdLeavingApplication_5() { return static_cast<int32_t>(offsetof(BannerView_tF8E40603F2B65ED257DB1A29BE3FE190AD13C737, ___OnAdLeavingApplication_5)); }
-	inline EventHandler_1_tA707D618BF8F29DB61DFD553B055AE4E516C1722 * get_OnAdLeavingApplication_5() const { return ___OnAdLeavingApplication_5; }
-	inline EventHandler_1_tA707D618BF8F29DB61DFD553B055AE4E516C1722 ** get_address_of_OnAdLeavingApplication_5() { return &___OnAdLeavingApplication_5; }
-	inline void set_OnAdLeavingApplication_5(EventHandler_1_tA707D618BF8F29DB61DFD553B055AE4E516C1722 * value)
+	inline static int32_t get_offset_of_OnPaidEvent_5() { return static_cast<int32_t>(offsetof(BannerView_tF8E40603F2B65ED257DB1A29BE3FE190AD13C737, ___OnPaidEvent_5)); }
+	inline EventHandler_1_tF65965FE6AE505F8C2D36014F3DBB28F6CE13A0B * get_OnPaidEvent_5() const { return ___OnPaidEvent_5; }
+	inline EventHandler_1_tF65965FE6AE505F8C2D36014F3DBB28F6CE13A0B ** get_address_of_OnPaidEvent_5() { return &___OnPaidEvent_5; }
+	inline void set_OnPaidEvent_5(EventHandler_1_tF65965FE6AE505F8C2D36014F3DBB28F6CE13A0B * value)
 	{
-		___OnAdLeavingApplication_5 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___OnAdLeavingApplication_5), (void*)value);
-	}
-
-	inline static int32_t get_offset_of_OnPaidEvent_6() { return static_cast<int32_t>(offsetof(BannerView_tF8E40603F2B65ED257DB1A29BE3FE190AD13C737, ___OnPaidEvent_6)); }
-	inline EventHandler_1_t6A9E5D0397FFF074250E6741C8F3D36C5381659D * get_OnPaidEvent_6() const { return ___OnPaidEvent_6; }
-	inline EventHandler_1_t6A9E5D0397FFF074250E6741C8F3D36C5381659D ** get_address_of_OnPaidEvent_6() { return &___OnPaidEvent_6; }
-	inline void set_OnPaidEvent_6(EventHandler_1_t6A9E5D0397FFF074250E6741C8F3D36C5381659D * value)
-	{
-		___OnPaidEvent_6 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___OnPaidEvent_6), (void*)value);
+		___OnPaidEvent_5 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___OnPaidEvent_5), (void*)value);
 	}
 };
 
@@ -4635,6 +4665,47 @@ struct YieldInstruction_tB0B4E05316710E51ECCC1E57174C27FE6DEBBEAF_marshaled_pinv
 struct YieldInstruction_tB0B4E05316710E51ECCC1E57174C27FE6DEBBEAF_marshaled_com
 {
 };
+
+// GoogleMobileAds.Api.AdRequest/Builder
+struct Builder_tDEC3EA9C2617E6B676AF0ABED231D4FDB2B2434C  : public RuntimeObject
+{
+public:
+	// System.Collections.Generic.HashSet`1<System.String> GoogleMobileAds.Api.AdRequest/Builder::<Keywords>k__BackingField
+	HashSet_1_t45F75268054D01D9E70EB33D7F6D2FA609DB9229 * ___U3CKeywordsU3Ek__BackingField_0;
+	// System.Collections.Generic.Dictionary`2<System.String,System.String> GoogleMobileAds.Api.AdRequest/Builder::<Extras>k__BackingField
+	Dictionary_2_tDE3227CA5E7A32F5070BD24C69F42204A3ADE9D5 * ___U3CExtrasU3Ek__BackingField_1;
+	// System.Collections.Generic.List`1<GoogleMobileAds.Api.Mediation.MediationExtras> GoogleMobileAds.Api.AdRequest/Builder::<MediationExtras>k__BackingField
+	List_1_t50C0B8B75CFA60A3BC928889704474AE375F3DA2 * ___U3CMediationExtrasU3Ek__BackingField_2;
+
+public:
+	inline static int32_t get_offset_of_U3CKeywordsU3Ek__BackingField_0() { return static_cast<int32_t>(offsetof(Builder_tDEC3EA9C2617E6B676AF0ABED231D4FDB2B2434C, ___U3CKeywordsU3Ek__BackingField_0)); }
+	inline HashSet_1_t45F75268054D01D9E70EB33D7F6D2FA609DB9229 * get_U3CKeywordsU3Ek__BackingField_0() const { return ___U3CKeywordsU3Ek__BackingField_0; }
+	inline HashSet_1_t45F75268054D01D9E70EB33D7F6D2FA609DB9229 ** get_address_of_U3CKeywordsU3Ek__BackingField_0() { return &___U3CKeywordsU3Ek__BackingField_0; }
+	inline void set_U3CKeywordsU3Ek__BackingField_0(HashSet_1_t45F75268054D01D9E70EB33D7F6D2FA609DB9229 * value)
+	{
+		___U3CKeywordsU3Ek__BackingField_0 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U3CKeywordsU3Ek__BackingField_0), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U3CExtrasU3Ek__BackingField_1() { return static_cast<int32_t>(offsetof(Builder_tDEC3EA9C2617E6B676AF0ABED231D4FDB2B2434C, ___U3CExtrasU3Ek__BackingField_1)); }
+	inline Dictionary_2_tDE3227CA5E7A32F5070BD24C69F42204A3ADE9D5 * get_U3CExtrasU3Ek__BackingField_1() const { return ___U3CExtrasU3Ek__BackingField_1; }
+	inline Dictionary_2_tDE3227CA5E7A32F5070BD24C69F42204A3ADE9D5 ** get_address_of_U3CExtrasU3Ek__BackingField_1() { return &___U3CExtrasU3Ek__BackingField_1; }
+	inline void set_U3CExtrasU3Ek__BackingField_1(Dictionary_2_tDE3227CA5E7A32F5070BD24C69F42204A3ADE9D5 * value)
+	{
+		___U3CExtrasU3Ek__BackingField_1 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U3CExtrasU3Ek__BackingField_1), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U3CMediationExtrasU3Ek__BackingField_2() { return static_cast<int32_t>(offsetof(Builder_tDEC3EA9C2617E6B676AF0ABED231D4FDB2B2434C, ___U3CMediationExtrasU3Ek__BackingField_2)); }
+	inline List_1_t50C0B8B75CFA60A3BC928889704474AE375F3DA2 * get_U3CMediationExtrasU3Ek__BackingField_2() const { return ___U3CMediationExtrasU3Ek__BackingField_2; }
+	inline List_1_t50C0B8B75CFA60A3BC928889704474AE375F3DA2 ** get_address_of_U3CMediationExtrasU3Ek__BackingField_2() { return &___U3CMediationExtrasU3Ek__BackingField_2; }
+	inline void set_U3CMediationExtrasU3Ek__BackingField_2(List_1_t50C0B8B75CFA60A3BC928889704474AE375F3DA2 * value)
+	{
+		___U3CMediationExtrasU3Ek__BackingField_2 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U3CMediationExtrasU3Ek__BackingField_2), (void*)value);
+	}
+};
+
 
 // InventoryDisplay/<>c
 struct U3CU3Ec_tCF8D7224BA1915F73C0C278E8D0ED6562B76C28B  : public RuntimeObject
@@ -6393,34 +6464,6 @@ public:
 	{
 		___value_1 = value;
 		Il2CppCodeGenWriteBarrier((void**)(&___value_1), (void*)value);
-	}
-};
-
-
-// System.Nullable`1<System.Boolean>
-struct Nullable_1_t1D1CD146BFCBDC2E53E1F700889F8C5C21063EF3 
-{
-public:
-	// T System.Nullable`1::value
-	bool ___value_0;
-	// System.Boolean System.Nullable`1::has_value
-	bool ___has_value_1;
-
-public:
-	inline static int32_t get_offset_of_value_0() { return static_cast<int32_t>(offsetof(Nullable_1_t1D1CD146BFCBDC2E53E1F700889F8C5C21063EF3, ___value_0)); }
-	inline bool get_value_0() const { return ___value_0; }
-	inline bool* get_address_of_value_0() { return &___value_0; }
-	inline void set_value_0(bool value)
-	{
-		___value_0 = value;
-	}
-
-	inline static int32_t get_offset_of_has_value_1() { return static_cast<int32_t>(offsetof(Nullable_1_t1D1CD146BFCBDC2E53E1F700889F8C5C21063EF3, ___has_value_1)); }
-	inline bool get_has_value_1() const { return ___has_value_1; }
-	inline bool* get_address_of_has_value_1() { return &___has_value_1; }
-	inline void set_has_value_1(bool value)
-	{
-		___has_value_1 = value;
 	}
 };
 
@@ -8280,34 +8323,6 @@ public:
 };
 
 
-// System.Nullable`1<System.DateTime>
-struct Nullable_1_t70A8504898A1894C4480C80B2A7FAC6E7823F89D 
-{
-public:
-	// T System.Nullable`1::value
-	DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405  ___value_0;
-	// System.Boolean System.Nullable`1::has_value
-	bool ___has_value_1;
-
-public:
-	inline static int32_t get_offset_of_value_0() { return static_cast<int32_t>(offsetof(Nullable_1_t70A8504898A1894C4480C80B2A7FAC6E7823F89D, ___value_0)); }
-	inline DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405  get_value_0() const { return ___value_0; }
-	inline DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405 * get_address_of_value_0() { return &___value_0; }
-	inline void set_value_0(DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405  value)
-	{
-		___value_0 = value;
-	}
-
-	inline static int32_t get_offset_of_has_value_1() { return static_cast<int32_t>(offsetof(Nullable_1_t70A8504898A1894C4480C80B2A7FAC6E7823F89D, ___has_value_1)); }
-	inline bool get_has_value_1() const { return ___has_value_1; }
-	inline bool* get_address_of_has_value_1() { return &___has_value_1; }
-	inline void set_has_value_1(bool value)
-	{
-		___has_value_1 = value;
-	}
-};
-
-
 // <PrivateImplementationDetails>
 struct U3CPrivateImplementationDetailsU3E_t6BC7664D9CD46304D39A7D175BB8FFBE0B9F4528  : public RuntimeObject
 {
@@ -8384,14 +8399,14 @@ public:
 
 
 // GoogleMobileAds.Api.AdPosition
-struct AdPosition_tEEB4FFF12F6E81B1CAD84BCEE62A4FE6AA5165C0 
+struct AdPosition_tF317317EE617B2B7B0C5536A54396E1AE5BFA9FE 
 {
 public:
 	// System.Int32 GoogleMobileAds.Api.AdPosition::value__
 	int32_t ___value___2;
 
 public:
-	inline static int32_t get_offset_of_value___2() { return static_cast<int32_t>(offsetof(AdPosition_tEEB4FFF12F6E81B1CAD84BCEE62A4FE6AA5165C0, ___value___2)); }
+	inline static int32_t get_offset_of_value___2() { return static_cast<int32_t>(offsetof(AdPosition_tF317317EE617B2B7B0C5536A54396E1AE5BFA9FE, ___value___2)); }
 	inline int32_t get_value___2() const { return ___value___2; }
 	inline int32_t* get_address_of_value___2() { return &___value___2; }
 	inline void set_value___2(int32_t value)
@@ -9109,24 +9124,6 @@ public:
 };
 
 
-// GoogleMobileAds.Api.Gender
-struct Gender_tA04F65E8F88399153EFE8092D7F4184DAD0CB48A 
-{
-public:
-	// System.Int32 GoogleMobileAds.Api.Gender::value__
-	int32_t ___value___2;
-
-public:
-	inline static int32_t get_offset_of_value___2() { return static_cast<int32_t>(offsetof(Gender_tA04F65E8F88399153EFE8092D7F4184DAD0CB48A, ___value___2)); }
-	inline int32_t get_value___2() const { return ___value___2; }
-	inline int32_t* get_address_of_value___2() { return &___value___2; }
-	inline void set_value___2(int32_t value)
-	{
-		___value___2 = value;
-	}
-};
-
-
 // LiteNetLib.IPv6Mode
 struct IPv6Mode_t0ECEE8BB7AAC528AD224106E4DD6ACC474875A00 
 {
@@ -9442,14 +9439,14 @@ struct Object_tF2F3778131EFF286AF62B7B013A170F95A91571A_marshaled_com
 };
 
 // GoogleMobileAds.Api.Orientation
-struct Orientation_t40EB92423A2095A7F9701AC0C67AEA2BE47F09A2 
+struct Orientation_tAA32985C1371FF119E753379A6A751BE28F2225B 
 {
 public:
 	// System.Int32 GoogleMobileAds.Api.Orientation::value__
 	int32_t ___value___2;
 
 public:
-	inline static int32_t get_offset_of_value___2() { return static_cast<int32_t>(offsetof(Orientation_t40EB92423A2095A7F9701AC0C67AEA2BE47F09A2, ___value___2)); }
+	inline static int32_t get_offset_of_value___2() { return static_cast<int32_t>(offsetof(Orientation_tAA32985C1371FF119E753379A6A751BE28F2225B, ___value___2)); }
 	inline int32_t get_value___2() const { return ___value___2; }
 	inline int32_t* get_address_of_value___2() { return &___value___2; }
 	inline void set_value___2(int32_t value)
@@ -10022,14 +10019,14 @@ public:
 
 
 // GoogleMobileAds.Api.AdSize/Type
-struct Type_t5FB55F9A3F501719BE9E9AA10F0394ECEC0B5092 
+struct Type_tE65D664BFE046EF99C5F84B2051D976C661A0B2D 
 {
 public:
 	// System.Int32 GoogleMobileAds.Api.AdSize/Type::value__
 	int32_t ___value___2;
 
 public:
-	inline static int32_t get_offset_of_value___2() { return static_cast<int32_t>(offsetof(Type_t5FB55F9A3F501719BE9E9AA10F0394ECEC0B5092, ___value___2)); }
+	inline static int32_t get_offset_of_value___2() { return static_cast<int32_t>(offsetof(Type_tE65D664BFE046EF99C5F84B2051D976C661A0B2D, ___value___2)); }
 	inline int32_t get_value___2() const { return ___value___2; }
 	inline int32_t* get_address_of_value___2() { return &___value___2; }
 	inline void set_value___2(int32_t value)
@@ -10430,36 +10427,8 @@ public:
 };
 
 
-// System.Nullable`1<GoogleMobileAds.Api.Gender>
-struct Nullable_1_t430BE877A01DD1457A1431CF481073ECEE70FF0E 
-{
-public:
-	// T System.Nullable`1::value
-	int32_t ___value_0;
-	// System.Boolean System.Nullable`1::has_value
-	bool ___has_value_1;
-
-public:
-	inline static int32_t get_offset_of_value_0() { return static_cast<int32_t>(offsetof(Nullable_1_t430BE877A01DD1457A1431CF481073ECEE70FF0E, ___value_0)); }
-	inline int32_t get_value_0() const { return ___value_0; }
-	inline int32_t* get_address_of_value_0() { return &___value_0; }
-	inline void set_value_0(int32_t value)
-	{
-		___value_0 = value;
-	}
-
-	inline static int32_t get_offset_of_has_value_1() { return static_cast<int32_t>(offsetof(Nullable_1_t430BE877A01DD1457A1431CF481073ECEE70FF0E, ___has_value_1)); }
-	inline bool get_has_value_1() const { return ___has_value_1; }
-	inline bool* get_address_of_has_value_1() { return &___has_value_1; }
-	inline void set_has_value_1(bool value)
-	{
-		___has_value_1 = value;
-	}
-};
-
-
 // GoogleMobileAds.Api.AdSize
-struct AdSize_t5D85E5A6EBA1D66E2F1B1FCA33C529E16AFDE998  : public RuntimeObject
+struct AdSize_t008EA5266A0D6B144216E2EBBCE5E2B6A1CAB95D  : public RuntimeObject
 {
 public:
 	// GoogleMobileAds.Api.AdSize/Type GoogleMobileAds.Api.AdSize::type
@@ -10472,7 +10441,7 @@ public:
 	int32_t ___height_3;
 
 public:
-	inline static int32_t get_offset_of_type_0() { return static_cast<int32_t>(offsetof(AdSize_t5D85E5A6EBA1D66E2F1B1FCA33C529E16AFDE998, ___type_0)); }
+	inline static int32_t get_offset_of_type_0() { return static_cast<int32_t>(offsetof(AdSize_t008EA5266A0D6B144216E2EBBCE5E2B6A1CAB95D, ___type_0)); }
 	inline int32_t get_type_0() const { return ___type_0; }
 	inline int32_t* get_address_of_type_0() { return &___type_0; }
 	inline void set_type_0(int32_t value)
@@ -10480,7 +10449,7 @@ public:
 		___type_0 = value;
 	}
 
-	inline static int32_t get_offset_of_orientation_1() { return static_cast<int32_t>(offsetof(AdSize_t5D85E5A6EBA1D66E2F1B1FCA33C529E16AFDE998, ___orientation_1)); }
+	inline static int32_t get_offset_of_orientation_1() { return static_cast<int32_t>(offsetof(AdSize_t008EA5266A0D6B144216E2EBBCE5E2B6A1CAB95D, ___orientation_1)); }
 	inline int32_t get_orientation_1() const { return ___orientation_1; }
 	inline int32_t* get_address_of_orientation_1() { return &___orientation_1; }
 	inline void set_orientation_1(int32_t value)
@@ -10488,7 +10457,7 @@ public:
 		___orientation_1 = value;
 	}
 
-	inline static int32_t get_offset_of_width_2() { return static_cast<int32_t>(offsetof(AdSize_t5D85E5A6EBA1D66E2F1B1FCA33C529E16AFDE998, ___width_2)); }
+	inline static int32_t get_offset_of_width_2() { return static_cast<int32_t>(offsetof(AdSize_t008EA5266A0D6B144216E2EBBCE5E2B6A1CAB95D, ___width_2)); }
 	inline int32_t get_width_2() const { return ___width_2; }
 	inline int32_t* get_address_of_width_2() { return &___width_2; }
 	inline void set_width_2(int32_t value)
@@ -10496,7 +10465,7 @@ public:
 		___width_2 = value;
 	}
 
-	inline static int32_t get_offset_of_height_3() { return static_cast<int32_t>(offsetof(AdSize_t5D85E5A6EBA1D66E2F1B1FCA33C529E16AFDE998, ___height_3)); }
+	inline static int32_t get_offset_of_height_3() { return static_cast<int32_t>(offsetof(AdSize_t008EA5266A0D6B144216E2EBBCE5E2B6A1CAB95D, ___height_3)); }
 	inline int32_t get_height_3() const { return ___height_3; }
 	inline int32_t* get_address_of_height_3() { return &___height_3; }
 	inline void set_height_3(int32_t value)
@@ -10505,69 +10474,69 @@ public:
 	}
 };
 
-struct AdSize_t5D85E5A6EBA1D66E2F1B1FCA33C529E16AFDE998_StaticFields
+struct AdSize_t008EA5266A0D6B144216E2EBBCE5E2B6A1CAB95D_StaticFields
 {
 public:
 	// GoogleMobileAds.Api.AdSize GoogleMobileAds.Api.AdSize::Banner
-	AdSize_t5D85E5A6EBA1D66E2F1B1FCA33C529E16AFDE998 * ___Banner_4;
+	AdSize_t008EA5266A0D6B144216E2EBBCE5E2B6A1CAB95D * ___Banner_4;
 	// GoogleMobileAds.Api.AdSize GoogleMobileAds.Api.AdSize::MediumRectangle
-	AdSize_t5D85E5A6EBA1D66E2F1B1FCA33C529E16AFDE998 * ___MediumRectangle_5;
+	AdSize_t008EA5266A0D6B144216E2EBBCE5E2B6A1CAB95D * ___MediumRectangle_5;
 	// GoogleMobileAds.Api.AdSize GoogleMobileAds.Api.AdSize::IABBanner
-	AdSize_t5D85E5A6EBA1D66E2F1B1FCA33C529E16AFDE998 * ___IABBanner_6;
+	AdSize_t008EA5266A0D6B144216E2EBBCE5E2B6A1CAB95D * ___IABBanner_6;
 	// GoogleMobileAds.Api.AdSize GoogleMobileAds.Api.AdSize::Leaderboard
-	AdSize_t5D85E5A6EBA1D66E2F1B1FCA33C529E16AFDE998 * ___Leaderboard_7;
+	AdSize_t008EA5266A0D6B144216E2EBBCE5E2B6A1CAB95D * ___Leaderboard_7;
 	// GoogleMobileAds.Api.AdSize GoogleMobileAds.Api.AdSize::SmartBanner
-	AdSize_t5D85E5A6EBA1D66E2F1B1FCA33C529E16AFDE998 * ___SmartBanner_8;
+	AdSize_t008EA5266A0D6B144216E2EBBCE5E2B6A1CAB95D * ___SmartBanner_8;
 	// System.Int32 GoogleMobileAds.Api.AdSize::FullWidth
 	int32_t ___FullWidth_9;
 
 public:
-	inline static int32_t get_offset_of_Banner_4() { return static_cast<int32_t>(offsetof(AdSize_t5D85E5A6EBA1D66E2F1B1FCA33C529E16AFDE998_StaticFields, ___Banner_4)); }
-	inline AdSize_t5D85E5A6EBA1D66E2F1B1FCA33C529E16AFDE998 * get_Banner_4() const { return ___Banner_4; }
-	inline AdSize_t5D85E5A6EBA1D66E2F1B1FCA33C529E16AFDE998 ** get_address_of_Banner_4() { return &___Banner_4; }
-	inline void set_Banner_4(AdSize_t5D85E5A6EBA1D66E2F1B1FCA33C529E16AFDE998 * value)
+	inline static int32_t get_offset_of_Banner_4() { return static_cast<int32_t>(offsetof(AdSize_t008EA5266A0D6B144216E2EBBCE5E2B6A1CAB95D_StaticFields, ___Banner_4)); }
+	inline AdSize_t008EA5266A0D6B144216E2EBBCE5E2B6A1CAB95D * get_Banner_4() const { return ___Banner_4; }
+	inline AdSize_t008EA5266A0D6B144216E2EBBCE5E2B6A1CAB95D ** get_address_of_Banner_4() { return &___Banner_4; }
+	inline void set_Banner_4(AdSize_t008EA5266A0D6B144216E2EBBCE5E2B6A1CAB95D * value)
 	{
 		___Banner_4 = value;
 		Il2CppCodeGenWriteBarrier((void**)(&___Banner_4), (void*)value);
 	}
 
-	inline static int32_t get_offset_of_MediumRectangle_5() { return static_cast<int32_t>(offsetof(AdSize_t5D85E5A6EBA1D66E2F1B1FCA33C529E16AFDE998_StaticFields, ___MediumRectangle_5)); }
-	inline AdSize_t5D85E5A6EBA1D66E2F1B1FCA33C529E16AFDE998 * get_MediumRectangle_5() const { return ___MediumRectangle_5; }
-	inline AdSize_t5D85E5A6EBA1D66E2F1B1FCA33C529E16AFDE998 ** get_address_of_MediumRectangle_5() { return &___MediumRectangle_5; }
-	inline void set_MediumRectangle_5(AdSize_t5D85E5A6EBA1D66E2F1B1FCA33C529E16AFDE998 * value)
+	inline static int32_t get_offset_of_MediumRectangle_5() { return static_cast<int32_t>(offsetof(AdSize_t008EA5266A0D6B144216E2EBBCE5E2B6A1CAB95D_StaticFields, ___MediumRectangle_5)); }
+	inline AdSize_t008EA5266A0D6B144216E2EBBCE5E2B6A1CAB95D * get_MediumRectangle_5() const { return ___MediumRectangle_5; }
+	inline AdSize_t008EA5266A0D6B144216E2EBBCE5E2B6A1CAB95D ** get_address_of_MediumRectangle_5() { return &___MediumRectangle_5; }
+	inline void set_MediumRectangle_5(AdSize_t008EA5266A0D6B144216E2EBBCE5E2B6A1CAB95D * value)
 	{
 		___MediumRectangle_5 = value;
 		Il2CppCodeGenWriteBarrier((void**)(&___MediumRectangle_5), (void*)value);
 	}
 
-	inline static int32_t get_offset_of_IABBanner_6() { return static_cast<int32_t>(offsetof(AdSize_t5D85E5A6EBA1D66E2F1B1FCA33C529E16AFDE998_StaticFields, ___IABBanner_6)); }
-	inline AdSize_t5D85E5A6EBA1D66E2F1B1FCA33C529E16AFDE998 * get_IABBanner_6() const { return ___IABBanner_6; }
-	inline AdSize_t5D85E5A6EBA1D66E2F1B1FCA33C529E16AFDE998 ** get_address_of_IABBanner_6() { return &___IABBanner_6; }
-	inline void set_IABBanner_6(AdSize_t5D85E5A6EBA1D66E2F1B1FCA33C529E16AFDE998 * value)
+	inline static int32_t get_offset_of_IABBanner_6() { return static_cast<int32_t>(offsetof(AdSize_t008EA5266A0D6B144216E2EBBCE5E2B6A1CAB95D_StaticFields, ___IABBanner_6)); }
+	inline AdSize_t008EA5266A0D6B144216E2EBBCE5E2B6A1CAB95D * get_IABBanner_6() const { return ___IABBanner_6; }
+	inline AdSize_t008EA5266A0D6B144216E2EBBCE5E2B6A1CAB95D ** get_address_of_IABBanner_6() { return &___IABBanner_6; }
+	inline void set_IABBanner_6(AdSize_t008EA5266A0D6B144216E2EBBCE5E2B6A1CAB95D * value)
 	{
 		___IABBanner_6 = value;
 		Il2CppCodeGenWriteBarrier((void**)(&___IABBanner_6), (void*)value);
 	}
 
-	inline static int32_t get_offset_of_Leaderboard_7() { return static_cast<int32_t>(offsetof(AdSize_t5D85E5A6EBA1D66E2F1B1FCA33C529E16AFDE998_StaticFields, ___Leaderboard_7)); }
-	inline AdSize_t5D85E5A6EBA1D66E2F1B1FCA33C529E16AFDE998 * get_Leaderboard_7() const { return ___Leaderboard_7; }
-	inline AdSize_t5D85E5A6EBA1D66E2F1B1FCA33C529E16AFDE998 ** get_address_of_Leaderboard_7() { return &___Leaderboard_7; }
-	inline void set_Leaderboard_7(AdSize_t5D85E5A6EBA1D66E2F1B1FCA33C529E16AFDE998 * value)
+	inline static int32_t get_offset_of_Leaderboard_7() { return static_cast<int32_t>(offsetof(AdSize_t008EA5266A0D6B144216E2EBBCE5E2B6A1CAB95D_StaticFields, ___Leaderboard_7)); }
+	inline AdSize_t008EA5266A0D6B144216E2EBBCE5E2B6A1CAB95D * get_Leaderboard_7() const { return ___Leaderboard_7; }
+	inline AdSize_t008EA5266A0D6B144216E2EBBCE5E2B6A1CAB95D ** get_address_of_Leaderboard_7() { return &___Leaderboard_7; }
+	inline void set_Leaderboard_7(AdSize_t008EA5266A0D6B144216E2EBBCE5E2B6A1CAB95D * value)
 	{
 		___Leaderboard_7 = value;
 		Il2CppCodeGenWriteBarrier((void**)(&___Leaderboard_7), (void*)value);
 	}
 
-	inline static int32_t get_offset_of_SmartBanner_8() { return static_cast<int32_t>(offsetof(AdSize_t5D85E5A6EBA1D66E2F1B1FCA33C529E16AFDE998_StaticFields, ___SmartBanner_8)); }
-	inline AdSize_t5D85E5A6EBA1D66E2F1B1FCA33C529E16AFDE998 * get_SmartBanner_8() const { return ___SmartBanner_8; }
-	inline AdSize_t5D85E5A6EBA1D66E2F1B1FCA33C529E16AFDE998 ** get_address_of_SmartBanner_8() { return &___SmartBanner_8; }
-	inline void set_SmartBanner_8(AdSize_t5D85E5A6EBA1D66E2F1B1FCA33C529E16AFDE998 * value)
+	inline static int32_t get_offset_of_SmartBanner_8() { return static_cast<int32_t>(offsetof(AdSize_t008EA5266A0D6B144216E2EBBCE5E2B6A1CAB95D_StaticFields, ___SmartBanner_8)); }
+	inline AdSize_t008EA5266A0D6B144216E2EBBCE5E2B6A1CAB95D * get_SmartBanner_8() const { return ___SmartBanner_8; }
+	inline AdSize_t008EA5266A0D6B144216E2EBBCE5E2B6A1CAB95D ** get_address_of_SmartBanner_8() { return &___SmartBanner_8; }
+	inline void set_SmartBanner_8(AdSize_t008EA5266A0D6B144216E2EBBCE5E2B6A1CAB95D * value)
 	{
 		___SmartBanner_8 = value;
 		Il2CppCodeGenWriteBarrier((void**)(&___SmartBanner_8), (void*)value);
 	}
 
-	inline static int32_t get_offset_of_FullWidth_9() { return static_cast<int32_t>(offsetof(AdSize_t5D85E5A6EBA1D66E2F1B1FCA33C529E16AFDE998_StaticFields, ___FullWidth_9)); }
+	inline static int32_t get_offset_of_FullWidth_9() { return static_cast<int32_t>(offsetof(AdSize_t008EA5266A0D6B144216E2EBBCE5E2B6A1CAB95D_StaticFields, ___FullWidth_9)); }
 	inline int32_t get_FullWidth_9() const { return ___FullWidth_9; }
 	inline int32_t* get_address_of_FullWidth_9() { return &___FullWidth_9; }
 	inline void set_FullWidth_9(int32_t value)
@@ -14148,88 +14117,6 @@ public:
 };
 
 
-// GoogleMobileAds.Api.AdRequest
-struct AdRequest_tA8E89BB13F960A31B86D8F49ED056E16C071A8A7  : public RuntimeObject
-{
-public:
-	// System.Collections.Generic.List`1<System.String> GoogleMobileAds.Api.AdRequest::<TestDevices>k__BackingField
-	List_1_t6C9F81EDBF0F4A31A9B0DA372D2EF34BDA3A1AF3 * ___U3CTestDevicesU3Ek__BackingField_2;
-	// System.Collections.Generic.HashSet`1<System.String> GoogleMobileAds.Api.AdRequest::<Keywords>k__BackingField
-	HashSet_1_t45F75268054D01D9E70EB33D7F6D2FA609DB9229 * ___U3CKeywordsU3Ek__BackingField_3;
-	// System.Nullable`1<System.DateTime> GoogleMobileAds.Api.AdRequest::<Birthday>k__BackingField
-	Nullable_1_t70A8504898A1894C4480C80B2A7FAC6E7823F89D  ___U3CBirthdayU3Ek__BackingField_4;
-	// System.Nullable`1<GoogleMobileAds.Api.Gender> GoogleMobileAds.Api.AdRequest::<Gender>k__BackingField
-	Nullable_1_t430BE877A01DD1457A1431CF481073ECEE70FF0E  ___U3CGenderU3Ek__BackingField_5;
-	// System.Nullable`1<System.Boolean> GoogleMobileAds.Api.AdRequest::<TagForChildDirectedTreatment>k__BackingField
-	Nullable_1_t1D1CD146BFCBDC2E53E1F700889F8C5C21063EF3  ___U3CTagForChildDirectedTreatmentU3Ek__BackingField_6;
-	// System.Collections.Generic.Dictionary`2<System.String,System.String> GoogleMobileAds.Api.AdRequest::<Extras>k__BackingField
-	Dictionary_2_tDE3227CA5E7A32F5070BD24C69F42204A3ADE9D5 * ___U3CExtrasU3Ek__BackingField_7;
-	// System.Collections.Generic.List`1<GoogleMobileAds.Api.Mediation.MediationExtras> GoogleMobileAds.Api.AdRequest::<MediationExtras>k__BackingField
-	List_1_tC8496B7BE5B23F09C18A35866D6634D824FD694E * ___U3CMediationExtrasU3Ek__BackingField_8;
-
-public:
-	inline static int32_t get_offset_of_U3CTestDevicesU3Ek__BackingField_2() { return static_cast<int32_t>(offsetof(AdRequest_tA8E89BB13F960A31B86D8F49ED056E16C071A8A7, ___U3CTestDevicesU3Ek__BackingField_2)); }
-	inline List_1_t6C9F81EDBF0F4A31A9B0DA372D2EF34BDA3A1AF3 * get_U3CTestDevicesU3Ek__BackingField_2() const { return ___U3CTestDevicesU3Ek__BackingField_2; }
-	inline List_1_t6C9F81EDBF0F4A31A9B0DA372D2EF34BDA3A1AF3 ** get_address_of_U3CTestDevicesU3Ek__BackingField_2() { return &___U3CTestDevicesU3Ek__BackingField_2; }
-	inline void set_U3CTestDevicesU3Ek__BackingField_2(List_1_t6C9F81EDBF0F4A31A9B0DA372D2EF34BDA3A1AF3 * value)
-	{
-		___U3CTestDevicesU3Ek__BackingField_2 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___U3CTestDevicesU3Ek__BackingField_2), (void*)value);
-	}
-
-	inline static int32_t get_offset_of_U3CKeywordsU3Ek__BackingField_3() { return static_cast<int32_t>(offsetof(AdRequest_tA8E89BB13F960A31B86D8F49ED056E16C071A8A7, ___U3CKeywordsU3Ek__BackingField_3)); }
-	inline HashSet_1_t45F75268054D01D9E70EB33D7F6D2FA609DB9229 * get_U3CKeywordsU3Ek__BackingField_3() const { return ___U3CKeywordsU3Ek__BackingField_3; }
-	inline HashSet_1_t45F75268054D01D9E70EB33D7F6D2FA609DB9229 ** get_address_of_U3CKeywordsU3Ek__BackingField_3() { return &___U3CKeywordsU3Ek__BackingField_3; }
-	inline void set_U3CKeywordsU3Ek__BackingField_3(HashSet_1_t45F75268054D01D9E70EB33D7F6D2FA609DB9229 * value)
-	{
-		___U3CKeywordsU3Ek__BackingField_3 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___U3CKeywordsU3Ek__BackingField_3), (void*)value);
-	}
-
-	inline static int32_t get_offset_of_U3CBirthdayU3Ek__BackingField_4() { return static_cast<int32_t>(offsetof(AdRequest_tA8E89BB13F960A31B86D8F49ED056E16C071A8A7, ___U3CBirthdayU3Ek__BackingField_4)); }
-	inline Nullable_1_t70A8504898A1894C4480C80B2A7FAC6E7823F89D  get_U3CBirthdayU3Ek__BackingField_4() const { return ___U3CBirthdayU3Ek__BackingField_4; }
-	inline Nullable_1_t70A8504898A1894C4480C80B2A7FAC6E7823F89D * get_address_of_U3CBirthdayU3Ek__BackingField_4() { return &___U3CBirthdayU3Ek__BackingField_4; }
-	inline void set_U3CBirthdayU3Ek__BackingField_4(Nullable_1_t70A8504898A1894C4480C80B2A7FAC6E7823F89D  value)
-	{
-		___U3CBirthdayU3Ek__BackingField_4 = value;
-	}
-
-	inline static int32_t get_offset_of_U3CGenderU3Ek__BackingField_5() { return static_cast<int32_t>(offsetof(AdRequest_tA8E89BB13F960A31B86D8F49ED056E16C071A8A7, ___U3CGenderU3Ek__BackingField_5)); }
-	inline Nullable_1_t430BE877A01DD1457A1431CF481073ECEE70FF0E  get_U3CGenderU3Ek__BackingField_5() const { return ___U3CGenderU3Ek__BackingField_5; }
-	inline Nullable_1_t430BE877A01DD1457A1431CF481073ECEE70FF0E * get_address_of_U3CGenderU3Ek__BackingField_5() { return &___U3CGenderU3Ek__BackingField_5; }
-	inline void set_U3CGenderU3Ek__BackingField_5(Nullable_1_t430BE877A01DD1457A1431CF481073ECEE70FF0E  value)
-	{
-		___U3CGenderU3Ek__BackingField_5 = value;
-	}
-
-	inline static int32_t get_offset_of_U3CTagForChildDirectedTreatmentU3Ek__BackingField_6() { return static_cast<int32_t>(offsetof(AdRequest_tA8E89BB13F960A31B86D8F49ED056E16C071A8A7, ___U3CTagForChildDirectedTreatmentU3Ek__BackingField_6)); }
-	inline Nullable_1_t1D1CD146BFCBDC2E53E1F700889F8C5C21063EF3  get_U3CTagForChildDirectedTreatmentU3Ek__BackingField_6() const { return ___U3CTagForChildDirectedTreatmentU3Ek__BackingField_6; }
-	inline Nullable_1_t1D1CD146BFCBDC2E53E1F700889F8C5C21063EF3 * get_address_of_U3CTagForChildDirectedTreatmentU3Ek__BackingField_6() { return &___U3CTagForChildDirectedTreatmentU3Ek__BackingField_6; }
-	inline void set_U3CTagForChildDirectedTreatmentU3Ek__BackingField_6(Nullable_1_t1D1CD146BFCBDC2E53E1F700889F8C5C21063EF3  value)
-	{
-		___U3CTagForChildDirectedTreatmentU3Ek__BackingField_6 = value;
-	}
-
-	inline static int32_t get_offset_of_U3CExtrasU3Ek__BackingField_7() { return static_cast<int32_t>(offsetof(AdRequest_tA8E89BB13F960A31B86D8F49ED056E16C071A8A7, ___U3CExtrasU3Ek__BackingField_7)); }
-	inline Dictionary_2_tDE3227CA5E7A32F5070BD24C69F42204A3ADE9D5 * get_U3CExtrasU3Ek__BackingField_7() const { return ___U3CExtrasU3Ek__BackingField_7; }
-	inline Dictionary_2_tDE3227CA5E7A32F5070BD24C69F42204A3ADE9D5 ** get_address_of_U3CExtrasU3Ek__BackingField_7() { return &___U3CExtrasU3Ek__BackingField_7; }
-	inline void set_U3CExtrasU3Ek__BackingField_7(Dictionary_2_tDE3227CA5E7A32F5070BD24C69F42204A3ADE9D5 * value)
-	{
-		___U3CExtrasU3Ek__BackingField_7 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___U3CExtrasU3Ek__BackingField_7), (void*)value);
-	}
-
-	inline static int32_t get_offset_of_U3CMediationExtrasU3Ek__BackingField_8() { return static_cast<int32_t>(offsetof(AdRequest_tA8E89BB13F960A31B86D8F49ED056E16C071A8A7, ___U3CMediationExtrasU3Ek__BackingField_8)); }
-	inline List_1_tC8496B7BE5B23F09C18A35866D6634D824FD694E * get_U3CMediationExtrasU3Ek__BackingField_8() const { return ___U3CMediationExtrasU3Ek__BackingField_8; }
-	inline List_1_tC8496B7BE5B23F09C18A35866D6634D824FD694E ** get_address_of_U3CMediationExtrasU3Ek__BackingField_8() { return &___U3CMediationExtrasU3Ek__BackingField_8; }
-	inline void set_U3CMediationExtrasU3Ek__BackingField_8(List_1_tC8496B7BE5B23F09C18A35866D6634D824FD694E * value)
-	{
-		___U3CMediationExtrasU3Ek__BackingField_8 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___U3CMediationExtrasU3Ek__BackingField_8), (void*)value);
-	}
-};
-
-
 // System.ArgumentException
 struct ArgumentException_t505FA8C11E883F2D96C797AD9D396490794DEE00  : public SystemException_tC551B4D6EE3772B5F32C71EE8C719F4B43ECCC62
 {
@@ -14403,88 +14290,6 @@ struct UnityAction_t22E545F8BE0A62EE051C6A83E209587A0DB1C099  : public Multicast
 public:
 
 public:
-};
-
-
-// GoogleMobileAds.Api.AdRequest/Builder
-struct Builder_t5FB78639500AE3F0ECA378CB9739728D8CE41FC3  : public RuntimeObject
-{
-public:
-	// System.Collections.Generic.List`1<System.String> GoogleMobileAds.Api.AdRequest/Builder::<TestDevices>k__BackingField
-	List_1_t6C9F81EDBF0F4A31A9B0DA372D2EF34BDA3A1AF3 * ___U3CTestDevicesU3Ek__BackingField_0;
-	// System.Collections.Generic.HashSet`1<System.String> GoogleMobileAds.Api.AdRequest/Builder::<Keywords>k__BackingField
-	HashSet_1_t45F75268054D01D9E70EB33D7F6D2FA609DB9229 * ___U3CKeywordsU3Ek__BackingField_1;
-	// System.Nullable`1<System.DateTime> GoogleMobileAds.Api.AdRequest/Builder::<Birthday>k__BackingField
-	Nullable_1_t70A8504898A1894C4480C80B2A7FAC6E7823F89D  ___U3CBirthdayU3Ek__BackingField_2;
-	// System.Nullable`1<GoogleMobileAds.Api.Gender> GoogleMobileAds.Api.AdRequest/Builder::<Gender>k__BackingField
-	Nullable_1_t430BE877A01DD1457A1431CF481073ECEE70FF0E  ___U3CGenderU3Ek__BackingField_3;
-	// System.Nullable`1<System.Boolean> GoogleMobileAds.Api.AdRequest/Builder::<ChildDirectedTreatmentTag>k__BackingField
-	Nullable_1_t1D1CD146BFCBDC2E53E1F700889F8C5C21063EF3  ___U3CChildDirectedTreatmentTagU3Ek__BackingField_4;
-	// System.Collections.Generic.Dictionary`2<System.String,System.String> GoogleMobileAds.Api.AdRequest/Builder::<Extras>k__BackingField
-	Dictionary_2_tDE3227CA5E7A32F5070BD24C69F42204A3ADE9D5 * ___U3CExtrasU3Ek__BackingField_5;
-	// System.Collections.Generic.List`1<GoogleMobileAds.Api.Mediation.MediationExtras> GoogleMobileAds.Api.AdRequest/Builder::<MediationExtras>k__BackingField
-	List_1_tC8496B7BE5B23F09C18A35866D6634D824FD694E * ___U3CMediationExtrasU3Ek__BackingField_6;
-
-public:
-	inline static int32_t get_offset_of_U3CTestDevicesU3Ek__BackingField_0() { return static_cast<int32_t>(offsetof(Builder_t5FB78639500AE3F0ECA378CB9739728D8CE41FC3, ___U3CTestDevicesU3Ek__BackingField_0)); }
-	inline List_1_t6C9F81EDBF0F4A31A9B0DA372D2EF34BDA3A1AF3 * get_U3CTestDevicesU3Ek__BackingField_0() const { return ___U3CTestDevicesU3Ek__BackingField_0; }
-	inline List_1_t6C9F81EDBF0F4A31A9B0DA372D2EF34BDA3A1AF3 ** get_address_of_U3CTestDevicesU3Ek__BackingField_0() { return &___U3CTestDevicesU3Ek__BackingField_0; }
-	inline void set_U3CTestDevicesU3Ek__BackingField_0(List_1_t6C9F81EDBF0F4A31A9B0DA372D2EF34BDA3A1AF3 * value)
-	{
-		___U3CTestDevicesU3Ek__BackingField_0 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___U3CTestDevicesU3Ek__BackingField_0), (void*)value);
-	}
-
-	inline static int32_t get_offset_of_U3CKeywordsU3Ek__BackingField_1() { return static_cast<int32_t>(offsetof(Builder_t5FB78639500AE3F0ECA378CB9739728D8CE41FC3, ___U3CKeywordsU3Ek__BackingField_1)); }
-	inline HashSet_1_t45F75268054D01D9E70EB33D7F6D2FA609DB9229 * get_U3CKeywordsU3Ek__BackingField_1() const { return ___U3CKeywordsU3Ek__BackingField_1; }
-	inline HashSet_1_t45F75268054D01D9E70EB33D7F6D2FA609DB9229 ** get_address_of_U3CKeywordsU3Ek__BackingField_1() { return &___U3CKeywordsU3Ek__BackingField_1; }
-	inline void set_U3CKeywordsU3Ek__BackingField_1(HashSet_1_t45F75268054D01D9E70EB33D7F6D2FA609DB9229 * value)
-	{
-		___U3CKeywordsU3Ek__BackingField_1 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___U3CKeywordsU3Ek__BackingField_1), (void*)value);
-	}
-
-	inline static int32_t get_offset_of_U3CBirthdayU3Ek__BackingField_2() { return static_cast<int32_t>(offsetof(Builder_t5FB78639500AE3F0ECA378CB9739728D8CE41FC3, ___U3CBirthdayU3Ek__BackingField_2)); }
-	inline Nullable_1_t70A8504898A1894C4480C80B2A7FAC6E7823F89D  get_U3CBirthdayU3Ek__BackingField_2() const { return ___U3CBirthdayU3Ek__BackingField_2; }
-	inline Nullable_1_t70A8504898A1894C4480C80B2A7FAC6E7823F89D * get_address_of_U3CBirthdayU3Ek__BackingField_2() { return &___U3CBirthdayU3Ek__BackingField_2; }
-	inline void set_U3CBirthdayU3Ek__BackingField_2(Nullable_1_t70A8504898A1894C4480C80B2A7FAC6E7823F89D  value)
-	{
-		___U3CBirthdayU3Ek__BackingField_2 = value;
-	}
-
-	inline static int32_t get_offset_of_U3CGenderU3Ek__BackingField_3() { return static_cast<int32_t>(offsetof(Builder_t5FB78639500AE3F0ECA378CB9739728D8CE41FC3, ___U3CGenderU3Ek__BackingField_3)); }
-	inline Nullable_1_t430BE877A01DD1457A1431CF481073ECEE70FF0E  get_U3CGenderU3Ek__BackingField_3() const { return ___U3CGenderU3Ek__BackingField_3; }
-	inline Nullable_1_t430BE877A01DD1457A1431CF481073ECEE70FF0E * get_address_of_U3CGenderU3Ek__BackingField_3() { return &___U3CGenderU3Ek__BackingField_3; }
-	inline void set_U3CGenderU3Ek__BackingField_3(Nullable_1_t430BE877A01DD1457A1431CF481073ECEE70FF0E  value)
-	{
-		___U3CGenderU3Ek__BackingField_3 = value;
-	}
-
-	inline static int32_t get_offset_of_U3CChildDirectedTreatmentTagU3Ek__BackingField_4() { return static_cast<int32_t>(offsetof(Builder_t5FB78639500AE3F0ECA378CB9739728D8CE41FC3, ___U3CChildDirectedTreatmentTagU3Ek__BackingField_4)); }
-	inline Nullable_1_t1D1CD146BFCBDC2E53E1F700889F8C5C21063EF3  get_U3CChildDirectedTreatmentTagU3Ek__BackingField_4() const { return ___U3CChildDirectedTreatmentTagU3Ek__BackingField_4; }
-	inline Nullable_1_t1D1CD146BFCBDC2E53E1F700889F8C5C21063EF3 * get_address_of_U3CChildDirectedTreatmentTagU3Ek__BackingField_4() { return &___U3CChildDirectedTreatmentTagU3Ek__BackingField_4; }
-	inline void set_U3CChildDirectedTreatmentTagU3Ek__BackingField_4(Nullable_1_t1D1CD146BFCBDC2E53E1F700889F8C5C21063EF3  value)
-	{
-		___U3CChildDirectedTreatmentTagU3Ek__BackingField_4 = value;
-	}
-
-	inline static int32_t get_offset_of_U3CExtrasU3Ek__BackingField_5() { return static_cast<int32_t>(offsetof(Builder_t5FB78639500AE3F0ECA378CB9739728D8CE41FC3, ___U3CExtrasU3Ek__BackingField_5)); }
-	inline Dictionary_2_tDE3227CA5E7A32F5070BD24C69F42204A3ADE9D5 * get_U3CExtrasU3Ek__BackingField_5() const { return ___U3CExtrasU3Ek__BackingField_5; }
-	inline Dictionary_2_tDE3227CA5E7A32F5070BD24C69F42204A3ADE9D5 ** get_address_of_U3CExtrasU3Ek__BackingField_5() { return &___U3CExtrasU3Ek__BackingField_5; }
-	inline void set_U3CExtrasU3Ek__BackingField_5(Dictionary_2_tDE3227CA5E7A32F5070BD24C69F42204A3ADE9D5 * value)
-	{
-		___U3CExtrasU3Ek__BackingField_5 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___U3CExtrasU3Ek__BackingField_5), (void*)value);
-	}
-
-	inline static int32_t get_offset_of_U3CMediationExtrasU3Ek__BackingField_6() { return static_cast<int32_t>(offsetof(Builder_t5FB78639500AE3F0ECA378CB9739728D8CE41FC3, ___U3CMediationExtrasU3Ek__BackingField_6)); }
-	inline List_1_tC8496B7BE5B23F09C18A35866D6634D824FD694E * get_U3CMediationExtrasU3Ek__BackingField_6() const { return ___U3CMediationExtrasU3Ek__BackingField_6; }
-	inline List_1_tC8496B7BE5B23F09C18A35866D6634D824FD694E ** get_address_of_U3CMediationExtrasU3Ek__BackingField_6() { return &___U3CMediationExtrasU3Ek__BackingField_6; }
-	inline void set_U3CMediationExtrasU3Ek__BackingField_6(List_1_tC8496B7BE5B23F09C18A35866D6634D824FD694E * value)
-	{
-		___U3CMediationExtrasU3Ek__BackingField_6 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___U3CMediationExtrasU3Ek__BackingField_6), (void*)value);
-	}
 };
 
 
@@ -20922,7 +20727,7 @@ public:
 	// System.Single PlayerUI::savedTimeScale
 	float ___savedTimeScale_39;
 	// GoogleMobileAds.Api.AdRequest PlayerUI::bannerRequest
-	AdRequest_tA8E89BB13F960A31B86D8F49ED056E16C071A8A7 * ___bannerRequest_40;
+	AdRequest_t2F1349A0C7189A7609F81197A2D4F80AAFB8AE88 * ___bannerRequest_40;
 
 public:
 	inline static int32_t get_offset_of_root_4() { return static_cast<int32_t>(offsetof(PlayerUI_t0C1F7DD31D3A58DB302A4AD162998DFB62E34F73, ___root_4)); }
@@ -21247,9 +21052,9 @@ public:
 	}
 
 	inline static int32_t get_offset_of_bannerRequest_40() { return static_cast<int32_t>(offsetof(PlayerUI_t0C1F7DD31D3A58DB302A4AD162998DFB62E34F73, ___bannerRequest_40)); }
-	inline AdRequest_tA8E89BB13F960A31B86D8F49ED056E16C071A8A7 * get_bannerRequest_40() const { return ___bannerRequest_40; }
-	inline AdRequest_tA8E89BB13F960A31B86D8F49ED056E16C071A8A7 ** get_address_of_bannerRequest_40() { return &___bannerRequest_40; }
-	inline void set_bannerRequest_40(AdRequest_tA8E89BB13F960A31B86D8F49ED056E16C071A8A7 * value)
+	inline AdRequest_t2F1349A0C7189A7609F81197A2D4F80AAFB8AE88 * get_bannerRequest_40() const { return ___bannerRequest_40; }
+	inline AdRequest_t2F1349A0C7189A7609F81197A2D4F80AAFB8AE88 ** get_address_of_bannerRequest_40() { return &___bannerRequest_40; }
+	inline void set_bannerRequest_40(AdRequest_t2F1349A0C7189A7609F81197A2D4F80AAFB8AE88 * value)
 	{
 		___bannerRequest_40 = value;
 		Il2CppCodeGenWriteBarrier((void**)(&___bannerRequest_40), (void*)value);
@@ -26669,13 +26474,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Tournament_remove_HeatFinish_Event_m7CA1
 // System.Void PlayerUI::Pause(System.Boolean)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerUI_Pause_m7E7995B525A4EE8086E012833A45590571FF32B8 (PlayerUI_t0C1F7DD31D3A58DB302A4AD162998DFB62E34F73 * __this, bool ___value0, const RuntimeMethod* method);
 // System.Void GoogleMobileAds.Api.AdRequest/Builder::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Builder__ctor_m5975110ACBE5D35AE0D2F6D9AEA1FFD0DA5654B6 (Builder_t5FB78639500AE3F0ECA378CB9739728D8CE41FC3 * __this, const RuntimeMethod* method);
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Builder__ctor_mEC6564ACB4A7E944E513C1BF39002FAE3E35ED44 (Builder_tDEC3EA9C2617E6B676AF0ABED231D4FDB2B2434C * __this, const RuntimeMethod* method);
 // GoogleMobileAds.Api.AdRequest GoogleMobileAds.Api.AdRequest/Builder::Build()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AdRequest_tA8E89BB13F960A31B86D8F49ED056E16C071A8A7 * Builder_Build_m1E92AAF861E1D08CF5CF23B5E9D4A5D25DCB3D71 (Builder_t5FB78639500AE3F0ECA378CB9739728D8CE41FC3 * __this, const RuntimeMethod* method);
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AdRequest_t2F1349A0C7189A7609F81197A2D4F80AAFB8AE88 * Builder_Build_mA29B4BCC3837D128790FB5740BE36ECBC9B17E75 (Builder_tDEC3EA9C2617E6B676AF0ABED231D4FDB2B2434C * __this, const RuntimeMethod* method);
 // System.Void GoogleMobileAds.Api.BannerView::.ctor(System.String,GoogleMobileAds.Api.AdSize,GoogleMobileAds.Api.AdPosition)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BannerView__ctor_m3C14CC03524F7AA8DFE747B228DF02EA7CBD03CA (BannerView_tF8E40603F2B65ED257DB1A29BE3FE190AD13C737 * __this, String_t* ___adUnitId0, AdSize_t5D85E5A6EBA1D66E2F1B1FCA33C529E16AFDE998 * ___adSize1, int32_t ___position2, const RuntimeMethod* method);
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BannerView__ctor_m20EF5C502F831B8E06998EB9708EF4736763B4EC (BannerView_tF8E40603F2B65ED257DB1A29BE3FE190AD13C737 * __this, String_t* ___adUnitId0, AdSize_t008EA5266A0D6B144216E2EBBCE5E2B6A1CAB95D * ___adSize1, int32_t ___position2, const RuntimeMethod* method);
 // System.Void GoogleMobileAds.Api.BannerView::LoadAd(GoogleMobileAds.Api.AdRequest)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BannerView_LoadAd_m5B4547F7E58C133822A9630BD013335377262EB8 (BannerView_tF8E40603F2B65ED257DB1A29BE3FE190AD13C737 * __this, AdRequest_tA8E89BB13F960A31B86D8F49ED056E16C071A8A7 * ___request0, const RuntimeMethod* method);
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BannerView_LoadAd_mC393D587280C5F2E9786BDBEF2DA62E7E98BB8FD (BannerView_tF8E40603F2B65ED257DB1A29BE3FE190AD13C737 * __this, AdRequest_t2F1349A0C7189A7609F81197A2D4F80AAFB8AE88 * ___request0, const RuntimeMethod* method);
 // System.Void GoogleMobileAds.Api.BannerView::Destroy()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BannerView_Destroy_mD4576ADC6F0FF45F7A2DE148D1467FCF323632C6 (BannerView_tF8E40603F2B65ED257DB1A29BE3FE190AD13C737 * __this, const RuntimeMethod* method);
 // System.Void UnityEngine.Debug::Log(System.Object)
@@ -46652,10 +46457,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerUI_RequestBanner_m5E985FE193E36D3B
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AdSize_t5D85E5A6EBA1D66E2F1B1FCA33C529E16AFDE998_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AdSize_t008EA5266A0D6B144216E2EBBCE5E2B6A1CAB95D_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Ads_t8DCCC8416DC818E87B92B88E0966AED5AA729A8F_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&BannerView_tF8E40603F2B65ED257DB1A29BE3FE190AD13C737_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Builder_t5FB78639500AE3F0ECA378CB9739728D8CE41FC3_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Builder_tDEC3EA9C2617E6B676AF0ABED231D4FDB2B2434C_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral7C3E18907B5DDA7C9651CAA8D240B93AEF50B8D3);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE1B77BC58FA1C48C0D7C320A13D9EED379EF317F);
 		s_Il2CppMethodInitialized = true;
@@ -46697,19 +46502,19 @@ IL_0012:
 IL_002a:
 	{
 		// bannerRequest = new AdRequest.Builder().Build();
-		Builder_t5FB78639500AE3F0ECA378CB9739728D8CE41FC3 * L_4 = (Builder_t5FB78639500AE3F0ECA378CB9739728D8CE41FC3 *)il2cpp_codegen_object_new(Builder_t5FB78639500AE3F0ECA378CB9739728D8CE41FC3_il2cpp_TypeInfo_var);
-		Builder__ctor_m5975110ACBE5D35AE0D2F6D9AEA1FFD0DA5654B6(L_4, /*hidden argument*/NULL);
+		Builder_tDEC3EA9C2617E6B676AF0ABED231D4FDB2B2434C * L_4 = (Builder_tDEC3EA9C2617E6B676AF0ABED231D4FDB2B2434C *)il2cpp_codegen_object_new(Builder_tDEC3EA9C2617E6B676AF0ABED231D4FDB2B2434C_il2cpp_TypeInfo_var);
+		Builder__ctor_mEC6564ACB4A7E944E513C1BF39002FAE3E35ED44(L_4, /*hidden argument*/NULL);
 		NullCheck(L_4);
-		AdRequest_tA8E89BB13F960A31B86D8F49ED056E16C071A8A7 * L_5;
-		L_5 = Builder_Build_m1E92AAF861E1D08CF5CF23B5E9D4A5D25DCB3D71(L_4, /*hidden argument*/NULL);
+		AdRequest_t2F1349A0C7189A7609F81197A2D4F80AAFB8AE88 * L_5;
+		L_5 = Builder_Build_mA29B4BCC3837D128790FB5740BE36ECBC9B17E75(L_4, /*hidden argument*/NULL);
 		__this->set_bannerRequest_40(L_5);
 		// Ads.Instance.banner = new BannerView(adUnitId, AdSize.Banner, AdPosition.Top);
 		Ads_t8DCCC8416DC818E87B92B88E0966AED5AA729A8F * L_6 = ((Ads_t8DCCC8416DC818E87B92B88E0966AED5AA729A8F_StaticFields*)il2cpp_codegen_static_fields_for(Ads_t8DCCC8416DC818E87B92B88E0966AED5AA729A8F_il2cpp_TypeInfo_var))->get_Instance_4();
 		String_t* L_7 = V_0;
-		IL2CPP_RUNTIME_CLASS_INIT(AdSize_t5D85E5A6EBA1D66E2F1B1FCA33C529E16AFDE998_il2cpp_TypeInfo_var);
-		AdSize_t5D85E5A6EBA1D66E2F1B1FCA33C529E16AFDE998 * L_8 = ((AdSize_t5D85E5A6EBA1D66E2F1B1FCA33C529E16AFDE998_StaticFields*)il2cpp_codegen_static_fields_for(AdSize_t5D85E5A6EBA1D66E2F1B1FCA33C529E16AFDE998_il2cpp_TypeInfo_var))->get_Banner_4();
+		IL2CPP_RUNTIME_CLASS_INIT(AdSize_t008EA5266A0D6B144216E2EBBCE5E2B6A1CAB95D_il2cpp_TypeInfo_var);
+		AdSize_t008EA5266A0D6B144216E2EBBCE5E2B6A1CAB95D * L_8 = ((AdSize_t008EA5266A0D6B144216E2EBBCE5E2B6A1CAB95D_StaticFields*)il2cpp_codegen_static_fields_for(AdSize_t008EA5266A0D6B144216E2EBBCE5E2B6A1CAB95D_il2cpp_TypeInfo_var))->get_Banner_4();
 		BannerView_tF8E40603F2B65ED257DB1A29BE3FE190AD13C737 * L_9 = (BannerView_tF8E40603F2B65ED257DB1A29BE3FE190AD13C737 *)il2cpp_codegen_object_new(BannerView_tF8E40603F2B65ED257DB1A29BE3FE190AD13C737_il2cpp_TypeInfo_var);
-		BannerView__ctor_m3C14CC03524F7AA8DFE747B228DF02EA7CBD03CA(L_9, L_7, L_8, 0, /*hidden argument*/NULL);
+		BannerView__ctor_m20EF5C502F831B8E06998EB9708EF4736763B4EC(L_9, L_7, L_8, 0, /*hidden argument*/NULL);
 		NullCheck(L_6);
 		L_6->set_banner_7(L_9);
 		// }
@@ -46730,9 +46535,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerUI_LoadBanner_m5691CE2BEF23721B0A6
 		Ads_t8DCCC8416DC818E87B92B88E0966AED5AA729A8F * L_0 = ((Ads_t8DCCC8416DC818E87B92B88E0966AED5AA729A8F_StaticFields*)il2cpp_codegen_static_fields_for(Ads_t8DCCC8416DC818E87B92B88E0966AED5AA729A8F_il2cpp_TypeInfo_var))->get_Instance_4();
 		NullCheck(L_0);
 		BannerView_tF8E40603F2B65ED257DB1A29BE3FE190AD13C737 * L_1 = L_0->get_banner_7();
-		AdRequest_tA8E89BB13F960A31B86D8F49ED056E16C071A8A7 * L_2 = __this->get_bannerRequest_40();
+		AdRequest_t2F1349A0C7189A7609F81197A2D4F80AAFB8AE88 * L_2 = __this->get_bannerRequest_40();
 		NullCheck(L_1);
-		BannerView_LoadAd_m5B4547F7E58C133822A9630BD013335377262EB8(L_1, L_2, /*hidden argument*/NULL);
+		BannerView_LoadAd_mC393D587280C5F2E9786BDBEF2DA62E7E98BB8FD(L_1, L_2, /*hidden argument*/NULL);
 		// RequestBanner();
 		PlayerUI_RequestBanner_m5E985FE193E36D3B6ED7F609631B698B4D968B3C(__this, /*hidden argument*/NULL);
 		// }

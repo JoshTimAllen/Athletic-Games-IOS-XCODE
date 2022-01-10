@@ -37896,50 +37896,8 @@ IL_000a:
 		return (float)L_2;
 	}
 }
-// System.IntPtr UnityEngine.AndroidJNIHelper::GetFieldID<System.Int32>(System.IntPtr,System.String,System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AndroidJNIHelper_GetFieldID_TisInt32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046_mEDB0682A32F89570A31EA911DFED57B7FE4F1279_gshared (intptr_t ___jclass0, String_t* ___fieldName1, bool ___isStatic2, const RuntimeMethod* method)
-{
-	intptr_t V_0;
-	memset((&V_0), 0, sizeof(V_0));
-	{
-		intptr_t L_0 = ___jclass0;
-		String_t* L_1 = ___fieldName1;
-		bool L_2 = ___isStatic2;
-		intptr_t L_3;
-		L_3 = ((  intptr_t (*) (intptr_t, String_t*, bool, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->rgctx_data, 0)->methodPointer)((intptr_t)L_0, (String_t*)L_1, (bool)L_2, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->rgctx_data, 0));
-		V_0 = (intptr_t)L_3;
-		goto IL_000c;
-	}
-
-IL_000c:
-	{
-		intptr_t L_4 = V_0;
-		return (intptr_t)L_4;
-	}
-}
 // System.IntPtr UnityEngine.AndroidJNIHelper::GetFieldID<System.Object>(System.IntPtr,System.String,System.Boolean)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AndroidJNIHelper_GetFieldID_TisRuntimeObject_m8693733E58787B011729F20AE0C94A33A7A8760A_gshared (intptr_t ___jclass0, String_t* ___fieldName1, bool ___isStatic2, const RuntimeMethod* method)
-{
-	intptr_t V_0;
-	memset((&V_0), 0, sizeof(V_0));
-	{
-		intptr_t L_0 = ___jclass0;
-		String_t* L_1 = ___fieldName1;
-		bool L_2 = ___isStatic2;
-		intptr_t L_3;
-		L_3 = ((  intptr_t (*) (intptr_t, String_t*, bool, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->rgctx_data, 0)->methodPointer)((intptr_t)L_0, (String_t*)L_1, (bool)L_2, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->rgctx_data, 0));
-		V_0 = (intptr_t)L_3;
-		goto IL_000c;
-	}
-
-IL_000c:
-	{
-		intptr_t L_4 = V_0;
-		return (intptr_t)L_4;
-	}
-}
-// System.IntPtr UnityEngine.AndroidJNIHelper::GetFieldID<System.Single>(System.IntPtr,System.String,System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AndroidJNIHelper_GetFieldID_TisSingle_tE07797BA3C98D4CA9B5A19413C19A76688AB899E_m5001302B3E57CE6E0B0C857C5618F82510294F74_gshared (intptr_t ___jclass0, String_t* ___fieldName1, bool ___isStatic2, const RuntimeMethod* method)
 {
 	intptr_t V_0;
 	memset((&V_0), 0, sizeof(V_0));
@@ -38377,25 +38335,6 @@ IL_000c:
 		return (RuntimeObject *)L_3;
 	}
 }
-// FieldType UnityEngine.AndroidJavaObject::Get<System.Int32>(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AndroidJavaObject_Get_TisInt32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046_mAA20D556A954E5DB5CE7F883CA865350D567F7F6_gshared (AndroidJavaObject_t10188D5695DCD09C9F621B44B0A8C93A2281236E * __this, String_t* ___fieldName0, const RuntimeMethod* method)
-{
-	int32_t V_0 = 0;
-	{
-		String_t* L_0 = ___fieldName0;
-		NullCheck((AndroidJavaObject_t10188D5695DCD09C9F621B44B0A8C93A2281236E *)__this);
-		int32_t L_1;
-		L_1 = ((  int32_t (*) (AndroidJavaObject_t10188D5695DCD09C9F621B44B0A8C93A2281236E *, String_t*, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->rgctx_data, 0)->methodPointer)((AndroidJavaObject_t10188D5695DCD09C9F621B44B0A8C93A2281236E *)__this, (String_t*)L_0, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->rgctx_data, 0));
-		V_0 = (int32_t)L_1;
-		goto IL_000b;
-	}
-
-IL_000b:
-	{
-		int32_t L_2 = V_0;
-		return (int32_t)L_2;
-	}
-}
 // FieldType UnityEngine.AndroidJavaObject::Get<System.Object>(System.String)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject * AndroidJavaObject_Get_TisRuntimeObject_mF909DF1A8B4C9F8749FC7619CE27DB4BA1CFA586_gshared (AndroidJavaObject_t10188D5695DCD09C9F621B44B0A8C93A2281236E * __this, String_t* ___fieldName0, const RuntimeMethod* method)
 {
@@ -38413,44 +38352,6 @@ IL_000b:
 	{
 		RuntimeObject * L_2 = V_0;
 		return (RuntimeObject *)L_2;
-	}
-}
-// FieldType UnityEngine.AndroidJavaObject::Get<System.Single>(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AndroidJavaObject_Get_TisSingle_tE07797BA3C98D4CA9B5A19413C19A76688AB899E_m4E9EC47BDA008A003A4B11ACAB00B4FCC6ACE9CB_gshared (AndroidJavaObject_t10188D5695DCD09C9F621B44B0A8C93A2281236E * __this, String_t* ___fieldName0, const RuntimeMethod* method)
-{
-	float V_0 = 0.0f;
-	{
-		String_t* L_0 = ___fieldName0;
-		NullCheck((AndroidJavaObject_t10188D5695DCD09C9F621B44B0A8C93A2281236E *)__this);
-		float L_1;
-		L_1 = ((  float (*) (AndroidJavaObject_t10188D5695DCD09C9F621B44B0A8C93A2281236E *, String_t*, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->rgctx_data, 0)->methodPointer)((AndroidJavaObject_t10188D5695DCD09C9F621B44B0A8C93A2281236E *)__this, (String_t*)L_0, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->rgctx_data, 0));
-		V_0 = (float)L_1;
-		goto IL_000b;
-	}
-
-IL_000b:
-	{
-		float L_2 = V_0;
-		return (float)L_2;
-	}
-}
-// FieldType UnityEngine.AndroidJavaObject::GetStatic<System.Int32>(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AndroidJavaObject_GetStatic_TisInt32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046_mEFFBCAA115E5129B421F81CBF7FEA72367B0CD74_gshared (AndroidJavaObject_t10188D5695DCD09C9F621B44B0A8C93A2281236E * __this, String_t* ___fieldName0, const RuntimeMethod* method)
-{
-	int32_t V_0 = 0;
-	{
-		String_t* L_0 = ___fieldName0;
-		NullCheck((AndroidJavaObject_t10188D5695DCD09C9F621B44B0A8C93A2281236E *)__this);
-		int32_t L_1;
-		L_1 = ((  int32_t (*) (AndroidJavaObject_t10188D5695DCD09C9F621B44B0A8C93A2281236E *, String_t*, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->rgctx_data, 0)->methodPointer)((AndroidJavaObject_t10188D5695DCD09C9F621B44B0A8C93A2281236E *)__this, (String_t*)L_0, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->rgctx_data, 0));
-		V_0 = (int32_t)L_1;
-		goto IL_000b;
-	}
-
-IL_000b:
-	{
-		int32_t L_2 = V_0;
-		return (int32_t)L_2;
 	}
 }
 // FieldType UnityEngine.AndroidJavaObject::GetStatic<System.Object>(System.String)
