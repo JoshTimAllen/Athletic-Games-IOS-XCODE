@@ -46,8 +46,6 @@ struct DisallowMultipleComponent_tDB3D3DBC9AC523A0BD11DA0B7D88F960FDB89E3E;
 struct DisplayNameAttribute_t23E87B8B23DC5CF5E2A72B8039935029D0A53E85;
 // UnityEngine.InputSystem.Utilities.DisplayStringFormatAttribute
 struct DisplayStringFormatAttribute_tD2040908E2ED7AC26B46177BD67311726ABFB43D;
-// Microsoft.CodeAnalysis.EmbeddedAttribute
-struct EmbeddedAttribute_t19E7B5E26135E3D97E0A65D6FDFF46AFD0D65288;
 // UnityEngine.ExecuteInEditMode
 struct ExecuteInEditMode_tAA3B5DE8B7E207BC6CAAFDB1F2502350C0546173;
 // System.Runtime.CompilerServices.ExtensionAttribute
@@ -71,7 +69,7 @@ struct InputControlLayoutAttribute_t4CF6B4F7FE0FDFAEB4170492F3BFFE340D6DF420;
 // System.Runtime.CompilerServices.InternalsVisibleToAttribute
 struct InternalsVisibleToAttribute_t1D9772A02892BAC440952F880A43C257E6C3E68C;
 // System.Runtime.CompilerServices.IsReadOnlyAttribute
-struct IsReadOnlyAttribute_t545ECE2B402890B8978FB2B6BD9B405C0C67C193;
+struct IsReadOnlyAttribute_tB6E31A0106212818B0AB6DC627AA320291BD7566;
 // System.Runtime.CompilerServices.IteratorStateMachineAttribute
 struct IteratorStateMachineAttribute_t6C72F3EC15FB34D08D47727AA7A86AB7FEA27830;
 // System.Reflection.MemberFilter
@@ -576,15 +574,6 @@ public:
 };
 
 
-// Microsoft.CodeAnalysis.EmbeddedAttribute
-struct EmbeddedAttribute_t19E7B5E26135E3D97E0A65D6FDFF46AFD0D65288  : public Attribute_t037CA9D9F3B742C063DB364D2EEBBF9FC5772C71
-{
-public:
-
-public:
-};
-
-
 // System.Enum
 struct Enum_t23B90B40F60E677A8025267341651C94AE079CDA  : public ValueType_tDBF999C1B75C48C68621878250DBF6CDBCF51E52
 {
@@ -825,7 +814,7 @@ public:
 
 
 // System.Runtime.CompilerServices.IsReadOnlyAttribute
-struct IsReadOnlyAttribute_t545ECE2B402890B8978FB2B6BD9B405C0C67C193  : public Attribute_t037CA9D9F3B742C063DB364D2EEBBF9FC5772C71
+struct IsReadOnlyAttribute_tB6E31A0106212818B0AB6DC627AA320291BD7566  : public Attribute_t037CA9D9F3B742C063DB364D2EEBBF9FC5772C71
 {
 public:
 
@@ -1832,14 +1821,12 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void RuntimeCompatibilityAttribut
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CompilationRelaxationsAttribute__ctor_mAC3079EBC4EEAB474EED8208EF95DB39C922333B (CompilationRelaxationsAttribute_t661FDDC06629BDA607A42BD660944F039FE03AFF * __this, int32_t ___relaxations0, const RuntimeMethod* method);
 // System.Void System.Runtime.CompilerServices.ExtensionAttribute::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ExtensionAttribute__ctor_mB331519C39C4210259A248A4C629DF934937C1FA (ExtensionAttribute_t917F3F92E717DC8B2D7BC03967A9790B1B8EF7CC * __this, const RuntimeMethod* method);
-// System.Void System.Runtime.CompilerServices.CompilerGeneratedAttribute::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CompilerGeneratedAttribute__ctor_m9DC3E4E2DA76FE93948D44199213E2E924DCBE35 (CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C * __this, const RuntimeMethod* method);
-// System.Void Microsoft.CodeAnalysis.EmbeddedAttribute::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EmbeddedAttribute__ctor_m6D0F9615C60EA7CAF5176A853F17F8D6C9D7A137 (EmbeddedAttribute_t19E7B5E26135E3D97E0A65D6FDFF46AFD0D65288 * __this, const RuntimeMethod* method);
 // System.Void UnityEngine.InputSystem.Layouts.InputControlLayoutAttribute::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputControlLayoutAttribute__ctor_mA977B60A782C8A9068E9256060C318BA2D495A01 (InputControlLayoutAttribute_t4CF6B4F7FE0FDFAEB4170492F3BFFE340D6DF420 * __this, const RuntimeMethod* method);
 // System.Void UnityEngine.InputSystem.Layouts.InputControlLayoutAttribute::set_displayName(System.String)
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void InputControlLayoutAttribute_set_displayName_m94889D277F1BBE02A86DB804D4F7F7F19A93CD45_inline (InputControlLayoutAttribute_t4CF6B4F7FE0FDFAEB4170492F3BFFE340D6DF420 * __this, String_t* ___value0, const RuntimeMethod* method);
+// System.Void System.Runtime.CompilerServices.CompilerGeneratedAttribute::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CompilerGeneratedAttribute__ctor_m9DC3E4E2DA76FE93948D44199213E2E924DCBE35 (CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C * __this, const RuntimeMethod* method);
 // System.Void UnityEngine.InputSystem.Layouts.InputControlAttribute::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * __this, const RuntimeMethod* method);
 // System.Void UnityEngine.InputSystem.Layouts.InputControlAttribute::set_noisy(System.Boolean)
@@ -1852,10 +1839,10 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void InputControlAttribute_set_al
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * __this, String_t* ___value0, const RuntimeMethod* method);
 // System.Void UnityEngine.InputSystem.Layouts.InputControlAttribute::set_layout(System.String)
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void InputControlAttribute_set_layout_mCF2C40C4FD8A34D75840202460F60D7DB88CF54D_inline (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * __this, String_t* ___value0, const RuntimeMethod* method);
-// System.Void UnityEngine.SerializeField::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SerializeField__ctor_mDE6A7673BA2C1FAD03CFEC65C6D473CC37889DD3 (SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 * __this, const RuntimeMethod* method);
 // System.Void UnityEngine.TooltipAttribute::.ctor(System.String)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TooltipAttribute__ctor_m1839ACEC1560968A6D0EA55D7EB4535546588042 (TooltipAttribute_t503A1598A4E68E91673758F50447D0EDFB95149B * __this, String_t* ___tooltip0, const RuntimeMethod* method);
+// System.Void UnityEngine.SerializeField::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SerializeField__ctor_mDE6A7673BA2C1FAD03CFEC65C6D473CC37889DD3 (SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 * __this, const RuntimeMethod* method);
 // System.Void UnityEngine.Serialization.FormerlySerializedAsAttribute::.ctor(System.String)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FormerlySerializedAsAttribute__ctor_m7A9FC6914FCBA79EE12567BEF3B482CAB7D5265D (FormerlySerializedAsAttribute_t9505BD2243F1C81AB32EEAF3543A796C2D935210 * __this, String_t* ___oldName0, const RuntimeMethod* method);
 // System.Void System.FlagsAttribute::.ctor()
@@ -1869,7 +1856,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DebuggerHiddenAttribute__ctor_mB40799BB5
 // System.Void System.ParamArrayAttribute::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParamArrayAttribute__ctor_mCC72AFF718185BA7B87FD8D9471F1274400C5719 (ParamArrayAttribute_t9DCEB4CDDB8EDDB1124171D4C51FA6069EEA5C5F * __this, const RuntimeMethod* method);
 // System.Void System.Runtime.CompilerServices.IsReadOnlyAttribute::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IsReadOnlyAttribute__ctor_m9162ED12EC6603A57ABEF95706F0BB727210A6CD (IsReadOnlyAttribute_t545ECE2B402890B8978FB2B6BD9B405C0C67C193 * __this, const RuntimeMethod* method);
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IsReadOnlyAttribute__ctor_m02F9F7CD56DE227F7ABDD1E2593D82E6FFA57E9A (IsReadOnlyAttribute_tB6E31A0106212818B0AB6DC627AA320291BD7566 * __this, const RuntimeMethod* method);
 // System.Void System.ObsoleteAttribute::.ctor(System.String,System.Boolean)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ObsoleteAttribute__ctor_m058D2B798E9AB7E7778A6DB04C3FE7011C660F4C (ObsoleteAttribute_t14BAC1669C0409EB9F28D72D664FFA6764ACD671 * __this, String_t* ___message0, bool ___error1, const RuntimeMethod* method);
 // System.Void UnityEngine.RuntimeInitializeOnLoadMethodAttribute::.ctor(UnityEngine.RuntimeInitializeLoadType)
@@ -1914,14 +1901,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MonoPInvokeCallbackAttribute__ctor_m85AA
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PreserveAttribute__ctor_mBD1EEF1095DBD581365C77729CF4ACB914859CD2 (PreserveAttribute_tD3CDF1454F8E64CEF59CF7094B45BBACE2C69948 * __this, const RuntimeMethod* method);
 // System.Void UnityEngine.InputSystem.Layouts.InputControlLayoutAttribute::set_canRunInBackground(System.Boolean)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputControlLayoutAttribute_set_canRunInBackground_m104D7B5C2E17B6E7B7BD1BB66C243D5DC0CCEF17 (InputControlLayoutAttribute_t4CF6B4F7FE0FDFAEB4170492F3BFFE340D6DF420 * __this, bool ___value0, const RuntimeMethod* method);
-// System.Void UnityEngine.HideInInspector::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HideInInspector__ctor_mE2B7FB1D206A74BA583C7812CDB4EBDD83EB66F9 (HideInInspector_tDD5B9D3AD8D48C93E23FE6CA3ECDA5589D60CCDA * __this, const RuntimeMethod* method);
 // System.Void System.ObsoleteAttribute::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ObsoleteAttribute__ctor_m9BC17A80675E9013AA71F9FB38D89FEF56883853 (ObsoleteAttribute_t14BAC1669C0409EB9F28D72D664FFA6764ACD671 * __this, const RuntimeMethod* method);
-// System.Void UnityEngine.InputSystem.Layouts.InputControlAttribute::set_shortDisplayName(System.String)
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void InputControlAttribute_set_shortDisplayName_m4DD4109FFFABB8110484A941460E7DA3AA2F73E5_inline (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * __this, String_t* ___value0, const RuntimeMethod* method);
+// System.Void UnityEngine.HideInInspector::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HideInInspector__ctor_mE2B7FB1D206A74BA583C7812CDB4EBDD83EB66F9 (HideInInspector_tDD5B9D3AD8D48C93E23FE6CA3ECDA5589D60CCDA * __this, const RuntimeMethod* method);
 // System.Void UnityEngine.InputSystem.Layouts.InputControlAttribute::set_alias(System.String)
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void InputControlAttribute_set_alias_m78C253CCD7BD52A5C503F7DF4EAF83E05E342A35_inline (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * __this, String_t* ___value0, const RuntimeMethod* method);
+// System.Void UnityEngine.InputSystem.Layouts.InputControlAttribute::set_shortDisplayName(System.String)
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void InputControlAttribute_set_shortDisplayName_m4DD4109FFFABB8110484A941460E7DA3AA2F73E5_inline (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * __this, String_t* ___value0, const RuntimeMethod* method);
 // System.Void UnityEngine.RequireComponent::.ctor(System.Type)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RequireComponent__ctor_m5EC89D3D22D7D880E1B88A5C9FADF1FBDC713EE4 (RequireComponent_tEDA546F9722B8874DA9658BDAB821BA49647FC91 * __this, Type_t * ___requiredComponent0, const RuntimeMethod* method);
 // System.Void UnityEngine.HeaderAttribute::.ctor(System.String)
@@ -1932,10 +1919,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpaceAttribute__ctor_m765D137779D8FB9527
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConditionalAttribute__ctor_m43C71F47F8ED8FDF9A11FB20E8916C3737DD66AF (ConditionalAttribute_t5DD558ED67ECF65952A82B94A75C6E8E121B2D8C * __this, String_t* ___conditionString0, const RuntimeMethod* method);
 // System.Void UnityEngine.ExecuteInEditMode::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ExecuteInEditMode__ctor_m52849B67DB46F6CF090D45E523FAE97A10825C0A (ExecuteInEditMode_tAA3B5DE8B7E207BC6CAAFDB1F2502350C0546173 * __this, const RuntimeMethod* method);
-// System.Void UnityEngine.InputSystem.Layouts.InputControlAttribute::set_usage(System.String)
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void InputControlAttribute_set_usage_mC1F26BE0D5681DA7BA2586E4F960DE53B90CE195_inline (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * __this, String_t* ___value0, const RuntimeMethod* method);
 // System.Void UnityEngine.InputSystem.Layouts.InputControlAttribute::set_usages(System.String[])
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void InputControlAttribute_set_usages_m0C1A7CFA0324603E57AF07E109818577B21E689F_inline (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * __this, StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A* ___value0, const RuntimeMethod* method);
+// System.Void UnityEngine.InputSystem.Layouts.InputControlAttribute::set_usage(System.String)
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void InputControlAttribute_set_usage_mC1F26BE0D5681DA7BA2586E4F960DE53B90CE195_inline (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * __this, String_t* ___value0, const RuntimeMethod* method);
 // System.Void UnityEngine.InputSystem.Layouts.InputControlAttribute::set_format(System.String)
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void InputControlAttribute_set_format_m521FCB2A2DD5AB8CB571FAC5F0C44841F141C626_inline (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * __this, String_t* ___value0, const RuntimeMethod* method);
 // System.Void UnityEngine.InputSystem.Layouts.InputControlAttribute::set_sizeInBits(System.UInt32)
@@ -1970,58 +1957,36 @@ static void Unity_InputSystem_CustomAttributesCacheGenerator(CustomAttributesCac
 {
 	{
 		InternalsVisibleToAttribute_t1D9772A02892BAC440952F880A43C257E6C3E68C * tmp = (InternalsVisibleToAttribute_t1D9772A02892BAC440952F880A43C257E6C3E68C *)cache->attributes[0];
-		InternalsVisibleToAttribute__ctor_m420071A75DCEEC72356490C64B4B0B9270DA32B9(tmp, il2cpp_codegen_string_new_wrapper("\x55\x6E\x69\x74\x79\x2E\x49\x6E\x70\x75\x74\x53\x79\x73\x74\x65\x6D\x2E\x49\x6E\x74\x65\x67\x72\x61\x74\x69\x6F\x6E\x54\x65\x73\x74\x73"), NULL);
-	}
-	{
-		InternalsVisibleToAttribute_t1D9772A02892BAC440952F880A43C257E6C3E68C * tmp = (InternalsVisibleToAttribute_t1D9772A02892BAC440952F880A43C257E6C3E68C *)cache->attributes[1];
 		InternalsVisibleToAttribute__ctor_m420071A75DCEEC72356490C64B4B0B9270DA32B9(tmp, il2cpp_codegen_string_new_wrapper("\x55\x6E\x69\x74\x79\x2E\x49\x6E\x70\x75\x74\x53\x79\x73\x74\x65\x6D\x2E\x54\x65\x73\x74\x73\x2E\x45\x64\x69\x74\x6F\x72"), NULL);
 	}
 	{
-		InternalsVisibleToAttribute_t1D9772A02892BAC440952F880A43C257E6C3E68C * tmp = (InternalsVisibleToAttribute_t1D9772A02892BAC440952F880A43C257E6C3E68C *)cache->attributes[2];
+		InternalsVisibleToAttribute_t1D9772A02892BAC440952F880A43C257E6C3E68C * tmp = (InternalsVisibleToAttribute_t1D9772A02892BAC440952F880A43C257E6C3E68C *)cache->attributes[1];
 		InternalsVisibleToAttribute__ctor_m420071A75DCEEC72356490C64B4B0B9270DA32B9(tmp, il2cpp_codegen_string_new_wrapper("\x55\x6E\x69\x74\x79\x2E\x49\x6E\x70\x75\x74\x53\x79\x73\x74\x65\x6D\x2E\x54\x65\x73\x74\x46\x72\x61\x6D\x65\x77\x6F\x72\x6B"), NULL);
 	}
 	{
-		DebuggableAttribute_tA8054EBD0FC7511695D494B690B5771658E3191B * tmp = (DebuggableAttribute_tA8054EBD0FC7511695D494B690B5771658E3191B *)cache->attributes[3];
+		DebuggableAttribute_tA8054EBD0FC7511695D494B690B5771658E3191B * tmp = (DebuggableAttribute_tA8054EBD0FC7511695D494B690B5771658E3191B *)cache->attributes[2];
 		DebuggableAttribute__ctor_m7FF445C8435494A4847123A668D889E692E55550(tmp, 2LL, NULL);
 	}
 	{
-		RuntimeCompatibilityAttribute_tFF99AB2963098F9CBCD47A20D9FD3D51C17C1C80 * tmp = (RuntimeCompatibilityAttribute_tFF99AB2963098F9CBCD47A20D9FD3D51C17C1C80 *)cache->attributes[4];
+		RuntimeCompatibilityAttribute_tFF99AB2963098F9CBCD47A20D9FD3D51C17C1C80 * tmp = (RuntimeCompatibilityAttribute_tFF99AB2963098F9CBCD47A20D9FD3D51C17C1C80 *)cache->attributes[3];
 		RuntimeCompatibilityAttribute__ctor_m551DDF1438CE97A984571949723F30F44CF7317C(tmp, NULL);
 		RuntimeCompatibilityAttribute_set_WrapNonExceptionThrows_m8562196F90F3EBCEC23B5708EE0332842883C490_inline(tmp, true, NULL);
 	}
 	{
-		CompilationRelaxationsAttribute_t661FDDC06629BDA607A42BD660944F039FE03AFF * tmp = (CompilationRelaxationsAttribute_t661FDDC06629BDA607A42BD660944F039FE03AFF *)cache->attributes[5];
+		CompilationRelaxationsAttribute_t661FDDC06629BDA607A42BD660944F039FE03AFF * tmp = (CompilationRelaxationsAttribute_t661FDDC06629BDA607A42BD660944F039FE03AFF *)cache->attributes[4];
 		CompilationRelaxationsAttribute__ctor_mAC3079EBC4EEAB474EED8208EF95DB39C922333B(tmp, 8LL, NULL);
 	}
 	{
-		ExtensionAttribute_t917F3F92E717DC8B2D7BC03967A9790B1B8EF7CC * tmp = (ExtensionAttribute_t917F3F92E717DC8B2D7BC03967A9790B1B8EF7CC *)cache->attributes[6];
+		ExtensionAttribute_t917F3F92E717DC8B2D7BC03967A9790B1B8EF7CC * tmp = (ExtensionAttribute_t917F3F92E717DC8B2D7BC03967A9790B1B8EF7CC *)cache->attributes[5];
 		ExtensionAttribute__ctor_mB331519C39C4210259A248A4C629DF934937C1FA(tmp, NULL);
 	}
 	{
-		InternalsVisibleToAttribute_t1D9772A02892BAC440952F880A43C257E6C3E68C * tmp = (InternalsVisibleToAttribute_t1D9772A02892BAC440952F880A43C257E6C3E68C *)cache->attributes[7];
+		InternalsVisibleToAttribute_t1D9772A02892BAC440952F880A43C257E6C3E68C * tmp = (InternalsVisibleToAttribute_t1D9772A02892BAC440952F880A43C257E6C3E68C *)cache->attributes[6];
 		InternalsVisibleToAttribute__ctor_m420071A75DCEEC72356490C64B4B0B9270DA32B9(tmp, il2cpp_codegen_string_new_wrapper("\x55\x6E\x69\x74\x79\x2E\x49\x6E\x70\x75\x74\x53\x79\x73\x74\x65\x6D\x2E\x54\x65\x73\x74\x73"), NULL);
 	}
-}
-static void EmbeddedAttribute_t19E7B5E26135E3D97E0A65D6FDFF46AFD0D65288_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
-{
 	{
-		CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C * tmp = (CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C *)cache->attributes[0];
-		CompilerGeneratedAttribute__ctor_m9DC3E4E2DA76FE93948D44199213E2E924DCBE35(tmp, NULL);
-	}
-	{
-		EmbeddedAttribute_t19E7B5E26135E3D97E0A65D6FDFF46AFD0D65288 * tmp = (EmbeddedAttribute_t19E7B5E26135E3D97E0A65D6FDFF46AFD0D65288 *)cache->attributes[1];
-		EmbeddedAttribute__ctor_m6D0F9615C60EA7CAF5176A853F17F8D6C9D7A137(tmp, NULL);
-	}
-}
-static void IsReadOnlyAttribute_t545ECE2B402890B8978FB2B6BD9B405C0C67C193_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
-{
-	{
-		EmbeddedAttribute_t19E7B5E26135E3D97E0A65D6FDFF46AFD0D65288 * tmp = (EmbeddedAttribute_t19E7B5E26135E3D97E0A65D6FDFF46AFD0D65288 *)cache->attributes[0];
-		EmbeddedAttribute__ctor_m6D0F9615C60EA7CAF5176A853F17F8D6C9D7A137(tmp, NULL);
-	}
-	{
-		CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C * tmp = (CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C *)cache->attributes[1];
-		CompilerGeneratedAttribute__ctor_m9DC3E4E2DA76FE93948D44199213E2E924DCBE35(tmp, NULL);
+		InternalsVisibleToAttribute_t1D9772A02892BAC440952F880A43C257E6C3E68C * tmp = (InternalsVisibleToAttribute_t1D9772A02892BAC440952F880A43C257E6C3E68C *)cache->attributes[7];
+		InternalsVisibleToAttribute__ctor_m420071A75DCEEC72356490C64B4B0B9270DA32B9(tmp, il2cpp_codegen_string_new_wrapper("\x55\x6E\x69\x74\x79\x2E\x49\x6E\x70\x75\x74\x53\x79\x73\x74\x65\x6D\x2E\x49\x6E\x74\x65\x67\x72\x61\x74\x69\x6F\x6E\x54\x65\x73\x74\x73"), NULL);
 	}
 }
 static void OpenVRHMD_tD894F3E1C3E29DCC40E14DA24512210CCD92216D_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
@@ -3863,17 +3828,17 @@ static void OculusHMD_t8127E26FF42F728DE48848D0B7CFBC770FC50947_CustomAttributes
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[0];
-		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
-	}
-	{
 		StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A* _tmp_aliases = (StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A*)SZArrayNew(StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A_il2cpp_TypeInfo_var, 1);
 		(_tmp_aliases)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(0), il2cpp_codegen_string_new_wrapper("\x64\x65\x76\x69\x63\x65\x69\x73\x74\x72\x61\x63\x6B\x65\x64"));
-		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[1];
+		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[0];
 		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
 		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x69\x73\x54\x72\x61\x63\x6B\x65\x64"), NULL);
 		InputControlAttribute_set_layout_mCF2C40C4FD8A34D75840202460F60D7DB88CF54D_inline(tmp, il2cpp_codegen_string_new_wrapper("\x42\x75\x74\x74\x6F\x6E"), NULL);
 		InputControlAttribute_set_aliases_mD29AD37656E9AFE2EE1F3EE95CBBA21A31467F08_inline(tmp, _tmp_aliases, NULL);
+	}
+	{
+		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[1];
+		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
 	}
 	{
 		StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A* _tmp_aliases = (StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A*)SZArrayNew(StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A_il2cpp_TypeInfo_var, 1);
@@ -4554,11 +4519,11 @@ static void OculusTouchController_t82C7E942D68D84459A77428FA72B9377249AC7D9_Cust
 	}
 	{
 		StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A* _tmp_aliases = (StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A*)SZArrayNew(StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A_il2cpp_TypeInfo_var, 1);
-		(_tmp_aliases)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(0), il2cpp_codegen_string_new_wrapper("\x43\x6F\x6E\x74\x72\x6F\x6C\x6C\x65\x72\x49\x73\x54\x72\x61\x63\x6B\x65\x64"));
+		(_tmp_aliases)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(0), il2cpp_codegen_string_new_wrapper("\x63\x6F\x6E\x74\x72\x6F\x6C\x6C\x65\x72\x52\x6F\x74\x61\x74\x69\x6F\x6E"));
 		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[1];
 		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
-		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x69\x73\x54\x72\x61\x63\x6B\x65\x64"), NULL);
-		InputControlAttribute_set_layout_mCF2C40C4FD8A34D75840202460F60D7DB88CF54D_inline(tmp, il2cpp_codegen_string_new_wrapper("\x42\x75\x74\x74\x6F\x6E"), NULL);
+		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x64\x65\x76\x69\x63\x65\x52\x6F\x74\x61\x74\x69\x6F\x6E"), NULL);
+		InputControlAttribute_set_layout_mCF2C40C4FD8A34D75840202460F60D7DB88CF54D_inline(tmp, il2cpp_codegen_string_new_wrapper("\x51\x75\x61\x74\x65\x72\x6E\x69\x6F\x6E"), NULL);
 		InputControlAttribute_set_aliases_mD29AD37656E9AFE2EE1F3EE95CBBA21A31467F08_inline(tmp, _tmp_aliases, NULL);
 	}
 	{
@@ -4580,11 +4545,11 @@ static void OculusTouchController_t82C7E942D68D84459A77428FA72B9377249AC7D9_Cust
 	}
 	{
 		StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A* _tmp_aliases = (StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A*)SZArrayNew(StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A_il2cpp_TypeInfo_var, 1);
-		(_tmp_aliases)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(0), il2cpp_codegen_string_new_wrapper("\x63\x6F\x6E\x74\x72\x6F\x6C\x6C\x65\x72\x52\x6F\x74\x61\x74\x69\x6F\x6E"));
+		(_tmp_aliases)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(0), il2cpp_codegen_string_new_wrapper("\x43\x6F\x6E\x74\x72\x6F\x6C\x6C\x65\x72\x49\x73\x54\x72\x61\x63\x6B\x65\x64"));
 		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[4];
 		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
-		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x64\x65\x76\x69\x63\x65\x52\x6F\x74\x61\x74\x69\x6F\x6E"), NULL);
-		InputControlAttribute_set_layout_mCF2C40C4FD8A34D75840202460F60D7DB88CF54D_inline(tmp, il2cpp_codegen_string_new_wrapper("\x51\x75\x61\x74\x65\x72\x6E\x69\x6F\x6E"), NULL);
+		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x69\x73\x54\x72\x61\x63\x6B\x65\x64"), NULL);
+		InputControlAttribute_set_layout_mCF2C40C4FD8A34D75840202460F60D7DB88CF54D_inline(tmp, il2cpp_codegen_string_new_wrapper("\x42\x75\x74\x74\x6F\x6E"), NULL);
 		InputControlAttribute_set_aliases_mD29AD37656E9AFE2EE1F3EE95CBBA21A31467F08_inline(tmp, _tmp_aliases, NULL);
 	}
 }
@@ -5542,17 +5507,17 @@ static void WMRHMD_tE4C0F0F84CC48B9768D46949098F92FAD8109E49_CustomAttributesCac
 		InputControlAttribute_set_aliases_mD29AD37656E9AFE2EE1F3EE95CBBA21A31467F08_inline(tmp, _tmp_aliases, NULL);
 	}
 	{
-		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[1];
-		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
-	}
-	{
 		StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A* _tmp_aliases = (StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A*)SZArrayNew(StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A_il2cpp_TypeInfo_var, 1);
 		(_tmp_aliases)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(0), il2cpp_codegen_string_new_wrapper("\x48\x65\x61\x64\x50\x6F\x73\x69\x74\x69\x6F\x6E"));
-		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[2];
+		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[1];
 		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
 		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x64\x65\x76\x69\x63\x65\x50\x6F\x73\x69\x74\x69\x6F\x6E"), NULL);
 		InputControlAttribute_set_layout_mCF2C40C4FD8A34D75840202460F60D7DB88CF54D_inline(tmp, il2cpp_codegen_string_new_wrapper("\x56\x65\x63\x74\x6F\x72\x33"), NULL);
 		InputControlAttribute_set_aliases_mD29AD37656E9AFE2EE1F3EE95CBBA21A31467F08_inline(tmp, _tmp_aliases, NULL);
+	}
+	{
+		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[2];
+		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
 	}
 }
 static void HololensHand_tFCD5ACAB389B85641669B501D6A2541F6D133A4E_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
@@ -6332,49 +6297,49 @@ static void WMRSpatialController_t40BB702F391AEA87300DBE46B32E69E4B5D827E0_Custo
 static void InputAction_tFCBDEFD42E78A8ED8D62A2B2E11E133A815C8E2B_CustomAttributesCacheGenerator_m_Name(CustomAttributesCache* cache)
 {
 	{
-		SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 * tmp = (SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 *)cache->attributes[0];
-		SerializeField__ctor_mDE6A7673BA2C1FAD03CFEC65C6D473CC37889DD3(tmp, NULL);
+		TooltipAttribute_t503A1598A4E68E91673758F50447D0EDFB95149B * tmp = (TooltipAttribute_t503A1598A4E68E91673758F50447D0EDFB95149B *)cache->attributes[0];
+		TooltipAttribute__ctor_m1839ACEC1560968A6D0EA55D7EB4535546588042(tmp, il2cpp_codegen_string_new_wrapper("\x48\x75\x6D\x61\x6E\x20\x72\x65\x61\x64\x61\x62\x6C\x65\x20\x6E\x61\x6D\x65\x20\x6F\x66\x20\x74\x68\x65\x20\x61\x63\x74\x69\x6F\x6E\x2E\x20\x4D\x75\x73\x74\x20\x62\x65\x20\x75\x6E\x69\x71\x75\x65\x20\x77\x69\x74\x68\x69\x6E\x20\x69\x74\x73\x20\x61\x63\x74\x69\x6F\x6E\x20\x6D\x61\x70\x20\x28\x63\x61\x73\x65\x20\x69\x73\x20\x69\x67\x6E\x6F\x72\x65\x64\x29\x2E\x20\x43\x61\x6E\x20\x62\x65\x20\x63\x68\x61\x6E\x67\x65\x64\x20\x77\x69\x74\x68\x6F\x75\x74\x20\x62\x72\x65\x61\x6B\x69\x6E\x67\x20\x72\x65\x66\x65\x72\x65\x6E\x63\x65\x73\x20\x74\x6F\x20\x74\x68\x65\x20\x61\x63\x74\x69\x6F\x6E\x2E"), NULL);
 	}
 	{
-		TooltipAttribute_t503A1598A4E68E91673758F50447D0EDFB95149B * tmp = (TooltipAttribute_t503A1598A4E68E91673758F50447D0EDFB95149B *)cache->attributes[1];
-		TooltipAttribute__ctor_m1839ACEC1560968A6D0EA55D7EB4535546588042(tmp, il2cpp_codegen_string_new_wrapper("\x48\x75\x6D\x61\x6E\x20\x72\x65\x61\x64\x61\x62\x6C\x65\x20\x6E\x61\x6D\x65\x20\x6F\x66\x20\x74\x68\x65\x20\x61\x63\x74\x69\x6F\x6E\x2E\x20\x4D\x75\x73\x74\x20\x62\x65\x20\x75\x6E\x69\x71\x75\x65\x20\x77\x69\x74\x68\x69\x6E\x20\x69\x74\x73\x20\x61\x63\x74\x69\x6F\x6E\x20\x6D\x61\x70\x20\x28\x63\x61\x73\x65\x20\x69\x73\x20\x69\x67\x6E\x6F\x72\x65\x64\x29\x2E\x20\x43\x61\x6E\x20\x62\x65\x20\x63\x68\x61\x6E\x67\x65\x64\x20\x77\x69\x74\x68\x6F\x75\x74\x20\x62\x72\x65\x61\x6B\x69\x6E\x67\x20\x72\x65\x66\x65\x72\x65\x6E\x63\x65\x73\x20\x74\x6F\x20\x74\x68\x65\x20\x61\x63\x74\x69\x6F\x6E\x2E"), NULL);
+		SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 * tmp = (SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 *)cache->attributes[1];
+		SerializeField__ctor_mDE6A7673BA2C1FAD03CFEC65C6D473CC37889DD3(tmp, NULL);
 	}
 }
 static void InputAction_tFCBDEFD42E78A8ED8D62A2B2E11E133A815C8E2B_CustomAttributesCacheGenerator_m_Type(CustomAttributesCache* cache)
 {
 	{
-		TooltipAttribute_t503A1598A4E68E91673758F50447D0EDFB95149B * tmp = (TooltipAttribute_t503A1598A4E68E91673758F50447D0EDFB95149B *)cache->attributes[0];
-		TooltipAttribute__ctor_m1839ACEC1560968A6D0EA55D7EB4535546588042(tmp, il2cpp_codegen_string_new_wrapper("\x44\x65\x74\x65\x72\x6D\x69\x6E\x65\x73\x20\x68\x6F\x77\x20\x74\x68\x65\x20\x61\x63\x74\x69\x6F\x6E\x20\x74\x72\x69\x67\x67\x65\x72\x73\x2E\xA\xA\x41\x20\x56\x61\x6C\x75\x65\x20\x61\x63\x74\x69\x6F\x6E\x20\x77\x69\x6C\x6C\x20\x73\x74\x61\x72\x74\x20\x61\x6E\x64\x20\x70\x65\x72\x66\x6F\x72\x6D\x20\x77\x68\x65\x6E\x20\x61\x20\x63\x6F\x6E\x74\x72\x6F\x6C\x20\x6D\x6F\x76\x65\x73\x20\x66\x72\x6F\x6D\x20\x69\x74\x73\x20\x64\x65\x66\x61\x75\x6C\x74\x20\x76\x61\x6C\x75\x65\x20\x61\x6E\x64\x20\x74\x68\x65\x6E\x20\x70\x65\x72\x66\x6F\x72\x6D\x20\x6F\x6E\x20\x65\x76\x65\x72\x79\x20\x76\x61\x6C\x75\x65\x20\x63\x68\x61\x6E\x67\x65\x2E\x20\x49\x74\x20\x77\x69\x6C\x6C\x20\x63\x61\x6E\x63\x65\x6C\x20\x77\x68\x65\x6E\x20\x63\x6F\x6E\x74\x72\x6F\x6C\x73\x20\x67\x6F\x20\x62\x61\x63\x6B\x20\x74\x6F\x20\x64\x65\x66\x61\x75\x6C\x74\x20\x76\x61\x6C\x75\x65\x2E\x20\x41\x6C\x73\x6F\x2C\x20\x77\x68\x65\x6E\x20\x65\x6E\x61\x62\x6C\x65\x64\x2C\x20\x61\x20\x56\x61\x6C\x75\x65\x20\x61\x63\x74\x69\x6F\x6E\x20\x77\x69\x6C\x6C\x20\x72\x65\x73\x70\x6F\x6E\x64\x20\x72\x69\x67\x68\x74\x20\x61\x77\x61\x79\x20\x74\x6F\x20\x61\x20\x63\x6F\x6E\x74\x72\x6F\x6C\x27\x73\x20\x63\x75\x72\x72\x65\x6E\x74\x20\x76\x61\x6C\x75\x65\x2E\xA\xA\x41\x20\x42\x75\x74\x74\x6F\x6E\x20\x61\x63\x74\x69\x6F\x6E\x20\x77\x69\x6C\x6C\x20\x73\x74\x61\x72\x74\x20\x77\x68\x65\x6E\x20\x61\x20\x62\x75\x74\x74\x6F\x6E\x20\x69\x73\x20\x70\x72\x65\x73\x73\x65\x64\x20\x61\x6E\x64\x20\x70\x65\x72\x66\x6F\x72\x6D\x20\x77\x68\x65\x6E\x20\x74\x68\x65\x20\x70\x72\x65\x73\x73\x20\x74\x68\x72\x65\x73\x68\x6F\x6C\x64\x20\x28\x73\x65\x65\x20\x27\x44\x65\x66\x61\x75\x6C\x74\x20\x42\x75\x74\x74\x6F\x6E\x20\x50\x72\x65\x73\x73\x20\x50\x6F\x69\x6E\x74\x27\x20\x69\x6E\x20\x73\x65\x74\x74\x69\x6E\x67\x73\x29\x20\x69\x73\x20\x72\x65\x61\x63\x68\x65\x64\x2E\x20\x49\x74\x20\x77\x69\x6C\x6C\x20\x63\x61\x6E\x63\x65\x6C\x20\x77\x68\x65\x6E\x20\x74\x68\x65\x20\x62\x75\x74\x74\x6F\x6E\x20\x69\x73\x20\x67\x6F\x69\x6E\x67\x20\x62\x65\x6C\x6F\x77\x20\x74\x68\x65\x20\x72\x65\x6C\x65\x61\x73\x65\x20\x74\x68\x72\x65\x73\x68\x6F\x6C\x64\x20\x28\x73\x65\x65\x20\x27\x42\x75\x74\x74\x6F\x6E\x20\x52\x65\x6C\x65\x61\x73\x65\x20\x54\x68\x72\x65\x73\x68\x6F\x6C\x64\x27\x20\x69\x6E\x20\x73\x65\x74\x74\x69\x6E\x67\x73\x29\x2E\x20\x41\x6C\x73\x6F\x2C\x20\x69\x66\x20\x61\x20\x62\x75\x74\x74\x6F\x6E\x20\x69\x73\x20\x61\x6C\x72\x65\x61\x64\x79\x20\x70\x72\x65\x73\x73\x65\x64\x20\x77\x68\x65\x6E\x20\x74\x68\x65\x20\x61\x63\x74\x69\x6F\x6E\x20\x69\x73\x20\x65\x6E\x61\x62\x6C\x65\x64\x2C\x20\x74\x68\x65\x20\x62\x75\x74\x74\x6F\x6E\x20\x68\x61\x73\x20\x74\x6F\x20\x62\x65\x20\x72\x65\x6C\x65\x61\x73\x65\x64\x20\x66\x69\x72\x73\x74\x2E\xA\xA\x41\x20\x50\x61\x73\x73\x2D\x54\x68\x72\x6F\x75\x67\x68\x20\x61\x63\x74\x69\x6F\x6E\x20\x77\x69\x6C\x6C\x20\x6E\x6F\x74\x20\x65\x78\x70\x6C\x69\x63\x69\x74\x6C\x79\x20\x73\x74\x61\x72\x74\x20\x61\x6E\x64\x20\x77\x69\x6C\x6C\x20\x6E\x65\x76\x65\x72\x20\x63\x61\x6E\x63\x65\x6C\x2E\x20\x49\x6E\x73\x74\x65\x61\x64\x2C\x20\x66\x6F\x72\x20\x65\x76\x65\x72\x79\x20\x76\x61\x6C\x75\x65\x20\x63\x68\x61\x6E\x67\x65\x20\x6F\x6E\x20\x61\x6E\x79\x20\x62\x6F\x75\x6E\x64\x20\x63\x6F\x6E\x74\x72\x6F\x6C\x2C\x20\x74\x68\x65\x20\x61\x63\x74\x69\x6F\x6E\x20\x77\x69\x6C\x6C\x20\x70\x65\x72\x66\x6F\x72\x6D\x2E"), NULL);
+		SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 * tmp = (SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 *)cache->attributes[0];
+		SerializeField__ctor_mDE6A7673BA2C1FAD03CFEC65C6D473CC37889DD3(tmp, NULL);
 	}
 	{
-		SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 * tmp = (SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 *)cache->attributes[1];
-		SerializeField__ctor_mDE6A7673BA2C1FAD03CFEC65C6D473CC37889DD3(tmp, NULL);
+		TooltipAttribute_t503A1598A4E68E91673758F50447D0EDFB95149B * tmp = (TooltipAttribute_t503A1598A4E68E91673758F50447D0EDFB95149B *)cache->attributes[1];
+		TooltipAttribute__ctor_m1839ACEC1560968A6D0EA55D7EB4535546588042(tmp, il2cpp_codegen_string_new_wrapper("\x44\x65\x74\x65\x72\x6D\x69\x6E\x65\x73\x20\x68\x6F\x77\x20\x74\x68\x65\x20\x61\x63\x74\x69\x6F\x6E\x20\x74\x72\x69\x67\x67\x65\x72\x73\x2E\xA\xA\x41\x20\x56\x61\x6C\x75\x65\x20\x61\x63\x74\x69\x6F\x6E\x20\x77\x69\x6C\x6C\x20\x73\x74\x61\x72\x74\x20\x61\x6E\x64\x20\x70\x65\x72\x66\x6F\x72\x6D\x20\x77\x68\x65\x6E\x20\x61\x20\x63\x6F\x6E\x74\x72\x6F\x6C\x20\x6D\x6F\x76\x65\x73\x20\x66\x72\x6F\x6D\x20\x69\x74\x73\x20\x64\x65\x66\x61\x75\x6C\x74\x20\x76\x61\x6C\x75\x65\x20\x61\x6E\x64\x20\x74\x68\x65\x6E\x20\x70\x65\x72\x66\x6F\x72\x6D\x20\x6F\x6E\x20\x65\x76\x65\x72\x79\x20\x76\x61\x6C\x75\x65\x20\x63\x68\x61\x6E\x67\x65\x2E\x20\x49\x74\x20\x77\x69\x6C\x6C\x20\x63\x61\x6E\x63\x65\x6C\x20\x77\x68\x65\x6E\x20\x63\x6F\x6E\x74\x72\x6F\x6C\x73\x20\x67\x6F\x20\x62\x61\x63\x6B\x20\x74\x6F\x20\x64\x65\x66\x61\x75\x6C\x74\x20\x76\x61\x6C\x75\x65\x2E\x20\x41\x6C\x73\x6F\x2C\x20\x77\x68\x65\x6E\x20\x65\x6E\x61\x62\x6C\x65\x64\x2C\x20\x61\x20\x56\x61\x6C\x75\x65\x20\x61\x63\x74\x69\x6F\x6E\x20\x77\x69\x6C\x6C\x20\x72\x65\x73\x70\x6F\x6E\x64\x20\x72\x69\x67\x68\x74\x20\x61\x77\x61\x79\x20\x74\x6F\x20\x61\x20\x63\x6F\x6E\x74\x72\x6F\x6C\x27\x73\x20\x63\x75\x72\x72\x65\x6E\x74\x20\x76\x61\x6C\x75\x65\x2E\xA\xA\x41\x20\x42\x75\x74\x74\x6F\x6E\x20\x61\x63\x74\x69\x6F\x6E\x20\x77\x69\x6C\x6C\x20\x73\x74\x61\x72\x74\x20\x77\x68\x65\x6E\x20\x61\x20\x62\x75\x74\x74\x6F\x6E\x20\x69\x73\x20\x70\x72\x65\x73\x73\x65\x64\x20\x61\x6E\x64\x20\x70\x65\x72\x66\x6F\x72\x6D\x20\x77\x68\x65\x6E\x20\x74\x68\x65\x20\x70\x72\x65\x73\x73\x20\x74\x68\x72\x65\x73\x68\x6F\x6C\x64\x20\x28\x73\x65\x65\x20\x27\x44\x65\x66\x61\x75\x6C\x74\x20\x42\x75\x74\x74\x6F\x6E\x20\x50\x72\x65\x73\x73\x20\x50\x6F\x69\x6E\x74\x27\x20\x69\x6E\x20\x73\x65\x74\x74\x69\x6E\x67\x73\x29\x20\x69\x73\x20\x72\x65\x61\x63\x68\x65\x64\x2E\x20\x49\x74\x20\x77\x69\x6C\x6C\x20\x63\x61\x6E\x63\x65\x6C\x20\x77\x68\x65\x6E\x20\x74\x68\x65\x20\x62\x75\x74\x74\x6F\x6E\x20\x69\x73\x20\x67\x6F\x69\x6E\x67\x20\x62\x65\x6C\x6F\x77\x20\x74\x68\x65\x20\x72\x65\x6C\x65\x61\x73\x65\x20\x74\x68\x72\x65\x73\x68\x6F\x6C\x64\x20\x28\x73\x65\x65\x20\x27\x42\x75\x74\x74\x6F\x6E\x20\x52\x65\x6C\x65\x61\x73\x65\x20\x54\x68\x72\x65\x73\x68\x6F\x6C\x64\x27\x20\x69\x6E\x20\x73\x65\x74\x74\x69\x6E\x67\x73\x29\x2E\x20\x41\x6C\x73\x6F\x2C\x20\x69\x66\x20\x61\x20\x62\x75\x74\x74\x6F\x6E\x20\x69\x73\x20\x61\x6C\x72\x65\x61\x64\x79\x20\x70\x72\x65\x73\x73\x65\x64\x20\x77\x68\x65\x6E\x20\x74\x68\x65\x20\x61\x63\x74\x69\x6F\x6E\x20\x69\x73\x20\x65\x6E\x61\x62\x6C\x65\x64\x2C\x20\x74\x68\x65\x20\x62\x75\x74\x74\x6F\x6E\x20\x68\x61\x73\x20\x74\x6F\x20\x62\x65\x20\x72\x65\x6C\x65\x61\x73\x65\x64\x20\x66\x69\x72\x73\x74\x2E\xA\xA\x41\x20\x50\x61\x73\x73\x2D\x54\x68\x72\x6F\x75\x67\x68\x20\x61\x63\x74\x69\x6F\x6E\x20\x77\x69\x6C\x6C\x20\x6E\x6F\x74\x20\x65\x78\x70\x6C\x69\x63\x69\x74\x6C\x79\x20\x73\x74\x61\x72\x74\x20\x61\x6E\x64\x20\x77\x69\x6C\x6C\x20\x6E\x65\x76\x65\x72\x20\x63\x61\x6E\x63\x65\x6C\x2E\x20\x49\x6E\x73\x74\x65\x61\x64\x2C\x20\x66\x6F\x72\x20\x65\x76\x65\x72\x79\x20\x76\x61\x6C\x75\x65\x20\x63\x68\x61\x6E\x67\x65\x20\x6F\x6E\x20\x61\x6E\x79\x20\x62\x6F\x75\x6E\x64\x20\x63\x6F\x6E\x74\x72\x6F\x6C\x2C\x20\x74\x68\x65\x20\x61\x63\x74\x69\x6F\x6E\x20\x77\x69\x6C\x6C\x20\x70\x65\x72\x66\x6F\x72\x6D\x2E"), NULL);
 	}
 }
 static void InputAction_tFCBDEFD42E78A8ED8D62A2B2E11E133A815C8E2B_CustomAttributesCacheGenerator_m_ExpectedControlType(CustomAttributesCache* cache)
 {
 	{
-		TooltipAttribute_t503A1598A4E68E91673758F50447D0EDFB95149B * tmp = (TooltipAttribute_t503A1598A4E68E91673758F50447D0EDFB95149B *)cache->attributes[0];
+		SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 * tmp = (SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 *)cache->attributes[0];
+		SerializeField__ctor_mDE6A7673BA2C1FAD03CFEC65C6D473CC37889DD3(tmp, NULL);
+	}
+	{
+		TooltipAttribute_t503A1598A4E68E91673758F50447D0EDFB95149B * tmp = (TooltipAttribute_t503A1598A4E68E91673758F50447D0EDFB95149B *)cache->attributes[1];
 		TooltipAttribute__ctor_m1839ACEC1560968A6D0EA55D7EB4535546588042(tmp, il2cpp_codegen_string_new_wrapper("\x54\x68\x65\x20\x74\x79\x70\x65\x20\x6F\x66\x20\x63\x6F\x6E\x74\x72\x6F\x6C\x20\x65\x78\x70\x65\x63\x74\x65\x64\x20\x62\x79\x20\x74\x68\x65\x20\x61\x63\x74\x69\x6F\x6E\x20\x28\x65\x2E\x67\x2E\x20\x22\x42\x75\x74\x74\x6F\x6E\x22\x20\x6F\x72\x20\x22\x53\x74\x69\x63\x6B\x22\x29\x2E\x20\x54\x68\x69\x73\x20\x77\x69\x6C\x6C\x20\x6C\x69\x6D\x69\x74\x20\x74\x68\x65\x20\x63\x6F\x6E\x74\x72\x6F\x6C\x73\x20\x73\x68\x6F\x77\x6E\x20\x77\x68\x65\x6E\x20\x73\x65\x74\x74\x69\x6E\x67\x20\x75\x70\x20\x62\x69\x6E\x64\x69\x6E\x67\x73\x20\x69\x6E\x20\x74\x68\x65\x20\x55\x49\x20\x61\x6E\x64\x20\x77\x69\x6C\x6C\x20\x61\x6C\x73\x6F\x20\x6C\x69\x6D\x69\x74\x20\x77\x68\x69\x63\x68\x20\x63\x6F\x6E\x74\x72\x6F\x6C\x73\x20\x63\x61\x6E\x20\x62\x65\x20\x62\x6F\x75\x6E\x64\x20\x69\x6E\x74\x65\x72\x61\x63\x74\x69\x76\x65\x6C\x79\x20\x74\x6F\x20\x74\x68\x65\x20\x61\x63\x74\x69\x6F\x6E\x2E"), NULL);
 	}
 	{
-		FormerlySerializedAsAttribute_t9505BD2243F1C81AB32EEAF3543A796C2D935210 * tmp = (FormerlySerializedAsAttribute_t9505BD2243F1C81AB32EEAF3543A796C2D935210 *)cache->attributes[1];
+		FormerlySerializedAsAttribute_t9505BD2243F1C81AB32EEAF3543A796C2D935210 * tmp = (FormerlySerializedAsAttribute_t9505BD2243F1C81AB32EEAF3543A796C2D935210 *)cache->attributes[2];
 		FormerlySerializedAsAttribute__ctor_m7A9FC6914FCBA79EE12567BEF3B482CAB7D5265D(tmp, il2cpp_codegen_string_new_wrapper("\x6D\x5F\x45\x78\x70\x65\x63\x74\x65\x64\x43\x6F\x6E\x74\x72\x6F\x6C\x4C\x61\x79\x6F\x75\x74"), NULL);
-	}
-	{
-		SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 * tmp = (SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 *)cache->attributes[2];
-		SerializeField__ctor_mDE6A7673BA2C1FAD03CFEC65C6D473CC37889DD3(tmp, NULL);
 	}
 }
 static void InputAction_tFCBDEFD42E78A8ED8D62A2B2E11E133A815C8E2B_CustomAttributesCacheGenerator_m_Id(CustomAttributesCache* cache)
 {
 	{
-		TooltipAttribute_t503A1598A4E68E91673758F50447D0EDFB95149B * tmp = (TooltipAttribute_t503A1598A4E68E91673758F50447D0EDFB95149B *)cache->attributes[0];
-		TooltipAttribute__ctor_m1839ACEC1560968A6D0EA55D7EB4535546588042(tmp, il2cpp_codegen_string_new_wrapper("\x55\x6E\x69\x71\x75\x65\x20\x49\x44\x20\x6F\x66\x20\x74\x68\x65\x20\x61\x63\x74\x69\x6F\x6E\x20\x28\x47\x55\x49\x44\x29\x2E\x20\x55\x73\x65\x64\x20\x74\x6F\x20\x72\x65\x66\x65\x72\x65\x6E\x63\x65\x20\x74\x68\x65\x20\x61\x63\x74\x69\x6F\x6E\x20\x66\x72\x6F\x6D\x20\x62\x69\x6E\x64\x69\x6E\x67\x73\x20\x73\x75\x63\x68\x20\x74\x68\x61\x74\x20\x61\x63\x74\x69\x6F\x6E\x73\x20\x63\x61\x6E\x20\x62\x65\x20\x72\x65\x6E\x61\x6D\x65\x64\x20\x77\x69\x74\x68\x6F\x75\x74\x20\x62\x72\x65\x61\x6B\x69\x6E\x67\x20\x72\x65\x66\x65\x72\x65\x6E\x63\x65\x73\x2E"), NULL);
+		SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 * tmp = (SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 *)cache->attributes[0];
+		SerializeField__ctor_mDE6A7673BA2C1FAD03CFEC65C6D473CC37889DD3(tmp, NULL);
 	}
 	{
-		SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 * tmp = (SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 *)cache->attributes[1];
-		SerializeField__ctor_mDE6A7673BA2C1FAD03CFEC65C6D473CC37889DD3(tmp, NULL);
+		TooltipAttribute_t503A1598A4E68E91673758F50447D0EDFB95149B * tmp = (TooltipAttribute_t503A1598A4E68E91673758F50447D0EDFB95149B *)cache->attributes[1];
+		TooltipAttribute__ctor_m1839ACEC1560968A6D0EA55D7EB4535546588042(tmp, il2cpp_codegen_string_new_wrapper("\x55\x6E\x69\x71\x75\x65\x20\x49\x44\x20\x6F\x66\x20\x74\x68\x65\x20\x61\x63\x74\x69\x6F\x6E\x20\x28\x47\x55\x49\x44\x29\x2E\x20\x55\x73\x65\x64\x20\x74\x6F\x20\x72\x65\x66\x65\x72\x65\x6E\x63\x65\x20\x74\x68\x65\x20\x61\x63\x74\x69\x6F\x6E\x20\x66\x72\x6F\x6D\x20\x62\x69\x6E\x64\x69\x6E\x67\x73\x20\x73\x75\x63\x68\x20\x74\x68\x61\x74\x20\x61\x63\x74\x69\x6F\x6E\x73\x20\x63\x61\x6E\x20\x62\x65\x20\x72\x65\x6E\x61\x6D\x65\x64\x20\x77\x69\x74\x68\x6F\x75\x74\x20\x62\x72\x65\x61\x6B\x69\x6E\x67\x20\x72\x65\x66\x65\x72\x65\x6E\x63\x65\x73\x2E"), NULL);
 	}
 }
 static void InputAction_tFCBDEFD42E78A8ED8D62A2B2E11E133A815C8E2B_CustomAttributesCacheGenerator_m_Processors(CustomAttributesCache* cache)
@@ -7176,12 +7141,12 @@ static void InputBinding_t1A8DA234454BB5B0F1D42761789DFE6155CE0ECB_CustomAttribu
 static void InputBinding_t1A8DA234454BB5B0F1D42761789DFE6155CE0ECB_CustomAttributesCacheGenerator_m_Path(CustomAttributesCache* cache)
 {
 	{
-		TooltipAttribute_t503A1598A4E68E91673758F50447D0EDFB95149B * tmp = (TooltipAttribute_t503A1598A4E68E91673758F50447D0EDFB95149B *)cache->attributes[0];
-		TooltipAttribute__ctor_m1839ACEC1560968A6D0EA55D7EB4535546588042(tmp, il2cpp_codegen_string_new_wrapper("\x50\x61\x74\x68\x20\x6F\x66\x20\x74\x68\x65\x20\x63\x6F\x6E\x74\x72\x6F\x6C\x20\x74\x6F\x20\x62\x69\x6E\x64\x20\x74\x6F\x2E\x20\x4D\x61\x74\x63\x68\x65\x64\x20\x61\x74\x20\x72\x75\x6E\x74\x69\x6D\x65\x20\x74\x6F\x20\x63\x6F\x6E\x74\x72\x6F\x6C\x73\x20\x66\x72\x6F\x6D\x20\x49\x6E\x70\x75\x74\x44\x65\x76\x69\x63\x65\x73\x20\x70\x72\x65\x73\x65\x6E\x74\x20\x61\x74\x20\x74\x68\x65\x20\x74\x69\x6D\x65\x2E\xA\xA\x43\x61\x6E\x20\x65\x69\x74\x68\x65\x72\x20\x62\x65\x20\x67\x72\x61\x70\x68\x69\x63\x61\x6C\x6C\x79\x20\x66\x72\x6F\x6D\x20\x74\x68\x65\x20\x63\x6F\x6E\x74\x72\x6F\x6C\x20\x70\x69\x63\x6B\x65\x72\x20\x64\x72\x6F\x70\x64\x6F\x77\x6E\x20\x55\x49\x20\x6F\x72\x20\x65\x64\x69\x74\x65\x64\x20\x6D\x61\x6E\x75\x61\x6C\x6C\x79\x20\x69\x6E\x20\x74\x65\x78\x74\x20\x6D\x6F\x64\x65\x20\x62\x79\x20\x63\x6C\x69\x63\x6B\x69\x6E\x67\x20\x74\x68\x65\x20\x27\x54\x27\x20\x62\x75\x74\x74\x6F\x6E\x2E\x20\x49\x6E\x74\x65\x72\x6E\x61\x6C\x6C\x79\x2C\x20\x62\x6F\x74\x68\x20\x6D\x65\x74\x68\x6F\x64\x73\x20\x72\x65\x73\x75\x6C\x74\x20\x69\x6E\x20\x63\x6F\x6E\x74\x72\x6F\x6C\x20\x70\x61\x74\x68\x20\x73\x74\x72\x69\x6E\x67\x73\x20\x74\x68\x61\x74\x20\x6C\x6F\x6F\x6B\x20\x6C\x69\x6B\x65\x2C\x20\x66\x6F\x72\x20\x65\x78\x61\x6D\x70\x6C\x65\x2C\x20\x22\x3C\x47\x61\x6D\x65\x70\x61\x64\x3E\x2F\x62\x75\x74\x74\x6F\x6E\x53\x6F\x75\x74\x68\x22\x2E"), NULL);
+		SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 * tmp = (SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 *)cache->attributes[0];
+		SerializeField__ctor_mDE6A7673BA2C1FAD03CFEC65C6D473CC37889DD3(tmp, NULL);
 	}
 	{
-		SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 * tmp = (SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 *)cache->attributes[1];
-		SerializeField__ctor_mDE6A7673BA2C1FAD03CFEC65C6D473CC37889DD3(tmp, NULL);
+		TooltipAttribute_t503A1598A4E68E91673758F50447D0EDFB95149B * tmp = (TooltipAttribute_t503A1598A4E68E91673758F50447D0EDFB95149B *)cache->attributes[1];
+		TooltipAttribute__ctor_m1839ACEC1560968A6D0EA55D7EB4535546588042(tmp, il2cpp_codegen_string_new_wrapper("\x50\x61\x74\x68\x20\x6F\x66\x20\x74\x68\x65\x20\x63\x6F\x6E\x74\x72\x6F\x6C\x20\x74\x6F\x20\x62\x69\x6E\x64\x20\x74\x6F\x2E\x20\x4D\x61\x74\x63\x68\x65\x64\x20\x61\x74\x20\x72\x75\x6E\x74\x69\x6D\x65\x20\x74\x6F\x20\x63\x6F\x6E\x74\x72\x6F\x6C\x73\x20\x66\x72\x6F\x6D\x20\x49\x6E\x70\x75\x74\x44\x65\x76\x69\x63\x65\x73\x20\x70\x72\x65\x73\x65\x6E\x74\x20\x61\x74\x20\x74\x68\x65\x20\x74\x69\x6D\x65\x2E\xA\xA\x43\x61\x6E\x20\x65\x69\x74\x68\x65\x72\x20\x62\x65\x20\x67\x72\x61\x70\x68\x69\x63\x61\x6C\x6C\x79\x20\x66\x72\x6F\x6D\x20\x74\x68\x65\x20\x63\x6F\x6E\x74\x72\x6F\x6C\x20\x70\x69\x63\x6B\x65\x72\x20\x64\x72\x6F\x70\x64\x6F\x77\x6E\x20\x55\x49\x20\x6F\x72\x20\x65\x64\x69\x74\x65\x64\x20\x6D\x61\x6E\x75\x61\x6C\x6C\x79\x20\x69\x6E\x20\x74\x65\x78\x74\x20\x6D\x6F\x64\x65\x20\x62\x79\x20\x63\x6C\x69\x63\x6B\x69\x6E\x67\x20\x74\x68\x65\x20\x27\x54\x27\x20\x62\x75\x74\x74\x6F\x6E\x2E\x20\x49\x6E\x74\x65\x72\x6E\x61\x6C\x6C\x79\x2C\x20\x62\x6F\x74\x68\x20\x6D\x65\x74\x68\x6F\x64\x73\x20\x72\x65\x73\x75\x6C\x74\x20\x69\x6E\x20\x63\x6F\x6E\x74\x72\x6F\x6C\x20\x70\x61\x74\x68\x20\x73\x74\x72\x69\x6E\x67\x73\x20\x74\x68\x61\x74\x20\x6C\x6F\x6F\x6B\x20\x6C\x69\x6B\x65\x2C\x20\x66\x6F\x72\x20\x65\x78\x61\x6D\x70\x6C\x65\x2C\x20\x22\x3C\x47\x61\x6D\x65\x70\x61\x64\x3E\x2F\x62\x75\x74\x74\x6F\x6E\x53\x6F\x75\x74\x68\x22\x2E"), NULL);
 	}
 }
 static void InputBinding_t1A8DA234454BB5B0F1D42761789DFE6155CE0ECB_CustomAttributesCacheGenerator_m_Interactions(CustomAttributesCache* cache)
@@ -7357,8 +7322,8 @@ static void PartBinding_t50AD4EDB3571E1D838ECD744F246070D1192988C_CustomAttribut
 		CompilerGeneratedAttribute__ctor_m9DC3E4E2DA76FE93948D44199213E2E924DCBE35(tmp, NULL);
 	}
 	{
-		IsReadOnlyAttribute_t545ECE2B402890B8978FB2B6BD9B405C0C67C193 * tmp = (IsReadOnlyAttribute_t545ECE2B402890B8978FB2B6BD9B405C0C67C193 *)cache->attributes[1];
-		IsReadOnlyAttribute__ctor_m9162ED12EC6603A57ABEF95706F0BB727210A6CD(tmp, NULL);
+		IsReadOnlyAttribute_tB6E31A0106212818B0AB6DC627AA320291BD7566 * tmp = (IsReadOnlyAttribute_tB6E31A0106212818B0AB6DC627AA320291BD7566 *)cache->attributes[1];
+		IsReadOnlyAttribute__ctor_m02F9F7CD56DE227F7ABDD1E2593D82E6FFA57E9A(tmp, NULL);
 	}
 }
 static void PartBinding_t50AD4EDB3571E1D838ECD744F246070D1192988C_CustomAttributesCacheGenerator_PartBinding_set_part_mF160E6FAFBE64E35B5F35A2630CE791419D816EE(CustomAttributesCache* cache)
@@ -7375,8 +7340,8 @@ static void PartBinding_t50AD4EDB3571E1D838ECD744F246070D1192988C_CustomAttribut
 		CompilerGeneratedAttribute__ctor_m9DC3E4E2DA76FE93948D44199213E2E924DCBE35(tmp, NULL);
 	}
 	{
-		IsReadOnlyAttribute_t545ECE2B402890B8978FB2B6BD9B405C0C67C193 * tmp = (IsReadOnlyAttribute_t545ECE2B402890B8978FB2B6BD9B405C0C67C193 *)cache->attributes[1];
-		IsReadOnlyAttribute__ctor_m9162ED12EC6603A57ABEF95706F0BB727210A6CD(tmp, NULL);
+		IsReadOnlyAttribute_tB6E31A0106212818B0AB6DC627AA320291BD7566 * tmp = (IsReadOnlyAttribute_tB6E31A0106212818B0AB6DC627AA320291BD7566 *)cache->attributes[1];
+		IsReadOnlyAttribute__ctor_m02F9F7CD56DE227F7ABDD1E2593D82E6FFA57E9A(tmp, NULL);
 	}
 }
 static void PartBinding_t50AD4EDB3571E1D838ECD744F246070D1192988C_CustomAttributesCacheGenerator_PartBinding_set_control_mFB51678756EFFBE78BA41406445C2D14ED913E02(CustomAttributesCache* cache)
@@ -7570,12 +7535,12 @@ static void U3CU3Ec_tE44E761CCC1A48B4A0EF054BA12B133EA3E0B6CE_CustomAttributesCa
 static void InputControl_tEC322F9612E643CD72B7759D8542E56DE84F9713_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
 {
 	{
-		DefaultMemberAttribute_t8C9B3330DEA69EE364962477FF14FD2CFE30D4B5 * tmp = (DefaultMemberAttribute_t8C9B3330DEA69EE364962477FF14FD2CFE30D4B5 *)cache->attributes[0];
-		DefaultMemberAttribute__ctor_mA025B6F5B3A9292696E01108027840C8DFF7F4D7(tmp, il2cpp_codegen_string_new_wrapper("\x49\x74\x65\x6D"), NULL);
+		DebuggerDisplayAttribute_tA5070C1A6CAB579DAC66A469530D946F6F42727F * tmp = (DebuggerDisplayAttribute_tA5070C1A6CAB579DAC66A469530D946F6F42727F *)cache->attributes[0];
+		DebuggerDisplayAttribute__ctor_m870C3A98DA4C9FA7FD4411169AF30C55A90B9988(tmp, il2cpp_codegen_string_new_wrapper("\x7B\x44\x65\x62\x75\x67\x67\x65\x72\x44\x69\x73\x70\x6C\x61\x79\x28\x29\x2C\x6E\x71\x7D"), NULL);
 	}
 	{
-		DebuggerDisplayAttribute_tA5070C1A6CAB579DAC66A469530D946F6F42727F * tmp = (DebuggerDisplayAttribute_tA5070C1A6CAB579DAC66A469530D946F6F42727F *)cache->attributes[1];
-		DebuggerDisplayAttribute__ctor_m870C3A98DA4C9FA7FD4411169AF30C55A90B9988(tmp, il2cpp_codegen_string_new_wrapper("\x7B\x44\x65\x62\x75\x67\x67\x65\x72\x44\x69\x73\x70\x6C\x61\x79\x28\x29\x2C\x6E\x71\x7D"), NULL);
+		DefaultMemberAttribute_t8C9B3330DEA69EE364962477FF14FD2CFE30D4B5 * tmp = (DefaultMemberAttribute_t8C9B3330DEA69EE364962477FF14FD2CFE30D4B5 *)cache->attributes[1];
+		DefaultMemberAttribute__ctor_mA025B6F5B3A9292696E01108027840C8DFF7F4D7(tmp, il2cpp_codegen_string_new_wrapper("\x49\x74\x65\x6D"), NULL);
 	}
 }
 static void ControlFlags_tC210B095E24C31AC8E07C6E09B02CAA80C2563B6_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
@@ -7938,8 +7903,8 @@ static void ControlBuilder_tB24B3F94F792BEB0CC53C12D3C98A40779AE19CA_CustomAttri
 		CompilerGeneratedAttribute__ctor_m9DC3E4E2DA76FE93948D44199213E2E924DCBE35(tmp, NULL);
 	}
 	{
-		IsReadOnlyAttribute_t545ECE2B402890B8978FB2B6BD9B405C0C67C193 * tmp = (IsReadOnlyAttribute_t545ECE2B402890B8978FB2B6BD9B405C0C67C193 *)cache->attributes[1];
-		IsReadOnlyAttribute__ctor_m9162ED12EC6603A57ABEF95706F0BB727210A6CD(tmp, NULL);
+		IsReadOnlyAttribute_tB6E31A0106212818B0AB6DC627AA320291BD7566 * tmp = (IsReadOnlyAttribute_tB6E31A0106212818B0AB6DC627AA320291BD7566 *)cache->attributes[1];
+		IsReadOnlyAttribute__ctor_m02F9F7CD56DE227F7ABDD1E2593D82E6FFA57E9A(tmp, NULL);
 	}
 }
 static void ControlBuilder_tB24B3F94F792BEB0CC53C12D3C98A40779AE19CA_CustomAttributesCacheGenerator_ControlBuilder_set_control_mA4BC4E0570FAE828D0589D597636D40608D0669D(CustomAttributesCache* cache)
@@ -7959,8 +7924,8 @@ static void DeviceBuilder_tC096FC58BE023A32BE7D05EAB605B01707D2BC55_CustomAttrib
 static void DeviceBuilder_tC096FC58BE023A32BE7D05EAB605B01707D2BC55_CustomAttributesCacheGenerator_DeviceBuilder_get_device_mBD32155AC73648CAF399676EA354222CC8902083(CustomAttributesCache* cache)
 {
 	{
-		IsReadOnlyAttribute_t545ECE2B402890B8978FB2B6BD9B405C0C67C193 * tmp = (IsReadOnlyAttribute_t545ECE2B402890B8978FB2B6BD9B405C0C67C193 *)cache->attributes[0];
-		IsReadOnlyAttribute__ctor_m9162ED12EC6603A57ABEF95706F0BB727210A6CD(tmp, NULL);
+		IsReadOnlyAttribute_tB6E31A0106212818B0AB6DC627AA320291BD7566 * tmp = (IsReadOnlyAttribute_tB6E31A0106212818B0AB6DC627AA320291BD7566 *)cache->attributes[0];
+		IsReadOnlyAttribute__ctor_m02F9F7CD56DE227F7ABDD1E2593D82E6FFA57E9A(tmp, NULL);
 	}
 	{
 		CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C * tmp = (CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C *)cache->attributes[1];
@@ -8147,14 +8112,14 @@ static void Gamepad_t1CF49CFDE5517B1EF8D0B861882D9FD7392D6E01_CustomAttributesCa
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		InputControlLayoutAttribute_t4CF6B4F7FE0FDFAEB4170492F3BFFE340D6DF420 * tmp = (InputControlLayoutAttribute_t4CF6B4F7FE0FDFAEB4170492F3BFFE340D6DF420 *)cache->attributes[0];
+		DefaultMemberAttribute_t8C9B3330DEA69EE364962477FF14FD2CFE30D4B5 * tmp = (DefaultMemberAttribute_t8C9B3330DEA69EE364962477FF14FD2CFE30D4B5 *)cache->attributes[0];
+		DefaultMemberAttribute__ctor_mA025B6F5B3A9292696E01108027840C8DFF7F4D7(tmp, il2cpp_codegen_string_new_wrapper("\x49\x74\x65\x6D"), NULL);
+	}
+	{
+		InputControlLayoutAttribute_t4CF6B4F7FE0FDFAEB4170492F3BFFE340D6DF420 * tmp = (InputControlLayoutAttribute_t4CF6B4F7FE0FDFAEB4170492F3BFFE340D6DF420 *)cache->attributes[1];
 		InputControlLayoutAttribute__ctor_mA977B60A782C8A9068E9256060C318BA2D495A01(tmp, NULL);
 		InputControlLayoutAttribute_set_stateType_mD9D02F6E5D7F25567CD082CACF2AC8D2C3C0B762_inline(tmp, il2cpp_codegen_type_get_object(GamepadState_tB51D5628B4C0EF704A63A27C531D037011BF87DC_0_0_0_var), NULL);
 		InputControlLayoutAttribute_set_isGenericTypeOfDevice_m14866706D520C405DB58979E9DAA8F2B84A8FB72_inline(tmp, true, NULL);
-	}
-	{
-		DefaultMemberAttribute_t8C9B3330DEA69EE364962477FF14FD2CFE30D4B5 * tmp = (DefaultMemberAttribute_t8C9B3330DEA69EE364962477FF14FD2CFE30D4B5 *)cache->attributes[1];
-		DefaultMemberAttribute__ctor_mA025B6F5B3A9292696E01108027840C8DFF7F4D7(tmp, il2cpp_codegen_string_new_wrapper("\x49\x74\x65\x6D"), NULL);
 	}
 }
 static void Gamepad_t1CF49CFDE5517B1EF8D0B861882D9FD7392D6E01_CustomAttributesCacheGenerator_U3CbuttonWestU3Ek__BackingField(CustomAttributesCache* cache)
@@ -10599,23 +10564,23 @@ static void PlayerInput_t25A2A6FB89F4A105F88EAD6E194C3D2FF7316CF5_CustomAttribut
 static void PlayerInput_t25A2A6FB89F4A105F88EAD6E194C3D2FF7316CF5_CustomAttributesCacheGenerator_m_Actions(CustomAttributesCache* cache)
 {
 	{
-		TooltipAttribute_t503A1598A4E68E91673758F50447D0EDFB95149B * tmp = (TooltipAttribute_t503A1598A4E68E91673758F50447D0EDFB95149B *)cache->attributes[0];
-		TooltipAttribute__ctor_m1839ACEC1560968A6D0EA55D7EB4535546588042(tmp, il2cpp_codegen_string_new_wrapper("\x49\x6E\x70\x75\x74\x20\x61\x63\x74\x69\x6F\x6E\x73\x20\x61\x73\x73\x6F\x63\x69\x61\x74\x65\x64\x20\x77\x69\x74\x68\x20\x74\x68\x65\x20\x70\x6C\x61\x79\x65\x72\x2E"), NULL);
+		SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 * tmp = (SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 *)cache->attributes[0];
+		SerializeField__ctor_mDE6A7673BA2C1FAD03CFEC65C6D473CC37889DD3(tmp, NULL);
 	}
 	{
-		SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 * tmp = (SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 *)cache->attributes[1];
-		SerializeField__ctor_mDE6A7673BA2C1FAD03CFEC65C6D473CC37889DD3(tmp, NULL);
+		TooltipAttribute_t503A1598A4E68E91673758F50447D0EDFB95149B * tmp = (TooltipAttribute_t503A1598A4E68E91673758F50447D0EDFB95149B *)cache->attributes[1];
+		TooltipAttribute__ctor_m1839ACEC1560968A6D0EA55D7EB4535546588042(tmp, il2cpp_codegen_string_new_wrapper("\x49\x6E\x70\x75\x74\x20\x61\x63\x74\x69\x6F\x6E\x73\x20\x61\x73\x73\x6F\x63\x69\x61\x74\x65\x64\x20\x77\x69\x74\x68\x20\x74\x68\x65\x20\x70\x6C\x61\x79\x65\x72\x2E"), NULL);
 	}
 }
 static void PlayerInput_t25A2A6FB89F4A105F88EAD6E194C3D2FF7316CF5_CustomAttributesCacheGenerator_m_NotificationBehavior(CustomAttributesCache* cache)
 {
 	{
-		TooltipAttribute_t503A1598A4E68E91673758F50447D0EDFB95149B * tmp = (TooltipAttribute_t503A1598A4E68E91673758F50447D0EDFB95149B *)cache->attributes[0];
-		TooltipAttribute__ctor_m1839ACEC1560968A6D0EA55D7EB4535546588042(tmp, il2cpp_codegen_string_new_wrapper("\x44\x65\x74\x65\x72\x6D\x69\x6E\x65\x20\x68\x6F\x77\x20\x6E\x6F\x74\x69\x66\x69\x63\x61\x74\x69\x6F\x6E\x73\x20\x73\x68\x6F\x75\x6C\x64\x20\x62\x65\x20\x73\x65\x6E\x74\x20\x77\x68\x65\x6E\x20\x61\x6E\x20\x69\x6E\x70\x75\x74\x2D\x72\x65\x6C\x61\x74\x65\x64\x20\x65\x76\x65\x6E\x74\x20\x61\x73\x73\x6F\x63\x69\x61\x74\x65\x64\x20\x77\x69\x74\x68\x20\x74\x68\x65\x20\x70\x6C\x61\x79\x65\x72\x20\x68\x61\x70\x70\x65\x6E\x73\x2E"), NULL);
+		SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 * tmp = (SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 *)cache->attributes[0];
+		SerializeField__ctor_mDE6A7673BA2C1FAD03CFEC65C6D473CC37889DD3(tmp, NULL);
 	}
 	{
-		SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 * tmp = (SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 *)cache->attributes[1];
-		SerializeField__ctor_mDE6A7673BA2C1FAD03CFEC65C6D473CC37889DD3(tmp, NULL);
+		TooltipAttribute_t503A1598A4E68E91673758F50447D0EDFB95149B * tmp = (TooltipAttribute_t503A1598A4E68E91673758F50447D0EDFB95149B *)cache->attributes[1];
+		TooltipAttribute__ctor_m1839ACEC1560968A6D0EA55D7EB4535546588042(tmp, il2cpp_codegen_string_new_wrapper("\x44\x65\x74\x65\x72\x6D\x69\x6E\x65\x20\x68\x6F\x77\x20\x6E\x6F\x74\x69\x66\x69\x63\x61\x74\x69\x6F\x6E\x73\x20\x73\x68\x6F\x75\x6C\x64\x20\x62\x65\x20\x73\x65\x6E\x74\x20\x77\x68\x65\x6E\x20\x61\x6E\x20\x69\x6E\x70\x75\x74\x2D\x72\x65\x6C\x61\x74\x65\x64\x20\x65\x76\x65\x6E\x74\x20\x61\x73\x73\x6F\x63\x69\x61\x74\x65\x64\x20\x77\x69\x74\x68\x20\x74\x68\x65\x20\x70\x6C\x61\x79\x65\x72\x20\x68\x61\x70\x70\x65\x6E\x73\x2E"), NULL);
 	}
 }
 static void PlayerInput_t25A2A6FB89F4A105F88EAD6E194C3D2FF7316CF5_CustomAttributesCacheGenerator_m_UIInputModule(CustomAttributesCache* cache)
@@ -10692,12 +10657,12 @@ static void PlayerInput_t25A2A6FB89F4A105F88EAD6E194C3D2FF7316CF5_CustomAttribut
 static void PlayerInput_t25A2A6FB89F4A105F88EAD6E194C3D2FF7316CF5_CustomAttributesCacheGenerator_m_Camera(CustomAttributesCache* cache)
 {
 	{
-		TooltipAttribute_t503A1598A4E68E91673758F50447D0EDFB95149B * tmp = (TooltipAttribute_t503A1598A4E68E91673758F50447D0EDFB95149B *)cache->attributes[0];
-		TooltipAttribute__ctor_m1839ACEC1560968A6D0EA55D7EB4535546588042(tmp, il2cpp_codegen_string_new_wrapper("\x52\x65\x66\x65\x72\x65\x6E\x63\x65\x20\x74\x6F\x20\x74\x68\x65\x20\x70\x6C\x61\x79\x65\x72\x27\x73\x20\x76\x69\x65\x77\x20\x63\x61\x6D\x65\x72\x61\x2E\x20\x4E\x6F\x74\x65\x20\x74\x68\x61\x74\x20\x74\x68\x69\x73\x20\x69\x73\x20\x6F\x6E\x6C\x79\x20\x72\x65\x71\x75\x69\x72\x65\x64\x20\x77\x68\x65\x6E\x20\x75\x73\x69\x6E\x67\x20\x73\x70\x6C\x69\x74\x2D\x73\x63\x72\x65\x65\x6E\x20\x61\x6E\x64\x2F\x6F\x72\x20\x70\x65\x72\x2D\x70\x6C\x61\x79\x65\x72\x20\x55\x49\x73\x2E\x20\x4F\x74\x68\x65\x72\x77\x69\x73\x65\x20\x69\x74\x20\x69\x73\x20\x73\x61\x66\x65\x20\x74\x6F\x20\x6C\x65\x61\x76\x65\x20\x74\x68\x69\x73\x20\x70\x72\x6F\x70\x65\x72\x74\x79\x20\x75\x6E\x69\x6E\x69\x74\x69\x61\x6C\x69\x7A\x65\x64\x2E"), NULL);
+		SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 * tmp = (SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 *)cache->attributes[0];
+		SerializeField__ctor_mDE6A7673BA2C1FAD03CFEC65C6D473CC37889DD3(tmp, NULL);
 	}
 	{
-		SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 * tmp = (SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 *)cache->attributes[1];
-		SerializeField__ctor_mDE6A7673BA2C1FAD03CFEC65C6D473CC37889DD3(tmp, NULL);
+		TooltipAttribute_t503A1598A4E68E91673758F50447D0EDFB95149B * tmp = (TooltipAttribute_t503A1598A4E68E91673758F50447D0EDFB95149B *)cache->attributes[1];
+		TooltipAttribute__ctor_m1839ACEC1560968A6D0EA55D7EB4535546588042(tmp, il2cpp_codegen_string_new_wrapper("\x52\x65\x66\x65\x72\x65\x6E\x63\x65\x20\x74\x6F\x20\x74\x68\x65\x20\x70\x6C\x61\x79\x65\x72\x27\x73\x20\x76\x69\x65\x77\x20\x63\x61\x6D\x65\x72\x61\x2E\x20\x4E\x6F\x74\x65\x20\x74\x68\x61\x74\x20\x74\x68\x69\x73\x20\x69\x73\x20\x6F\x6E\x6C\x79\x20\x72\x65\x71\x75\x69\x72\x65\x64\x20\x77\x68\x65\x6E\x20\x75\x73\x69\x6E\x67\x20\x73\x70\x6C\x69\x74\x2D\x73\x63\x72\x65\x65\x6E\x20\x61\x6E\x64\x2F\x6F\x72\x20\x70\x65\x72\x2D\x70\x6C\x61\x79\x65\x72\x20\x55\x49\x73\x2E\x20\x4F\x74\x68\x65\x72\x77\x69\x73\x65\x20\x69\x74\x20\x69\x73\x20\x73\x61\x66\x65\x20\x74\x6F\x20\x6C\x65\x61\x76\x65\x20\x74\x68\x69\x73\x20\x70\x72\x6F\x70\x65\x72\x74\x79\x20\x75\x6E\x69\x6E\x69\x74\x69\x61\x6C\x69\x7A\x65\x64\x2E"), NULL);
 	}
 }
 static void PlayerInput_t25A2A6FB89F4A105F88EAD6E194C3D2FF7316CF5_CustomAttributesCacheGenerator_PlayerInput_PassivateInput_m53C5D0EBDDC8AA10D896B4661F71F737074ED8DD(CustomAttributesCache* cache)
@@ -10943,91 +10908,91 @@ static void iOSGameControllerState_t2A813956BE071FE6D6A75F57BD710393BB532E97_Cus
 	{
 		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[0];
 		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
-		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x62\x75\x74\x74\x6F\x6E\x45\x61\x73\x74"), NULL);
-		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 13LL, NULL);
+		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x62\x75\x74\x74\x6F\x6E\x57\x65\x73\x74"), NULL);
+		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 10LL, NULL);
 	}
 	{
 		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[1];
-		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
-		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x62\x75\x74\x74\x6F\x6E\x4E\x6F\x72\x74\x68"), NULL);
-		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 11LL, NULL);
-	}
-	{
-		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[2];
 		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
 		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x62\x75\x74\x74\x6F\x6E\x53\x6F\x75\x74\x68"), NULL);
 		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 12LL, NULL);
 	}
 	{
-		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[3];
-		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
-		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x72\x69\x67\x68\x74\x53\x74\x69\x63\x6B\x50\x72\x65\x73\x73"), NULL);
-		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 5LL, NULL);
-	}
-	{
-		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[4];
-		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
-		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x64\x70\x61\x64"), NULL);
-	}
-	{
-		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[5];
-		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
-		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x73\x65\x6C\x65\x63\x74"), NULL);
-		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 15LL, NULL);
-	}
-	{
-		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[6];
-		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
-		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x73\x74\x61\x72\x74"), NULL);
-		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 14LL, NULL);
-	}
-	{
-		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[7];
-		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
-		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x72\x69\x67\x68\x74\x53\x68\x6F\x75\x6C\x64\x65\x72"), NULL);
-		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 7LL, NULL);
-	}
-	{
-		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[8];
-		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
-		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x64\x70\x61\x64\x2F\x75\x70"), NULL);
-		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 0LL, NULL);
-	}
-	{
-		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[9];
-		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
-		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x64\x70\x61\x64\x2F\x72\x69\x67\x68\x74"), NULL);
-		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 3LL, NULL);
-	}
-	{
-		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[10];
-		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
-		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x64\x70\x61\x64\x2F\x64\x6F\x77\x6E"), NULL);
-		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 1LL, NULL);
-	}
-	{
-		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[11];
+		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[2];
 		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
 		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x64\x70\x61\x64\x2F\x6C\x65\x66\x74"), NULL);
 		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 2LL, NULL);
 	}
 	{
-		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[12];
+		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[3];
+		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
+		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x64\x70\x61\x64\x2F\x64\x6F\x77\x6E"), NULL);
+		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 1LL, NULL);
+	}
+	{
+		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[4];
+		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
+		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x73\x65\x6C\x65\x63\x74"), NULL);
+		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 15LL, NULL);
+	}
+	{
+		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[5];
+		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
+		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x73\x74\x61\x72\x74"), NULL);
+		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 14LL, NULL);
+	}
+	{
+		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[6];
+		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
+		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x64\x70\x61\x64"), NULL);
+	}
+	{
+		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[7];
+		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
+		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x64\x70\x61\x64\x2F\x75\x70"), NULL);
+		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 0LL, NULL);
+	}
+	{
+		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[8];
+		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
+		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x72\x69\x67\x68\x74\x53\x68\x6F\x75\x6C\x64\x65\x72"), NULL);
+		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 7LL, NULL);
+	}
+	{
+		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[9];
 		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
 		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x6C\x65\x66\x74\x53\x74\x69\x63\x6B\x50\x72\x65\x73\x73"), NULL);
 		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 4LL, NULL);
 	}
 	{
-		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[13];
+		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[10];
+		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
+		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x72\x69\x67\x68\x74\x53\x74\x69\x63\x6B\x50\x72\x65\x73\x73"), NULL);
+		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 5LL, NULL);
+	}
+	{
+		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[11];
 		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
 		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x6C\x65\x66\x74\x53\x68\x6F\x75\x6C\x64\x65\x72"), NULL);
 		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 6LL, NULL);
 	}
 	{
+		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[12];
+		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
+		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x64\x70\x61\x64\x2F\x72\x69\x67\x68\x74"), NULL);
+		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 3LL, NULL);
+	}
+	{
+		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[13];
+		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
+		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x62\x75\x74\x74\x6F\x6E\x4E\x6F\x72\x74\x68"), NULL);
+		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 11LL, NULL);
+	}
+	{
 		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[14];
 		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
-		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x62\x75\x74\x74\x6F\x6E\x57\x65\x73\x74"), NULL);
-		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 10LL, NULL);
+		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x62\x75\x74\x74\x6F\x6E\x45\x61\x73\x74"), NULL);
+		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 13LL, NULL);
 	}
 }
 static void iOSGameControllerState_t2A813956BE071FE6D6A75F57BD710393BB532E97_CustomAttributesCacheGenerator_buttonValues(CustomAttributesCache* cache)
@@ -11039,14 +11004,14 @@ static void iOSGameControllerState_t2A813956BE071FE6D6A75F57BD710393BB532E97_Cus
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		FixedBufferAttribute_tA3523076C957FC980B0B4445B25C2D4AA626DC4C * tmp = (FixedBufferAttribute_tA3523076C957FC980B0B4445B25C2D4AA626DC4C *)cache->attributes[0];
-		FixedBufferAttribute__ctor_m7767B7379CFADD0D12551A5A891BF1916A07BE51(tmp, il2cpp_codegen_type_get_object(Single_tE07797BA3C98D4CA9B5A19413C19A76688AB899E_0_0_0_var), 16LL, NULL);
-	}
-	{
-		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[1];
+		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[0];
 		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
 		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x6C\x65\x66\x74\x54\x72\x69\x67\x67\x65\x72"), NULL);
 		InputControlAttribute_set_offset_mB03D7D9806CB454CE909A2A9BBA0179C3CC593ED_inline(tmp, 36LL, NULL);
+	}
+	{
+		FixedBufferAttribute_tA3523076C957FC980B0B4445B25C2D4AA626DC4C * tmp = (FixedBufferAttribute_tA3523076C957FC980B0B4445B25C2D4AA626DC4C *)cache->attributes[1];
+		FixedBufferAttribute__ctor_m7767B7379CFADD0D12551A5A891BF1916A07BE51(tmp, il2cpp_codegen_type_get_object(Single_tE07797BA3C98D4CA9B5A19413C19A76688AB899E_0_0_0_var), 16LL, NULL);
 	}
 	{
 		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[2];
@@ -11070,14 +11035,14 @@ static void iOSGameControllerState_t2A813956BE071FE6D6A75F57BD710393BB532E97_Cus
 	{
 		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[1];
 		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
-		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x6C\x65\x66\x74\x53\x74\x69\x63\x6B"), NULL);
-		InputControlAttribute_set_offset_mB03D7D9806CB454CE909A2A9BBA0179C3CC593ED_inline(tmp, 68LL, NULL);
+		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x72\x69\x67\x68\x74\x53\x74\x69\x63\x6B"), NULL);
+		InputControlAttribute_set_offset_mB03D7D9806CB454CE909A2A9BBA0179C3CC593ED_inline(tmp, 76LL, NULL);
 	}
 	{
 		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[2];
 		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
-		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x72\x69\x67\x68\x74\x53\x74\x69\x63\x6B"), NULL);
-		InputControlAttribute_set_offset_mB03D7D9806CB454CE909A2A9BBA0179C3CC593ED_inline(tmp, 76LL, NULL);
+		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x6C\x65\x66\x74\x53\x74\x69\x63\x6B"), NULL);
+		InputControlAttribute_set_offset_mB03D7D9806CB454CE909A2A9BBA0179C3CC593ED_inline(tmp, 68LL, NULL);
 	}
 }
 static void U3CbuttonValuesU3Ee__FixedBuffer_tD45FFAC88F7D57218333F9AF9F8AC18FDF6CB991_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
@@ -11094,12 +11059,12 @@ static void U3CbuttonValuesU3Ee__FixedBuffer_tD45FFAC88F7D57218333F9AF9F8AC18FDF
 static void U3CaxisValuesU3Ee__FixedBuffer_tF29E0EBAFB7A103BE0A4620E9C091BD4FE66D45B_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
 {
 	{
-		CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C * tmp = (CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C *)cache->attributes[0];
-		CompilerGeneratedAttribute__ctor_m9DC3E4E2DA76FE93948D44199213E2E924DCBE35(tmp, NULL);
+		UnsafeValueTypeAttribute_tC3B73880876B0FA7C68CE8A678FD4D6440438CAC * tmp = (UnsafeValueTypeAttribute_tC3B73880876B0FA7C68CE8A678FD4D6440438CAC *)cache->attributes[0];
+		UnsafeValueTypeAttribute__ctor_mA5A3D4443A6B4BE3B31E8A8919809719991A7EC4(tmp, NULL);
 	}
 	{
-		UnsafeValueTypeAttribute_tC3B73880876B0FA7C68CE8A678FD4D6440438CAC * tmp = (UnsafeValueTypeAttribute_tC3B73880876B0FA7C68CE8A678FD4D6440438CAC *)cache->attributes[1];
-		UnsafeValueTypeAttribute__ctor_mA5A3D4443A6B4BE3B31E8A8919809719991A7EC4(tmp, NULL);
+		CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C * tmp = (CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C *)cache->attributes[1];
+		CompilerGeneratedAttribute__ctor_m9DC3E4E2DA76FE93948D44199213E2E924DCBE35(tmp, NULL);
 	}
 }
 static void iOSStepCounterState_t9E5EB22FECAD265E6537807F154BA79B579C0308_CustomAttributesCacheGenerator_stepCounter(CustomAttributesCache* cache)
@@ -11579,16 +11544,16 @@ static void TrackedPoseDriver_tA05377C45C48A9F7DA1C82D23FAE01B39DACF6F8_CustomAt
 static void TrackedPoseDriver_tA05377C45C48A9F7DA1C82D23FAE01B39DACF6F8_CustomAttributesCacheGenerator_m_PositionAction(CustomAttributesCache* cache)
 {
 	{
-		SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 * tmp = (SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 *)cache->attributes[0];
+		ObsoleteAttribute_t14BAC1669C0409EB9F28D72D664FFA6764ACD671 * tmp = (ObsoleteAttribute_t14BAC1669C0409EB9F28D72D664FFA6764ACD671 *)cache->attributes[0];
+		ObsoleteAttribute__ctor_m9BC17A80675E9013AA71F9FB38D89FEF56883853(tmp, NULL);
+	}
+	{
+		SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 * tmp = (SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 *)cache->attributes[1];
 		SerializeField__ctor_mDE6A7673BA2C1FAD03CFEC65C6D473CC37889DD3(tmp, NULL);
 	}
 	{
-		HideInInspector_tDD5B9D3AD8D48C93E23FE6CA3ECDA5589D60CCDA * tmp = (HideInInspector_tDD5B9D3AD8D48C93E23FE6CA3ECDA5589D60CCDA *)cache->attributes[1];
+		HideInInspector_tDD5B9D3AD8D48C93E23FE6CA3ECDA5589D60CCDA * tmp = (HideInInspector_tDD5B9D3AD8D48C93E23FE6CA3ECDA5589D60CCDA *)cache->attributes[2];
 		HideInInspector__ctor_mE2B7FB1D206A74BA583C7812CDB4EBDD83EB66F9(tmp, NULL);
-	}
-	{
-		ObsoleteAttribute_t14BAC1669C0409EB9F28D72D664FFA6764ACD671 * tmp = (ObsoleteAttribute_t14BAC1669C0409EB9F28D72D664FFA6764ACD671 *)cache->attributes[2];
-		ObsoleteAttribute__ctor_m9BC17A80675E9013AA71F9FB38D89FEF56883853(tmp, NULL);
 	}
 }
 static void TrackedPoseDriver_tA05377C45C48A9F7DA1C82D23FAE01B39DACF6F8_CustomAttributesCacheGenerator_m_RotationAction(CustomAttributesCache* cache)
@@ -11609,12 +11574,12 @@ static void TrackedPoseDriver_tA05377C45C48A9F7DA1C82D23FAE01B39DACF6F8_CustomAt
 static void TrackedPoseDriver_tA05377C45C48A9F7DA1C82D23FAE01B39DACF6F8_CustomAttributesCacheGenerator_m_HasMigratedActions(CustomAttributesCache* cache)
 {
 	{
-		HideInInspector_tDD5B9D3AD8D48C93E23FE6CA3ECDA5589D60CCDA * tmp = (HideInInspector_tDD5B9D3AD8D48C93E23FE6CA3ECDA5589D60CCDA *)cache->attributes[0];
-		HideInInspector__ctor_mE2B7FB1D206A74BA583C7812CDB4EBDD83EB66F9(tmp, NULL);
+		SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 * tmp = (SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 *)cache->attributes[0];
+		SerializeField__ctor_mDE6A7673BA2C1FAD03CFEC65C6D473CC37889DD3(tmp, NULL);
 	}
 	{
-		SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 * tmp = (SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 *)cache->attributes[1];
-		SerializeField__ctor_mDE6A7673BA2C1FAD03CFEC65C6D473CC37889DD3(tmp, NULL);
+		HideInInspector_tDD5B9D3AD8D48C93E23FE6CA3ECDA5589D60CCDA * tmp = (HideInInspector_tDD5B9D3AD8D48C93E23FE6CA3ECDA5589D60CCDA *)cache->attributes[1];
+		HideInInspector__ctor_mE2B7FB1D206A74BA583C7812CDB4EBDD83EB66F9(tmp, NULL);
 	}
 }
 static void U3CU3Ec__DisplayClass5_0_t61B431287C870188CE58D7B356636FD26AA4A34F_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
@@ -11648,12 +11613,12 @@ static void Bone_tAAFB45A18DD31486DE1DA517EFD03E023CDBA224_CustomAttributesCache
 static void Bone_tAAFB45A18DD31486DE1DA517EFD03E023CDBA224_CustomAttributesCacheGenerator_Bone_get_parentBoneIndex_m87442F539250AD250EFAC0B912E886C3DA53C25E(CustomAttributesCache* cache)
 {
 	{
-		IsReadOnlyAttribute_t545ECE2B402890B8978FB2B6BD9B405C0C67C193 * tmp = (IsReadOnlyAttribute_t545ECE2B402890B8978FB2B6BD9B405C0C67C193 *)cache->attributes[0];
-		IsReadOnlyAttribute__ctor_m9162ED12EC6603A57ABEF95706F0BB727210A6CD(tmp, NULL);
+		CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C * tmp = (CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C *)cache->attributes[0];
+		CompilerGeneratedAttribute__ctor_m9DC3E4E2DA76FE93948D44199213E2E924DCBE35(tmp, NULL);
 	}
 	{
-		CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C * tmp = (CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C *)cache->attributes[1];
-		CompilerGeneratedAttribute__ctor_m9DC3E4E2DA76FE93948D44199213E2E924DCBE35(tmp, NULL);
+		IsReadOnlyAttribute_tB6E31A0106212818B0AB6DC627AA320291BD7566 * tmp = (IsReadOnlyAttribute_tB6E31A0106212818B0AB6DC627AA320291BD7566 *)cache->attributes[1];
+		IsReadOnlyAttribute__ctor_m02F9F7CD56DE227F7ABDD1E2593D82E6FFA57E9A(tmp, NULL);
 	}
 }
 static void Bone_tAAFB45A18DD31486DE1DA517EFD03E023CDBA224_CustomAttributesCacheGenerator_Bone_set_parentBoneIndex_m89AA039DBE1C75D8CDBB58B3EFAF3DCAA26F01B1(CustomAttributesCache* cache)
@@ -11670,8 +11635,8 @@ static void Bone_tAAFB45A18DD31486DE1DA517EFD03E023CDBA224_CustomAttributesCache
 		CompilerGeneratedAttribute__ctor_m9DC3E4E2DA76FE93948D44199213E2E924DCBE35(tmp, NULL);
 	}
 	{
-		IsReadOnlyAttribute_t545ECE2B402890B8978FB2B6BD9B405C0C67C193 * tmp = (IsReadOnlyAttribute_t545ECE2B402890B8978FB2B6BD9B405C0C67C193 *)cache->attributes[1];
-		IsReadOnlyAttribute__ctor_m9162ED12EC6603A57ABEF95706F0BB727210A6CD(tmp, NULL);
+		IsReadOnlyAttribute_tB6E31A0106212818B0AB6DC627AA320291BD7566 * tmp = (IsReadOnlyAttribute_tB6E31A0106212818B0AB6DC627AA320291BD7566 *)cache->attributes[1];
+		IsReadOnlyAttribute__ctor_m02F9F7CD56DE227F7ABDD1E2593D82E6FFA57E9A(tmp, NULL);
 	}
 }
 static void Bone_tAAFB45A18DD31486DE1DA517EFD03E023CDBA224_CustomAttributesCacheGenerator_Bone_set_position_mE3D55894658D2BEB3C10F84AC688638E7334430F(CustomAttributesCache* cache)
@@ -11684,12 +11649,12 @@ static void Bone_tAAFB45A18DD31486DE1DA517EFD03E023CDBA224_CustomAttributesCache
 static void Bone_tAAFB45A18DD31486DE1DA517EFD03E023CDBA224_CustomAttributesCacheGenerator_Bone_get_rotation_m783A4934D80DF3574EBA6CEACEBBE112EF0E8AA5(CustomAttributesCache* cache)
 {
 	{
-		CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C * tmp = (CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C *)cache->attributes[0];
-		CompilerGeneratedAttribute__ctor_m9DC3E4E2DA76FE93948D44199213E2E924DCBE35(tmp, NULL);
+		IsReadOnlyAttribute_tB6E31A0106212818B0AB6DC627AA320291BD7566 * tmp = (IsReadOnlyAttribute_tB6E31A0106212818B0AB6DC627AA320291BD7566 *)cache->attributes[0];
+		IsReadOnlyAttribute__ctor_m02F9F7CD56DE227F7ABDD1E2593D82E6FFA57E9A(tmp, NULL);
 	}
 	{
-		IsReadOnlyAttribute_t545ECE2B402890B8978FB2B6BD9B405C0C67C193 * tmp = (IsReadOnlyAttribute_t545ECE2B402890B8978FB2B6BD9B405C0C67C193 *)cache->attributes[1];
-		IsReadOnlyAttribute__ctor_m9162ED12EC6603A57ABEF95706F0BB727210A6CD(tmp, NULL);
+		CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C * tmp = (CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C *)cache->attributes[1];
+		CompilerGeneratedAttribute__ctor_m9DC3E4E2DA76FE93948D44199213E2E924DCBE35(tmp, NULL);
 	}
 }
 static void Bone_tAAFB45A18DD31486DE1DA517EFD03E023CDBA224_CustomAttributesCacheGenerator_Bone_set_rotation_mDD9AE5C15F0BB94B3FBE338A5FCE15371C597828(CustomAttributesCache* cache)
@@ -11751,12 +11716,12 @@ static void Eyes_t8D250A0E1D80E046FA9E6E46509D4AC2E574B943_CustomAttributesCache
 static void Eyes_t8D250A0E1D80E046FA9E6E46509D4AC2E574B943_CustomAttributesCacheGenerator_Eyes_get_leftEyePosition_mEB21E2D5393F849136B63AB1AA65E5AA6E4ACDA7(CustomAttributesCache* cache)
 {
 	{
-		IsReadOnlyAttribute_t545ECE2B402890B8978FB2B6BD9B405C0C67C193 * tmp = (IsReadOnlyAttribute_t545ECE2B402890B8978FB2B6BD9B405C0C67C193 *)cache->attributes[0];
-		IsReadOnlyAttribute__ctor_m9162ED12EC6603A57ABEF95706F0BB727210A6CD(tmp, NULL);
+		CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C * tmp = (CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C *)cache->attributes[0];
+		CompilerGeneratedAttribute__ctor_m9DC3E4E2DA76FE93948D44199213E2E924DCBE35(tmp, NULL);
 	}
 	{
-		CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C * tmp = (CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C *)cache->attributes[1];
-		CompilerGeneratedAttribute__ctor_m9DC3E4E2DA76FE93948D44199213E2E924DCBE35(tmp, NULL);
+		IsReadOnlyAttribute_tB6E31A0106212818B0AB6DC627AA320291BD7566 * tmp = (IsReadOnlyAttribute_tB6E31A0106212818B0AB6DC627AA320291BD7566 *)cache->attributes[1];
+		IsReadOnlyAttribute__ctor_m02F9F7CD56DE227F7ABDD1E2593D82E6FFA57E9A(tmp, NULL);
 	}
 }
 static void Eyes_t8D250A0E1D80E046FA9E6E46509D4AC2E574B943_CustomAttributesCacheGenerator_Eyes_set_leftEyePosition_m8836B179A2228F34FA58E77BFE5C7F335CAE8F33(CustomAttributesCache* cache)
@@ -11773,8 +11738,8 @@ static void Eyes_t8D250A0E1D80E046FA9E6E46509D4AC2E574B943_CustomAttributesCache
 		CompilerGeneratedAttribute__ctor_m9DC3E4E2DA76FE93948D44199213E2E924DCBE35(tmp, NULL);
 	}
 	{
-		IsReadOnlyAttribute_t545ECE2B402890B8978FB2B6BD9B405C0C67C193 * tmp = (IsReadOnlyAttribute_t545ECE2B402890B8978FB2B6BD9B405C0C67C193 *)cache->attributes[1];
-		IsReadOnlyAttribute__ctor_m9162ED12EC6603A57ABEF95706F0BB727210A6CD(tmp, NULL);
+		IsReadOnlyAttribute_tB6E31A0106212818B0AB6DC627AA320291BD7566 * tmp = (IsReadOnlyAttribute_tB6E31A0106212818B0AB6DC627AA320291BD7566 *)cache->attributes[1];
+		IsReadOnlyAttribute__ctor_m02F9F7CD56DE227F7ABDD1E2593D82E6FFA57E9A(tmp, NULL);
 	}
 }
 static void Eyes_t8D250A0E1D80E046FA9E6E46509D4AC2E574B943_CustomAttributesCacheGenerator_Eyes_set_leftEyeRotation_m7D7F2384CABAE405376398AA120EB0C094AEF075(CustomAttributesCache* cache)
@@ -11787,8 +11752,8 @@ static void Eyes_t8D250A0E1D80E046FA9E6E46509D4AC2E574B943_CustomAttributesCache
 static void Eyes_t8D250A0E1D80E046FA9E6E46509D4AC2E574B943_CustomAttributesCacheGenerator_Eyes_get_rightEyePosition_m4859BD85D669C916236146CD3F910C3208B14DAC(CustomAttributesCache* cache)
 {
 	{
-		IsReadOnlyAttribute_t545ECE2B402890B8978FB2B6BD9B405C0C67C193 * tmp = (IsReadOnlyAttribute_t545ECE2B402890B8978FB2B6BD9B405C0C67C193 *)cache->attributes[0];
-		IsReadOnlyAttribute__ctor_m9162ED12EC6603A57ABEF95706F0BB727210A6CD(tmp, NULL);
+		IsReadOnlyAttribute_tB6E31A0106212818B0AB6DC627AA320291BD7566 * tmp = (IsReadOnlyAttribute_tB6E31A0106212818B0AB6DC627AA320291BD7566 *)cache->attributes[0];
+		IsReadOnlyAttribute__ctor_m02F9F7CD56DE227F7ABDD1E2593D82E6FFA57E9A(tmp, NULL);
 	}
 	{
 		CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C * tmp = (CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C *)cache->attributes[1];
@@ -11805,8 +11770,8 @@ static void Eyes_t8D250A0E1D80E046FA9E6E46509D4AC2E574B943_CustomAttributesCache
 static void Eyes_t8D250A0E1D80E046FA9E6E46509D4AC2E574B943_CustomAttributesCacheGenerator_Eyes_get_rightEyeRotation_mD8E779BE55BB79BDF5C0F4D55C4D6F21001A2031(CustomAttributesCache* cache)
 {
 	{
-		IsReadOnlyAttribute_t545ECE2B402890B8978FB2B6BD9B405C0C67C193 * tmp = (IsReadOnlyAttribute_t545ECE2B402890B8978FB2B6BD9B405C0C67C193 *)cache->attributes[0];
-		IsReadOnlyAttribute__ctor_m9162ED12EC6603A57ABEF95706F0BB727210A6CD(tmp, NULL);
+		IsReadOnlyAttribute_tB6E31A0106212818B0AB6DC627AA320291BD7566 * tmp = (IsReadOnlyAttribute_tB6E31A0106212818B0AB6DC627AA320291BD7566 *)cache->attributes[0];
+		IsReadOnlyAttribute__ctor_m02F9F7CD56DE227F7ABDD1E2593D82E6FFA57E9A(tmp, NULL);
 	}
 	{
 		CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C * tmp = (CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C *)cache->attributes[1];
@@ -11823,8 +11788,8 @@ static void Eyes_t8D250A0E1D80E046FA9E6E46509D4AC2E574B943_CustomAttributesCache
 static void Eyes_t8D250A0E1D80E046FA9E6E46509D4AC2E574B943_CustomAttributesCacheGenerator_Eyes_get_fixationPoint_m9DE519E648E1492F85D826B0AFC7B362FCCAA23B(CustomAttributesCache* cache)
 {
 	{
-		IsReadOnlyAttribute_t545ECE2B402890B8978FB2B6BD9B405C0C67C193 * tmp = (IsReadOnlyAttribute_t545ECE2B402890B8978FB2B6BD9B405C0C67C193 *)cache->attributes[0];
-		IsReadOnlyAttribute__ctor_m9162ED12EC6603A57ABEF95706F0BB727210A6CD(tmp, NULL);
+		IsReadOnlyAttribute_tB6E31A0106212818B0AB6DC627AA320291BD7566 * tmp = (IsReadOnlyAttribute_tB6E31A0106212818B0AB6DC627AA320291BD7566 *)cache->attributes[0];
+		IsReadOnlyAttribute__ctor_m02F9F7CD56DE227F7ABDD1E2593D82E6FFA57E9A(tmp, NULL);
 	}
 	{
 		CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C * tmp = (CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C *)cache->attributes[1];
@@ -11841,12 +11806,12 @@ static void Eyes_t8D250A0E1D80E046FA9E6E46509D4AC2E574B943_CustomAttributesCache
 static void Eyes_t8D250A0E1D80E046FA9E6E46509D4AC2E574B943_CustomAttributesCacheGenerator_Eyes_get_leftEyeOpenAmount_m2958B2567B4A4AE9AFE35619AF517D6A41732B44(CustomAttributesCache* cache)
 {
 	{
-		IsReadOnlyAttribute_t545ECE2B402890B8978FB2B6BD9B405C0C67C193 * tmp = (IsReadOnlyAttribute_t545ECE2B402890B8978FB2B6BD9B405C0C67C193 *)cache->attributes[0];
-		IsReadOnlyAttribute__ctor_m9162ED12EC6603A57ABEF95706F0BB727210A6CD(tmp, NULL);
+		CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C * tmp = (CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C *)cache->attributes[0];
+		CompilerGeneratedAttribute__ctor_m9DC3E4E2DA76FE93948D44199213E2E924DCBE35(tmp, NULL);
 	}
 	{
-		CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C * tmp = (CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C *)cache->attributes[1];
-		CompilerGeneratedAttribute__ctor_m9DC3E4E2DA76FE93948D44199213E2E924DCBE35(tmp, NULL);
+		IsReadOnlyAttribute_tB6E31A0106212818B0AB6DC627AA320291BD7566 * tmp = (IsReadOnlyAttribute_tB6E31A0106212818B0AB6DC627AA320291BD7566 *)cache->attributes[1];
+		IsReadOnlyAttribute__ctor_m02F9F7CD56DE227F7ABDD1E2593D82E6FFA57E9A(tmp, NULL);
 	}
 }
 static void Eyes_t8D250A0E1D80E046FA9E6E46509D4AC2E574B943_CustomAttributesCacheGenerator_Eyes_set_leftEyeOpenAmount_mEBC9395EBC67D4DDB4257A83A59E6C699512C952(CustomAttributesCache* cache)
@@ -11859,8 +11824,8 @@ static void Eyes_t8D250A0E1D80E046FA9E6E46509D4AC2E574B943_CustomAttributesCache
 static void Eyes_t8D250A0E1D80E046FA9E6E46509D4AC2E574B943_CustomAttributesCacheGenerator_Eyes_get_rightEyeOpenAmount_mB51EDD2F32D4CA71B5D98973AE64D5E73291FF61(CustomAttributesCache* cache)
 {
 	{
-		IsReadOnlyAttribute_t545ECE2B402890B8978FB2B6BD9B405C0C67C193 * tmp = (IsReadOnlyAttribute_t545ECE2B402890B8978FB2B6BD9B405C0C67C193 *)cache->attributes[0];
-		IsReadOnlyAttribute__ctor_m9162ED12EC6603A57ABEF95706F0BB727210A6CD(tmp, NULL);
+		IsReadOnlyAttribute_tB6E31A0106212818B0AB6DC627AA320291BD7566 * tmp = (IsReadOnlyAttribute_tB6E31A0106212818B0AB6DC627AA320291BD7566 *)cache->attributes[0];
+		IsReadOnlyAttribute__ctor_m02F9F7CD56DE227F7ABDD1E2593D82E6FFA57E9A(tmp, NULL);
 	}
 	{
 		CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C * tmp = (CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C *)cache->attributes[1];
@@ -12195,8 +12160,8 @@ static void BufferedRumble_t415A706AB2B290A1B60A2B73B8E38501DD3FF71B_CustomAttri
 		CompilerGeneratedAttribute__ctor_m9DC3E4E2DA76FE93948D44199213E2E924DCBE35(tmp, NULL);
 	}
 	{
-		IsReadOnlyAttribute_t545ECE2B402890B8978FB2B6BD9B405C0C67C193 * tmp = (IsReadOnlyAttribute_t545ECE2B402890B8978FB2B6BD9B405C0C67C193 *)cache->attributes[1];
-		IsReadOnlyAttribute__ctor_m9162ED12EC6603A57ABEF95706F0BB727210A6CD(tmp, NULL);
+		IsReadOnlyAttribute_tB6E31A0106212818B0AB6DC627AA320291BD7566 * tmp = (IsReadOnlyAttribute_tB6E31A0106212818B0AB6DC627AA320291BD7566 *)cache->attributes[1];
+		IsReadOnlyAttribute__ctor_m02F9F7CD56DE227F7ABDD1E2593D82E6FFA57E9A(tmp, NULL);
 	}
 }
 static void BufferedRumble_t415A706AB2B290A1B60A2B73B8E38501DD3FF71B_CustomAttributesCacheGenerator_BufferedRumble_set_capabilities_mE241CDFB11A3936E9B7F90ACF48A2B51545BA727(CustomAttributesCache* cache)
@@ -12209,12 +12174,12 @@ static void BufferedRumble_t415A706AB2B290A1B60A2B73B8E38501DD3FF71B_CustomAttri
 static void BufferedRumble_t415A706AB2B290A1B60A2B73B8E38501DD3FF71B_CustomAttributesCacheGenerator_BufferedRumble_get_device_m6269C241FC807AE6795510925BCE473C0569A201(CustomAttributesCache* cache)
 {
 	{
-		IsReadOnlyAttribute_t545ECE2B402890B8978FB2B6BD9B405C0C67C193 * tmp = (IsReadOnlyAttribute_t545ECE2B402890B8978FB2B6BD9B405C0C67C193 *)cache->attributes[0];
-		IsReadOnlyAttribute__ctor_m9162ED12EC6603A57ABEF95706F0BB727210A6CD(tmp, NULL);
+		CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C * tmp = (CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C *)cache->attributes[0];
+		CompilerGeneratedAttribute__ctor_m9DC3E4E2DA76FE93948D44199213E2E924DCBE35(tmp, NULL);
 	}
 	{
-		CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C * tmp = (CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C *)cache->attributes[1];
-		CompilerGeneratedAttribute__ctor_m9DC3E4E2DA76FE93948D44199213E2E924DCBE35(tmp, NULL);
+		IsReadOnlyAttribute_tB6E31A0106212818B0AB6DC627AA320291BD7566 * tmp = (IsReadOnlyAttribute_tB6E31A0106212818B0AB6DC627AA320291BD7566 *)cache->attributes[1];
+		IsReadOnlyAttribute__ctor_m02F9F7CD56DE227F7ABDD1E2593D82E6FFA57E9A(tmp, NULL);
 	}
 }
 static void BufferedRumble_t415A706AB2B290A1B60A2B73B8E38501DD3FF71B_CustomAttributesCacheGenerator_BufferedRumble_set_device_mB563C5CDC30B352E7A34C71097E9C4D7A658C41C(CustomAttributesCache* cache)
@@ -12241,8 +12206,8 @@ static void HapticState_t100362D9BC74ABC3B75F58F9EAA9B1F4DBE531A9_CustomAttribut
 static void HapticState_t100362D9BC74ABC3B75F58F9EAA9B1F4DBE531A9_CustomAttributesCacheGenerator_HapticState_get_samplesQueued_m4AB6324D24D03D4394A791A3A1666EEAE427B059(CustomAttributesCache* cache)
 {
 	{
-		IsReadOnlyAttribute_t545ECE2B402890B8978FB2B6BD9B405C0C67C193 * tmp = (IsReadOnlyAttribute_t545ECE2B402890B8978FB2B6BD9B405C0C67C193 *)cache->attributes[0];
-		IsReadOnlyAttribute__ctor_m9162ED12EC6603A57ABEF95706F0BB727210A6CD(tmp, NULL);
+		IsReadOnlyAttribute_tB6E31A0106212818B0AB6DC627AA320291BD7566 * tmp = (IsReadOnlyAttribute_tB6E31A0106212818B0AB6DC627AA320291BD7566 *)cache->attributes[0];
+		IsReadOnlyAttribute__ctor_m02F9F7CD56DE227F7ABDD1E2593D82E6FFA57E9A(tmp, NULL);
 	}
 	{
 		CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C * tmp = (CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C *)cache->attributes[1];
@@ -12259,12 +12224,12 @@ static void HapticState_t100362D9BC74ABC3B75F58F9EAA9B1F4DBE531A9_CustomAttribut
 static void HapticState_t100362D9BC74ABC3B75F58F9EAA9B1F4DBE531A9_CustomAttributesCacheGenerator_HapticState_get_samplesAvailable_mE97BFB00B42F32A429277D77A1C274DFCCD3176C(CustomAttributesCache* cache)
 {
 	{
-		CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C * tmp = (CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C *)cache->attributes[0];
-		CompilerGeneratedAttribute__ctor_m9DC3E4E2DA76FE93948D44199213E2E924DCBE35(tmp, NULL);
+		IsReadOnlyAttribute_tB6E31A0106212818B0AB6DC627AA320291BD7566 * tmp = (IsReadOnlyAttribute_tB6E31A0106212818B0AB6DC627AA320291BD7566 *)cache->attributes[0];
+		IsReadOnlyAttribute__ctor_m02F9F7CD56DE227F7ABDD1E2593D82E6FFA57E9A(tmp, NULL);
 	}
 	{
-		IsReadOnlyAttribute_t545ECE2B402890B8978FB2B6BD9B405C0C67C193 * tmp = (IsReadOnlyAttribute_t545ECE2B402890B8978FB2B6BD9B405C0C67C193 *)cache->attributes[1];
-		IsReadOnlyAttribute__ctor_m9162ED12EC6603A57ABEF95706F0BB727210A6CD(tmp, NULL);
+		CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C * tmp = (CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C *)cache->attributes[1];
+		CompilerGeneratedAttribute__ctor_m9DC3E4E2DA76FE93948D44199213E2E924DCBE35(tmp, NULL);
 	}
 }
 static void HapticState_t100362D9BC74ABC3B75F58F9EAA9B1F4DBE531A9_CustomAttributesCacheGenerator_HapticState_set_samplesAvailable_m2CCC24696E360F3E56231D8759FF1E7828E078BD(CustomAttributesCache* cache)
@@ -12302,8 +12267,8 @@ static void HapticCapabilities_tEC4347D453ECB8617006F558129E5B889191078A_CustomA
 		CompilerGeneratedAttribute__ctor_m9DC3E4E2DA76FE93948D44199213E2E924DCBE35(tmp, NULL);
 	}
 	{
-		IsReadOnlyAttribute_t545ECE2B402890B8978FB2B6BD9B405C0C67C193 * tmp = (IsReadOnlyAttribute_t545ECE2B402890B8978FB2B6BD9B405C0C67C193 *)cache->attributes[1];
-		IsReadOnlyAttribute__ctor_m9162ED12EC6603A57ABEF95706F0BB727210A6CD(tmp, NULL);
+		IsReadOnlyAttribute_tB6E31A0106212818B0AB6DC627AA320291BD7566 * tmp = (IsReadOnlyAttribute_tB6E31A0106212818B0AB6DC627AA320291BD7566 *)cache->attributes[1];
+		IsReadOnlyAttribute__ctor_m02F9F7CD56DE227F7ABDD1E2593D82E6FFA57E9A(tmp, NULL);
 	}
 }
 static void HapticCapabilities_tEC4347D453ECB8617006F558129E5B889191078A_CustomAttributesCacheGenerator_HapticCapabilities_set_numChannels_mCDEE626932AC72F5184CF4E0C76C45F561EF049C(CustomAttributesCache* cache)
@@ -12320,8 +12285,8 @@ static void HapticCapabilities_tEC4347D453ECB8617006F558129E5B889191078A_CustomA
 		CompilerGeneratedAttribute__ctor_m9DC3E4E2DA76FE93948D44199213E2E924DCBE35(tmp, NULL);
 	}
 	{
-		IsReadOnlyAttribute_t545ECE2B402890B8978FB2B6BD9B405C0C67C193 * tmp = (IsReadOnlyAttribute_t545ECE2B402890B8978FB2B6BD9B405C0C67C193 *)cache->attributes[1];
-		IsReadOnlyAttribute__ctor_m9162ED12EC6603A57ABEF95706F0BB727210A6CD(tmp, NULL);
+		IsReadOnlyAttribute_tB6E31A0106212818B0AB6DC627AA320291BD7566 * tmp = (IsReadOnlyAttribute_tB6E31A0106212818B0AB6DC627AA320291BD7566 *)cache->attributes[1];
+		IsReadOnlyAttribute__ctor_m02F9F7CD56DE227F7ABDD1E2593D82E6FFA57E9A(tmp, NULL);
 	}
 }
 static void HapticCapabilities_tEC4347D453ECB8617006F558129E5B889191078A_CustomAttributesCacheGenerator_HapticCapabilities_set_frequencyHz_mA622401EDD35DD153AACED845D47213CDA2956F0(CustomAttributesCache* cache)
@@ -12334,12 +12299,12 @@ static void HapticCapabilities_tEC4347D453ECB8617006F558129E5B889191078A_CustomA
 static void HapticCapabilities_tEC4347D453ECB8617006F558129E5B889191078A_CustomAttributesCacheGenerator_HapticCapabilities_get_maxBufferSize_m0224FC496E89F8F39111CF104C9B76DBC7CF26D0(CustomAttributesCache* cache)
 {
 	{
-		IsReadOnlyAttribute_t545ECE2B402890B8978FB2B6BD9B405C0C67C193 * tmp = (IsReadOnlyAttribute_t545ECE2B402890B8978FB2B6BD9B405C0C67C193 *)cache->attributes[0];
-		IsReadOnlyAttribute__ctor_m9162ED12EC6603A57ABEF95706F0BB727210A6CD(tmp, NULL);
+		CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C * tmp = (CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C *)cache->attributes[0];
+		CompilerGeneratedAttribute__ctor_m9DC3E4E2DA76FE93948D44199213E2E924DCBE35(tmp, NULL);
 	}
 	{
-		CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C * tmp = (CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C *)cache->attributes[1];
-		CompilerGeneratedAttribute__ctor_m9DC3E4E2DA76FE93948D44199213E2E924DCBE35(tmp, NULL);
+		IsReadOnlyAttribute_tB6E31A0106212818B0AB6DC627AA320291BD7566 * tmp = (IsReadOnlyAttribute_tB6E31A0106212818B0AB6DC627AA320291BD7566 *)cache->attributes[1];
+		IsReadOnlyAttribute__ctor_m02F9F7CD56DE227F7ABDD1E2593D82E6FFA57E9A(tmp, NULL);
 	}
 }
 static void HapticCapabilities_tEC4347D453ECB8617006F558129E5B889191078A_CustomAttributesCacheGenerator_HapticCapabilities_set_maxBufferSize_m1BBE3A4494190308701CE37761707D3C219A3AD6(CustomAttributesCache* cache)
@@ -12365,12 +12330,12 @@ static void SendBufferedHapticCommand_tC2EB8F18FB846E4675443875372A54CAF0600737_
 static void U3CbufferU3Ee__FixedBuffer_t06DB1F17CA54C59F47CD983576CE731498ED73F7_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
 {
 	{
-		CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C * tmp = (CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C *)cache->attributes[0];
-		CompilerGeneratedAttribute__ctor_m9DC3E4E2DA76FE93948D44199213E2E924DCBE35(tmp, NULL);
+		UnsafeValueTypeAttribute_tC3B73880876B0FA7C68CE8A678FD4D6440438CAC * tmp = (UnsafeValueTypeAttribute_tC3B73880876B0FA7C68CE8A678FD4D6440438CAC *)cache->attributes[0];
+		UnsafeValueTypeAttribute__ctor_mA5A3D4443A6B4BE3B31E8A8919809719991A7EC4(tmp, NULL);
 	}
 	{
-		UnsafeValueTypeAttribute_tC3B73880876B0FA7C68CE8A678FD4D6440438CAC * tmp = (UnsafeValueTypeAttribute_tC3B73880876B0FA7C68CE8A678FD4D6440438CAC *)cache->attributes[1];
-		UnsafeValueTypeAttribute__ctor_mA5A3D4443A6B4BE3B31E8A8919809719991A7EC4(tmp, NULL);
+		CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C * tmp = (CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C *)cache->attributes[1];
+		CompilerGeneratedAttribute__ctor_m9DC3E4E2DA76FE93948D44199213E2E924DCBE35(tmp, NULL);
 	}
 }
 static void XInputController_tB519365063DE8AF5036C5406932C84C24E95250B_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
@@ -12428,48 +12393,46 @@ static void XInputController_tB519365063DE8AF5036C5406932C84C24E95250B_CustomAtt
 	{
 		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[0];
 		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
-		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x62\x75\x74\x74\x6F\x6E\x45\x61\x73\x74"), NULL);
-		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x42"), NULL);
+		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x62\x75\x74\x74\x6F\x6E\x57\x65\x73\x74"), NULL);
+		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x58"), NULL);
 	}
 	{
 		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[1];
 		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
-		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x62\x75\x74\x74\x6F\x6E\x53\x6F\x75\x74\x68"), NULL);
-		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x41"), NULL);
+		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x73\x65\x6C\x65\x63\x74"), NULL);
+		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x56\x69\x65\x77"), NULL);
+		InputControlAttribute_set_alias_m78C253CCD7BD52A5C503F7DF4EAF83E05E342A35_inline(tmp, il2cpp_codegen_string_new_wrapper("\x76\x69\x65\x77"), NULL);
 	}
 	{
 		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[2];
-		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
-		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x6C\x65\x66\x74\x53\x68\x6F\x75\x6C\x64\x65\x72"), NULL);
-		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x4C\x65\x66\x74\x20\x42\x75\x6D\x70\x65\x72"), NULL);
-		InputControlAttribute_set_shortDisplayName_m4DD4109FFFABB8110484A941460E7DA3AA2F73E5_inline(tmp, il2cpp_codegen_string_new_wrapper("\x4C\x42"), NULL);
-	}
-	{
-		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[3];
 		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
 		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x73\x74\x61\x72\x74"), NULL);
 		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x4D\x65\x6E\x75"), NULL);
 		InputControlAttribute_set_alias_m78C253CCD7BD52A5C503F7DF4EAF83E05E342A35_inline(tmp, il2cpp_codegen_string_new_wrapper("\x6D\x65\x6E\x75"), NULL);
 	}
 	{
-		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[4];
-		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
-		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x72\x69\x67\x68\x74\x53\x68\x6F\x75\x6C\x64\x65\x72"), NULL);
-		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x52\x69\x67\x68\x74\x20\x42\x75\x6D\x70\x65\x72"), NULL);
-		InputControlAttribute_set_shortDisplayName_m4DD4109FFFABB8110484A941460E7DA3AA2F73E5_inline(tmp, il2cpp_codegen_string_new_wrapper("\x52\x42"), NULL);
-	}
-	{
-		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[5];
+		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[3];
 		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
 		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x72\x69\x67\x68\x74\x54\x72\x69\x67\x67\x65\x72"), NULL);
 		InputControlAttribute_set_shortDisplayName_m4DD4109FFFABB8110484A941460E7DA3AA2F73E5_inline(tmp, il2cpp_codegen_string_new_wrapper("\x52\x54"), NULL);
 	}
 	{
+		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[4];
+		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
+		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x6C\x65\x66\x74\x54\x72\x69\x67\x67\x65\x72"), NULL);
+		InputControlAttribute_set_shortDisplayName_m4DD4109FFFABB8110484A941460E7DA3AA2F73E5_inline(tmp, il2cpp_codegen_string_new_wrapper("\x4C\x54"), NULL);
+	}
+	{
+		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[5];
+		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
+		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x62\x75\x74\x74\x6F\x6E\x53\x6F\x75\x74\x68"), NULL);
+		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x41"), NULL);
+	}
+	{
 		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[6];
 		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
-		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x73\x65\x6C\x65\x63\x74"), NULL);
-		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x56\x69\x65\x77"), NULL);
-		InputControlAttribute_set_alias_m78C253CCD7BD52A5C503F7DF4EAF83E05E342A35_inline(tmp, il2cpp_codegen_string_new_wrapper("\x76\x69\x65\x77"), NULL);
+		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x62\x75\x74\x74\x6F\x6E\x45\x61\x73\x74"), NULL);
+		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x42"), NULL);
 	}
 	{
 		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[7];
@@ -12480,14 +12443,16 @@ static void XInputController_tB519365063DE8AF5036C5406932C84C24E95250B_CustomAtt
 	{
 		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[8];
 		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
-		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x6C\x65\x66\x74\x54\x72\x69\x67\x67\x65\x72"), NULL);
-		InputControlAttribute_set_shortDisplayName_m4DD4109FFFABB8110484A941460E7DA3AA2F73E5_inline(tmp, il2cpp_codegen_string_new_wrapper("\x4C\x54"), NULL);
+		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x6C\x65\x66\x74\x53\x68\x6F\x75\x6C\x64\x65\x72"), NULL);
+		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x4C\x65\x66\x74\x20\x42\x75\x6D\x70\x65\x72"), NULL);
+		InputControlAttribute_set_shortDisplayName_m4DD4109FFFABB8110484A941460E7DA3AA2F73E5_inline(tmp, il2cpp_codegen_string_new_wrapper("\x4C\x42"), NULL);
 	}
 	{
 		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[9];
 		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
-		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x62\x75\x74\x74\x6F\x6E\x57\x65\x73\x74"), NULL);
-		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x58"), NULL);
+		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x72\x69\x67\x68\x74\x53\x68\x6F\x75\x6C\x64\x65\x72"), NULL);
+		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x52\x69\x67\x68\x74\x20\x42\x75\x6D\x70\x65\x72"), NULL);
+		InputControlAttribute_set_shortDisplayName_m4DD4109FFFABB8110484A941460E7DA3AA2F73E5_inline(tmp, il2cpp_codegen_string_new_wrapper("\x52\x42"), NULL);
 	}
 }
 static void DeviceFlags_t40D05E8DB9FFDDD41EE45C5263498A5CB182D89F_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
@@ -12952,27 +12917,27 @@ static void InputSystemUIInputModule_tE3FED2A89B60D055B796202B0A429079C9EB17A0_C
 		SerializeField__ctor_mDE6A7673BA2C1FAD03CFEC65C6D473CC37889DD3(tmp, NULL);
 	}
 	{
-		FormerlySerializedAsAttribute_t9505BD2243F1C81AB32EEAF3543A796C2D935210 * tmp = (FormerlySerializedAsAttribute_t9505BD2243F1C81AB32EEAF3543A796C2D935210 *)cache->attributes[1];
-		FormerlySerializedAsAttribute__ctor_m7A9FC6914FCBA79EE12567BEF3B482CAB7D5265D(tmp, il2cpp_codegen_string_new_wrapper("\x6D\x5F\x52\x65\x70\x65\x61\x74\x44\x65\x6C\x61\x79"), NULL);
+		TooltipAttribute_t503A1598A4E68E91673758F50447D0EDFB95149B * tmp = (TooltipAttribute_t503A1598A4E68E91673758F50447D0EDFB95149B *)cache->attributes[1];
+		TooltipAttribute__ctor_m1839ACEC1560968A6D0EA55D7EB4535546588042(tmp, il2cpp_codegen_string_new_wrapper("\x54\x68\x65\x20\x49\x6E\x69\x74\x69\x61\x6C\x20\x64\x65\x6C\x61\x79\x20\x28\x69\x6E\x20\x73\x65\x63\x6F\x6E\x64\x73\x29\x20\x62\x65\x74\x77\x65\x65\x6E\x20\x61\x6E\x20\x69\x6E\x69\x74\x69\x61\x6C\x20\x6D\x6F\x76\x65\x20\x61\x63\x74\x69\x6F\x6E\x20\x61\x6E\x64\x20\x61\x20\x72\x65\x70\x65\x61\x74\x65\x64\x20\x6D\x6F\x76\x65\x20\x61\x63\x74\x69\x6F\x6E\x2E"), NULL);
 	}
 	{
-		TooltipAttribute_t503A1598A4E68E91673758F50447D0EDFB95149B * tmp = (TooltipAttribute_t503A1598A4E68E91673758F50447D0EDFB95149B *)cache->attributes[2];
-		TooltipAttribute__ctor_m1839ACEC1560968A6D0EA55D7EB4535546588042(tmp, il2cpp_codegen_string_new_wrapper("\x54\x68\x65\x20\x49\x6E\x69\x74\x69\x61\x6C\x20\x64\x65\x6C\x61\x79\x20\x28\x69\x6E\x20\x73\x65\x63\x6F\x6E\x64\x73\x29\x20\x62\x65\x74\x77\x65\x65\x6E\x20\x61\x6E\x20\x69\x6E\x69\x74\x69\x61\x6C\x20\x6D\x6F\x76\x65\x20\x61\x63\x74\x69\x6F\x6E\x20\x61\x6E\x64\x20\x61\x20\x72\x65\x70\x65\x61\x74\x65\x64\x20\x6D\x6F\x76\x65\x20\x61\x63\x74\x69\x6F\x6E\x2E"), NULL);
+		FormerlySerializedAsAttribute_t9505BD2243F1C81AB32EEAF3543A796C2D935210 * tmp = (FormerlySerializedAsAttribute_t9505BD2243F1C81AB32EEAF3543A796C2D935210 *)cache->attributes[2];
+		FormerlySerializedAsAttribute__ctor_m7A9FC6914FCBA79EE12567BEF3B482CAB7D5265D(tmp, il2cpp_codegen_string_new_wrapper("\x6D\x5F\x52\x65\x70\x65\x61\x74\x44\x65\x6C\x61\x79"), NULL);
 	}
 }
 static void InputSystemUIInputModule_tE3FED2A89B60D055B796202B0A429079C9EB17A0_CustomAttributesCacheGenerator_m_MoveRepeatRate(CustomAttributesCache* cache)
 {
 	{
-		SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 * tmp = (SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 *)cache->attributes[0];
+		FormerlySerializedAsAttribute_t9505BD2243F1C81AB32EEAF3543A796C2D935210 * tmp = (FormerlySerializedAsAttribute_t9505BD2243F1C81AB32EEAF3543A796C2D935210 *)cache->attributes[0];
+		FormerlySerializedAsAttribute__ctor_m7A9FC6914FCBA79EE12567BEF3B482CAB7D5265D(tmp, il2cpp_codegen_string_new_wrapper("\x6D\x5F\x52\x65\x70\x65\x61\x74\x52\x61\x74\x65"), NULL);
+	}
+	{
+		SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 * tmp = (SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 *)cache->attributes[1];
 		SerializeField__ctor_mDE6A7673BA2C1FAD03CFEC65C6D473CC37889DD3(tmp, NULL);
 	}
 	{
-		TooltipAttribute_t503A1598A4E68E91673758F50447D0EDFB95149B * tmp = (TooltipAttribute_t503A1598A4E68E91673758F50447D0EDFB95149B *)cache->attributes[1];
+		TooltipAttribute_t503A1598A4E68E91673758F50447D0EDFB95149B * tmp = (TooltipAttribute_t503A1598A4E68E91673758F50447D0EDFB95149B *)cache->attributes[2];
 		TooltipAttribute__ctor_m1839ACEC1560968A6D0EA55D7EB4535546588042(tmp, il2cpp_codegen_string_new_wrapper("\x54\x68\x65\x20\x73\x70\x65\x65\x64\x20\x28\x69\x6E\x20\x73\x65\x63\x6F\x6E\x64\x73\x29\x20\x74\x68\x61\x74\x20\x74\x68\x65\x20\x6D\x6F\x76\x65\x20\x61\x63\x74\x69\x6F\x6E\x20\x72\x65\x70\x65\x61\x74\x73\x20\x69\x74\x73\x65\x6C\x66\x20\x6F\x6E\x63\x65\x20\x72\x65\x70\x65\x61\x74\x69\x6E\x67\x20\x28\x6D\x61\x78\x20\x31\x20\x70\x65\x72\x20\x66\x72\x61\x6D\x65\x29\x2E"), NULL);
-	}
-	{
-		FormerlySerializedAsAttribute_t9505BD2243F1C81AB32EEAF3543A796C2D935210 * tmp = (FormerlySerializedAsAttribute_t9505BD2243F1C81AB32EEAF3543A796C2D935210 *)cache->attributes[2];
-		FormerlySerializedAsAttribute__ctor_m7A9FC6914FCBA79EE12567BEF3B482CAB7D5265D(tmp, il2cpp_codegen_string_new_wrapper("\x6D\x5F\x52\x65\x70\x65\x61\x74\x52\x61\x74\x65"), NULL);
 	}
 }
 static void InputSystemUIInputModule_tE3FED2A89B60D055B796202B0A429079C9EB17A0_CustomAttributesCacheGenerator_m_TrackedDeviceDragThresholdMultiplier(CustomAttributesCache* cache)
@@ -13095,23 +13060,23 @@ static void InputSystemUIInputModule_tE3FED2A89B60D055B796202B0A429079C9EB17A0_C
 static void InputSystemUIInputModule_tE3FED2A89B60D055B796202B0A429079C9EB17A0_CustomAttributesCacheGenerator_m_TrackedDevicePositionAction(CustomAttributesCache* cache)
 {
 	{
-		HideInInspector_tDD5B9D3AD8D48C93E23FE6CA3ECDA5589D60CCDA * tmp = (HideInInspector_tDD5B9D3AD8D48C93E23FE6CA3ECDA5589D60CCDA *)cache->attributes[0];
-		HideInInspector__ctor_mE2B7FB1D206A74BA583C7812CDB4EBDD83EB66F9(tmp, NULL);
-	}
-	{
-		SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 * tmp = (SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 *)cache->attributes[1];
-		SerializeField__ctor_mDE6A7673BA2C1FAD03CFEC65C6D473CC37889DD3(tmp, NULL);
-	}
-}
-static void InputSystemUIInputModule_tE3FED2A89B60D055B796202B0A429079C9EB17A0_CustomAttributesCacheGenerator_m_TrackedDeviceOrientationAction(CustomAttributesCache* cache)
-{
-	{
 		SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 * tmp = (SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 *)cache->attributes[0];
 		SerializeField__ctor_mDE6A7673BA2C1FAD03CFEC65C6D473CC37889DD3(tmp, NULL);
 	}
 	{
 		HideInInspector_tDD5B9D3AD8D48C93E23FE6CA3ECDA5589D60CCDA * tmp = (HideInInspector_tDD5B9D3AD8D48C93E23FE6CA3ECDA5589D60CCDA *)cache->attributes[1];
 		HideInInspector__ctor_mE2B7FB1D206A74BA583C7812CDB4EBDD83EB66F9(tmp, NULL);
+	}
+}
+static void InputSystemUIInputModule_tE3FED2A89B60D055B796202B0A429079C9EB17A0_CustomAttributesCacheGenerator_m_TrackedDeviceOrientationAction(CustomAttributesCache* cache)
+{
+	{
+		HideInInspector_tDD5B9D3AD8D48C93E23FE6CA3ECDA5589D60CCDA * tmp = (HideInInspector_tDD5B9D3AD8D48C93E23FE6CA3ECDA5589D60CCDA *)cache->attributes[0];
+		HideInInspector__ctor_mE2B7FB1D206A74BA583C7812CDB4EBDD83EB66F9(tmp, NULL);
+	}
+	{
+		SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 * tmp = (SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 *)cache->attributes[1];
+		SerializeField__ctor_mDE6A7673BA2C1FAD03CFEC65C6D473CC37889DD3(tmp, NULL);
 	}
 }
 static void InputSystemUIInputModule_tE3FED2A89B60D055B796202B0A429079C9EB17A0_CustomAttributesCacheGenerator_m_DeselectOnBackgroundClick(CustomAttributesCache* cache)
@@ -13159,12 +13124,12 @@ static void MultiplayerEventSystem_t2BD2F6A585DB9841CBF92719CF3AA242BC08B2CB_Cus
 static void MultiplayerEventSystem_t2BD2F6A585DB9841CBF92719CF3AA242BC08B2CB_CustomAttributesCacheGenerator_m_PlayerRoot(CustomAttributesCache* cache)
 {
 	{
-		TooltipAttribute_t503A1598A4E68E91673758F50447D0EDFB95149B * tmp = (TooltipAttribute_t503A1598A4E68E91673758F50447D0EDFB95149B *)cache->attributes[0];
-		TooltipAttribute__ctor_m1839ACEC1560968A6D0EA55D7EB4535546588042(tmp, il2cpp_codegen_string_new_wrapper("\x49\x66\x20\x73\x65\x74\x2C\x20\x6F\x6E\x6C\x79\x20\x70\x72\x6F\x63\x65\x73\x73\x20\x6D\x6F\x75\x73\x65\x20\x65\x76\x65\x6E\x74\x73\x20\x66\x6F\x72\x20\x61\x6E\x79\x20\x67\x61\x6D\x65\x20\x6F\x62\x6A\x65\x63\x74\x73\x20\x77\x68\x69\x63\x68\x20\x61\x72\x65\x20\x63\x68\x69\x6C\x64\x72\x65\x6E\x20\x6F\x66\x20\x74\x68\x69\x73\x20\x67\x61\x6D\x65\x20\x6F\x62\x6A\x65\x63\x74\x2E"), NULL);
+		SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 * tmp = (SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 *)cache->attributes[0];
+		SerializeField__ctor_mDE6A7673BA2C1FAD03CFEC65C6D473CC37889DD3(tmp, NULL);
 	}
 	{
-		SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 * tmp = (SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 *)cache->attributes[1];
-		SerializeField__ctor_mDE6A7673BA2C1FAD03CFEC65C6D473CC37889DD3(tmp, NULL);
+		TooltipAttribute_t503A1598A4E68E91673758F50447D0EDFB95149B * tmp = (TooltipAttribute_t503A1598A4E68E91673758F50447D0EDFB95149B *)cache->attributes[1];
+		TooltipAttribute__ctor_m1839ACEC1560968A6D0EA55D7EB4535546588042(tmp, il2cpp_codegen_string_new_wrapper("\x49\x66\x20\x73\x65\x74\x2C\x20\x6F\x6E\x6C\x79\x20\x70\x72\x6F\x63\x65\x73\x73\x20\x6D\x6F\x75\x73\x65\x20\x65\x76\x65\x6E\x74\x73\x20\x66\x6F\x72\x20\x61\x6E\x79\x20\x67\x61\x6D\x65\x20\x6F\x62\x6A\x65\x63\x74\x73\x20\x77\x68\x69\x63\x68\x20\x61\x72\x65\x20\x63\x68\x69\x6C\x64\x72\x65\x6E\x20\x6F\x66\x20\x74\x68\x69\x73\x20\x67\x61\x6D\x65\x20\x6F\x62\x6A\x65\x63\x74\x2E"), NULL);
 	}
 }
 static void TrackedDeviceRaycaster_t53E10786F706CBF3A3A5B2C7495EBA181ED62EEE_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
@@ -13176,12 +13141,12 @@ static void TrackedDeviceRaycaster_t53E10786F706CBF3A3A5B2C7495EBA181ED62EEE_Cus
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		AddComponentMenu_t3477A931DC56E9A4F67FFA5745D657ADD2931100 * tmp = (AddComponentMenu_t3477A931DC56E9A4F67FFA5745D657ADD2931100 *)cache->attributes[0];
-		AddComponentMenu__ctor_m34CE7BDF93FA607429964AEF1D23436963EE8549(tmp, il2cpp_codegen_string_new_wrapper("\x45\x76\x65\x6E\x74\x2F\x54\x72\x61\x63\x6B\x65\x64\x20\x44\x65\x76\x69\x63\x65\x20\x52\x61\x79\x63\x61\x73\x74\x65\x72"), NULL);
+		RequireComponent_tEDA546F9722B8874DA9658BDAB821BA49647FC91 * tmp = (RequireComponent_tEDA546F9722B8874DA9658BDAB821BA49647FC91 *)cache->attributes[0];
+		RequireComponent__ctor_m5EC89D3D22D7D880E1B88A5C9FADF1FBDC713EE4(tmp, il2cpp_codegen_type_get_object(Canvas_t2B7E56B7BDC287962E092755372E214ACB6393EA_0_0_0_var), NULL);
 	}
 	{
-		RequireComponent_tEDA546F9722B8874DA9658BDAB821BA49647FC91 * tmp = (RequireComponent_tEDA546F9722B8874DA9658BDAB821BA49647FC91 *)cache->attributes[1];
-		RequireComponent__ctor_m5EC89D3D22D7D880E1B88A5C9FADF1FBDC713EE4(tmp, il2cpp_codegen_type_get_object(Canvas_t2B7E56B7BDC287962E092755372E214ACB6393EA_0_0_0_var), NULL);
+		AddComponentMenu_t3477A931DC56E9A4F67FFA5745D657ADD2931100 * tmp = (AddComponentMenu_t3477A931DC56E9A4F67FFA5745D657ADD2931100 *)cache->attributes[1];
+		AddComponentMenu__ctor_m34CE7BDF93FA607429964AEF1D23436963EE8549(tmp, il2cpp_codegen_string_new_wrapper("\x45\x76\x65\x6E\x74\x2F\x54\x72\x61\x63\x6B\x65\x64\x20\x44\x65\x76\x69\x63\x65\x20\x52\x61\x79\x63\x61\x73\x74\x65\x72"), NULL);
 	}
 }
 static void TrackedDeviceRaycaster_t53E10786F706CBF3A3A5B2C7495EBA181ED62EEE_CustomAttributesCacheGenerator_m_IgnoreReversedGraphics(CustomAttributesCache* cache)
@@ -13266,12 +13231,12 @@ static void RaycastHitData_tF9901BAC4938F45BF4E7DCC9DBA48673B8B27AB1_CustomAttri
 static void RaycastHitData_tF9901BAC4938F45BF4E7DCC9DBA48673B8B27AB1_CustomAttributesCacheGenerator_RaycastHitData_get_graphic_m91A6519C0A0B9D40F6FD92744D73814912FB11BC(CustomAttributesCache* cache)
 {
 	{
-		CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C * tmp = (CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C *)cache->attributes[0];
-		CompilerGeneratedAttribute__ctor_m9DC3E4E2DA76FE93948D44199213E2E924DCBE35(tmp, NULL);
+		IsReadOnlyAttribute_tB6E31A0106212818B0AB6DC627AA320291BD7566 * tmp = (IsReadOnlyAttribute_tB6E31A0106212818B0AB6DC627AA320291BD7566 *)cache->attributes[0];
+		IsReadOnlyAttribute__ctor_m02F9F7CD56DE227F7ABDD1E2593D82E6FFA57E9A(tmp, NULL);
 	}
 	{
-		IsReadOnlyAttribute_t545ECE2B402890B8978FB2B6BD9B405C0C67C193 * tmp = (IsReadOnlyAttribute_t545ECE2B402890B8978FB2B6BD9B405C0C67C193 *)cache->attributes[1];
-		IsReadOnlyAttribute__ctor_m9162ED12EC6603A57ABEF95706F0BB727210A6CD(tmp, NULL);
+		CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C * tmp = (CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C *)cache->attributes[1];
+		CompilerGeneratedAttribute__ctor_m9DC3E4E2DA76FE93948D44199213E2E924DCBE35(tmp, NULL);
 	}
 }
 static void RaycastHitData_tF9901BAC4938F45BF4E7DCC9DBA48673B8B27AB1_CustomAttributesCacheGenerator_RaycastHitData_get_worldHitPosition_mC9C5845797C171788CF76B2CBB32837645157CC2(CustomAttributesCache* cache)
@@ -13281,8 +13246,8 @@ static void RaycastHitData_tF9901BAC4938F45BF4E7DCC9DBA48673B8B27AB1_CustomAttri
 		CompilerGeneratedAttribute__ctor_m9DC3E4E2DA76FE93948D44199213E2E924DCBE35(tmp, NULL);
 	}
 	{
-		IsReadOnlyAttribute_t545ECE2B402890B8978FB2B6BD9B405C0C67C193 * tmp = (IsReadOnlyAttribute_t545ECE2B402890B8978FB2B6BD9B405C0C67C193 *)cache->attributes[1];
-		IsReadOnlyAttribute__ctor_m9162ED12EC6603A57ABEF95706F0BB727210A6CD(tmp, NULL);
+		IsReadOnlyAttribute_tB6E31A0106212818B0AB6DC627AA320291BD7566 * tmp = (IsReadOnlyAttribute_tB6E31A0106212818B0AB6DC627AA320291BD7566 *)cache->attributes[1];
+		IsReadOnlyAttribute__ctor_m02F9F7CD56DE227F7ABDD1E2593D82E6FFA57E9A(tmp, NULL);
 	}
 }
 static void RaycastHitData_tF9901BAC4938F45BF4E7DCC9DBA48673B8B27AB1_CustomAttributesCacheGenerator_RaycastHitData_get_screenPosition_m6645B3B1991CF259946A1EF12953F3FC8CDFA496(CustomAttributesCache* cache)
@@ -13292,8 +13257,8 @@ static void RaycastHitData_tF9901BAC4938F45BF4E7DCC9DBA48673B8B27AB1_CustomAttri
 		CompilerGeneratedAttribute__ctor_m9DC3E4E2DA76FE93948D44199213E2E924DCBE35(tmp, NULL);
 	}
 	{
-		IsReadOnlyAttribute_t545ECE2B402890B8978FB2B6BD9B405C0C67C193 * tmp = (IsReadOnlyAttribute_t545ECE2B402890B8978FB2B6BD9B405C0C67C193 *)cache->attributes[1];
-		IsReadOnlyAttribute__ctor_m9162ED12EC6603A57ABEF95706F0BB727210A6CD(tmp, NULL);
+		IsReadOnlyAttribute_tB6E31A0106212818B0AB6DC627AA320291BD7566 * tmp = (IsReadOnlyAttribute_tB6E31A0106212818B0AB6DC627AA320291BD7566 *)cache->attributes[1];
+		IsReadOnlyAttribute__ctor_m02F9F7CD56DE227F7ABDD1E2593D82E6FFA57E9A(tmp, NULL);
 	}
 }
 static void RaycastHitData_tF9901BAC4938F45BF4E7DCC9DBA48673B8B27AB1_CustomAttributesCacheGenerator_RaycastHitData_get_distance_m491A785927DD2A56D4735115B9301CF01595112F(CustomAttributesCache* cache)
@@ -13303,8 +13268,8 @@ static void RaycastHitData_tF9901BAC4938F45BF4E7DCC9DBA48673B8B27AB1_CustomAttri
 		CompilerGeneratedAttribute__ctor_m9DC3E4E2DA76FE93948D44199213E2E924DCBE35(tmp, NULL);
 	}
 	{
-		IsReadOnlyAttribute_t545ECE2B402890B8978FB2B6BD9B405C0C67C193 * tmp = (IsReadOnlyAttribute_t545ECE2B402890B8978FB2B6BD9B405C0C67C193 *)cache->attributes[1];
-		IsReadOnlyAttribute__ctor_m9162ED12EC6603A57ABEF95706F0BB727210A6CD(tmp, NULL);
+		IsReadOnlyAttribute_tB6E31A0106212818B0AB6DC627AA320291BD7566 * tmp = (IsReadOnlyAttribute_tB6E31A0106212818B0AB6DC627AA320291BD7566 *)cache->attributes[1];
+		IsReadOnlyAttribute__ctor_m02F9F7CD56DE227F7ABDD1E2593D82E6FFA57E9A(tmp, NULL);
 	}
 }
 static void U3CU3Ec_t8EB959CCD7DF0CF896BE180C4F1A8366BD6C62A5_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
@@ -13317,12 +13282,12 @@ static void U3CU3Ec_t8EB959CCD7DF0CF896BE180C4F1A8366BD6C62A5_CustomAttributesCa
 static void VirtualMouseInput_t13B8FE663A72F584E2A279F441CC9F71242E43DB_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
 {
 	{
-		AddComponentMenu_t3477A931DC56E9A4F67FFA5745D657ADD2931100 * tmp = (AddComponentMenu_t3477A931DC56E9A4F67FFA5745D657ADD2931100 *)cache->attributes[0];
-		AddComponentMenu__ctor_m34CE7BDF93FA607429964AEF1D23436963EE8549(tmp, il2cpp_codegen_string_new_wrapper("\x49\x6E\x70\x75\x74\x2F\x56\x69\x72\x74\x75\x61\x6C\x20\x4D\x6F\x75\x73\x65"), NULL);
+		HelpURLAttribute_t0924A6D83FABA7B77780F7F9BBCBCB9E0EA15023 * tmp = (HelpURLAttribute_t0924A6D83FABA7B77780F7F9BBCBCB9E0EA15023 *)cache->attributes[0];
+		HelpURLAttribute__ctor_mCC837CE7900738F3152D585D454A34A15793C215(tmp, il2cpp_codegen_string_new_wrapper("\x68\x74\x74\x70\x73\x3A\x2F\x2F\x64\x6F\x63\x73\x2E\x75\x6E\x69\x74\x79\x33\x64\x2E\x63\x6F\x6D\x2F\x50\x61\x63\x6B\x61\x67\x65\x73\x2F\x63\x6F\x6D\x2E\x75\x6E\x69\x74\x79\x2E\x69\x6E\x70\x75\x74\x73\x79\x73\x74\x65\x6D\x40\x31\x2E\x32\x2F\x6D\x61\x6E\x75\x61\x6C\x2F\x55\x49\x53\x75\x70\x70\x6F\x72\x74\x2E\x68\x74\x6D\x6C\x23\x76\x69\x72\x74\x75\x61\x6C\x2D\x6D\x6F\x75\x73\x65\x2D\x63\x75\x72\x73\x6F\x72\x2D\x63\x6F\x6E\x74\x72\x6F\x6C"), NULL);
 	}
 	{
-		HelpURLAttribute_t0924A6D83FABA7B77780F7F9BBCBCB9E0EA15023 * tmp = (HelpURLAttribute_t0924A6D83FABA7B77780F7F9BBCBCB9E0EA15023 *)cache->attributes[1];
-		HelpURLAttribute__ctor_mCC837CE7900738F3152D585D454A34A15793C215(tmp, il2cpp_codegen_string_new_wrapper("\x68\x74\x74\x70\x73\x3A\x2F\x2F\x64\x6F\x63\x73\x2E\x75\x6E\x69\x74\x79\x33\x64\x2E\x63\x6F\x6D\x2F\x50\x61\x63\x6B\x61\x67\x65\x73\x2F\x63\x6F\x6D\x2E\x75\x6E\x69\x74\x79\x2E\x69\x6E\x70\x75\x74\x73\x79\x73\x74\x65\x6D\x40\x31\x2E\x32\x2F\x6D\x61\x6E\x75\x61\x6C\x2F\x55\x49\x53\x75\x70\x70\x6F\x72\x74\x2E\x68\x74\x6D\x6C\x23\x76\x69\x72\x74\x75\x61\x6C\x2D\x6D\x6F\x75\x73\x65\x2D\x63\x75\x72\x73\x6F\x72\x2D\x63\x6F\x6E\x74\x72\x6F\x6C"), NULL);
+		AddComponentMenu_t3477A931DC56E9A4F67FFA5745D657ADD2931100 * tmp = (AddComponentMenu_t3477A931DC56E9A4F67FFA5745D657ADD2931100 *)cache->attributes[1];
+		AddComponentMenu__ctor_m34CE7BDF93FA607429964AEF1D23436963EE8549(tmp, il2cpp_codegen_string_new_wrapper("\x49\x6E\x70\x75\x74\x2F\x56\x69\x72\x74\x75\x61\x6C\x20\x4D\x6F\x75\x73\x65"), NULL);
 	}
 }
 static void VirtualMouseInput_t13B8FE663A72F584E2A279F441CC9F71242E43DB_CustomAttributesCacheGenerator_m_CursorMode(CustomAttributesCache* cache)
@@ -13380,27 +13345,27 @@ static void VirtualMouseInput_t13B8FE663A72F584E2A279F441CC9F71242E43DB_CustomAt
 static void VirtualMouseInput_t13B8FE663A72F584E2A279F441CC9F71242E43DB_CustomAttributesCacheGenerator_m_ScrollSpeed(CustomAttributesCache* cache)
 {
 	{
-		TooltipAttribute_t503A1598A4E68E91673758F50447D0EDFB95149B * tmp = (TooltipAttribute_t503A1598A4E68E91673758F50447D0EDFB95149B *)cache->attributes[0];
-		TooltipAttribute__ctor_m1839ACEC1560968A6D0EA55D7EB4535546588042(tmp, il2cpp_codegen_string_new_wrapper("\x53\x63\x61\x6C\x65\x20\x66\x61\x63\x74\x6F\x72\x20\x74\x6F\x20\x61\x70\x70\x6C\x79\x20\x74\x6F\x20\x27\x53\x63\x72\x6F\x6C\x6C\x20\x57\x68\x65\x65\x6C\x20\x41\x63\x74\x69\x6F\x6E\x27\x20\x77\x68\x65\x6E\x20\x73\x65\x74\x74\x69\x6E\x67\x20\x74\x68\x65\x20\x6D\x6F\x75\x73\x65\x20\x27\x73\x63\x72\x6F\x6C\x6C\x57\x68\x65\x65\x6C\x27\x20\x63\x6F\x6E\x74\x72\x6F\x6C\x2E"), NULL);
+		SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 * tmp = (SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 *)cache->attributes[0];
+		SerializeField__ctor_mDE6A7673BA2C1FAD03CFEC65C6D473CC37889DD3(tmp, NULL);
 	}
 	{
-		SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 * tmp = (SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 *)cache->attributes[1];
-		SerializeField__ctor_mDE6A7673BA2C1FAD03CFEC65C6D473CC37889DD3(tmp, NULL);
+		TooltipAttribute_t503A1598A4E68E91673758F50447D0EDFB95149B * tmp = (TooltipAttribute_t503A1598A4E68E91673758F50447D0EDFB95149B *)cache->attributes[1];
+		TooltipAttribute__ctor_m1839ACEC1560968A6D0EA55D7EB4535546588042(tmp, il2cpp_codegen_string_new_wrapper("\x53\x63\x61\x6C\x65\x20\x66\x61\x63\x74\x6F\x72\x20\x74\x6F\x20\x61\x70\x70\x6C\x79\x20\x74\x6F\x20\x27\x53\x63\x72\x6F\x6C\x6C\x20\x57\x68\x65\x65\x6C\x20\x41\x63\x74\x69\x6F\x6E\x27\x20\x77\x68\x65\x6E\x20\x73\x65\x74\x74\x69\x6E\x67\x20\x74\x68\x65\x20\x6D\x6F\x75\x73\x65\x20\x27\x73\x63\x72\x6F\x6C\x6C\x57\x68\x65\x65\x6C\x27\x20\x63\x6F\x6E\x74\x72\x6F\x6C\x2E"), NULL);
 	}
 }
 static void VirtualMouseInput_t13B8FE663A72F584E2A279F441CC9F71242E43DB_CustomAttributesCacheGenerator_m_StickAction(CustomAttributesCache* cache)
 {
 	{
-		SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 * tmp = (SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 *)cache->attributes[0];
-		SerializeField__ctor_mDE6A7673BA2C1FAD03CFEC65C6D473CC37889DD3(tmp, NULL);
-	}
-	{
-		SpaceAttribute_t041FADA1DC4DD39BBDEBC47F445290D7EE4BBCC8 * tmp = (SpaceAttribute_t041FADA1DC4DD39BBDEBC47F445290D7EE4BBCC8 *)cache->attributes[1];
+		SpaceAttribute_t041FADA1DC4DD39BBDEBC47F445290D7EE4BBCC8 * tmp = (SpaceAttribute_t041FADA1DC4DD39BBDEBC47F445290D7EE4BBCC8 *)cache->attributes[0];
 		SpaceAttribute__ctor_m765D137779D8FB95279BCE4A90BAB4EA409C9C44(tmp, 10.0f, NULL);
 	}
 	{
-		TooltipAttribute_t503A1598A4E68E91673758F50447D0EDFB95149B * tmp = (TooltipAttribute_t503A1598A4E68E91673758F50447D0EDFB95149B *)cache->attributes[2];
+		TooltipAttribute_t503A1598A4E68E91673758F50447D0EDFB95149B * tmp = (TooltipAttribute_t503A1598A4E68E91673758F50447D0EDFB95149B *)cache->attributes[1];
 		TooltipAttribute__ctor_m1839ACEC1560968A6D0EA55D7EB4535546588042(tmp, il2cpp_codegen_string_new_wrapper("\x56\x65\x63\x74\x6F\x72\x32\x20\x61\x63\x74\x69\x6F\x6E\x20\x74\x68\x61\x74\x20\x6D\x6F\x76\x65\x73\x20\x74\x68\x65\x20\x63\x75\x72\x73\x6F\x72\x20\x6C\x65\x66\x74\x2F\x72\x69\x67\x68\x74\x20\x28\x58\x29\x20\x61\x6E\x64\x20\x75\x70\x2F\x64\x6F\x77\x6E\x20\x28\x59\x29\x20\x6F\x6E\x20\x73\x63\x72\x65\x65\x6E\x2E"), NULL);
+	}
+	{
+		SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 * tmp = (SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 *)cache->attributes[2];
+		SerializeField__ctor_mDE6A7673BA2C1FAD03CFEC65C6D473CC37889DD3(tmp, NULL);
 	}
 }
 static void VirtualMouseInput_t13B8FE663A72F584E2A279F441CC9F71242E43DB_CustomAttributesCacheGenerator_m_LeftButtonAction(CustomAttributesCache* cache)
@@ -13428,12 +13393,12 @@ static void VirtualMouseInput_t13B8FE663A72F584E2A279F441CC9F71242E43DB_CustomAt
 static void VirtualMouseInput_t13B8FE663A72F584E2A279F441CC9F71242E43DB_CustomAttributesCacheGenerator_m_RightButtonAction(CustomAttributesCache* cache)
 {
 	{
-		SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 * tmp = (SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 *)cache->attributes[0];
-		SerializeField__ctor_mDE6A7673BA2C1FAD03CFEC65C6D473CC37889DD3(tmp, NULL);
+		TooltipAttribute_t503A1598A4E68E91673758F50447D0EDFB95149B * tmp = (TooltipAttribute_t503A1598A4E68E91673758F50447D0EDFB95149B *)cache->attributes[0];
+		TooltipAttribute__ctor_m1839ACEC1560968A6D0EA55D7EB4535546588042(tmp, il2cpp_codegen_string_new_wrapper("\x42\x75\x74\x74\x6F\x6E\x20\x61\x63\x74\x69\x6F\x6E\x20\x74\x68\x61\x74\x20\x74\x72\x69\x67\x67\x65\x72\x73\x20\x61\x20\x72\x69\x67\x68\x74\x2D\x63\x6C\x69\x63\x6B\x20\x6F\x6E\x20\x74\x68\x65\x20\x6D\x6F\x75\x73\x65\x2E"), NULL);
 	}
 	{
-		TooltipAttribute_t503A1598A4E68E91673758F50447D0EDFB95149B * tmp = (TooltipAttribute_t503A1598A4E68E91673758F50447D0EDFB95149B *)cache->attributes[1];
-		TooltipAttribute__ctor_m1839ACEC1560968A6D0EA55D7EB4535546588042(tmp, il2cpp_codegen_string_new_wrapper("\x42\x75\x74\x74\x6F\x6E\x20\x61\x63\x74\x69\x6F\x6E\x20\x74\x68\x61\x74\x20\x74\x72\x69\x67\x67\x65\x72\x73\x20\x61\x20\x72\x69\x67\x68\x74\x2D\x63\x6C\x69\x63\x6B\x20\x6F\x6E\x20\x74\x68\x65\x20\x6D\x6F\x75\x73\x65\x2E"), NULL);
+		SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 * tmp = (SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 *)cache->attributes[1];
+		SerializeField__ctor_mDE6A7673BA2C1FAD03CFEC65C6D473CC37889DD3(tmp, NULL);
 	}
 }
 static void VirtualMouseInput_t13B8FE663A72F584E2A279F441CC9F71242E43DB_CustomAttributesCacheGenerator_m_ForwardButtonAction(CustomAttributesCache* cache)
@@ -13495,12 +13460,12 @@ static void OnScreenButton_tD00C0EBF69DCC5D7E0A5545448E456675865ECF2_CustomAttri
 static void OnScreenStick_t639A124DF6EDF881736395076736529DDD7BB62E_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
 {
 	{
-		HelpURLAttribute_t0924A6D83FABA7B77780F7F9BBCBCB9E0EA15023 * tmp = (HelpURLAttribute_t0924A6D83FABA7B77780F7F9BBCBCB9E0EA15023 *)cache->attributes[0];
-		HelpURLAttribute__ctor_mCC837CE7900738F3152D585D454A34A15793C215(tmp, il2cpp_codegen_string_new_wrapper("\x68\x74\x74\x70\x73\x3A\x2F\x2F\x64\x6F\x63\x73\x2E\x75\x6E\x69\x74\x79\x33\x64\x2E\x63\x6F\x6D\x2F\x50\x61\x63\x6B\x61\x67\x65\x73\x2F\x63\x6F\x6D\x2E\x75\x6E\x69\x74\x79\x2E\x69\x6E\x70\x75\x74\x73\x79\x73\x74\x65\x6D\x40\x31\x2E\x32\x2F\x6D\x61\x6E\x75\x61\x6C\x2F\x4F\x6E\x53\x63\x72\x65\x65\x6E\x2E\x68\x74\x6D\x6C\x23\x6F\x6E\x2D\x73\x63\x72\x65\x65\x6E\x2D\x73\x74\x69\x63\x6B\x73"), NULL);
+		AddComponentMenu_t3477A931DC56E9A4F67FFA5745D657ADD2931100 * tmp = (AddComponentMenu_t3477A931DC56E9A4F67FFA5745D657ADD2931100 *)cache->attributes[0];
+		AddComponentMenu__ctor_m34CE7BDF93FA607429964AEF1D23436963EE8549(tmp, il2cpp_codegen_string_new_wrapper("\x49\x6E\x70\x75\x74\x2F\x4F\x6E\x2D\x53\x63\x72\x65\x65\x6E\x20\x53\x74\x69\x63\x6B"), NULL);
 	}
 	{
-		AddComponentMenu_t3477A931DC56E9A4F67FFA5745D657ADD2931100 * tmp = (AddComponentMenu_t3477A931DC56E9A4F67FFA5745D657ADD2931100 *)cache->attributes[1];
-		AddComponentMenu__ctor_m34CE7BDF93FA607429964AEF1D23436963EE8549(tmp, il2cpp_codegen_string_new_wrapper("\x49\x6E\x70\x75\x74\x2F\x4F\x6E\x2D\x53\x63\x72\x65\x65\x6E\x20\x53\x74\x69\x63\x6B"), NULL);
+		HelpURLAttribute_t0924A6D83FABA7B77780F7F9BBCBCB9E0EA15023 * tmp = (HelpURLAttribute_t0924A6D83FABA7B77780F7F9BBCBCB9E0EA15023 *)cache->attributes[1];
+		HelpURLAttribute__ctor_mCC837CE7900738F3152D585D454A34A15793C215(tmp, il2cpp_codegen_string_new_wrapper("\x68\x74\x74\x70\x73\x3A\x2F\x2F\x64\x6F\x63\x73\x2E\x75\x6E\x69\x74\x79\x33\x64\x2E\x63\x6F\x6D\x2F\x50\x61\x63\x6B\x61\x67\x65\x73\x2F\x63\x6F\x6D\x2E\x75\x6E\x69\x74\x79\x2E\x69\x6E\x70\x75\x74\x73\x79\x73\x74\x65\x6D\x40\x31\x2E\x32\x2F\x6D\x61\x6E\x75\x61\x6C\x2F\x4F\x6E\x53\x63\x72\x65\x65\x6E\x2E\x68\x74\x6D\x6C\x23\x6F\x6E\x2D\x73\x63\x72\x65\x65\x6E\x2D\x73\x74\x69\x63\x6B\x73"), NULL);
 	}
 }
 static void OnScreenStick_t639A124DF6EDF881736395076736529DDD7BB62E_CustomAttributesCacheGenerator_m_MovementRange(CustomAttributesCache* cache)
@@ -13517,13 +13482,13 @@ static void OnScreenStick_t639A124DF6EDF881736395076736529DDD7BB62E_CustomAttrib
 static void OnScreenStick_t639A124DF6EDF881736395076736529DDD7BB62E_CustomAttributesCacheGenerator_m_ControlPath(CustomAttributesCache* cache)
 {
 	{
-		SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 * tmp = (SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 *)cache->attributes[0];
-		SerializeField__ctor_mDE6A7673BA2C1FAD03CFEC65C6D473CC37889DD3(tmp, NULL);
-	}
-	{
-		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[1];
+		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[0];
 		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
 		InputControlAttribute_set_layout_mCF2C40C4FD8A34D75840202460F60D7DB88CF54D_inline(tmp, il2cpp_codegen_string_new_wrapper("\x56\x65\x63\x74\x6F\x72\x32"), NULL);
+	}
+	{
+		SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 * tmp = (SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 *)cache->attributes[1];
+		SerializeField__ctor_mDE6A7673BA2C1FAD03CFEC65C6D473CC37889DD3(tmp, NULL);
 	}
 }
 static void U3CU3Ec_tCA18C758763B958693A2DE4435D18CB5EE568419_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
@@ -13859,30 +13824,30 @@ static void DualShockGamepad_t5F4EE2FB9B2A175AF6D8A4613BC3E6B8CA58E783_CustomAtt
 	{
 		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[0];
 		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
-		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x62\x75\x74\x74\x6F\x6E\x57\x65\x73\x74"), NULL);
-		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x53\x71\x75\x61\x72\x65"), NULL);
-		InputControlAttribute_set_shortDisplayName_m4DD4109FFFABB8110484A941460E7DA3AA2F73E5_inline(tmp, il2cpp_codegen_string_new_wrapper("\x53\x71\x75\x61\x72\x65"), NULL);
+		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x62\x75\x74\x74\x6F\x6E\x53\x6F\x75\x74\x68"), NULL);
+		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x43\x72\x6F\x73\x73"), NULL);
+		InputControlAttribute_set_shortDisplayName_m4DD4109FFFABB8110484A941460E7DA3AA2F73E5_inline(tmp, il2cpp_codegen_string_new_wrapper("\x43\x72\x6F\x73\x73"), NULL);
 	}
 	{
 		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[1];
-		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
-		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x62\x75\x74\x74\x6F\x6E\x4E\x6F\x72\x74\x68"), NULL);
-		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x54\x72\x69\x61\x6E\x67\x6C\x65"), NULL);
-		InputControlAttribute_set_shortDisplayName_m4DD4109FFFABB8110484A941460E7DA3AA2F73E5_inline(tmp, il2cpp_codegen_string_new_wrapper("\x54\x72\x69\x61\x6E\x67\x6C\x65"), NULL);
-	}
-	{
-		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[2];
 		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
 		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x62\x75\x74\x74\x6F\x6E\x45\x61\x73\x74"), NULL);
 		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x43\x69\x72\x63\x6C\x65"), NULL);
 		InputControlAttribute_set_shortDisplayName_m4DD4109FFFABB8110484A941460E7DA3AA2F73E5_inline(tmp, il2cpp_codegen_string_new_wrapper("\x43\x69\x72\x63\x6C\x65"), NULL);
 	}
 	{
+		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[2];
+		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
+		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x62\x75\x74\x74\x6F\x6E\x4E\x6F\x72\x74\x68"), NULL);
+		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x54\x72\x69\x61\x6E\x67\x6C\x65"), NULL);
+		InputControlAttribute_set_shortDisplayName_m4DD4109FFFABB8110484A941460E7DA3AA2F73E5_inline(tmp, il2cpp_codegen_string_new_wrapper("\x54\x72\x69\x61\x6E\x67\x6C\x65"), NULL);
+	}
+	{
 		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[3];
 		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
-		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x62\x75\x74\x74\x6F\x6E\x53\x6F\x75\x74\x68"), NULL);
-		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x43\x72\x6F\x73\x73"), NULL);
-		InputControlAttribute_set_shortDisplayName_m4DD4109FFFABB8110484A941460E7DA3AA2F73E5_inline(tmp, il2cpp_codegen_string_new_wrapper("\x43\x72\x6F\x73\x73"), NULL);
+		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x62\x75\x74\x74\x6F\x6E\x57\x65\x73\x74"), NULL);
+		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x53\x71\x75\x61\x72\x65"), NULL);
+		InputControlAttribute_set_shortDisplayName_m4DD4109FFFABB8110484A941460E7DA3AA2F73E5_inline(tmp, il2cpp_codegen_string_new_wrapper("\x53\x71\x75\x61\x72\x65"), NULL);
 	}
 	{
 		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[4];
@@ -13984,12 +13949,12 @@ static void DualMotorRumble_t16CB2ECF1F7F96330BA23FF93496450126F3D905_CustomAttr
 static void DualMotorRumble_t16CB2ECF1F7F96330BA23FF93496450126F3D905_CustomAttributesCacheGenerator_DualMotorRumble_get_lowFrequencyMotorSpeed_mE0F4EF00DB19B36C41CFE79B174C2A7C8599DDE7(CustomAttributesCache* cache)
 {
 	{
-		IsReadOnlyAttribute_t545ECE2B402890B8978FB2B6BD9B405C0C67C193 * tmp = (IsReadOnlyAttribute_t545ECE2B402890B8978FB2B6BD9B405C0C67C193 *)cache->attributes[0];
-		IsReadOnlyAttribute__ctor_m9162ED12EC6603A57ABEF95706F0BB727210A6CD(tmp, NULL);
+		CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C * tmp = (CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C *)cache->attributes[0];
+		CompilerGeneratedAttribute__ctor_m9DC3E4E2DA76FE93948D44199213E2E924DCBE35(tmp, NULL);
 	}
 	{
-		CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C * tmp = (CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C *)cache->attributes[1];
-		CompilerGeneratedAttribute__ctor_m9DC3E4E2DA76FE93948D44199213E2E924DCBE35(tmp, NULL);
+		IsReadOnlyAttribute_tB6E31A0106212818B0AB6DC627AA320291BD7566 * tmp = (IsReadOnlyAttribute_tB6E31A0106212818B0AB6DC627AA320291BD7566 *)cache->attributes[1];
+		IsReadOnlyAttribute__ctor_m02F9F7CD56DE227F7ABDD1E2593D82E6FFA57E9A(tmp, NULL);
 	}
 }
 static void DualMotorRumble_t16CB2ECF1F7F96330BA23FF93496450126F3D905_CustomAttributesCacheGenerator_DualMotorRumble_set_lowFrequencyMotorSpeed_m7E4EC4A866DE8B4697F684D66BE12E9027A5601A(CustomAttributesCache* cache)
@@ -14002,12 +13967,12 @@ static void DualMotorRumble_t16CB2ECF1F7F96330BA23FF93496450126F3D905_CustomAttr
 static void DualMotorRumble_t16CB2ECF1F7F96330BA23FF93496450126F3D905_CustomAttributesCacheGenerator_DualMotorRumble_get_highFrequencyMotorSpeed_m9C09FC9F57EEBAB8BB76C716C5FBF48F1A8F05C4(CustomAttributesCache* cache)
 {
 	{
-		CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C * tmp = (CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C *)cache->attributes[0];
-		CompilerGeneratedAttribute__ctor_m9DC3E4E2DA76FE93948D44199213E2E924DCBE35(tmp, NULL);
+		IsReadOnlyAttribute_tB6E31A0106212818B0AB6DC627AA320291BD7566 * tmp = (IsReadOnlyAttribute_tB6E31A0106212818B0AB6DC627AA320291BD7566 *)cache->attributes[0];
+		IsReadOnlyAttribute__ctor_m02F9F7CD56DE227F7ABDD1E2593D82E6FFA57E9A(tmp, NULL);
 	}
 	{
-		IsReadOnlyAttribute_t545ECE2B402890B8978FB2B6BD9B405C0C67C193 * tmp = (IsReadOnlyAttribute_t545ECE2B402890B8978FB2B6BD9B405C0C67C193 *)cache->attributes[1];
-		IsReadOnlyAttribute__ctor_m9162ED12EC6603A57ABEF95706F0BB727210A6CD(tmp, NULL);
+		CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C * tmp = (CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C *)cache->attributes[1];
+		CompilerGeneratedAttribute__ctor_m9DC3E4E2DA76FE93948D44199213E2E924DCBE35(tmp, NULL);
 	}
 }
 static void DualMotorRumble_t16CB2ECF1F7F96330BA23FF93496450126F3D905_CustomAttributesCacheGenerator_DualMotorRumble_set_highFrequencyMotorSpeed_m50C098B456925AE120A1620FDFAF28CA7701F526(CustomAttributesCache* cache)
@@ -14101,12 +14066,12 @@ static void Result_tE6265CA3ACCDE1721E1948D551CBF71779D8EF65_CustomAttributesCac
 static void U3CnameBufferU3Ee__FixedBuffer_t00C333740CDB558E46C8B7870B9A3A7147B0D813_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
 {
 	{
-		UnsafeValueTypeAttribute_tC3B73880876B0FA7C68CE8A678FD4D6440438CAC * tmp = (UnsafeValueTypeAttribute_tC3B73880876B0FA7C68CE8A678FD4D6440438CAC *)cache->attributes[0];
-		UnsafeValueTypeAttribute__ctor_mA5A3D4443A6B4BE3B31E8A8919809719991A7EC4(tmp, NULL);
+		CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C * tmp = (CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C *)cache->attributes[0];
+		CompilerGeneratedAttribute__ctor_m9DC3E4E2DA76FE93948D44199213E2E924DCBE35(tmp, NULL);
 	}
 	{
-		CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C * tmp = (CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C *)cache->attributes[1];
-		CompilerGeneratedAttribute__ctor_m9DC3E4E2DA76FE93948D44199213E2E924DCBE35(tmp, NULL);
+		UnsafeValueTypeAttribute_tC3B73880876B0FA7C68CE8A678FD4D6440438CAC * tmp = (UnsafeValueTypeAttribute_tC3B73880876B0FA7C68CE8A678FD4D6440438CAC *)cache->attributes[1];
+		UnsafeValueTypeAttribute__ctor_mA5A3D4443A6B4BE3B31E8A8919809719991A7EC4(tmp, NULL);
 	}
 }
 static void U3CidBufferU3Ee__FixedBuffer_tA564139C32CB5C2D4D0A79C1811D4CDF94CD42E6_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
@@ -14136,12 +14101,12 @@ static void QueryUserIdCommand_tA2C5429A6816E10D861F729315078076AB462C96_CustomA
 static void U3CidBufferU3Ee__FixedBuffer_t19DF6E13240CA248E9495CAB46BD777CE0B7FF32_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
 {
 	{
-		UnsafeValueTypeAttribute_tC3B73880876B0FA7C68CE8A678FD4D6440438CAC * tmp = (UnsafeValueTypeAttribute_tC3B73880876B0FA7C68CE8A678FD4D6440438CAC *)cache->attributes[0];
-		UnsafeValueTypeAttribute__ctor_mA5A3D4443A6B4BE3B31E8A8919809719991A7EC4(tmp, NULL);
+		CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C * tmp = (CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C *)cache->attributes[0];
+		CompilerGeneratedAttribute__ctor_m9DC3E4E2DA76FE93948D44199213E2E924DCBE35(tmp, NULL);
 	}
 	{
-		CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C * tmp = (CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C *)cache->attributes[1];
-		CompilerGeneratedAttribute__ctor_m9DC3E4E2DA76FE93948D44199213E2E924DCBE35(tmp, NULL);
+		UnsafeValueTypeAttribute_tC3B73880876B0FA7C68CE8A678FD4D6440438CAC * tmp = (UnsafeValueTypeAttribute_tC3B73880876B0FA7C68CE8A678FD4D6440438CAC *)cache->attributes[1];
+		UnsafeValueTypeAttribute__ctor_mA5A3D4443A6B4BE3B31E8A8919809719991A7EC4(tmp, NULL);
 	}
 }
 static void GamepadState_tB51D5628B4C0EF704A63A27C531D037011BF87DC_CustomAttributesCacheGenerator_buttons(CustomAttributesCache* cache)
@@ -14155,89 +14120,11 @@ static void GamepadState_tB51D5628B4C0EF704A63A27C531D037011BF87DC_CustomAttribu
 	{
 		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[0];
 		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
-		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x72\x69\x67\x68\x74\x53\x74\x69\x63\x6B\x50\x72\x65\x73\x73"), NULL);
-		InputControlAttribute_set_layout_mCF2C40C4FD8A34D75840202460F60D7DB88CF54D_inline(tmp, il2cpp_codegen_string_new_wrapper("\x42\x75\x74\x74\x6F\x6E"), NULL);
-		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 9LL, NULL);
-		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x52\x69\x67\x68\x74\x20\x53\x74\x69\x63\x6B\x20\x50\x72\x65\x73\x73"), NULL);
-	}
-	{
-		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[1];
-		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
-		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x73\x74\x61\x72\x74"), NULL);
-		InputControlAttribute_set_layout_mCF2C40C4FD8A34D75840202460F60D7DB88CF54D_inline(tmp, il2cpp_codegen_string_new_wrapper("\x42\x75\x74\x74\x6F\x6E"), NULL);
-		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 12LL, NULL);
-		InputControlAttribute_set_usage_mC1F26BE0D5681DA7BA2586E4F960DE53B90CE195_inline(tmp, il2cpp_codegen_string_new_wrapper("\x4D\x65\x6E\x75"), NULL);
-		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x53\x74\x61\x72\x74"), NULL);
-	}
-	{
-		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[2];
-		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
-		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x72\x69\x67\x68\x74\x53\x68\x6F\x75\x6C\x64\x65\x72"), NULL);
-		InputControlAttribute_set_layout_mCF2C40C4FD8A34D75840202460F60D7DB88CF54D_inline(tmp, il2cpp_codegen_string_new_wrapper("\x42\x75\x74\x74\x6F\x6E"), NULL);
-		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 11LL, NULL);
-		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x52\x69\x67\x68\x74\x20\x53\x68\x6F\x75\x6C\x64\x65\x72"), NULL);
-		InputControlAttribute_set_shortDisplayName_m4DD4109FFFABB8110484A941460E7DA3AA2F73E5_inline(tmp, il2cpp_codegen_string_new_wrapper("\x52\x42"), NULL);
-	}
-	{
-		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[3];
-		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
 		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x6C\x65\x66\x74\x53\x68\x6F\x75\x6C\x64\x65\x72"), NULL);
 		InputControlAttribute_set_layout_mCF2C40C4FD8A34D75840202460F60D7DB88CF54D_inline(tmp, il2cpp_codegen_string_new_wrapper("\x42\x75\x74\x74\x6F\x6E"), NULL);
 		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 10LL, NULL);
 		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x4C\x65\x66\x74\x20\x53\x68\x6F\x75\x6C\x64\x65\x72"), NULL);
 		InputControlAttribute_set_shortDisplayName_m4DD4109FFFABB8110484A941460E7DA3AA2F73E5_inline(tmp, il2cpp_codegen_string_new_wrapper("\x4C\x42"), NULL);
-	}
-	{
-		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[4];
-		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
-		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x6C\x65\x66\x74\x53\x74\x69\x63\x6B\x50\x72\x65\x73\x73"), NULL);
-		InputControlAttribute_set_layout_mCF2C40C4FD8A34D75840202460F60D7DB88CF54D_inline(tmp, il2cpp_codegen_string_new_wrapper("\x42\x75\x74\x74\x6F\x6E"), NULL);
-		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 8LL, NULL);
-		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x4C\x65\x66\x74\x20\x53\x74\x69\x63\x6B\x20\x50\x72\x65\x73\x73"), NULL);
-	}
-	{
-		StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A* _tmp_usages = (StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A*)SZArrayNew(StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A_il2cpp_TypeInfo_var, 2);
-		(_tmp_usages)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(0), il2cpp_codegen_string_new_wrapper("\x42\x61\x63\x6B"));
-		(_tmp_usages)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(1), il2cpp_codegen_string_new_wrapper("\x43\x61\x6E\x63\x65\x6C"));
-		StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A* _tmp_aliases = (StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A*)SZArrayNew(StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A_il2cpp_TypeInfo_var, 2);
-		(_tmp_aliases)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(0), il2cpp_codegen_string_new_wrapper("\x62"));
-		(_tmp_aliases)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(1), il2cpp_codegen_string_new_wrapper("\x63\x69\x72\x63\x6C\x65"));
-		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[5];
-		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
-		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x62\x75\x74\x74\x6F\x6E\x45\x61\x73\x74"), NULL);
-		InputControlAttribute_set_layout_mCF2C40C4FD8A34D75840202460F60D7DB88CF54D_inline(tmp, il2cpp_codegen_string_new_wrapper("\x42\x75\x74\x74\x6F\x6E"), NULL);
-		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 5LL, NULL);
-		InputControlAttribute_set_usages_m0C1A7CFA0324603E57AF07E109818577B21E689F_inline(tmp, _tmp_usages, NULL);
-		InputControlAttribute_set_aliases_mD29AD37656E9AFE2EE1F3EE95CBBA21A31467F08_inline(tmp, _tmp_aliases, NULL);
-		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x42\x75\x74\x74\x6F\x6E\x20\x45\x61\x73\x74"), NULL);
-		InputControlAttribute_set_shortDisplayName_m4DD4109FFFABB8110484A941460E7DA3AA2F73E5_inline(tmp, il2cpp_codegen_string_new_wrapper("\x42"), NULL);
-	}
-	{
-		StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A* _tmp_aliases = (StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A*)SZArrayNew(StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A_il2cpp_TypeInfo_var, 2);
-		(_tmp_aliases)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(0), il2cpp_codegen_string_new_wrapper("\x79"));
-		(_tmp_aliases)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(1), il2cpp_codegen_string_new_wrapper("\x74\x72\x69\x61\x6E\x67\x6C\x65"));
-		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[6];
-		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
-		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x62\x75\x74\x74\x6F\x6E\x4E\x6F\x72\x74\x68"), NULL);
-		InputControlAttribute_set_layout_mCF2C40C4FD8A34D75840202460F60D7DB88CF54D_inline(tmp, il2cpp_codegen_string_new_wrapper("\x42\x75\x74\x74\x6F\x6E"), NULL);
-		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 4LL, NULL);
-		InputControlAttribute_set_aliases_mD29AD37656E9AFE2EE1F3EE95CBBA21A31467F08_inline(tmp, _tmp_aliases, NULL);
-		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x42\x75\x74\x74\x6F\x6E\x20\x4E\x6F\x72\x74\x68"), NULL);
-		InputControlAttribute_set_shortDisplayName_m4DD4109FFFABB8110484A941460E7DA3AA2F73E5_inline(tmp, il2cpp_codegen_string_new_wrapper("\x59"), NULL);
-	}
-	{
-		StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A* _tmp_aliases = (StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A*)SZArrayNew(StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A_il2cpp_TypeInfo_var, 2);
-		(_tmp_aliases)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(0), il2cpp_codegen_string_new_wrapper("\x78"));
-		(_tmp_aliases)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(1), il2cpp_codegen_string_new_wrapper("\x73\x71\x75\x61\x72\x65"));
-		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[7];
-		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
-		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x62\x75\x74\x74\x6F\x6E\x57\x65\x73\x74"), NULL);
-		InputControlAttribute_set_layout_mCF2C40C4FD8A34D75840202460F60D7DB88CF54D_inline(tmp, il2cpp_codegen_string_new_wrapper("\x42\x75\x74\x74\x6F\x6E"), NULL);
-		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 7LL, NULL);
-		InputControlAttribute_set_usage_mC1F26BE0D5681DA7BA2586E4F960DE53B90CE195_inline(tmp, il2cpp_codegen_string_new_wrapper("\x53\x65\x63\x6F\x6E\x64\x61\x72\x79\x41\x63\x74\x69\x6F\x6E"), NULL);
-		InputControlAttribute_set_aliases_mD29AD37656E9AFE2EE1F3EE95CBBA21A31467F08_inline(tmp, _tmp_aliases, NULL);
-		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x42\x75\x74\x74\x6F\x6E\x20\x57\x65\x73\x74"), NULL);
-		InputControlAttribute_set_shortDisplayName_m4DD4109FFFABB8110484A941460E7DA3AA2F73E5_inline(tmp, il2cpp_codegen_string_new_wrapper("\x58"), NULL);
 	}
 	{
 		StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A* _tmp_usages = (StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A*)SZArrayNew(StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A_il2cpp_TypeInfo_var, 2);
@@ -14246,7 +14133,7 @@ static void GamepadState_tB51D5628B4C0EF704A63A27C531D037011BF87DC_CustomAttribu
 		StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A* _tmp_aliases = (StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A*)SZArrayNew(StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A_il2cpp_TypeInfo_var, 2);
 		(_tmp_aliases)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(0), il2cpp_codegen_string_new_wrapper("\x61"));
 		(_tmp_aliases)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(1), il2cpp_codegen_string_new_wrapper("\x63\x72\x6F\x73\x73"));
-		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[8];
+		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[1];
 		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
 		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x62\x75\x74\x74\x6F\x6E\x53\x6F\x75\x74\x68"), NULL);
 		InputControlAttribute_set_layout_mCF2C40C4FD8A34D75840202460F60D7DB88CF54D_inline(tmp, il2cpp_codegen_string_new_wrapper("\x42\x75\x74\x74\x6F\x6E"), NULL);
@@ -14257,7 +14144,67 @@ static void GamepadState_tB51D5628B4C0EF704A63A27C531D037011BF87DC_CustomAttribu
 		InputControlAttribute_set_shortDisplayName_m4DD4109FFFABB8110484A941460E7DA3AA2F73E5_inline(tmp, il2cpp_codegen_string_new_wrapper("\x41"), NULL);
 	}
 	{
-		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[9];
+		StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A* _tmp_aliases = (StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A*)SZArrayNew(StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A_il2cpp_TypeInfo_var, 2);
+		(_tmp_aliases)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(0), il2cpp_codegen_string_new_wrapper("\x78"));
+		(_tmp_aliases)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(1), il2cpp_codegen_string_new_wrapper("\x73\x71\x75\x61\x72\x65"));
+		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[2];
+		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
+		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x62\x75\x74\x74\x6F\x6E\x57\x65\x73\x74"), NULL);
+		InputControlAttribute_set_layout_mCF2C40C4FD8A34D75840202460F60D7DB88CF54D_inline(tmp, il2cpp_codegen_string_new_wrapper("\x42\x75\x74\x74\x6F\x6E"), NULL);
+		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 7LL, NULL);
+		InputControlAttribute_set_usage_mC1F26BE0D5681DA7BA2586E4F960DE53B90CE195_inline(tmp, il2cpp_codegen_string_new_wrapper("\x53\x65\x63\x6F\x6E\x64\x61\x72\x79\x41\x63\x74\x69\x6F\x6E"), NULL);
+		InputControlAttribute_set_aliases_mD29AD37656E9AFE2EE1F3EE95CBBA21A31467F08_inline(tmp, _tmp_aliases, NULL);
+		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x42\x75\x74\x74\x6F\x6E\x20\x57\x65\x73\x74"), NULL);
+		InputControlAttribute_set_shortDisplayName_m4DD4109FFFABB8110484A941460E7DA3AA2F73E5_inline(tmp, il2cpp_codegen_string_new_wrapper("\x58"), NULL);
+	}
+	{
+		StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A* _tmp_aliases = (StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A*)SZArrayNew(StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A_il2cpp_TypeInfo_var, 2);
+		(_tmp_aliases)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(0), il2cpp_codegen_string_new_wrapper("\x79"));
+		(_tmp_aliases)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(1), il2cpp_codegen_string_new_wrapper("\x74\x72\x69\x61\x6E\x67\x6C\x65"));
+		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[3];
+		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
+		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x62\x75\x74\x74\x6F\x6E\x4E\x6F\x72\x74\x68"), NULL);
+		InputControlAttribute_set_layout_mCF2C40C4FD8A34D75840202460F60D7DB88CF54D_inline(tmp, il2cpp_codegen_string_new_wrapper("\x42\x75\x74\x74\x6F\x6E"), NULL);
+		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 4LL, NULL);
+		InputControlAttribute_set_aliases_mD29AD37656E9AFE2EE1F3EE95CBBA21A31467F08_inline(tmp, _tmp_aliases, NULL);
+		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x42\x75\x74\x74\x6F\x6E\x20\x4E\x6F\x72\x74\x68"), NULL);
+		InputControlAttribute_set_shortDisplayName_m4DD4109FFFABB8110484A941460E7DA3AA2F73E5_inline(tmp, il2cpp_codegen_string_new_wrapper("\x59"), NULL);
+	}
+	{
+		StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A* _tmp_usages = (StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A*)SZArrayNew(StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A_il2cpp_TypeInfo_var, 2);
+		(_tmp_usages)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(0), il2cpp_codegen_string_new_wrapper("\x42\x61\x63\x6B"));
+		(_tmp_usages)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(1), il2cpp_codegen_string_new_wrapper("\x43\x61\x6E\x63\x65\x6C"));
+		StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A* _tmp_aliases = (StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A*)SZArrayNew(StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A_il2cpp_TypeInfo_var, 2);
+		(_tmp_aliases)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(0), il2cpp_codegen_string_new_wrapper("\x62"));
+		(_tmp_aliases)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(1), il2cpp_codegen_string_new_wrapper("\x63\x69\x72\x63\x6C\x65"));
+		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[4];
+		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
+		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x62\x75\x74\x74\x6F\x6E\x45\x61\x73\x74"), NULL);
+		InputControlAttribute_set_layout_mCF2C40C4FD8A34D75840202460F60D7DB88CF54D_inline(tmp, il2cpp_codegen_string_new_wrapper("\x42\x75\x74\x74\x6F\x6E"), NULL);
+		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 5LL, NULL);
+		InputControlAttribute_set_usages_m0C1A7CFA0324603E57AF07E109818577B21E689F_inline(tmp, _tmp_usages, NULL);
+		InputControlAttribute_set_aliases_mD29AD37656E9AFE2EE1F3EE95CBBA21A31467F08_inline(tmp, _tmp_aliases, NULL);
+		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x42\x75\x74\x74\x6F\x6E\x20\x45\x61\x73\x74"), NULL);
+		InputControlAttribute_set_shortDisplayName_m4DD4109FFFABB8110484A941460E7DA3AA2F73E5_inline(tmp, il2cpp_codegen_string_new_wrapper("\x42"), NULL);
+	}
+	{
+		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[5];
+		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
+		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x6C\x65\x66\x74\x53\x74\x69\x63\x6B\x50\x72\x65\x73\x73"), NULL);
+		InputControlAttribute_set_layout_mCF2C40C4FD8A34D75840202460F60D7DB88CF54D_inline(tmp, il2cpp_codegen_string_new_wrapper("\x42\x75\x74\x74\x6F\x6E"), NULL);
+		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 8LL, NULL);
+		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x4C\x65\x66\x74\x20\x53\x74\x69\x63\x6B\x20\x50\x72\x65\x73\x73"), NULL);
+	}
+	{
+		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[6];
+		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
+		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x72\x69\x67\x68\x74\x53\x74\x69\x63\x6B\x50\x72\x65\x73\x73"), NULL);
+		InputControlAttribute_set_layout_mCF2C40C4FD8A34D75840202460F60D7DB88CF54D_inline(tmp, il2cpp_codegen_string_new_wrapper("\x42\x75\x74\x74\x6F\x6E"), NULL);
+		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 9LL, NULL);
+		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x52\x69\x67\x68\x74\x20\x53\x74\x69\x63\x6B\x20\x50\x72\x65\x73\x73"), NULL);
+	}
+	{
+		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[7];
 		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
 		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x64\x70\x61\x64"), NULL);
 		InputControlAttribute_set_layout_mCF2C40C4FD8A34D75840202460F60D7DB88CF54D_inline(tmp, il2cpp_codegen_string_new_wrapper("\x44\x70\x61\x64"), NULL);
@@ -14266,6 +14213,24 @@ static void GamepadState_tB51D5628B4C0EF704A63A27C531D037011BF87DC_CustomAttribu
 		InputControlAttribute_set_format_m521FCB2A2DD5AB8CB571FAC5F0C44841F141C626_inline(tmp, il2cpp_codegen_string_new_wrapper("\x42\x49\x54"), NULL);
 		InputControlAttribute_set_sizeInBits_m006CCB26E2E6CB3A740E03306FFA0231438A8BCC_inline(tmp, 4LL, NULL);
 		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 0LL, NULL);
+	}
+	{
+		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[8];
+		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
+		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x72\x69\x67\x68\x74\x53\x68\x6F\x75\x6C\x64\x65\x72"), NULL);
+		InputControlAttribute_set_layout_mCF2C40C4FD8A34D75840202460F60D7DB88CF54D_inline(tmp, il2cpp_codegen_string_new_wrapper("\x42\x75\x74\x74\x6F\x6E"), NULL);
+		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 11LL, NULL);
+		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x52\x69\x67\x68\x74\x20\x53\x68\x6F\x75\x6C\x64\x65\x72"), NULL);
+		InputControlAttribute_set_shortDisplayName_m4DD4109FFFABB8110484A941460E7DA3AA2F73E5_inline(tmp, il2cpp_codegen_string_new_wrapper("\x52\x42"), NULL);
+	}
+	{
+		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[9];
+		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
+		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x73\x74\x61\x72\x74"), NULL);
+		InputControlAttribute_set_layout_mCF2C40C4FD8A34D75840202460F60D7DB88CF54D_inline(tmp, il2cpp_codegen_string_new_wrapper("\x42\x75\x74\x74\x6F\x6E"), NULL);
+		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 12LL, NULL);
+		InputControlAttribute_set_usage_mC1F26BE0D5681DA7BA2586E4F960DE53B90CE195_inline(tmp, il2cpp_codegen_string_new_wrapper("\x4D\x65\x6E\x75"), NULL);
+		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x53\x74\x61\x72\x74"), NULL);
 	}
 	{
 		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[10];
@@ -14376,29 +14341,13 @@ static void KeyboardState_t6655D095C06E41FA7525ACFAF145B7DC48FDA584_CustomAttrib
 	{
 		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[0];
 		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
-		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x6E\x75\x6D\x70\x61\x64\x45\x71\x75\x61\x6C\x73"), NULL);
-		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x4E\x75\x6D\x70\x61\x64\x20\x3D"), NULL);
-		InputControlAttribute_set_layout_mCF2C40C4FD8A34D75840202460F60D7DB88CF54D_inline(tmp, il2cpp_codegen_string_new_wrapper("\x4B\x65\x79"), NULL);
-		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 83LL, NULL);
-	}
-	{
-		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[1];
-		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
-		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x6E\x75\x6D\x70\x61\x64\x32"), NULL);
-		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x4E\x75\x6D\x70\x61\x64\x20\x32"), NULL);
-		InputControlAttribute_set_layout_mCF2C40C4FD8A34D75840202460F60D7DB88CF54D_inline(tmp, il2cpp_codegen_string_new_wrapper("\x4B\x65\x79"), NULL);
-		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 86LL, NULL);
-	}
-	{
-		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[2];
-		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
 		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x6E\x75\x6D\x70\x61\x64\x33"), NULL);
 		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x4E\x75\x6D\x70\x61\x64\x20\x33"), NULL);
 		InputControlAttribute_set_layout_mCF2C40C4FD8A34D75840202460F60D7DB88CF54D_inline(tmp, il2cpp_codegen_string_new_wrapper("\x4B\x65\x79"), NULL);
 		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 87LL, NULL);
 	}
 	{
-		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[3];
+		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[1];
 		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
 		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x6E\x75\x6D\x70\x61\x64\x34"), NULL);
 		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x4E\x75\x6D\x70\x61\x64\x20\x34"), NULL);
@@ -14406,15 +14355,23 @@ static void KeyboardState_t6655D095C06E41FA7525ACFAF145B7DC48FDA584_CustomAttrib
 		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 88LL, NULL);
 	}
 	{
-		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[4];
+		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[2];
 		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
-		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x6E\x75\x6D\x70\x61\x64\x50\x65\x72\x69\x6F\x64"), NULL);
-		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x4E\x75\x6D\x70\x61\x64\x20\x2E"), NULL);
+		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x6E\x75\x6D\x70\x61\x64\x35"), NULL);
+		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x4E\x75\x6D\x70\x61\x64\x20\x35"), NULL);
 		InputControlAttribute_set_layout_mCF2C40C4FD8A34D75840202460F60D7DB88CF54D_inline(tmp, il2cpp_codegen_string_new_wrapper("\x4B\x65\x79"), NULL);
-		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 82LL, NULL);
+		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 89LL, NULL);
 	}
 	{
-		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[5];
+		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[3];
+		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
+		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x6E\x75\x6D\x70\x61\x64\x36"), NULL);
+		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x4E\x75\x6D\x70\x61\x64\x20\x36"), NULL);
+		InputControlAttribute_set_layout_mCF2C40C4FD8A34D75840202460F60D7DB88CF54D_inline(tmp, il2cpp_codegen_string_new_wrapper("\x4B\x65\x79"), NULL);
+		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 90LL, NULL);
+	}
+	{
+		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[4];
 		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
 		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x6E\x75\x6D\x70\x61\x64\x31"), NULL);
 		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x4E\x75\x6D\x70\x61\x64\x20\x31"), NULL);
@@ -14422,12 +14379,20 @@ static void KeyboardState_t6655D095C06E41FA7525ACFAF145B7DC48FDA584_CustomAttrib
 		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 85LL, NULL);
 	}
 	{
+		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[5];
+		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
+		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x6E\x75\x6D\x70\x61\x64\x32"), NULL);
+		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x4E\x75\x6D\x70\x61\x64\x20\x32"), NULL);
+		InputControlAttribute_set_layout_mCF2C40C4FD8A34D75840202460F60D7DB88CF54D_inline(tmp, il2cpp_codegen_string_new_wrapper("\x4B\x65\x79"), NULL);
+		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 86LL, NULL);
+	}
+	{
 		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[6];
 		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
-		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x6E\x75\x6D\x70\x61\x64\x35"), NULL);
-		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x4E\x75\x6D\x70\x61\x64\x20\x35"), NULL);
+		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x6E\x75\x6D\x70\x61\x64\x37"), NULL);
+		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x4E\x75\x6D\x70\x61\x64\x20\x37"), NULL);
 		InputControlAttribute_set_layout_mCF2C40C4FD8A34D75840202460F60D7DB88CF54D_inline(tmp, il2cpp_codegen_string_new_wrapper("\x4B\x65\x79"), NULL);
-		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 89LL, NULL);
+		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 91LL, NULL);
 	}
 	{
 		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[7];
@@ -14449,6 +14414,18 @@ static void KeyboardState_t6655D095C06E41FA7525ACFAF145B7DC48FDA584_CustomAttrib
 	{
 		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[9];
 		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
+		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x61\x6C\x74"), NULL);
+		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x41\x6C\x74"), NULL);
+		InputControlAttribute_set_layout_mCF2C40C4FD8A34D75840202460F60D7DB88CF54D_inline(tmp, il2cpp_codegen_string_new_wrapper("\x44\x69\x73\x63\x72\x65\x74\x65\x42\x75\x74\x74\x6F\x6E"), NULL);
+		InputControlAttribute_set_usage_mC1F26BE0D5681DA7BA2586E4F960DE53B90CE195_inline(tmp, il2cpp_codegen_string_new_wrapper("\x4D\x6F\x64\x69\x66\x69\x65\x72"), NULL);
+		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 53LL, NULL);
+		InputControlAttribute_set_sizeInBits_m006CCB26E2E6CB3A740E03306FFA0231438A8BCC_inline(tmp, 2LL, NULL);
+		InputControlAttribute_set_synthetic_m4551E74758ECEB54448FE0CD92ABE3A177190502_inline(tmp, true, NULL);
+		InputControlAttribute_set_parameters_mE85AB6FC654CFF6787A7AF989611ACD33595FD08_inline(tmp, il2cpp_codegen_string_new_wrapper("\x6D\x69\x6E\x56\x61\x6C\x75\x65\x3D\x31\x2C\x6D\x61\x78\x56\x61\x6C\x75\x65\x3D\x33"), NULL);
+	}
+	{
+		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[10];
+		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
 		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x72\x69\x67\x68\x74\x41\x6C\x74"), NULL);
 		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x52\x69\x67\x68\x74\x20\x41\x6C\x74"), NULL);
 		InputControlAttribute_set_layout_mCF2C40C4FD8A34D75840202460F60D7DB88CF54D_inline(tmp, il2cpp_codegen_string_new_wrapper("\x4B\x65\x79"), NULL);
@@ -14457,7 +14434,7 @@ static void KeyboardState_t6655D095C06E41FA7525ACFAF145B7DC48FDA584_CustomAttrib
 		InputControlAttribute_set_alias_m78C253CCD7BD52A5C503F7DF4EAF83E05E342A35_inline(tmp, il2cpp_codegen_string_new_wrapper("\x41\x6C\x74\x47\x72"), NULL);
 	}
 	{
-		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[10];
+		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[11];
 		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
 		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x6C\x65\x66\x74\x41\x6C\x74"), NULL);
 		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x4C\x65\x66\x74\x20\x41\x6C\x74"), NULL);
@@ -14466,7 +14443,7 @@ static void KeyboardState_t6655D095C06E41FA7525ACFAF145B7DC48FDA584_CustomAttrib
 		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 53LL, NULL);
 	}
 	{
-		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[11];
+		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[12];
 		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
 		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x73\x68\x69\x66\x74"), NULL);
 		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x53\x68\x69\x66\x74"), NULL);
@@ -14478,7 +14455,7 @@ static void KeyboardState_t6655D095C06E41FA7525ACFAF145B7DC48FDA584_CustomAttrib
 		InputControlAttribute_set_parameters_mE85AB6FC654CFF6787A7AF989611ACD33595FD08_inline(tmp, il2cpp_codegen_string_new_wrapper("\x6D\x69\x6E\x56\x61\x6C\x75\x65\x3D\x31\x2C\x6D\x61\x78\x56\x61\x6C\x75\x65\x3D\x33"), NULL);
 	}
 	{
-		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[12];
+		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[13];
 		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
 		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x72\x69\x67\x68\x74\x53\x68\x69\x66\x74"), NULL);
 		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x52\x69\x67\x68\x74\x20\x53\x68\x69\x66\x74"), NULL);
@@ -14487,7 +14464,7 @@ static void KeyboardState_t6655D095C06E41FA7525ACFAF145B7DC48FDA584_CustomAttrib
 		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 52LL, NULL);
 	}
 	{
-		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[13];
+		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[14];
 		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
 		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x6C\x65\x66\x74\x53\x68\x69\x66\x74"), NULL);
 		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x4C\x65\x66\x74\x20\x53\x68\x69\x66\x74"), NULL);
@@ -14496,7 +14473,7 @@ static void KeyboardState_t6655D095C06E41FA7525ACFAF145B7DC48FDA584_CustomAttrib
 		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 51LL, NULL);
 	}
 	{
-		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[14];
+		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[15];
 		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
 		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x30"), NULL);
 		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x30"), NULL);
@@ -14504,7 +14481,7 @@ static void KeyboardState_t6655D095C06E41FA7525ACFAF145B7DC48FDA584_CustomAttrib
 		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 50LL, NULL);
 	}
 	{
-		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[15];
+		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[16];
 		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
 		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x39"), NULL);
 		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x39"), NULL);
@@ -14512,7 +14489,7 @@ static void KeyboardState_t6655D095C06E41FA7525ACFAF145B7DC48FDA584_CustomAttrib
 		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 49LL, NULL);
 	}
 	{
-		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[16];
+		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[17];
 		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
 		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x38"), NULL);
 		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x38"), NULL);
@@ -14520,7 +14497,7 @@ static void KeyboardState_t6655D095C06E41FA7525ACFAF145B7DC48FDA584_CustomAttrib
 		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 48LL, NULL);
 	}
 	{
-		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[17];
+		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[18];
 		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
 		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x37"), NULL);
 		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x37"), NULL);
@@ -14528,7 +14505,7 @@ static void KeyboardState_t6655D095C06E41FA7525ACFAF145B7DC48FDA584_CustomAttrib
 		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 47LL, NULL);
 	}
 	{
-		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[18];
+		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[19];
 		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
 		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x36"), NULL);
 		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x36"), NULL);
@@ -14536,7 +14513,7 @@ static void KeyboardState_t6655D095C06E41FA7525ACFAF145B7DC48FDA584_CustomAttrib
 		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 46LL, NULL);
 	}
 	{
-		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[19];
+		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[20];
 		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
 		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x35"), NULL);
 		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x35"), NULL);
@@ -14544,7 +14521,7 @@ static void KeyboardState_t6655D095C06E41FA7525ACFAF145B7DC48FDA584_CustomAttrib
 		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 45LL, NULL);
 	}
 	{
-		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[20];
+		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[21];
 		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
 		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x34"), NULL);
 		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x34"), NULL);
@@ -14552,7 +14529,7 @@ static void KeyboardState_t6655D095C06E41FA7525ACFAF145B7DC48FDA584_CustomAttrib
 		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 44LL, NULL);
 	}
 	{
-		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[21];
+		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[22];
 		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
 		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x33"), NULL);
 		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x33"), NULL);
@@ -14560,7 +14537,7 @@ static void KeyboardState_t6655D095C06E41FA7525ACFAF145B7DC48FDA584_CustomAttrib
 		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 43LL, NULL);
 	}
 	{
-		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[22];
+		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[23];
 		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
 		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x32"), NULL);
 		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x32"), NULL);
@@ -14568,7 +14545,7 @@ static void KeyboardState_t6655D095C06E41FA7525ACFAF145B7DC48FDA584_CustomAttrib
 		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 42LL, NULL);
 	}
 	{
-		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[23];
+		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[24];
 		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
 		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x31"), NULL);
 		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x31"), NULL);
@@ -14576,7 +14553,7 @@ static void KeyboardState_t6655D095C06E41FA7525ACFAF145B7DC48FDA584_CustomAttrib
 		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 41LL, NULL);
 	}
 	{
-		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[24];
+		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[25];
 		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
 		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x7A"), NULL);
 		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x5A"), NULL);
@@ -14584,35 +14561,7 @@ static void KeyboardState_t6655D095C06E41FA7525ACFAF145B7DC48FDA584_CustomAttrib
 		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 40LL, NULL);
 	}
 	{
-		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[25];
-		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
-		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x79"), NULL);
-		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x59"), NULL);
-		InputControlAttribute_set_layout_mCF2C40C4FD8A34D75840202460F60D7DB88CF54D_inline(tmp, il2cpp_codegen_string_new_wrapper("\x4B\x65\x79"), NULL);
-		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 39LL, NULL);
-	}
-	{
 		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[26];
-		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
-		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x61\x6C\x74"), NULL);
-		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x41\x6C\x74"), NULL);
-		InputControlAttribute_set_layout_mCF2C40C4FD8A34D75840202460F60D7DB88CF54D_inline(tmp, il2cpp_codegen_string_new_wrapper("\x44\x69\x73\x63\x72\x65\x74\x65\x42\x75\x74\x74\x6F\x6E"), NULL);
-		InputControlAttribute_set_usage_mC1F26BE0D5681DA7BA2586E4F960DE53B90CE195_inline(tmp, il2cpp_codegen_string_new_wrapper("\x4D\x6F\x64\x69\x66\x69\x65\x72"), NULL);
-		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 53LL, NULL);
-		InputControlAttribute_set_sizeInBits_m006CCB26E2E6CB3A740E03306FFA0231438A8BCC_inline(tmp, 2LL, NULL);
-		InputControlAttribute_set_synthetic_m4551E74758ECEB54448FE0CD92ABE3A177190502_inline(tmp, true, NULL);
-		InputControlAttribute_set_parameters_mE85AB6FC654CFF6787A7AF989611ACD33595FD08_inline(tmp, il2cpp_codegen_string_new_wrapper("\x6D\x69\x6E\x56\x61\x6C\x75\x65\x3D\x31\x2C\x6D\x61\x78\x56\x61\x6C\x75\x65\x3D\x33"), NULL);
-	}
-	{
-		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[27];
-		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
-		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x78"), NULL);
-		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x58"), NULL);
-		InputControlAttribute_set_layout_mCF2C40C4FD8A34D75840202460F60D7DB88CF54D_inline(tmp, il2cpp_codegen_string_new_wrapper("\x4B\x65\x79"), NULL);
-		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 38LL, NULL);
-	}
-	{
-		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[28];
 		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
 		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x6C\x65\x66\x74\x43\x74\x72\x6C"), NULL);
 		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x4C\x65\x66\x74\x20\x43\x6F\x6E\x74\x72\x6F\x6C"), NULL);
@@ -14621,7 +14570,16 @@ static void KeyboardState_t6655D095C06E41FA7525ACFAF145B7DC48FDA584_CustomAttrib
 		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 55LL, NULL);
 	}
 	{
-		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[29];
+		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[27];
+		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
+		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x72\x69\x67\x68\x74\x43\x74\x72\x6C"), NULL);
+		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x52\x69\x67\x68\x74\x20\x43\x6F\x6E\x74\x72\x6F\x6C"), NULL);
+		InputControlAttribute_set_layout_mCF2C40C4FD8A34D75840202460F60D7DB88CF54D_inline(tmp, il2cpp_codegen_string_new_wrapper("\x4B\x65\x79"), NULL);
+		InputControlAttribute_set_usage_mC1F26BE0D5681DA7BA2586E4F960DE53B90CE195_inline(tmp, il2cpp_codegen_string_new_wrapper("\x4D\x6F\x64\x69\x66\x69\x65\x72"), NULL);
+		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 56LL, NULL);
+	}
+	{
+		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[28];
 		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
 		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x63\x74\x72\x6C"), NULL);
 		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x43\x6F\x6E\x74\x72\x6F\x6C"), NULL);
@@ -14633,7 +14591,37 @@ static void KeyboardState_t6655D095C06E41FA7525ACFAF145B7DC48FDA584_CustomAttrib
 		InputControlAttribute_set_parameters_mE85AB6FC654CFF6787A7AF989611ACD33595FD08_inline(tmp, il2cpp_codegen_string_new_wrapper("\x6D\x69\x6E\x56\x61\x6C\x75\x65\x3D\x31\x2C\x6D\x61\x78\x56\x61\x6C\x75\x65\x3D\x33"), NULL);
 	}
 	{
+		StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A* _tmp_aliases = (StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A*)SZArrayNew(StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A_il2cpp_TypeInfo_var, 3);
+		(_tmp_aliases)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(0), il2cpp_codegen_string_new_wrapper("\x4C\x65\x66\x74\x57\x69\x6E\x64\x6F\x77\x73"));
+		(_tmp_aliases)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(1), il2cpp_codegen_string_new_wrapper("\x4C\x65\x66\x74\x41\x70\x70\x6C\x65"));
+		(_tmp_aliases)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(2), il2cpp_codegen_string_new_wrapper("\x4C\x65\x66\x74\x43\x6F\x6D\x6D\x61\x6E\x64"));
+		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[29];
+		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
+		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x6C\x65\x66\x74\x4D\x65\x74\x61"), NULL);
+		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x4C\x65\x66\x74\x20\x53\x79\x73\x74\x65\x6D"), NULL);
+		InputControlAttribute_set_layout_mCF2C40C4FD8A34D75840202460F60D7DB88CF54D_inline(tmp, il2cpp_codegen_string_new_wrapper("\x4B\x65\x79"), NULL);
+		InputControlAttribute_set_usage_mC1F26BE0D5681DA7BA2586E4F960DE53B90CE195_inline(tmp, il2cpp_codegen_string_new_wrapper("\x4D\x6F\x64\x69\x66\x69\x65\x72"), NULL);
+		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 57LL, NULL);
+		InputControlAttribute_set_aliases_mD29AD37656E9AFE2EE1F3EE95CBBA21A31467F08_inline(tmp, _tmp_aliases, NULL);
+	}
+	{
 		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[30];
+		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
+		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x6E\x75\x6D\x70\x61\x64\x50\x6C\x75\x73"), NULL);
+		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x4E\x75\x6D\x70\x61\x64\x20\x2B"), NULL);
+		InputControlAttribute_set_layout_mCF2C40C4FD8A34D75840202460F60D7DB88CF54D_inline(tmp, il2cpp_codegen_string_new_wrapper("\x4B\x65\x79"), NULL);
+		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 80LL, NULL);
+	}
+	{
+		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[31];
+		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
+		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x6E\x75\x6D\x70\x61\x64\x4D\x75\x6C\x74\x69\x70\x6C\x79"), NULL);
+		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x4E\x75\x6D\x70\x61\x64\x20\x2A"), NULL);
+		InputControlAttribute_set_layout_mCF2C40C4FD8A34D75840202460F60D7DB88CF54D_inline(tmp, il2cpp_codegen_string_new_wrapper("\x4B\x65\x79"), NULL);
+		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 79LL, NULL);
+	}
+	{
+		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[32];
 		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
 		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x6E\x75\x6D\x70\x61\x64\x44\x69\x76\x69\x64\x65"), NULL);
 		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x4E\x75\x6D\x70\x61\x64\x20\x2F"), NULL);
@@ -14641,7 +14629,7 @@ static void KeyboardState_t6655D095C06E41FA7525ACFAF145B7DC48FDA584_CustomAttrib
 		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 78LL, NULL);
 	}
 	{
-		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[31];
+		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[33];
 		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
 		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x6E\x75\x6D\x70\x61\x64\x45\x6E\x74\x65\x72"), NULL);
 		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x4E\x75\x6D\x70\x61\x64\x20\x45\x6E\x74\x65\x72"), NULL);
@@ -14649,7 +14637,7 @@ static void KeyboardState_t6655D095C06E41FA7525ACFAF145B7DC48FDA584_CustomAttrib
 		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 77LL, NULL);
 	}
 	{
-		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[32];
+		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[34];
 		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
 		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x70\x61\x75\x73\x65"), NULL);
 		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x50\x61\x75\x73\x65\x2F\x42\x72\x65\x61\x6B"), NULL);
@@ -14657,7 +14645,7 @@ static void KeyboardState_t6655D095C06E41FA7525ACFAF145B7DC48FDA584_CustomAttrib
 		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 76LL, NULL);
 	}
 	{
-		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[33];
+		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[35];
 		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
 		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x73\x63\x72\x6F\x6C\x6C\x4C\x6F\x63\x6B"), NULL);
 		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x53\x63\x72\x6F\x6C\x6C\x20\x4C\x6F\x63\x6B"), NULL);
@@ -14665,7 +14653,7 @@ static void KeyboardState_t6655D095C06E41FA7525ACFAF145B7DC48FDA584_CustomAttrib
 		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 75LL, NULL);
 	}
 	{
-		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[34];
+		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[36];
 		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
 		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x70\x72\x69\x6E\x74\x53\x63\x72\x65\x65\x6E"), NULL);
 		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x50\x72\x69\x6E\x74\x20\x53\x63\x72\x65\x65\x6E"), NULL);
@@ -14673,7 +14661,7 @@ static void KeyboardState_t6655D095C06E41FA7525ACFAF145B7DC48FDA584_CustomAttrib
 		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 74LL, NULL);
 	}
 	{
-		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[35];
+		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[37];
 		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
 		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x6E\x75\x6D\x4C\x6F\x63\x6B"), NULL);
 		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x4E\x75\x6D\x20\x4C\x6F\x63\x6B"), NULL);
@@ -14681,7 +14669,15 @@ static void KeyboardState_t6655D095C06E41FA7525ACFAF145B7DC48FDA584_CustomAttrib
 		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 73LL, NULL);
 	}
 	{
-		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[36];
+		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[38];
+		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
+		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x79"), NULL);
+		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x59"), NULL);
+		InputControlAttribute_set_layout_mCF2C40C4FD8A34D75840202460F60D7DB88CF54D_inline(tmp, il2cpp_codegen_string_new_wrapper("\x4B\x65\x79"), NULL);
+		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 39LL, NULL);
+	}
+	{
+		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[39];
 		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
 		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x63\x61\x70\x73\x4C\x6F\x63\x6B"), NULL);
 		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x43\x61\x70\x73\x20\x4C\x6F\x63\x6B"), NULL);
@@ -14689,15 +14685,7 @@ static void KeyboardState_t6655D095C06E41FA7525ACFAF145B7DC48FDA584_CustomAttrib
 		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 72LL, NULL);
 	}
 	{
-		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[37];
-		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
-		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x64\x65\x6C\x65\x74\x65"), NULL);
-		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x44\x65\x6C\x65\x74\x65"), NULL);
-		InputControlAttribute_set_layout_mCF2C40C4FD8A34D75840202460F60D7DB88CF54D_inline(tmp, il2cpp_codegen_string_new_wrapper("\x4B\x65\x79"), NULL);
-		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 71LL, NULL);
-	}
-	{
-		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[38];
+		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[40];
 		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
 		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x69\x6E\x73\x65\x72\x74"), NULL);
 		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x49\x6E\x73\x65\x72\x74"), NULL);
@@ -14705,7 +14693,7 @@ static void KeyboardState_t6655D095C06E41FA7525ACFAF145B7DC48FDA584_CustomAttrib
 		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 70LL, NULL);
 	}
 	{
-		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[39];
+		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[41];
 		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
 		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x65\x6E\x64"), NULL);
 		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x45\x6E\x64"), NULL);
@@ -14713,7 +14701,7 @@ static void KeyboardState_t6655D095C06E41FA7525ACFAF145B7DC48FDA584_CustomAttrib
 		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 69LL, NULL);
 	}
 	{
-		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[40];
+		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[42];
 		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
 		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x68\x6F\x6D\x65"), NULL);
 		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x48\x6F\x6D\x65"), NULL);
@@ -14721,7 +14709,7 @@ static void KeyboardState_t6655D095C06E41FA7525ACFAF145B7DC48FDA584_CustomAttrib
 		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 68LL, NULL);
 	}
 	{
-		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[41];
+		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[43];
 		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
 		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x70\x61\x67\x65\x55\x70"), NULL);
 		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x50\x61\x67\x65\x20\x55\x70"), NULL);
@@ -14729,7 +14717,7 @@ static void KeyboardState_t6655D095C06E41FA7525ACFAF145B7DC48FDA584_CustomAttrib
 		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 67LL, NULL);
 	}
 	{
-		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[42];
+		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[44];
 		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
 		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x70\x61\x67\x65\x44\x6F\x77\x6E"), NULL);
 		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x50\x61\x67\x65\x20\x44\x6F\x77\x6E"), NULL);
@@ -14737,7 +14725,7 @@ static void KeyboardState_t6655D095C06E41FA7525ACFAF145B7DC48FDA584_CustomAttrib
 		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 66LL, NULL);
 	}
 	{
-		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[43];
+		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[45];
 		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
 		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x62\x61\x63\x6B\x73\x70\x61\x63\x65"), NULL);
 		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x42\x61\x63\x6B\x73\x70\x61\x63\x65"), NULL);
@@ -14745,7 +14733,7 @@ static void KeyboardState_t6655D095C06E41FA7525ACFAF145B7DC48FDA584_CustomAttrib
 		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 65LL, NULL);
 	}
 	{
-		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[44];
+		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[46];
 		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
 		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x63\x6F\x6E\x74\x65\x78\x74\x4D\x65\x6E\x75"), NULL);
 		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x43\x6F\x6E\x74\x65\x78\x74\x20\x4D\x65\x6E\x75"), NULL);
@@ -14758,7 +14746,7 @@ static void KeyboardState_t6655D095C06E41FA7525ACFAF145B7DC48FDA584_CustomAttrib
 		(_tmp_aliases)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(0), il2cpp_codegen_string_new_wrapper("\x52\x69\x67\x68\x74\x57\x69\x6E\x64\x6F\x77\x73"));
 		(_tmp_aliases)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(1), il2cpp_codegen_string_new_wrapper("\x52\x69\x67\x68\x74\x41\x70\x70\x6C\x65"));
 		(_tmp_aliases)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(2), il2cpp_codegen_string_new_wrapper("\x52\x69\x67\x68\x74\x43\x6F\x6D\x6D\x61\x6E\x64"));
-		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[45];
+		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[47];
 		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
 		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x72\x69\x67\x68\x74\x4D\x65\x74\x61"), NULL);
 		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x52\x69\x67\x68\x74\x20\x53\x79\x73\x74\x65\x6D"), NULL);
@@ -14768,50 +14756,35 @@ static void KeyboardState_t6655D095C06E41FA7525ACFAF145B7DC48FDA584_CustomAttrib
 		InputControlAttribute_set_aliases_mD29AD37656E9AFE2EE1F3EE95CBBA21A31467F08_inline(tmp, _tmp_aliases, NULL);
 	}
 	{
-		StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A* _tmp_aliases = (StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A*)SZArrayNew(StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A_il2cpp_TypeInfo_var, 3);
-		(_tmp_aliases)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(0), il2cpp_codegen_string_new_wrapper("\x4C\x65\x66\x74\x57\x69\x6E\x64\x6F\x77\x73"));
-		(_tmp_aliases)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(1), il2cpp_codegen_string_new_wrapper("\x4C\x65\x66\x74\x41\x70\x70\x6C\x65"));
-		(_tmp_aliases)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(2), il2cpp_codegen_string_new_wrapper("\x4C\x65\x66\x74\x43\x6F\x6D\x6D\x61\x6E\x64"));
-		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[46];
+		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[48];
 		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
-		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x6C\x65\x66\x74\x4D\x65\x74\x61"), NULL);
-		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x4C\x65\x66\x74\x20\x53\x79\x73\x74\x65\x6D"), NULL);
+		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x64\x65\x6C\x65\x74\x65"), NULL);
+		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x44\x65\x6C\x65\x74\x65"), NULL);
 		InputControlAttribute_set_layout_mCF2C40C4FD8A34D75840202460F60D7DB88CF54D_inline(tmp, il2cpp_codegen_string_new_wrapper("\x4B\x65\x79"), NULL);
-		InputControlAttribute_set_usage_mC1F26BE0D5681DA7BA2586E4F960DE53B90CE195_inline(tmp, il2cpp_codegen_string_new_wrapper("\x4D\x6F\x64\x69\x66\x69\x65\x72"), NULL);
-		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 57LL, NULL);
-		InputControlAttribute_set_aliases_mD29AD37656E9AFE2EE1F3EE95CBBA21A31467F08_inline(tmp, _tmp_aliases, NULL);
+		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 71LL, NULL);
 	}
 	{
-		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[47];
-		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
-		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x72\x69\x67\x68\x74\x43\x74\x72\x6C"), NULL);
-		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x52\x69\x67\x68\x74\x20\x43\x6F\x6E\x74\x72\x6F\x6C"), NULL);
-		InputControlAttribute_set_layout_mCF2C40C4FD8A34D75840202460F60D7DB88CF54D_inline(tmp, il2cpp_codegen_string_new_wrapper("\x4B\x65\x79"), NULL);
-		InputControlAttribute_set_usage_mC1F26BE0D5681DA7BA2586E4F960DE53B90CE195_inline(tmp, il2cpp_codegen_string_new_wrapper("\x4D\x6F\x64\x69\x66\x69\x65\x72"), NULL);
-		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 56LL, NULL);
-	}
-	{
-		FixedBufferAttribute_tA3523076C957FC980B0B4445B25C2D4AA626DC4C * tmp = (FixedBufferAttribute_tA3523076C957FC980B0B4445B25C2D4AA626DC4C *)cache->attributes[48];
+		FixedBufferAttribute_tA3523076C957FC980B0B4445B25C2D4AA626DC4C * tmp = (FixedBufferAttribute_tA3523076C957FC980B0B4445B25C2D4AA626DC4C *)cache->attributes[49];
 		FixedBufferAttribute__ctor_m7767B7379CFADD0D12551A5A891BF1916A07BE51(tmp, il2cpp_codegen_type_get_object(Byte_t0111FAB8B8685667EDDAF77683F0D8F86B659056_0_0_0_var), 14LL, NULL);
-	}
-	{
-		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[49];
-		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
-		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x77"), NULL);
-		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x57"), NULL);
-		InputControlAttribute_set_layout_mCF2C40C4FD8A34D75840202460F60D7DB88CF54D_inline(tmp, il2cpp_codegen_string_new_wrapper("\x4B\x65\x79"), NULL);
-		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 37LL, NULL);
 	}
 	{
 		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[50];
 		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
-		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x75"), NULL);
-		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x55"), NULL);
+		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x78"), NULL);
+		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x58"), NULL);
 		InputControlAttribute_set_layout_mCF2C40C4FD8A34D75840202460F60D7DB88CF54D_inline(tmp, il2cpp_codegen_string_new_wrapper("\x4B\x65\x79"), NULL);
-		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 35LL, NULL);
+		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 38LL, NULL);
 	}
 	{
 		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[51];
+		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
+		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x76"), NULL);
+		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x56"), NULL);
+		InputControlAttribute_set_layout_mCF2C40C4FD8A34D75840202460F60D7DB88CF54D_inline(tmp, il2cpp_codegen_string_new_wrapper("\x4B\x65\x79"), NULL);
+		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 36LL, NULL);
+	}
+	{
+		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[52];
 		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
 		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x6C\x65\x66\x74\x41\x72\x72\x6F\x77"), NULL);
 		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x4C\x65\x66\x74\x20\x41\x72\x72\x6F\x77"), NULL);
@@ -14819,7 +14792,7 @@ static void KeyboardState_t6655D095C06E41FA7525ACFAF145B7DC48FDA584_CustomAttrib
 		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 61LL, NULL);
 	}
 	{
-		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[52];
+		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[53];
 		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
 		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x64\x6F\x77\x6E\x41\x72\x72\x6F\x77"), NULL);
 		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x44\x6F\x77\x6E\x20\x41\x72\x72\x6F\x77"), NULL);
@@ -14827,7 +14800,7 @@ static void KeyboardState_t6655D095C06E41FA7525ACFAF145B7DC48FDA584_CustomAttrib
 		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 64LL, NULL);
 	}
 	{
-		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[53];
+		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[54];
 		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
 		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x75\x70\x41\x72\x72\x6F\x77"), NULL);
 		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x55\x70\x20\x41\x72\x72\x6F\x77"), NULL);
@@ -14835,7 +14808,7 @@ static void KeyboardState_t6655D095C06E41FA7525ACFAF145B7DC48FDA584_CustomAttrib
 		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 63LL, NULL);
 	}
 	{
-		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[54];
+		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[55];
 		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
 		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x65\x71\x75\x61\x6C\x73"), NULL);
 		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x3D"), NULL);
@@ -14843,7 +14816,7 @@ static void KeyboardState_t6655D095C06E41FA7525ACFAF145B7DC48FDA584_CustomAttrib
 		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 14LL, NULL);
 	}
 	{
-		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[55];
+		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[56];
 		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
 		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x6D\x69\x6E\x75\x73"), NULL);
 		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x2D"), NULL);
@@ -14851,7 +14824,7 @@ static void KeyboardState_t6655D095C06E41FA7525ACFAF145B7DC48FDA584_CustomAttrib
 		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 13LL, NULL);
 	}
 	{
-		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[56];
+		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[57];
 		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
 		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x72\x69\x67\x68\x74\x42\x72\x61\x63\x6B\x65\x74"), NULL);
 		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x5D"), NULL);
@@ -14859,7 +14832,7 @@ static void KeyboardState_t6655D095C06E41FA7525ACFAF145B7DC48FDA584_CustomAttrib
 		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 12LL, NULL);
 	}
 	{
-		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[57];
+		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[58];
 		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
 		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x6C\x65\x66\x74\x42\x72\x61\x63\x6B\x65\x74"), NULL);
 		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x5B"), NULL);
@@ -14867,7 +14840,7 @@ static void KeyboardState_t6655D095C06E41FA7525ACFAF145B7DC48FDA584_CustomAttrib
 		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 11LL, NULL);
 	}
 	{
-		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[58];
+		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[59];
 		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
 		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x62\x61\x63\x6B\x73\x6C\x61\x73\x68"), NULL);
 		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x5C"), NULL);
@@ -14875,7 +14848,7 @@ static void KeyboardState_t6655D095C06E41FA7525ACFAF145B7DC48FDA584_CustomAttrib
 		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 10LL, NULL);
 	}
 	{
-		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[59];
+		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[60];
 		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
 		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x73\x6C\x61\x73\x68"), NULL);
 		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x2F"), NULL);
@@ -14883,7 +14856,7 @@ static void KeyboardState_t6655D095C06E41FA7525ACFAF145B7DC48FDA584_CustomAttrib
 		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 9LL, NULL);
 	}
 	{
-		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[60];
+		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[61];
 		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
 		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x70\x65\x72\x69\x6F\x64"), NULL);
 		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x2E"), NULL);
@@ -14891,7 +14864,7 @@ static void KeyboardState_t6655D095C06E41FA7525ACFAF145B7DC48FDA584_CustomAttrib
 		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 8LL, NULL);
 	}
 	{
-		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[61];
+		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[62];
 		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
 		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x63\x6F\x6D\x6D\x61"), NULL);
 		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x2C"), NULL);
@@ -14899,7 +14872,7 @@ static void KeyboardState_t6655D095C06E41FA7525ACFAF145B7DC48FDA584_CustomAttrib
 		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 7LL, NULL);
 	}
 	{
-		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[62];
+		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[63];
 		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
 		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x73\x65\x6D\x69\x63\x6F\x6C\x6F\x6E"), NULL);
 		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x3B"), NULL);
@@ -14907,7 +14880,7 @@ static void KeyboardState_t6655D095C06E41FA7525ACFAF145B7DC48FDA584_CustomAttrib
 		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 6LL, NULL);
 	}
 	{
-		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[63];
+		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[64];
 		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
 		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x71\x75\x6F\x74\x65"), NULL);
 		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x27"), NULL);
@@ -14915,7 +14888,7 @@ static void KeyboardState_t6655D095C06E41FA7525ACFAF145B7DC48FDA584_CustomAttrib
 		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 5LL, NULL);
 	}
 	{
-		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[64];
+		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[65];
 		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
 		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x62\x61\x63\x6B\x71\x75\x6F\x74\x65"), NULL);
 		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x60"), NULL);
@@ -14923,7 +14896,7 @@ static void KeyboardState_t6655D095C06E41FA7525ACFAF145B7DC48FDA584_CustomAttrib
 		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 4LL, NULL);
 	}
 	{
-		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[65];
+		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[66];
 		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
 		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x65\x6E\x74\x65\x72"), NULL);
 		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x45\x6E\x74\x65\x72"), NULL);
@@ -14932,7 +14905,7 @@ static void KeyboardState_t6655D095C06E41FA7525ACFAF145B7DC48FDA584_CustomAttrib
 		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 2LL, NULL);
 	}
 	{
-		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[66];
+		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[67];
 		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
 		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x73\x70\x61\x63\x65"), NULL);
 		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x53\x70\x61\x63\x65"), NULL);
@@ -14943,7 +14916,7 @@ static void KeyboardState_t6655D095C06E41FA7525ACFAF145B7DC48FDA584_CustomAttrib
 		StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A* _tmp_usages = (StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A*)SZArrayNew(StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A_il2cpp_TypeInfo_var, 2);
 		(_tmp_usages)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(0), il2cpp_codegen_string_new_wrapper("\x42\x61\x63\x6B"));
 		(_tmp_usages)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(1), il2cpp_codegen_string_new_wrapper("\x43\x61\x6E\x63\x65\x6C"));
-		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[67];
+		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[68];
 		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
 		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x65\x73\x63\x61\x70\x65"), NULL);
 		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x45\x73\x63\x61\x70\x65"), NULL);
@@ -14952,7 +14925,7 @@ static void KeyboardState_t6655D095C06E41FA7525ACFAF145B7DC48FDA584_CustomAttrib
 		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 60LL, NULL);
 	}
 	{
-		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[68];
+		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[69];
 		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
 		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x72\x69\x67\x68\x74\x41\x72\x72\x6F\x77"), NULL);
 		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x52\x69\x67\x68\x74\x20\x41\x72\x72\x6F\x77"), NULL);
@@ -14960,175 +14933,7 @@ static void KeyboardState_t6655D095C06E41FA7525ACFAF145B7DC48FDA584_CustomAttrib
 		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 62LL, NULL);
 	}
 	{
-		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[69];
-		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
-		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x76"), NULL);
-		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x56"), NULL);
-		InputControlAttribute_set_layout_mCF2C40C4FD8A34D75840202460F60D7DB88CF54D_inline(tmp, il2cpp_codegen_string_new_wrapper("\x4B\x65\x79"), NULL);
-		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 36LL, NULL);
-	}
-	{
 		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[70];
-		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
-		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x6E\x75\x6D\x70\x61\x64\x4D\x69\x6E\x75\x73"), NULL);
-		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x4E\x75\x6D\x70\x61\x64\x20\x2D"), NULL);
-		InputControlAttribute_set_layout_mCF2C40C4FD8A34D75840202460F60D7DB88CF54D_inline(tmp, il2cpp_codegen_string_new_wrapper("\x4B\x65\x79"), NULL);
-		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 81LL, NULL);
-	}
-	{
-		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[71];
-		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
-		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x63"), NULL);
-		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x43"), NULL);
-		InputControlAttribute_set_layout_mCF2C40C4FD8A34D75840202460F60D7DB88CF54D_inline(tmp, il2cpp_codegen_string_new_wrapper("\x4B\x65\x79"), NULL);
-		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 17LL, NULL);
-	}
-	{
-		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[72];
-		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
-		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x74"), NULL);
-		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x54"), NULL);
-		InputControlAttribute_set_layout_mCF2C40C4FD8A34D75840202460F60D7DB88CF54D_inline(tmp, il2cpp_codegen_string_new_wrapper("\x4B\x65\x79"), NULL);
-		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 34LL, NULL);
-	}
-	{
-		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[73];
-		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
-		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x73"), NULL);
-		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x53"), NULL);
-		InputControlAttribute_set_layout_mCF2C40C4FD8A34D75840202460F60D7DB88CF54D_inline(tmp, il2cpp_codegen_string_new_wrapper("\x4B\x65\x79"), NULL);
-		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 33LL, NULL);
-	}
-	{
-		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[74];
-		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
-		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x72"), NULL);
-		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x52"), NULL);
-		InputControlAttribute_set_layout_mCF2C40C4FD8A34D75840202460F60D7DB88CF54D_inline(tmp, il2cpp_codegen_string_new_wrapper("\x4B\x65\x79"), NULL);
-		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 32LL, NULL);
-	}
-	{
-		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[75];
-		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
-		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x71"), NULL);
-		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x51"), NULL);
-		InputControlAttribute_set_layout_mCF2C40C4FD8A34D75840202460F60D7DB88CF54D_inline(tmp, il2cpp_codegen_string_new_wrapper("\x4B\x65\x79"), NULL);
-		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 31LL, NULL);
-	}
-	{
-		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[76];
-		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
-		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x70"), NULL);
-		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x50"), NULL);
-		InputControlAttribute_set_layout_mCF2C40C4FD8A34D75840202460F60D7DB88CF54D_inline(tmp, il2cpp_codegen_string_new_wrapper("\x4B\x65\x79"), NULL);
-		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 30LL, NULL);
-	}
-	{
-		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[77];
-		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
-		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x6F"), NULL);
-		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x4F"), NULL);
-		InputControlAttribute_set_layout_mCF2C40C4FD8A34D75840202460F60D7DB88CF54D_inline(tmp, il2cpp_codegen_string_new_wrapper("\x4B\x65\x79"), NULL);
-		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 29LL, NULL);
-	}
-	{
-		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[78];
-		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
-		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x6E"), NULL);
-		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x4E"), NULL);
-		InputControlAttribute_set_layout_mCF2C40C4FD8A34D75840202460F60D7DB88CF54D_inline(tmp, il2cpp_codegen_string_new_wrapper("\x4B\x65\x79"), NULL);
-		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 28LL, NULL);
-	}
-	{
-		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[79];
-		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
-		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x6D"), NULL);
-		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x4D"), NULL);
-		InputControlAttribute_set_layout_mCF2C40C4FD8A34D75840202460F60D7DB88CF54D_inline(tmp, il2cpp_codegen_string_new_wrapper("\x4B\x65\x79"), NULL);
-		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 27LL, NULL);
-	}
-	{
-		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[80];
-		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
-		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x6C"), NULL);
-		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x4C"), NULL);
-		InputControlAttribute_set_layout_mCF2C40C4FD8A34D75840202460F60D7DB88CF54D_inline(tmp, il2cpp_codegen_string_new_wrapper("\x4B\x65\x79"), NULL);
-		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 26LL, NULL);
-	}
-	{
-		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[81];
-		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
-		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x6B"), NULL);
-		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x4B"), NULL);
-		InputControlAttribute_set_layout_mCF2C40C4FD8A34D75840202460F60D7DB88CF54D_inline(tmp, il2cpp_codegen_string_new_wrapper("\x4B\x65\x79"), NULL);
-		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 25LL, NULL);
-	}
-	{
-		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[82];
-		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
-		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x6A"), NULL);
-		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x4A"), NULL);
-		InputControlAttribute_set_layout_mCF2C40C4FD8A34D75840202460F60D7DB88CF54D_inline(tmp, il2cpp_codegen_string_new_wrapper("\x4B\x65\x79"), NULL);
-		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 24LL, NULL);
-	}
-	{
-		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[83];
-		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
-		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x69"), NULL);
-		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x49"), NULL);
-		InputControlAttribute_set_layout_mCF2C40C4FD8A34D75840202460F60D7DB88CF54D_inline(tmp, il2cpp_codegen_string_new_wrapper("\x4B\x65\x79"), NULL);
-		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 23LL, NULL);
-	}
-	{
-		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[84];
-		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
-		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x68"), NULL);
-		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x48"), NULL);
-		InputControlAttribute_set_layout_mCF2C40C4FD8A34D75840202460F60D7DB88CF54D_inline(tmp, il2cpp_codegen_string_new_wrapper("\x4B\x65\x79"), NULL);
-		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 22LL, NULL);
-	}
-	{
-		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[85];
-		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
-		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x67"), NULL);
-		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x47"), NULL);
-		InputControlAttribute_set_layout_mCF2C40C4FD8A34D75840202460F60D7DB88CF54D_inline(tmp, il2cpp_codegen_string_new_wrapper("\x4B\x65\x79"), NULL);
-		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 21LL, NULL);
-	}
-	{
-		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[86];
-		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
-		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x66"), NULL);
-		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x46"), NULL);
-		InputControlAttribute_set_layout_mCF2C40C4FD8A34D75840202460F60D7DB88CF54D_inline(tmp, il2cpp_codegen_string_new_wrapper("\x4B\x65\x79"), NULL);
-		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 20LL, NULL);
-	}
-	{
-		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[87];
-		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
-		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x65"), NULL);
-		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x45"), NULL);
-		InputControlAttribute_set_layout_mCF2C40C4FD8A34D75840202460F60D7DB88CF54D_inline(tmp, il2cpp_codegen_string_new_wrapper("\x4B\x65\x79"), NULL);
-		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 19LL, NULL);
-	}
-	{
-		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[88];
-		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
-		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x64"), NULL);
-		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x44"), NULL);
-		InputControlAttribute_set_layout_mCF2C40C4FD8A34D75840202460F60D7DB88CF54D_inline(tmp, il2cpp_codegen_string_new_wrapper("\x4B\x65\x79"), NULL);
-		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 18LL, NULL);
-	}
-	{
-		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[89];
-		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
-		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x62"), NULL);
-		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x42"), NULL);
-		InputControlAttribute_set_layout_mCF2C40C4FD8A34D75840202460F60D7DB88CF54D_inline(tmp, il2cpp_codegen_string_new_wrapper("\x4B\x65\x79"), NULL);
-		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 16LL, NULL);
-	}
-	{
-		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[90];
 		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
 		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x61"), NULL);
 		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x41"), NULL);
@@ -15136,7 +14941,183 @@ static void KeyboardState_t6655D095C06E41FA7525ACFAF145B7DC48FDA584_CustomAttrib
 		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 15LL, NULL);
 	}
 	{
+		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[71];
+		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
+		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x6E\x75\x6D\x70\x61\x64\x45\x71\x75\x61\x6C\x73"), NULL);
+		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x4E\x75\x6D\x70\x61\x64\x20\x3D"), NULL);
+		InputControlAttribute_set_layout_mCF2C40C4FD8A34D75840202460F60D7DB88CF54D_inline(tmp, il2cpp_codegen_string_new_wrapper("\x4B\x65\x79"), NULL);
+		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 83LL, NULL);
+	}
+	{
+		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[72];
+		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
+		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x63"), NULL);
+		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x43"), NULL);
+		InputControlAttribute_set_layout_mCF2C40C4FD8A34D75840202460F60D7DB88CF54D_inline(tmp, il2cpp_codegen_string_new_wrapper("\x4B\x65\x79"), NULL);
+		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 17LL, NULL);
+	}
+	{
+		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[73];
+		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
+		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x75"), NULL);
+		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x55"), NULL);
+		InputControlAttribute_set_layout_mCF2C40C4FD8A34D75840202460F60D7DB88CF54D_inline(tmp, il2cpp_codegen_string_new_wrapper("\x4B\x65\x79"), NULL);
+		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 35LL, NULL);
+	}
+	{
+		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[74];
+		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
+		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x74"), NULL);
+		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x54"), NULL);
+		InputControlAttribute_set_layout_mCF2C40C4FD8A34D75840202460F60D7DB88CF54D_inline(tmp, il2cpp_codegen_string_new_wrapper("\x4B\x65\x79"), NULL);
+		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 34LL, NULL);
+	}
+	{
+		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[75];
+		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
+		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x73"), NULL);
+		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x53"), NULL);
+		InputControlAttribute_set_layout_mCF2C40C4FD8A34D75840202460F60D7DB88CF54D_inline(tmp, il2cpp_codegen_string_new_wrapper("\x4B\x65\x79"), NULL);
+		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 33LL, NULL);
+	}
+	{
+		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[76];
+		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
+		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x72"), NULL);
+		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x52"), NULL);
+		InputControlAttribute_set_layout_mCF2C40C4FD8A34D75840202460F60D7DB88CF54D_inline(tmp, il2cpp_codegen_string_new_wrapper("\x4B\x65\x79"), NULL);
+		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 32LL, NULL);
+	}
+	{
+		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[77];
+		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
+		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x71"), NULL);
+		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x51"), NULL);
+		InputControlAttribute_set_layout_mCF2C40C4FD8A34D75840202460F60D7DB88CF54D_inline(tmp, il2cpp_codegen_string_new_wrapper("\x4B\x65\x79"), NULL);
+		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 31LL, NULL);
+	}
+	{
+		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[78];
+		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
+		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x70"), NULL);
+		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x50"), NULL);
+		InputControlAttribute_set_layout_mCF2C40C4FD8A34D75840202460F60D7DB88CF54D_inline(tmp, il2cpp_codegen_string_new_wrapper("\x4B\x65\x79"), NULL);
+		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 30LL, NULL);
+	}
+	{
+		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[79];
+		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
+		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x6F"), NULL);
+		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x4F"), NULL);
+		InputControlAttribute_set_layout_mCF2C40C4FD8A34D75840202460F60D7DB88CF54D_inline(tmp, il2cpp_codegen_string_new_wrapper("\x4B\x65\x79"), NULL);
+		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 29LL, NULL);
+	}
+	{
+		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[80];
+		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
+		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x6E"), NULL);
+		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x4E"), NULL);
+		InputControlAttribute_set_layout_mCF2C40C4FD8A34D75840202460F60D7DB88CF54D_inline(tmp, il2cpp_codegen_string_new_wrapper("\x4B\x65\x79"), NULL);
+		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 28LL, NULL);
+	}
+	{
+		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[81];
+		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
+		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x77"), NULL);
+		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x57"), NULL);
+		InputControlAttribute_set_layout_mCF2C40C4FD8A34D75840202460F60D7DB88CF54D_inline(tmp, il2cpp_codegen_string_new_wrapper("\x4B\x65\x79"), NULL);
+		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 37LL, NULL);
+	}
+	{
+		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[82];
+		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
+		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x6D"), NULL);
+		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x4D"), NULL);
+		InputControlAttribute_set_layout_mCF2C40C4FD8A34D75840202460F60D7DB88CF54D_inline(tmp, il2cpp_codegen_string_new_wrapper("\x4B\x65\x79"), NULL);
+		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 27LL, NULL);
+	}
+	{
+		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[83];
+		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
+		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x6B"), NULL);
+		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x4B"), NULL);
+		InputControlAttribute_set_layout_mCF2C40C4FD8A34D75840202460F60D7DB88CF54D_inline(tmp, il2cpp_codegen_string_new_wrapper("\x4B\x65\x79"), NULL);
+		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 25LL, NULL);
+	}
+	{
+		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[84];
+		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
+		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x6A"), NULL);
+		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x4A"), NULL);
+		InputControlAttribute_set_layout_mCF2C40C4FD8A34D75840202460F60D7DB88CF54D_inline(tmp, il2cpp_codegen_string_new_wrapper("\x4B\x65\x79"), NULL);
+		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 24LL, NULL);
+	}
+	{
+		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[85];
+		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
+		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x69"), NULL);
+		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x49"), NULL);
+		InputControlAttribute_set_layout_mCF2C40C4FD8A34D75840202460F60D7DB88CF54D_inline(tmp, il2cpp_codegen_string_new_wrapper("\x4B\x65\x79"), NULL);
+		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 23LL, NULL);
+	}
+	{
+		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[86];
+		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
+		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x68"), NULL);
+		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x48"), NULL);
+		InputControlAttribute_set_layout_mCF2C40C4FD8A34D75840202460F60D7DB88CF54D_inline(tmp, il2cpp_codegen_string_new_wrapper("\x4B\x65\x79"), NULL);
+		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 22LL, NULL);
+	}
+	{
+		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[87];
+		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
+		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x67"), NULL);
+		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x47"), NULL);
+		InputControlAttribute_set_layout_mCF2C40C4FD8A34D75840202460F60D7DB88CF54D_inline(tmp, il2cpp_codegen_string_new_wrapper("\x4B\x65\x79"), NULL);
+		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 21LL, NULL);
+	}
+	{
+		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[88];
+		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
+		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x66"), NULL);
+		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x46"), NULL);
+		InputControlAttribute_set_layout_mCF2C40C4FD8A34D75840202460F60D7DB88CF54D_inline(tmp, il2cpp_codegen_string_new_wrapper("\x4B\x65\x79"), NULL);
+		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 20LL, NULL);
+	}
+	{
+		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[89];
+		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
+		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x65"), NULL);
+		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x45"), NULL);
+		InputControlAttribute_set_layout_mCF2C40C4FD8A34D75840202460F60D7DB88CF54D_inline(tmp, il2cpp_codegen_string_new_wrapper("\x4B\x65\x79"), NULL);
+		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 19LL, NULL);
+	}
+	{
+		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[90];
+		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
+		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x64"), NULL);
+		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x44"), NULL);
+		InputControlAttribute_set_layout_mCF2C40C4FD8A34D75840202460F60D7DB88CF54D_inline(tmp, il2cpp_codegen_string_new_wrapper("\x4B\x65\x79"), NULL);
+		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 18LL, NULL);
+	}
+	{
 		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[91];
+		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
+		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x6C"), NULL);
+		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x4C"), NULL);
+		InputControlAttribute_set_layout_mCF2C40C4FD8A34D75840202460F60D7DB88CF54D_inline(tmp, il2cpp_codegen_string_new_wrapper("\x4B\x65\x79"), NULL);
+		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 26LL, NULL);
+	}
+	{
+		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[92];
+		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
+		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x62"), NULL);
+		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x42"), NULL);
+		InputControlAttribute_set_layout_mCF2C40C4FD8A34D75840202460F60D7DB88CF54D_inline(tmp, il2cpp_codegen_string_new_wrapper("\x4B\x65\x79"), NULL);
+		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 16LL, NULL);
+	}
+	{
+		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[93];
 		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
 		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x66\x31\x32"), NULL);
 		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x46\x31\x32"), NULL);
@@ -15144,122 +15125,7 @@ static void KeyboardState_t6655D095C06E41FA7525ACFAF145B7DC48FDA584_CustomAttrib
 		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 105LL, NULL);
 	}
 	{
-		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[92];
-		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
-		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x6E\x75\x6D\x70\x61\x64\x37"), NULL);
-		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x4E\x75\x6D\x70\x61\x64\x20\x37"), NULL);
-		InputControlAttribute_set_layout_mCF2C40C4FD8A34D75840202460F60D7DB88CF54D_inline(tmp, il2cpp_codegen_string_new_wrapper("\x4B\x65\x79"), NULL);
-		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 91LL, NULL);
-	}
-	{
-		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[93];
-		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
-		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x6E\x75\x6D\x70\x61\x64\x36"), NULL);
-		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x4E\x75\x6D\x70\x61\x64\x20\x36"), NULL);
-		InputControlAttribute_set_layout_mCF2C40C4FD8A34D75840202460F60D7DB88CF54D_inline(tmp, il2cpp_codegen_string_new_wrapper("\x4B\x65\x79"), NULL);
-		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 90LL, NULL);
-	}
-	{
 		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[94];
-		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
-		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x49\x4D\x45\x53\x65\x6C\x65\x63\x74\x65\x64"), NULL);
-		InputControlAttribute_set_layout_mCF2C40C4FD8A34D75840202460F60D7DB88CF54D_inline(tmp, il2cpp_codegen_string_new_wrapper("\x42\x75\x74\x74\x6F\x6E"), NULL);
-		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 111LL, NULL);
-		InputControlAttribute_set_synthetic_m4551E74758ECEB54448FE0CD92ABE3A177190502_inline(tmp, true, NULL);
-	}
-	{
-		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[95];
-		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
-		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x4F\x45\x4D\x35"), NULL);
-		InputControlAttribute_set_layout_mCF2C40C4FD8A34D75840202460F60D7DB88CF54D_inline(tmp, il2cpp_codegen_string_new_wrapper("\x4B\x65\x79"), NULL);
-		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 110LL, NULL);
-	}
-	{
-		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[96];
-		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
-		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x4F\x45\x4D\x34"), NULL);
-		InputControlAttribute_set_layout_mCF2C40C4FD8A34D75840202460F60D7DB88CF54D_inline(tmp, il2cpp_codegen_string_new_wrapper("\x4B\x65\x79"), NULL);
-		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 109LL, NULL);
-	}
-	{
-		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[97];
-		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
-		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x4F\x45\x4D\x33"), NULL);
-		InputControlAttribute_set_layout_mCF2C40C4FD8A34D75840202460F60D7DB88CF54D_inline(tmp, il2cpp_codegen_string_new_wrapper("\x4B\x65\x79"), NULL);
-		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 108LL, NULL);
-	}
-	{
-		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[98];
-		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
-		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x4F\x45\x4D\x32"), NULL);
-		InputControlAttribute_set_layout_mCF2C40C4FD8A34D75840202460F60D7DB88CF54D_inline(tmp, il2cpp_codegen_string_new_wrapper("\x4B\x65\x79"), NULL);
-		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 107LL, NULL);
-	}
-	{
-		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[99];
-		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
-		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x4F\x45\x4D\x31"), NULL);
-		InputControlAttribute_set_layout_mCF2C40C4FD8A34D75840202460F60D7DB88CF54D_inline(tmp, il2cpp_codegen_string_new_wrapper("\x4B\x65\x79"), NULL);
-		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 106LL, NULL);
-	}
-	{
-		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[100];
-		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
-		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x6E\x75\x6D\x70\x61\x64\x4D\x75\x6C\x74\x69\x70\x6C\x79"), NULL);
-		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x4E\x75\x6D\x70\x61\x64\x20\x2A"), NULL);
-		InputControlAttribute_set_layout_mCF2C40C4FD8A34D75840202460F60D7DB88CF54D_inline(tmp, il2cpp_codegen_string_new_wrapper("\x4B\x65\x79"), NULL);
-		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 79LL, NULL);
-	}
-	{
-		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[101];
-		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
-		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x66\x31\x31"), NULL);
-		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x46\x31\x31"), NULL);
-		InputControlAttribute_set_layout_mCF2C40C4FD8A34D75840202460F60D7DB88CF54D_inline(tmp, il2cpp_codegen_string_new_wrapper("\x4B\x65\x79"), NULL);
-		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 104LL, NULL);
-	}
-	{
-		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[102];
-		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
-		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x66\x31\x30"), NULL);
-		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x46\x31\x30"), NULL);
-		InputControlAttribute_set_layout_mCF2C40C4FD8A34D75840202460F60D7DB88CF54D_inline(tmp, il2cpp_codegen_string_new_wrapper("\x4B\x65\x79"), NULL);
-		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 103LL, NULL);
-	}
-	{
-		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[103];
-		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
-		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x66\x39"), NULL);
-		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x46\x39"), NULL);
-		InputControlAttribute_set_layout_mCF2C40C4FD8A34D75840202460F60D7DB88CF54D_inline(tmp, il2cpp_codegen_string_new_wrapper("\x4B\x65\x79"), NULL);
-		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 102LL, NULL);
-	}
-	{
-		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[104];
-		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
-		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x6E\x75\x6D\x70\x61\x64\x50\x6C\x75\x73"), NULL);
-		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x4E\x75\x6D\x70\x61\x64\x20\x2B"), NULL);
-		InputControlAttribute_set_layout_mCF2C40C4FD8A34D75840202460F60D7DB88CF54D_inline(tmp, il2cpp_codegen_string_new_wrapper("\x4B\x65\x79"), NULL);
-		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 80LL, NULL);
-	}
-	{
-		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[105];
-		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
-		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x66\x37"), NULL);
-		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x46\x37"), NULL);
-		InputControlAttribute_set_layout_mCF2C40C4FD8A34D75840202460F60D7DB88CF54D_inline(tmp, il2cpp_codegen_string_new_wrapper("\x4B\x65\x79"), NULL);
-		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 100LL, NULL);
-	}
-	{
-		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[106];
-		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
-		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x6E\x75\x6D\x70\x61\x64\x38"), NULL);
-		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x4E\x75\x6D\x70\x61\x64\x20\x38"), NULL);
-		InputControlAttribute_set_layout_mCF2C40C4FD8A34D75840202460F60D7DB88CF54D_inline(tmp, il2cpp_codegen_string_new_wrapper("\x4B\x65\x79"), NULL);
-		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 92LL, NULL);
-	}
-	{
-		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[107];
 		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
 		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x6E\x75\x6D\x70\x61\x64\x39"), NULL);
 		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x4E\x75\x6D\x70\x61\x64\x20\x39"), NULL);
@@ -15267,23 +15133,90 @@ static void KeyboardState_t6655D095C06E41FA7525ACFAF145B7DC48FDA584_CustomAttrib
 		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 93LL, NULL);
 	}
 	{
-		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[108];
+		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[95];
 		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
-		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x6E\x75\x6D\x70\x61\x64\x30"), NULL);
-		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x4E\x75\x6D\x70\x61\x64\x20\x30"), NULL);
+		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x6E\x75\x6D\x70\x61\x64\x38"), NULL);
+		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x4E\x75\x6D\x70\x61\x64\x20\x38"), NULL);
 		InputControlAttribute_set_layout_mCF2C40C4FD8A34D75840202460F60D7DB88CF54D_inline(tmp, il2cpp_codegen_string_new_wrapper("\x4B\x65\x79"), NULL);
-		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 84LL, NULL);
+		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 92LL, NULL);
 	}
 	{
-		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[109];
+		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[96];
 		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
-		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x66\x31"), NULL);
-		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x46\x31"), NULL);
-		InputControlAttribute_set_layout_mCF2C40C4FD8A34D75840202460F60D7DB88CF54D_inline(tmp, il2cpp_codegen_string_new_wrapper("\x4B\x65\x79"), NULL);
-		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 94LL, NULL);
+		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x49\x4D\x45\x53\x65\x6C\x65\x63\x74\x65\x64"), NULL);
+		InputControlAttribute_set_layout_mCF2C40C4FD8A34D75840202460F60D7DB88CF54D_inline(tmp, il2cpp_codegen_string_new_wrapper("\x42\x75\x74\x74\x6F\x6E"), NULL);
+		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 111LL, NULL);
+		InputControlAttribute_set_synthetic_m4551E74758ECEB54448FE0CD92ABE3A177190502_inline(tmp, true, NULL);
 	}
 	{
-		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[110];
+		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[97];
+		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
+		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x4F\x45\x4D\x35"), NULL);
+		InputControlAttribute_set_layout_mCF2C40C4FD8A34D75840202460F60D7DB88CF54D_inline(tmp, il2cpp_codegen_string_new_wrapper("\x4B\x65\x79"), NULL);
+		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 110LL, NULL);
+	}
+	{
+		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[98];
+		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
+		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x4F\x45\x4D\x34"), NULL);
+		InputControlAttribute_set_layout_mCF2C40C4FD8A34D75840202460F60D7DB88CF54D_inline(tmp, il2cpp_codegen_string_new_wrapper("\x4B\x65\x79"), NULL);
+		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 109LL, NULL);
+	}
+	{
+		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[99];
+		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
+		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x4F\x45\x4D\x33"), NULL);
+		InputControlAttribute_set_layout_mCF2C40C4FD8A34D75840202460F60D7DB88CF54D_inline(tmp, il2cpp_codegen_string_new_wrapper("\x4B\x65\x79"), NULL);
+		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 108LL, NULL);
+	}
+	{
+		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[100];
+		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
+		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x4F\x45\x4D\x32"), NULL);
+		InputControlAttribute_set_layout_mCF2C40C4FD8A34D75840202460F60D7DB88CF54D_inline(tmp, il2cpp_codegen_string_new_wrapper("\x4B\x65\x79"), NULL);
+		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 107LL, NULL);
+	}
+	{
+		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[101];
+		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
+		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x4F\x45\x4D\x31"), NULL);
+		InputControlAttribute_set_layout_mCF2C40C4FD8A34D75840202460F60D7DB88CF54D_inline(tmp, il2cpp_codegen_string_new_wrapper("\x4B\x65\x79"), NULL);
+		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 106LL, NULL);
+	}
+	{
+		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[102];
+		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
+		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x6E\x75\x6D\x70\x61\x64\x4D\x69\x6E\x75\x73"), NULL);
+		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x4E\x75\x6D\x70\x61\x64\x20\x2D"), NULL);
+		InputControlAttribute_set_layout_mCF2C40C4FD8A34D75840202460F60D7DB88CF54D_inline(tmp, il2cpp_codegen_string_new_wrapper("\x4B\x65\x79"), NULL);
+		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 81LL, NULL);
+	}
+	{
+		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[103];
+		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
+		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x66\x31\x31"), NULL);
+		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x46\x31\x31"), NULL);
+		InputControlAttribute_set_layout_mCF2C40C4FD8A34D75840202460F60D7DB88CF54D_inline(tmp, il2cpp_codegen_string_new_wrapper("\x4B\x65\x79"), NULL);
+		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 104LL, NULL);
+	}
+	{
+		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[104];
+		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
+		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x66\x31\x30"), NULL);
+		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x46\x31\x30"), NULL);
+		InputControlAttribute_set_layout_mCF2C40C4FD8A34D75840202460F60D7DB88CF54D_inline(tmp, il2cpp_codegen_string_new_wrapper("\x4B\x65\x79"), NULL);
+		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 103LL, NULL);
+	}
+	{
+		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[105];
+		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
+		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x6E\x75\x6D\x70\x61\x64\x50\x65\x72\x69\x6F\x64"), NULL);
+		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x4E\x75\x6D\x70\x61\x64\x20\x2E"), NULL);
+		InputControlAttribute_set_layout_mCF2C40C4FD8A34D75840202460F60D7DB88CF54D_inline(tmp, il2cpp_codegen_string_new_wrapper("\x4B\x65\x79"), NULL);
+		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 82LL, NULL);
+	}
+	{
+		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[106];
 		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
 		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x66\x38"), NULL);
 		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x46\x38"), NULL);
@@ -15291,7 +15224,31 @@ static void KeyboardState_t6655D095C06E41FA7525ACFAF145B7DC48FDA584_CustomAttrib
 		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 101LL, NULL);
 	}
 	{
-		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[111];
+		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[107];
+		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
+		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x66\x39"), NULL);
+		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x46\x39"), NULL);
+		InputControlAttribute_set_layout_mCF2C40C4FD8A34D75840202460F60D7DB88CF54D_inline(tmp, il2cpp_codegen_string_new_wrapper("\x4B\x65\x79"), NULL);
+		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 102LL, NULL);
+	}
+	{
+		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[108];
+		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
+		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x66\x31"), NULL);
+		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x46\x31"), NULL);
+		InputControlAttribute_set_layout_mCF2C40C4FD8A34D75840202460F60D7DB88CF54D_inline(tmp, il2cpp_codegen_string_new_wrapper("\x4B\x65\x79"), NULL);
+		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 94LL, NULL);
+	}
+	{
+		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[109];
+		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
+		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x66\x32"), NULL);
+		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x46\x32"), NULL);
+		InputControlAttribute_set_layout_mCF2C40C4FD8A34D75840202460F60D7DB88CF54D_inline(tmp, il2cpp_codegen_string_new_wrapper("\x4B\x65\x79"), NULL);
+		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 95LL, NULL);
+	}
+	{
+		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[110];
 		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
 		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x66\x33"), NULL);
 		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x46\x33"), NULL);
@@ -15299,20 +15256,28 @@ static void KeyboardState_t6655D095C06E41FA7525ACFAF145B7DC48FDA584_CustomAttrib
 		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 96LL, NULL);
 	}
 	{
+		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[111];
+		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
+		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x6E\x75\x6D\x70\x61\x64\x30"), NULL);
+		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x4E\x75\x6D\x70\x61\x64\x20\x30"), NULL);
+		InputControlAttribute_set_layout_mCF2C40C4FD8A34D75840202460F60D7DB88CF54D_inline(tmp, il2cpp_codegen_string_new_wrapper("\x4B\x65\x79"), NULL);
+		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 84LL, NULL);
+	}
+	{
 		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[112];
 		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
-		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x66\x36"), NULL);
-		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x46\x36"), NULL);
+		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x66\x35"), NULL);
+		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x46\x35"), NULL);
 		InputControlAttribute_set_layout_mCF2C40C4FD8A34D75840202460F60D7DB88CF54D_inline(tmp, il2cpp_codegen_string_new_wrapper("\x4B\x65\x79"), NULL);
-		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 99LL, NULL);
+		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 98LL, NULL);
 	}
 	{
 		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[113];
 		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
-		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x66\x32"), NULL);
-		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x46\x32"), NULL);
+		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x66\x37"), NULL);
+		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x46\x37"), NULL);
 		InputControlAttribute_set_layout_mCF2C40C4FD8A34D75840202460F60D7DB88CF54D_inline(tmp, il2cpp_codegen_string_new_wrapper("\x4B\x65\x79"), NULL);
-		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 95LL, NULL);
+		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 100LL, NULL);
 	}
 	{
 		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[114];
@@ -15325,10 +15290,10 @@ static void KeyboardState_t6655D095C06E41FA7525ACFAF145B7DC48FDA584_CustomAttrib
 	{
 		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[115];
 		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
-		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x66\x35"), NULL);
-		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x46\x35"), NULL);
+		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x66\x36"), NULL);
+		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x46\x36"), NULL);
 		InputControlAttribute_set_layout_mCF2C40C4FD8A34D75840202460F60D7DB88CF54D_inline(tmp, il2cpp_codegen_string_new_wrapper("\x4B\x65\x79"), NULL);
-		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 98LL, NULL);
+		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 99LL, NULL);
 	}
 }
 static void KeyboardState_t6655D095C06E41FA7525ACFAF145B7DC48FDA584_CustomAttributesCacheGenerator_KeyboardState__ctor_m82B5E7E287DACB8B6C0885C26CE709562915D56B____pressedKeys0(CustomAttributesCache* cache)
@@ -15441,11 +15406,11 @@ static void MouseState_tAFECE9BCC480FE691312B00BCD891E71ABC136F5_CustomAttribute
 	{
 		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[3];
 		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
-		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x66\x6F\x72\x77\x61\x72\x64\x42\x75\x74\x74\x6F\x6E"), NULL);
+		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x62\x61\x63\x6B\x42\x75\x74\x74\x6F\x6E"), NULL);
 		InputControlAttribute_set_layout_mCF2C40C4FD8A34D75840202460F60D7DB88CF54D_inline(tmp, il2cpp_codegen_string_new_wrapper("\x42\x75\x74\x74\x6F\x6E"), NULL);
-		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 3LL, NULL);
-		InputControlAttribute_set_usage_mC1F26BE0D5681DA7BA2586E4F960DE53B90CE195_inline(tmp, il2cpp_codegen_string_new_wrapper("\x46\x6F\x72\x77\x61\x72\x64"), NULL);
-		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x46\x6F\x72\x77\x61\x72\x64"), NULL);
+		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 4LL, NULL);
+		InputControlAttribute_set_usage_mC1F26BE0D5681DA7BA2586E4F960DE53B90CE195_inline(tmp, il2cpp_codegen_string_new_wrapper("\x42\x61\x63\x6B"), NULL);
+		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x42\x61\x63\x6B"), NULL);
 	}
 	{
 		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[4];
@@ -15479,20 +15444,20 @@ static void MouseState_tAFECE9BCC480FE691312B00BCD891E71ABC136F5_CustomAttribute
 	{
 		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[7];
 		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
-		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x62\x61\x63\x6B\x42\x75\x74\x74\x6F\x6E"), NULL);
-		InputControlAttribute_set_layout_mCF2C40C4FD8A34D75840202460F60D7DB88CF54D_inline(tmp, il2cpp_codegen_string_new_wrapper("\x42\x75\x74\x74\x6F\x6E"), NULL);
-		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 4LL, NULL);
-		InputControlAttribute_set_usage_mC1F26BE0D5681DA7BA2586E4F960DE53B90CE195_inline(tmp, il2cpp_codegen_string_new_wrapper("\x42\x61\x63\x6B"), NULL);
-		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x42\x61\x63\x6B"), NULL);
-	}
-	{
-		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[8];
-		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
 		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x6D\x69\x64\x64\x6C\x65\x42\x75\x74\x74\x6F\x6E"), NULL);
 		InputControlAttribute_set_layout_mCF2C40C4FD8A34D75840202460F60D7DB88CF54D_inline(tmp, il2cpp_codegen_string_new_wrapper("\x42\x75\x74\x74\x6F\x6E"), NULL);
 		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 2LL, NULL);
 		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x4D\x69\x64\x64\x6C\x65\x20\x42\x75\x74\x74\x6F\x6E"), NULL);
 		InputControlAttribute_set_shortDisplayName_m4DD4109FFFABB8110484A941460E7DA3AA2F73E5_inline(tmp, il2cpp_codegen_string_new_wrapper("\x4D\x4D\x42"), NULL);
+	}
+	{
+		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[8];
+		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
+		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x66\x6F\x72\x77\x61\x72\x64\x42\x75\x74\x74\x6F\x6E"), NULL);
+		InputControlAttribute_set_layout_mCF2C40C4FD8A34D75840202460F60D7DB88CF54D_inline(tmp, il2cpp_codegen_string_new_wrapper("\x42\x75\x74\x74\x6F\x6E"), NULL);
+		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 3LL, NULL);
+		InputControlAttribute_set_usage_mC1F26BE0D5681DA7BA2586E4F960DE53B90CE195_inline(tmp, il2cpp_codegen_string_new_wrapper("\x46\x6F\x72\x77\x61\x72\x64"), NULL);
+		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x46\x6F\x72\x77\x61\x72\x64"), NULL);
 	}
 }
 static void MouseState_tAFECE9BCC480FE691312B00BCD891E71ABC136F5_CustomAttributesCacheGenerator_clickCount(CustomAttributesCache* cache)
@@ -15577,7 +15542,16 @@ static void PenState_t7F79E389A87BA727FD50937AB52B5124E432BD3B_CustomAttributesC
 		InputControlAttribute_set_usage_mC1F26BE0D5681DA7BA2586E4F960DE53B90CE195_inline(tmp, il2cpp_codegen_string_new_wrapper("\x50\x72\x69\x6D\x61\x72\x79\x41\x63\x74\x69\x6F\x6E"), NULL);
 	}
 	{
+		StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A* _tmp_usages = (StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A*)SZArrayNew(StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A_il2cpp_TypeInfo_var, 0);
 		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[1];
+		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
+		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x70\x72\x65\x73\x73"), NULL);
+		InputControlAttribute_set_useStateFrom_m50E1805C16309FF32EC8BC971D2AF038E508F0D9_inline(tmp, il2cpp_codegen_string_new_wrapper("\x74\x69\x70"), NULL);
+		InputControlAttribute_set_synthetic_m4551E74758ECEB54448FE0CD92ABE3A177190502_inline(tmp, true, NULL);
+		InputControlAttribute_set_usages_m0C1A7CFA0324603E57AF07E109818577B21E689F_inline(tmp, _tmp_usages, NULL);
+	}
+	{
+		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[2];
 		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
 		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x70\x6F\x69\x6E\x74\x65\x72\x49\x64"), NULL);
 		InputControlAttribute_set_layout_mCF2C40C4FD8A34D75840202460F60D7DB88CF54D_inline(tmp, il2cpp_codegen_string_new_wrapper("\x44\x69\x67\x69\x74\x61\x6C"), NULL);
@@ -15586,7 +15560,7 @@ static void PenState_t7F79E389A87BA727FD50937AB52B5124E432BD3B_CustomAttributesC
 		InputControlAttribute_set_offset_mB03D7D9806CB454CE909A2A9BBA0179C3CC593ED_inline(tmp, 4294967294LL, NULL);
 	}
 	{
-		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[2];
+		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[3];
 		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
 		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x72\x61\x64\x69\x75\x73"), NULL);
 		InputControlAttribute_set_layout_mCF2C40C4FD8A34D75840202460F60D7DB88CF54D_inline(tmp, il2cpp_codegen_string_new_wrapper("\x56\x65\x63\x74\x6F\x72\x32"), NULL);
@@ -15596,7 +15570,7 @@ static void PenState_t7F79E389A87BA727FD50937AB52B5124E432BD3B_CustomAttributesC
 		InputControlAttribute_set_offset_mB03D7D9806CB454CE909A2A9BBA0179C3CC593ED_inline(tmp, 4294967294LL, NULL);
 	}
 	{
-		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[3];
+		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[4];
 		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
 		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x62\x61\x72\x72\x65\x6C\x34"), NULL);
 		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x42\x61\x72\x72\x65\x6C\x20\x42\x75\x74\x74\x6F\x6E\x20\x23\x34"), NULL);
@@ -15605,16 +15579,15 @@ static void PenState_t7F79E389A87BA727FD50937AB52B5124E432BD3B_CustomAttributesC
 		InputControlAttribute_set_alias_m78C253CCD7BD52A5C503F7DF4EAF83E05E342A35_inline(tmp, il2cpp_codegen_string_new_wrapper("\x62\x61\x72\x72\x65\x6C\x46\x6F\x75\x72\x74\x68"), NULL);
 	}
 	{
-		StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A* _tmp_usages = (StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A*)SZArrayNew(StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A_il2cpp_TypeInfo_var, 0);
-		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[4];
+		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[5];
 		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
-		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x70\x72\x65\x73\x73"), NULL);
-		InputControlAttribute_set_useStateFrom_m50E1805C16309FF32EC8BC971D2AF038E508F0D9_inline(tmp, il2cpp_codegen_string_new_wrapper("\x74\x69\x70"), NULL);
-		InputControlAttribute_set_synthetic_m4551E74758ECEB54448FE0CD92ABE3A177190502_inline(tmp, true, NULL);
-		InputControlAttribute_set_usages_m0C1A7CFA0324603E57AF07E109818577B21E689F_inline(tmp, _tmp_usages, NULL);
+		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x65\x72\x61\x73\x65\x72"), NULL);
+		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x45\x72\x61\x73\x65\x72"), NULL);
+		InputControlAttribute_set_layout_mCF2C40C4FD8A34D75840202460F60D7DB88CF54D_inline(tmp, il2cpp_codegen_string_new_wrapper("\x42\x75\x74\x74\x6F\x6E"), NULL);
+		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 1LL, NULL);
 	}
 	{
-		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[5];
+		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[6];
 		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
 		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x62\x61\x72\x72\x65\x6C\x32"), NULL);
 		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x42\x61\x72\x72\x65\x6C\x20\x42\x75\x74\x74\x6F\x6E\x20\x23\x32"), NULL);
@@ -15623,7 +15596,7 @@ static void PenState_t7F79E389A87BA727FD50937AB52B5124E432BD3B_CustomAttributesC
 		InputControlAttribute_set_alias_m78C253CCD7BD52A5C503F7DF4EAF83E05E342A35_inline(tmp, il2cpp_codegen_string_new_wrapper("\x62\x61\x72\x72\x65\x6C\x53\x65\x63\x6F\x6E\x64"), NULL);
 	}
 	{
-		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[6];
+		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[7];
 		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
 		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x62\x61\x72\x72\x65\x6C\x31"), NULL);
 		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x42\x61\x72\x72\x65\x6C\x20\x42\x75\x74\x74\x6F\x6E\x20\x23\x31"), NULL);
@@ -15633,21 +15606,13 @@ static void PenState_t7F79E389A87BA727FD50937AB52B5124E432BD3B_CustomAttributesC
 		InputControlAttribute_set_usage_mC1F26BE0D5681DA7BA2586E4F960DE53B90CE195_inline(tmp, il2cpp_codegen_string_new_wrapper("\x53\x65\x63\x6F\x6E\x64\x61\x72\x79\x41\x63\x74\x69\x6F\x6E"), NULL);
 	}
 	{
-		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[7];
+		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[8];
 		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
 		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x69\x6E\x52\x61\x6E\x67\x65"), NULL);
 		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x49\x6E\x20\x52\x61\x6E\x67\x65\x3F"), NULL);
 		InputControlAttribute_set_layout_mCF2C40C4FD8A34D75840202460F60D7DB88CF54D_inline(tmp, il2cpp_codegen_string_new_wrapper("\x42\x75\x74\x74\x6F\x6E"), NULL);
 		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 4LL, NULL);
 		InputControlAttribute_set_synthetic_m4551E74758ECEB54448FE0CD92ABE3A177190502_inline(tmp, true, NULL);
-	}
-	{
-		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[8];
-		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
-		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x65\x72\x61\x73\x65\x72"), NULL);
-		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x45\x72\x61\x73\x65\x72"), NULL);
-		InputControlAttribute_set_layout_mCF2C40C4FD8A34D75840202460F60D7DB88CF54D_inline(tmp, il2cpp_codegen_string_new_wrapper("\x42\x75\x74\x74\x6F\x6E"), NULL);
-		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 1LL, NULL);
 	}
 	{
 		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[9];
@@ -15827,18 +15792,18 @@ static void TouchState_tDCCE90D9D69C89BF4DE60A86BFBDEFFA7063B2E8_CustomAttribute
 	{
 		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[0];
 		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
-		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x70\x68\x61\x73\x65"), NULL);
-		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x54\x6F\x75\x63\x68\x20\x50\x68\x61\x73\x65"), NULL);
-		InputControlAttribute_set_layout_mCF2C40C4FD8A34D75840202460F60D7DB88CF54D_inline(tmp, il2cpp_codegen_string_new_wrapper("\x54\x6F\x75\x63\x68\x50\x68\x61\x73\x65"), NULL);
-		InputControlAttribute_set_synthetic_m4551E74758ECEB54448FE0CD92ABE3A177190502_inline(tmp, true, NULL);
-	}
-	{
-		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[1];
-		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
 		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x70\x72\x65\x73\x73"), NULL);
 		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x54\x6F\x75\x63\x68\x20\x43\x6F\x6E\x74\x61\x63\x74\x3F"), NULL);
 		InputControlAttribute_set_layout_mCF2C40C4FD8A34D75840202460F60D7DB88CF54D_inline(tmp, il2cpp_codegen_string_new_wrapper("\x54\x6F\x75\x63\x68\x50\x72\x65\x73\x73"), NULL);
 		InputControlAttribute_set_useStateFrom_m50E1805C16309FF32EC8BC971D2AF038E508F0D9_inline(tmp, il2cpp_codegen_string_new_wrapper("\x70\x68\x61\x73\x65"), NULL);
+	}
+	{
+		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[1];
+		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
+		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x70\x68\x61\x73\x65"), NULL);
+		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x54\x6F\x75\x63\x68\x20\x50\x68\x61\x73\x65"), NULL);
+		InputControlAttribute_set_layout_mCF2C40C4FD8A34D75840202460F60D7DB88CF54D_inline(tmp, il2cpp_codegen_string_new_wrapper("\x54\x6F\x75\x63\x68\x50\x68\x61\x73\x65"), NULL);
+		InputControlAttribute_set_synthetic_m4551E74758ECEB54448FE0CD92ABE3A177190502_inline(tmp, true, NULL);
 	}
 }
 static void TouchState_tDCCE90D9D69C89BF4DE60A86BFBDEFFA7063B2E8_CustomAttributesCacheGenerator_tapCount(CustomAttributesCache* cache)
@@ -15900,46 +15865,8 @@ static void TouchscreenState_t93541A43CA7DBAA070C96D156D6F8D2497DA1245_CustomAtt
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[0];
-		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
-		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x70\x72\x69\x6D\x61\x72\x79\x54\x6F\x75\x63\x68"), NULL);
-		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x50\x72\x69\x6D\x61\x72\x79\x20\x54\x6F\x75\x63\x68"), NULL);
-		InputControlAttribute_set_layout_mCF2C40C4FD8A34D75840202460F60D7DB88CF54D_inline(tmp, il2cpp_codegen_string_new_wrapper("\x54\x6F\x75\x63\x68"), NULL);
-		InputControlAttribute_set_synthetic_m4551E74758ECEB54448FE0CD92ABE3A177190502_inline(tmp, true, NULL);
-	}
-	{
-		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[1];
-		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
-		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x70\x72\x69\x6D\x61\x72\x79\x54\x6F\x75\x63\x68\x2F\x74\x61\x70"), NULL);
-		InputControlAttribute_set_usage_mC1F26BE0D5681DA7BA2586E4F960DE53B90CE195_inline(tmp, il2cpp_codegen_string_new_wrapper("\x50\x72\x69\x6D\x61\x72\x79\x41\x63\x74\x69\x6F\x6E"), NULL);
-	}
-	{
-		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[2];
-		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
-		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x70\x6F\x73\x69\x74\x69\x6F\x6E"), NULL);
-		InputControlAttribute_set_useStateFrom_m50E1805C16309FF32EC8BC971D2AF038E508F0D9_inline(tmp, il2cpp_codegen_string_new_wrapper("\x70\x72\x69\x6D\x61\x72\x79\x54\x6F\x75\x63\x68\x2F\x70\x6F\x73\x69\x74\x69\x6F\x6E"), NULL);
-	}
-	{
-		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[3];
-		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
-		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x64\x65\x6C\x74\x61"), NULL);
-		InputControlAttribute_set_useStateFrom_m50E1805C16309FF32EC8BC971D2AF038E508F0D9_inline(tmp, il2cpp_codegen_string_new_wrapper("\x70\x72\x69\x6D\x61\x72\x79\x54\x6F\x75\x63\x68\x2F\x64\x65\x6C\x74\x61"), NULL);
-	}
-	{
-		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[4];
-		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
-		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x70\x72\x65\x73\x73\x75\x72\x65"), NULL);
-		InputControlAttribute_set_useStateFrom_m50E1805C16309FF32EC8BC971D2AF038E508F0D9_inline(tmp, il2cpp_codegen_string_new_wrapper("\x70\x72\x69\x6D\x61\x72\x79\x54\x6F\x75\x63\x68\x2F\x70\x72\x65\x73\x73\x75\x72\x65"), NULL);
-	}
-	{
-		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[5];
-		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
-		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x72\x61\x64\x69\x75\x73"), NULL);
-		InputControlAttribute_set_useStateFrom_m50E1805C16309FF32EC8BC971D2AF038E508F0D9_inline(tmp, il2cpp_codegen_string_new_wrapper("\x70\x72\x69\x6D\x61\x72\x79\x54\x6F\x75\x63\x68\x2F\x72\x61\x64\x69\x75\x73"), NULL);
-	}
-	{
 		StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A* _tmp_usages = (StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A*)SZArrayNew(StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A_il2cpp_TypeInfo_var, 0);
-		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[6];
+		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[0];
 		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
 		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x70\x72\x65\x73\x73"), NULL);
 		InputControlAttribute_set_useStateFrom_m50E1805C16309FF32EC8BC971D2AF038E508F0D9_inline(tmp, il2cpp_codegen_string_new_wrapper("\x70\x72\x69\x6D\x61\x72\x79\x54\x6F\x75\x63\x68\x2F\x70\x68\x61\x73\x65"), NULL);
@@ -15948,8 +15875,46 @@ static void TouchscreenState_t93541A43CA7DBAA070C96D156D6F8D2497DA1245_CustomAtt
 		InputControlAttribute_set_usages_m0C1A7CFA0324603E57AF07E109818577B21E689F_inline(tmp, _tmp_usages, NULL);
 	}
 	{
-		FixedBufferAttribute_tA3523076C957FC980B0B4445B25C2D4AA626DC4C * tmp = (FixedBufferAttribute_tA3523076C957FC980B0B4445B25C2D4AA626DC4C *)cache->attributes[7];
+		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[1];
+		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
+		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x72\x61\x64\x69\x75\x73"), NULL);
+		InputControlAttribute_set_useStateFrom_m50E1805C16309FF32EC8BC971D2AF038E508F0D9_inline(tmp, il2cpp_codegen_string_new_wrapper("\x70\x72\x69\x6D\x61\x72\x79\x54\x6F\x75\x63\x68\x2F\x72\x61\x64\x69\x75\x73"), NULL);
+	}
+	{
+		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[2];
+		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
+		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x70\x72\x65\x73\x73\x75\x72\x65"), NULL);
+		InputControlAttribute_set_useStateFrom_m50E1805C16309FF32EC8BC971D2AF038E508F0D9_inline(tmp, il2cpp_codegen_string_new_wrapper("\x70\x72\x69\x6D\x61\x72\x79\x54\x6F\x75\x63\x68\x2F\x70\x72\x65\x73\x73\x75\x72\x65"), NULL);
+	}
+	{
+		FixedBufferAttribute_tA3523076C957FC980B0B4445B25C2D4AA626DC4C * tmp = (FixedBufferAttribute_tA3523076C957FC980B0B4445B25C2D4AA626DC4C *)cache->attributes[3];
 		FixedBufferAttribute__ctor_m7767B7379CFADD0D12551A5A891BF1916A07BE51(tmp, il2cpp_codegen_type_get_object(Byte_t0111FAB8B8685667EDDAF77683F0D8F86B659056_0_0_0_var), 56LL, NULL);
+	}
+	{
+		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[4];
+		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
+		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x64\x65\x6C\x74\x61"), NULL);
+		InputControlAttribute_set_useStateFrom_m50E1805C16309FF32EC8BC971D2AF038E508F0D9_inline(tmp, il2cpp_codegen_string_new_wrapper("\x70\x72\x69\x6D\x61\x72\x79\x54\x6F\x75\x63\x68\x2F\x64\x65\x6C\x74\x61"), NULL);
+	}
+	{
+		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[5];
+		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
+		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x70\x6F\x73\x69\x74\x69\x6F\x6E"), NULL);
+		InputControlAttribute_set_useStateFrom_m50E1805C16309FF32EC8BC971D2AF038E508F0D9_inline(tmp, il2cpp_codegen_string_new_wrapper("\x70\x72\x69\x6D\x61\x72\x79\x54\x6F\x75\x63\x68\x2F\x70\x6F\x73\x69\x74\x69\x6F\x6E"), NULL);
+	}
+	{
+		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[6];
+		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
+		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x70\x72\x69\x6D\x61\x72\x79\x54\x6F\x75\x63\x68\x2F\x74\x61\x70"), NULL);
+		InputControlAttribute_set_usage_mC1F26BE0D5681DA7BA2586E4F960DE53B90CE195_inline(tmp, il2cpp_codegen_string_new_wrapper("\x50\x72\x69\x6D\x61\x72\x79\x41\x63\x74\x69\x6F\x6E"), NULL);
+	}
+	{
+		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[7];
+		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
+		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x70\x72\x69\x6D\x61\x72\x79\x54\x6F\x75\x63\x68"), NULL);
+		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x50\x72\x69\x6D\x61\x72\x79\x20\x54\x6F\x75\x63\x68"), NULL);
+		InputControlAttribute_set_layout_mCF2C40C4FD8A34D75840202460F60D7DB88CF54D_inline(tmp, il2cpp_codegen_string_new_wrapper("\x54\x6F\x75\x63\x68"), NULL);
+		InputControlAttribute_set_synthetic_m4551E74758ECEB54448FE0CD92ABE3A177190502_inline(tmp, true, NULL);
 	}
 }
 static void TouchscreenState_t93541A43CA7DBAA070C96D156D6F8D2497DA1245_CustomAttributesCacheGenerator_touchData(CustomAttributesCache* cache)
@@ -16011,12 +15976,12 @@ static void ActionEvent_t6736EC5430F10B9270FEB3CA7AE3B0890A25A6F0_CustomAttribut
 static void U3Cm_ValueDataU3Ee__FixedBuffer_tEF8C6C6E8E8D0E63DD5DC0870AC7CB0237395896_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
 {
 	{
-		CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C * tmp = (CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C *)cache->attributes[0];
-		CompilerGeneratedAttribute__ctor_m9DC3E4E2DA76FE93948D44199213E2E924DCBE35(tmp, NULL);
+		UnsafeValueTypeAttribute_tC3B73880876B0FA7C68CE8A678FD4D6440438CAC * tmp = (UnsafeValueTypeAttribute_tC3B73880876B0FA7C68CE8A678FD4D6440438CAC *)cache->attributes[0];
+		UnsafeValueTypeAttribute__ctor_mA5A3D4443A6B4BE3B31E8A8919809719991A7EC4(tmp, NULL);
 	}
 	{
-		UnsafeValueTypeAttribute_tC3B73880876B0FA7C68CE8A678FD4D6440438CAC * tmp = (UnsafeValueTypeAttribute_tC3B73880876B0FA7C68CE8A678FD4D6440438CAC *)cache->attributes[1];
-		UnsafeValueTypeAttribute__ctor_mA5A3D4443A6B4BE3B31E8A8919809719991A7EC4(tmp, NULL);
+		CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C * tmp = (CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C *)cache->attributes[1];
+		CompilerGeneratedAttribute__ctor_m9DC3E4E2DA76FE93948D44199213E2E924DCBE35(tmp, NULL);
 	}
 }
 static void DeltaStateEvent_t6249409D0A2282599BA6E80670C5F21E3754540C_CustomAttributesCacheGenerator_stateData(CustomAttributesCache* cache)
@@ -16300,12 +16265,12 @@ static void StateEvent_t72C4FB6617BF412F66A728836A98B0C094300BC0_CustomAttribute
 static void U3CstateDataU3Ee__FixedBuffer_t0C1082DDCD4C641A8E8703AF7C58B8B685CD1FE8_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
 {
 	{
-		CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C * tmp = (CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C *)cache->attributes[0];
-		CompilerGeneratedAttribute__ctor_m9DC3E4E2DA76FE93948D44199213E2E924DCBE35(tmp, NULL);
+		UnsafeValueTypeAttribute_tC3B73880876B0FA7C68CE8A678FD4D6440438CAC * tmp = (UnsafeValueTypeAttribute_tC3B73880876B0FA7C68CE8A678FD4D6440438CAC *)cache->attributes[0];
+		UnsafeValueTypeAttribute__ctor_mA5A3D4443A6B4BE3B31E8A8919809719991A7EC4(tmp, NULL);
 	}
 	{
-		UnsafeValueTypeAttribute_tC3B73880876B0FA7C68CE8A678FD4D6440438CAC * tmp = (UnsafeValueTypeAttribute_tC3B73880876B0FA7C68CE8A678FD4D6440438CAC *)cache->attributes[1];
-		UnsafeValueTypeAttribute__ctor_mA5A3D4443A6B4BE3B31E8A8919809719991A7EC4(tmp, NULL);
+		CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C * tmp = (CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C *)cache->attributes[1];
+		CompilerGeneratedAttribute__ctor_m9DC3E4E2DA76FE93948D44199213E2E924DCBE35(tmp, NULL);
 	}
 }
 static void InputRuntimeExtensions_t32D6DACAF9F28A5138DD3DE898974636C621040D_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
@@ -16402,8 +16367,8 @@ static void InputMetrics_t59A52CD721B505B92535F71279D0A8AE2132363F_CustomAttribu
 static void InputMetrics_t59A52CD721B505B92535F71279D0A8AE2132363F_CustomAttributesCacheGenerator_InputMetrics_get_maxNumDevices_m700D70143834F3E16B7A498757BD35B51447ED6D(CustomAttributesCache* cache)
 {
 	{
-		IsReadOnlyAttribute_t545ECE2B402890B8978FB2B6BD9B405C0C67C193 * tmp = (IsReadOnlyAttribute_t545ECE2B402890B8978FB2B6BD9B405C0C67C193 *)cache->attributes[0];
-		IsReadOnlyAttribute__ctor_m9162ED12EC6603A57ABEF95706F0BB727210A6CD(tmp, NULL);
+		IsReadOnlyAttribute_tB6E31A0106212818B0AB6DC627AA320291BD7566 * tmp = (IsReadOnlyAttribute_tB6E31A0106212818B0AB6DC627AA320291BD7566 *)cache->attributes[0];
+		IsReadOnlyAttribute__ctor_m02F9F7CD56DE227F7ABDD1E2593D82E6FFA57E9A(tmp, NULL);
 	}
 	{
 		CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C * tmp = (CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C *)cache->attributes[1];
@@ -16420,8 +16385,8 @@ static void InputMetrics_t59A52CD721B505B92535F71279D0A8AE2132363F_CustomAttribu
 static void InputMetrics_t59A52CD721B505B92535F71279D0A8AE2132363F_CustomAttributesCacheGenerator_InputMetrics_get_currentNumDevices_m10080CD38AD3A50303CA36A04459E01D90445B1F(CustomAttributesCache* cache)
 {
 	{
-		IsReadOnlyAttribute_t545ECE2B402890B8978FB2B6BD9B405C0C67C193 * tmp = (IsReadOnlyAttribute_t545ECE2B402890B8978FB2B6BD9B405C0C67C193 *)cache->attributes[0];
-		IsReadOnlyAttribute__ctor_m9162ED12EC6603A57ABEF95706F0BB727210A6CD(tmp, NULL);
+		IsReadOnlyAttribute_tB6E31A0106212818B0AB6DC627AA320291BD7566 * tmp = (IsReadOnlyAttribute_tB6E31A0106212818B0AB6DC627AA320291BD7566 *)cache->attributes[0];
+		IsReadOnlyAttribute__ctor_m02F9F7CD56DE227F7ABDD1E2593D82E6FFA57E9A(tmp, NULL);
 	}
 	{
 		CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C * tmp = (CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C *)cache->attributes[1];
@@ -16438,12 +16403,12 @@ static void InputMetrics_t59A52CD721B505B92535F71279D0A8AE2132363F_CustomAttribu
 static void InputMetrics_t59A52CD721B505B92535F71279D0A8AE2132363F_CustomAttributesCacheGenerator_InputMetrics_get_maxStateSizeInBytes_m81E725072FEA95E86083F22D7EB2329B124C3F71(CustomAttributesCache* cache)
 {
 	{
-		CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C * tmp = (CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C *)cache->attributes[0];
-		CompilerGeneratedAttribute__ctor_m9DC3E4E2DA76FE93948D44199213E2E924DCBE35(tmp, NULL);
+		IsReadOnlyAttribute_tB6E31A0106212818B0AB6DC627AA320291BD7566 * tmp = (IsReadOnlyAttribute_tB6E31A0106212818B0AB6DC627AA320291BD7566 *)cache->attributes[0];
+		IsReadOnlyAttribute__ctor_m02F9F7CD56DE227F7ABDD1E2593D82E6FFA57E9A(tmp, NULL);
 	}
 	{
-		IsReadOnlyAttribute_t545ECE2B402890B8978FB2B6BD9B405C0C67C193 * tmp = (IsReadOnlyAttribute_t545ECE2B402890B8978FB2B6BD9B405C0C67C193 *)cache->attributes[1];
-		IsReadOnlyAttribute__ctor_m9162ED12EC6603A57ABEF95706F0BB727210A6CD(tmp, NULL);
+		CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C * tmp = (CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C *)cache->attributes[1];
+		CompilerGeneratedAttribute__ctor_m9DC3E4E2DA76FE93948D44199213E2E924DCBE35(tmp, NULL);
 	}
 }
 static void InputMetrics_t59A52CD721B505B92535F71279D0A8AE2132363F_CustomAttributesCacheGenerator_InputMetrics_set_maxStateSizeInBytes_m927F32952D1EC17AB8291ED27224C5E18A09217A(CustomAttributesCache* cache)
@@ -16456,12 +16421,12 @@ static void InputMetrics_t59A52CD721B505B92535F71279D0A8AE2132363F_CustomAttribu
 static void InputMetrics_t59A52CD721B505B92535F71279D0A8AE2132363F_CustomAttributesCacheGenerator_InputMetrics_get_currentStateSizeInBytes_mF00CB06A2C52E2209E39616B2C79399E81267CC0(CustomAttributesCache* cache)
 {
 	{
-		CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C * tmp = (CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C *)cache->attributes[0];
-		CompilerGeneratedAttribute__ctor_m9DC3E4E2DA76FE93948D44199213E2E924DCBE35(tmp, NULL);
+		IsReadOnlyAttribute_tB6E31A0106212818B0AB6DC627AA320291BD7566 * tmp = (IsReadOnlyAttribute_tB6E31A0106212818B0AB6DC627AA320291BD7566 *)cache->attributes[0];
+		IsReadOnlyAttribute__ctor_m02F9F7CD56DE227F7ABDD1E2593D82E6FFA57E9A(tmp, NULL);
 	}
 	{
-		IsReadOnlyAttribute_t545ECE2B402890B8978FB2B6BD9B405C0C67C193 * tmp = (IsReadOnlyAttribute_t545ECE2B402890B8978FB2B6BD9B405C0C67C193 *)cache->attributes[1];
-		IsReadOnlyAttribute__ctor_m9162ED12EC6603A57ABEF95706F0BB727210A6CD(tmp, NULL);
+		CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C * tmp = (CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C *)cache->attributes[1];
+		CompilerGeneratedAttribute__ctor_m9DC3E4E2DA76FE93948D44199213E2E924DCBE35(tmp, NULL);
 	}
 }
 static void InputMetrics_t59A52CD721B505B92535F71279D0A8AE2132363F_CustomAttributesCacheGenerator_InputMetrics_set_currentStateSizeInBytes_m4E5066CA397B3BCC3646E2A034BAB0EABDBD3155(CustomAttributesCache* cache)
@@ -16474,8 +16439,8 @@ static void InputMetrics_t59A52CD721B505B92535F71279D0A8AE2132363F_CustomAttribu
 static void InputMetrics_t59A52CD721B505B92535F71279D0A8AE2132363F_CustomAttributesCacheGenerator_InputMetrics_get_currentControlCount_m9E78634950C649A2543BE882CF65FC2520C24B37(CustomAttributesCache* cache)
 {
 	{
-		IsReadOnlyAttribute_t545ECE2B402890B8978FB2B6BD9B405C0C67C193 * tmp = (IsReadOnlyAttribute_t545ECE2B402890B8978FB2B6BD9B405C0C67C193 *)cache->attributes[0];
-		IsReadOnlyAttribute__ctor_m9162ED12EC6603A57ABEF95706F0BB727210A6CD(tmp, NULL);
+		IsReadOnlyAttribute_tB6E31A0106212818B0AB6DC627AA320291BD7566 * tmp = (IsReadOnlyAttribute_tB6E31A0106212818B0AB6DC627AA320291BD7566 *)cache->attributes[0];
+		IsReadOnlyAttribute__ctor_m02F9F7CD56DE227F7ABDD1E2593D82E6FFA57E9A(tmp, NULL);
 	}
 	{
 		CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C * tmp = (CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C *)cache->attributes[1];
@@ -16492,8 +16457,8 @@ static void InputMetrics_t59A52CD721B505B92535F71279D0A8AE2132363F_CustomAttribu
 static void InputMetrics_t59A52CD721B505B92535F71279D0A8AE2132363F_CustomAttributesCacheGenerator_InputMetrics_get_currentLayoutCount_m986F99F46B0C2E28A5BA3867422A152BE19B8E21(CustomAttributesCache* cache)
 {
 	{
-		IsReadOnlyAttribute_t545ECE2B402890B8978FB2B6BD9B405C0C67C193 * tmp = (IsReadOnlyAttribute_t545ECE2B402890B8978FB2B6BD9B405C0C67C193 *)cache->attributes[0];
-		IsReadOnlyAttribute__ctor_m9162ED12EC6603A57ABEF95706F0BB727210A6CD(tmp, NULL);
+		IsReadOnlyAttribute_tB6E31A0106212818B0AB6DC627AA320291BD7566 * tmp = (IsReadOnlyAttribute_tB6E31A0106212818B0AB6DC627AA320291BD7566 *)cache->attributes[0];
+		IsReadOnlyAttribute__ctor_m02F9F7CD56DE227F7ABDD1E2593D82E6FFA57E9A(tmp, NULL);
 	}
 	{
 		CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C * tmp = (CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C *)cache->attributes[1];
@@ -16514,8 +16479,8 @@ static void InputMetrics_t59A52CD721B505B92535F71279D0A8AE2132363F_CustomAttribu
 		CompilerGeneratedAttribute__ctor_m9DC3E4E2DA76FE93948D44199213E2E924DCBE35(tmp, NULL);
 	}
 	{
-		IsReadOnlyAttribute_t545ECE2B402890B8978FB2B6BD9B405C0C67C193 * tmp = (IsReadOnlyAttribute_t545ECE2B402890B8978FB2B6BD9B405C0C67C193 *)cache->attributes[1];
-		IsReadOnlyAttribute__ctor_m9162ED12EC6603A57ABEF95706F0BB727210A6CD(tmp, NULL);
+		IsReadOnlyAttribute_tB6E31A0106212818B0AB6DC627AA320291BD7566 * tmp = (IsReadOnlyAttribute_tB6E31A0106212818B0AB6DC627AA320291BD7566 *)cache->attributes[1];
+		IsReadOnlyAttribute__ctor_m02F9F7CD56DE227F7ABDD1E2593D82E6FFA57E9A(tmp, NULL);
 	}
 }
 static void InputMetrics_t59A52CD721B505B92535F71279D0A8AE2132363F_CustomAttributesCacheGenerator_InputMetrics_set_totalEventBytes_m7C04CE011EFA7CDCEC1D86B6B57D62383099B458(CustomAttributesCache* cache)
@@ -16532,8 +16497,8 @@ static void InputMetrics_t59A52CD721B505B92535F71279D0A8AE2132363F_CustomAttribu
 		CompilerGeneratedAttribute__ctor_m9DC3E4E2DA76FE93948D44199213E2E924DCBE35(tmp, NULL);
 	}
 	{
-		IsReadOnlyAttribute_t545ECE2B402890B8978FB2B6BD9B405C0C67C193 * tmp = (IsReadOnlyAttribute_t545ECE2B402890B8978FB2B6BD9B405C0C67C193 *)cache->attributes[1];
-		IsReadOnlyAttribute__ctor_m9162ED12EC6603A57ABEF95706F0BB727210A6CD(tmp, NULL);
+		IsReadOnlyAttribute_tB6E31A0106212818B0AB6DC627AA320291BD7566 * tmp = (IsReadOnlyAttribute_tB6E31A0106212818B0AB6DC627AA320291BD7566 *)cache->attributes[1];
+		IsReadOnlyAttribute__ctor_m02F9F7CD56DE227F7ABDD1E2593D82E6FFA57E9A(tmp, NULL);
 	}
 }
 static void InputMetrics_t59A52CD721B505B92535F71279D0A8AE2132363F_CustomAttributesCacheGenerator_InputMetrics_set_totalEventCount_mC0636B5276CE01DA84AE9336C3DF45F38FE4829D(CustomAttributesCache* cache)
@@ -16546,12 +16511,12 @@ static void InputMetrics_t59A52CD721B505B92535F71279D0A8AE2132363F_CustomAttribu
 static void InputMetrics_t59A52CD721B505B92535F71279D0A8AE2132363F_CustomAttributesCacheGenerator_InputMetrics_get_totalUpdateCount_mBF3C940345660FC4477D6D499882A23EAD92291E(CustomAttributesCache* cache)
 {
 	{
-		IsReadOnlyAttribute_t545ECE2B402890B8978FB2B6BD9B405C0C67C193 * tmp = (IsReadOnlyAttribute_t545ECE2B402890B8978FB2B6BD9B405C0C67C193 *)cache->attributes[0];
-		IsReadOnlyAttribute__ctor_m9162ED12EC6603A57ABEF95706F0BB727210A6CD(tmp, NULL);
+		CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C * tmp = (CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C *)cache->attributes[0];
+		CompilerGeneratedAttribute__ctor_m9DC3E4E2DA76FE93948D44199213E2E924DCBE35(tmp, NULL);
 	}
 	{
-		CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C * tmp = (CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C *)cache->attributes[1];
-		CompilerGeneratedAttribute__ctor_m9DC3E4E2DA76FE93948D44199213E2E924DCBE35(tmp, NULL);
+		IsReadOnlyAttribute_tB6E31A0106212818B0AB6DC627AA320291BD7566 * tmp = (IsReadOnlyAttribute_tB6E31A0106212818B0AB6DC627AA320291BD7566 *)cache->attributes[1];
+		IsReadOnlyAttribute__ctor_m02F9F7CD56DE227F7ABDD1E2593D82E6FFA57E9A(tmp, NULL);
 	}
 }
 static void InputMetrics_t59A52CD721B505B92535F71279D0A8AE2132363F_CustomAttributesCacheGenerator_InputMetrics_set_totalUpdateCount_m613359A24E074E06AE4D24B490F104CDF68958B4(CustomAttributesCache* cache)
@@ -16564,8 +16529,8 @@ static void InputMetrics_t59A52CD721B505B92535F71279D0A8AE2132363F_CustomAttribu
 static void InputMetrics_t59A52CD721B505B92535F71279D0A8AE2132363F_CustomAttributesCacheGenerator_InputMetrics_get_totalEventProcessingTime_mE8436B5EA5EE9D9735340F28DE5D96EDA21392B0(CustomAttributesCache* cache)
 {
 	{
-		IsReadOnlyAttribute_t545ECE2B402890B8978FB2B6BD9B405C0C67C193 * tmp = (IsReadOnlyAttribute_t545ECE2B402890B8978FB2B6BD9B405C0C67C193 *)cache->attributes[0];
-		IsReadOnlyAttribute__ctor_m9162ED12EC6603A57ABEF95706F0BB727210A6CD(tmp, NULL);
+		IsReadOnlyAttribute_tB6E31A0106212818B0AB6DC627AA320291BD7566 * tmp = (IsReadOnlyAttribute_tB6E31A0106212818B0AB6DC627AA320291BD7566 *)cache->attributes[0];
+		IsReadOnlyAttribute__ctor_m02F9F7CD56DE227F7ABDD1E2593D82E6FFA57E9A(tmp, NULL);
 	}
 	{
 		CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C * tmp = (CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C *)cache->attributes[1];
@@ -16582,12 +16547,12 @@ static void InputMetrics_t59A52CD721B505B92535F71279D0A8AE2132363F_CustomAttribu
 static void InputMetrics_t59A52CD721B505B92535F71279D0A8AE2132363F_CustomAttributesCacheGenerator_InputMetrics_get_totalEventLagTime_m134FEBD4D403FF57E737365B336F77722151E990(CustomAttributesCache* cache)
 {
 	{
-		CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C * tmp = (CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C *)cache->attributes[0];
-		CompilerGeneratedAttribute__ctor_m9DC3E4E2DA76FE93948D44199213E2E924DCBE35(tmp, NULL);
+		IsReadOnlyAttribute_tB6E31A0106212818B0AB6DC627AA320291BD7566 * tmp = (IsReadOnlyAttribute_tB6E31A0106212818B0AB6DC627AA320291BD7566 *)cache->attributes[0];
+		IsReadOnlyAttribute__ctor_m02F9F7CD56DE227F7ABDD1E2593D82E6FFA57E9A(tmp, NULL);
 	}
 	{
-		IsReadOnlyAttribute_t545ECE2B402890B8978FB2B6BD9B405C0C67C193 * tmp = (IsReadOnlyAttribute_t545ECE2B402890B8978FB2B6BD9B405C0C67C193 *)cache->attributes[1];
-		IsReadOnlyAttribute__ctor_m9162ED12EC6603A57ABEF95706F0BB727210A6CD(tmp, NULL);
+		CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C * tmp = (CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C *)cache->attributes[1];
+		CompilerGeneratedAttribute__ctor_m9DC3E4E2DA76FE93948D44199213E2E924DCBE35(tmp, NULL);
 	}
 }
 static void InputMetrics_t59A52CD721B505B92535F71279D0A8AE2132363F_CustomAttributesCacheGenerator_InputMetrics_set_totalEventLagTime_m52C470B674777E4680931BFC1BF9A242BB0922A6(CustomAttributesCache* cache)
@@ -16639,8 +16604,8 @@ static void UpdateStepCount_t661EEDB5F977D705225E0713CA8FDC547A95EE98_CustomAttr
 		CompilerGeneratedAttribute__ctor_m9DC3E4E2DA76FE93948D44199213E2E924DCBE35(tmp, NULL);
 	}
 	{
-		IsReadOnlyAttribute_t545ECE2B402890B8978FB2B6BD9B405C0C67C193 * tmp = (IsReadOnlyAttribute_t545ECE2B402890B8978FB2B6BD9B405C0C67C193 *)cache->attributes[1];
-		IsReadOnlyAttribute__ctor_m9162ED12EC6603A57ABEF95706F0BB727210A6CD(tmp, NULL);
+		IsReadOnlyAttribute_tB6E31A0106212818B0AB6DC627AA320291BD7566 * tmp = (IsReadOnlyAttribute_tB6E31A0106212818B0AB6DC627AA320291BD7566 *)cache->attributes[1];
+		IsReadOnlyAttribute__ctor_m02F9F7CD56DE227F7ABDD1E2593D82E6FFA57E9A(tmp, NULL);
 	}
 }
 static void UpdateStepCount_t661EEDB5F977D705225E0713CA8FDC547A95EE98_CustomAttributesCacheGenerator_UpdateStepCount_set_value_mFDE3C10E9C0370AD1DCA0052883FD4921C8673AB(CustomAttributesCache* cache)
@@ -16720,8 +16685,8 @@ static void InputStateBlock_t37A383311518FFFA424D1F8F7E355DBFC215624C_CustomAttr
 		CompilerGeneratedAttribute__ctor_m9DC3E4E2DA76FE93948D44199213E2E924DCBE35(tmp, NULL);
 	}
 	{
-		IsReadOnlyAttribute_t545ECE2B402890B8978FB2B6BD9B405C0C67C193 * tmp = (IsReadOnlyAttribute_t545ECE2B402890B8978FB2B6BD9B405C0C67C193 *)cache->attributes[1];
-		IsReadOnlyAttribute__ctor_m9162ED12EC6603A57ABEF95706F0BB727210A6CD(tmp, NULL);
+		IsReadOnlyAttribute_tB6E31A0106212818B0AB6DC627AA320291BD7566 * tmp = (IsReadOnlyAttribute_tB6E31A0106212818B0AB6DC627AA320291BD7566 *)cache->attributes[1];
+		IsReadOnlyAttribute__ctor_m02F9F7CD56DE227F7ABDD1E2593D82E6FFA57E9A(tmp, NULL);
 	}
 }
 static void InputStateBlock_t37A383311518FFFA424D1F8F7E355DBFC215624C_CustomAttributesCacheGenerator_InputStateBlock_set_format_mC072B68E826838CAFF09A36F7008FB5085E1EF4A(CustomAttributesCache* cache)
@@ -16738,8 +16703,8 @@ static void InputStateBlock_t37A383311518FFFA424D1F8F7E355DBFC215624C_CustomAttr
 		CompilerGeneratedAttribute__ctor_m9DC3E4E2DA76FE93948D44199213E2E924DCBE35(tmp, NULL);
 	}
 	{
-		IsReadOnlyAttribute_t545ECE2B402890B8978FB2B6BD9B405C0C67C193 * tmp = (IsReadOnlyAttribute_t545ECE2B402890B8978FB2B6BD9B405C0C67C193 *)cache->attributes[1];
-		IsReadOnlyAttribute__ctor_m9162ED12EC6603A57ABEF95706F0BB727210A6CD(tmp, NULL);
+		IsReadOnlyAttribute_tB6E31A0106212818B0AB6DC627AA320291BD7566 * tmp = (IsReadOnlyAttribute_tB6E31A0106212818B0AB6DC627AA320291BD7566 *)cache->attributes[1];
+		IsReadOnlyAttribute__ctor_m02F9F7CD56DE227F7ABDD1E2593D82E6FFA57E9A(tmp, NULL);
 	}
 }
 static void InputStateBlock_t37A383311518FFFA424D1F8F7E355DBFC215624C_CustomAttributesCacheGenerator_InputStateBlock_set_byteOffset_mCA70299F048442CC29B22F6F05CBF4D69863C798(CustomAttributesCache* cache)
@@ -16752,8 +16717,8 @@ static void InputStateBlock_t37A383311518FFFA424D1F8F7E355DBFC215624C_CustomAttr
 static void InputStateBlock_t37A383311518FFFA424D1F8F7E355DBFC215624C_CustomAttributesCacheGenerator_InputStateBlock_get_bitOffset_mE7D67870BA87FF290E95E74636561B36DEE9664A(CustomAttributesCache* cache)
 {
 	{
-		IsReadOnlyAttribute_t545ECE2B402890B8978FB2B6BD9B405C0C67C193 * tmp = (IsReadOnlyAttribute_t545ECE2B402890B8978FB2B6BD9B405C0C67C193 *)cache->attributes[0];
-		IsReadOnlyAttribute__ctor_m9162ED12EC6603A57ABEF95706F0BB727210A6CD(tmp, NULL);
+		IsReadOnlyAttribute_tB6E31A0106212818B0AB6DC627AA320291BD7566 * tmp = (IsReadOnlyAttribute_tB6E31A0106212818B0AB6DC627AA320291BD7566 *)cache->attributes[0];
+		IsReadOnlyAttribute__ctor_m02F9F7CD56DE227F7ABDD1E2593D82E6FFA57E9A(tmp, NULL);
 	}
 	{
 		CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C * tmp = (CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C *)cache->attributes[1];
@@ -16770,8 +16735,8 @@ static void InputStateBlock_t37A383311518FFFA424D1F8F7E355DBFC215624C_CustomAttr
 static void InputStateBlock_t37A383311518FFFA424D1F8F7E355DBFC215624C_CustomAttributesCacheGenerator_InputStateBlock_get_sizeInBits_mB4263128A44ED68F01C75034DF14B0598DA33478(CustomAttributesCache* cache)
 {
 	{
-		IsReadOnlyAttribute_t545ECE2B402890B8978FB2B6BD9B405C0C67C193 * tmp = (IsReadOnlyAttribute_t545ECE2B402890B8978FB2B6BD9B405C0C67C193 *)cache->attributes[0];
-		IsReadOnlyAttribute__ctor_m9162ED12EC6603A57ABEF95706F0BB727210A6CD(tmp, NULL);
+		IsReadOnlyAttribute_tB6E31A0106212818B0AB6DC627AA320291BD7566 * tmp = (IsReadOnlyAttribute_tB6E31A0106212818B0AB6DC627AA320291BD7566 *)cache->attributes[0];
+		IsReadOnlyAttribute__ctor_m02F9F7CD56DE227F7ABDD1E2593D82E6FFA57E9A(tmp, NULL);
 	}
 	{
 		CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C * tmp = (CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C *)cache->attributes[1];
@@ -16863,12 +16828,12 @@ static void RecordHeader_t8E12835411602B94F3AD136329C9B066F45E7768_CustomAttribu
 static void U3Cm_StateWithoutControlIndexU3Ee__FixedBuffer_tAD4DA1250543CB6FC13235742EEB82788EB513CC_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
 {
 	{
-		UnsafeValueTypeAttribute_tC3B73880876B0FA7C68CE8A678FD4D6440438CAC * tmp = (UnsafeValueTypeAttribute_tC3B73880876B0FA7C68CE8A678FD4D6440438CAC *)cache->attributes[0];
-		UnsafeValueTypeAttribute__ctor_mA5A3D4443A6B4BE3B31E8A8919809719991A7EC4(tmp, NULL);
+		CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C * tmp = (CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C *)cache->attributes[0];
+		CompilerGeneratedAttribute__ctor_m9DC3E4E2DA76FE93948D44199213E2E924DCBE35(tmp, NULL);
 	}
 	{
-		CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C * tmp = (CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C *)cache->attributes[1];
-		CompilerGeneratedAttribute__ctor_m9DC3E4E2DA76FE93948D44199213E2E924DCBE35(tmp, NULL);
+		UnsafeValueTypeAttribute_tC3B73880876B0FA7C68CE8A678FD4D6440438CAC * tmp = (UnsafeValueTypeAttribute_tC3B73880876B0FA7C68CE8A678FD4D6440438CAC *)cache->attributes[1];
+		UnsafeValueTypeAttribute__ctor_mA5A3D4443A6B4BE3B31E8A8919809719991A7EC4(tmp, NULL);
 	}
 }
 static void U3Cm_StateWithControlIndexU3Ee__FixedBuffer_t48BB82A9F1D1D6733A1B957B6D9AE528E0B4EDF6_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
@@ -17590,8 +17555,8 @@ static void ControlItem_tE80D7AB28DDEB6D515E566B444D86A8303CB778D_CustomAttribut
 static void ControlItem_tE80D7AB28DDEB6D515E566B444D86A8303CB778D_CustomAttributesCacheGenerator_ControlItem_get_name_mCE0AD0DE297C87588F201396EDA1C92C0120CAD5(CustomAttributesCache* cache)
 {
 	{
-		IsReadOnlyAttribute_t545ECE2B402890B8978FB2B6BD9B405C0C67C193 * tmp = (IsReadOnlyAttribute_t545ECE2B402890B8978FB2B6BD9B405C0C67C193 *)cache->attributes[0];
-		IsReadOnlyAttribute__ctor_m9162ED12EC6603A57ABEF95706F0BB727210A6CD(tmp, NULL);
+		IsReadOnlyAttribute_tB6E31A0106212818B0AB6DC627AA320291BD7566 * tmp = (IsReadOnlyAttribute_tB6E31A0106212818B0AB6DC627AA320291BD7566 *)cache->attributes[0];
+		IsReadOnlyAttribute__ctor_m02F9F7CD56DE227F7ABDD1E2593D82E6FFA57E9A(tmp, NULL);
 	}
 	{
 		CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C * tmp = (CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C *)cache->attributes[1];
@@ -17608,8 +17573,8 @@ static void ControlItem_tE80D7AB28DDEB6D515E566B444D86A8303CB778D_CustomAttribut
 static void ControlItem_tE80D7AB28DDEB6D515E566B444D86A8303CB778D_CustomAttributesCacheGenerator_ControlItem_get_layout_m8619250B876B914A88EA5343A0AE0BABBB7F905F(CustomAttributesCache* cache)
 {
 	{
-		IsReadOnlyAttribute_t545ECE2B402890B8978FB2B6BD9B405C0C67C193 * tmp = (IsReadOnlyAttribute_t545ECE2B402890B8978FB2B6BD9B405C0C67C193 *)cache->attributes[0];
-		IsReadOnlyAttribute__ctor_m9162ED12EC6603A57ABEF95706F0BB727210A6CD(tmp, NULL);
+		IsReadOnlyAttribute_tB6E31A0106212818B0AB6DC627AA320291BD7566 * tmp = (IsReadOnlyAttribute_tB6E31A0106212818B0AB6DC627AA320291BD7566 *)cache->attributes[0];
+		IsReadOnlyAttribute__ctor_m02F9F7CD56DE227F7ABDD1E2593D82E6FFA57E9A(tmp, NULL);
 	}
 	{
 		CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C * tmp = (CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C *)cache->attributes[1];
@@ -17630,8 +17595,8 @@ static void ControlItem_tE80D7AB28DDEB6D515E566B444D86A8303CB778D_CustomAttribut
 		CompilerGeneratedAttribute__ctor_m9DC3E4E2DA76FE93948D44199213E2E924DCBE35(tmp, NULL);
 	}
 	{
-		IsReadOnlyAttribute_t545ECE2B402890B8978FB2B6BD9B405C0C67C193 * tmp = (IsReadOnlyAttribute_t545ECE2B402890B8978FB2B6BD9B405C0C67C193 *)cache->attributes[1];
-		IsReadOnlyAttribute__ctor_m9162ED12EC6603A57ABEF95706F0BB727210A6CD(tmp, NULL);
+		IsReadOnlyAttribute_tB6E31A0106212818B0AB6DC627AA320291BD7566 * tmp = (IsReadOnlyAttribute_tB6E31A0106212818B0AB6DC627AA320291BD7566 *)cache->attributes[1];
+		IsReadOnlyAttribute__ctor_m02F9F7CD56DE227F7ABDD1E2593D82E6FFA57E9A(tmp, NULL);
 	}
 }
 static void ControlItem_tE80D7AB28DDEB6D515E566B444D86A8303CB778D_CustomAttributesCacheGenerator_ControlItem_set_variants_m55624DCC7DE4F2A7B0DA000BF4FE176389648C41(CustomAttributesCache* cache)
@@ -17648,8 +17613,8 @@ static void ControlItem_tE80D7AB28DDEB6D515E566B444D86A8303CB778D_CustomAttribut
 		CompilerGeneratedAttribute__ctor_m9DC3E4E2DA76FE93948D44199213E2E924DCBE35(tmp, NULL);
 	}
 	{
-		IsReadOnlyAttribute_t545ECE2B402890B8978FB2B6BD9B405C0C67C193 * tmp = (IsReadOnlyAttribute_t545ECE2B402890B8978FB2B6BD9B405C0C67C193 *)cache->attributes[1];
-		IsReadOnlyAttribute__ctor_m9162ED12EC6603A57ABEF95706F0BB727210A6CD(tmp, NULL);
+		IsReadOnlyAttribute_tB6E31A0106212818B0AB6DC627AA320291BD7566 * tmp = (IsReadOnlyAttribute_tB6E31A0106212818B0AB6DC627AA320291BD7566 *)cache->attributes[1];
+		IsReadOnlyAttribute__ctor_m02F9F7CD56DE227F7ABDD1E2593D82E6FFA57E9A(tmp, NULL);
 	}
 }
 static void ControlItem_tE80D7AB28DDEB6D515E566B444D86A8303CB778D_CustomAttributesCacheGenerator_ControlItem_set_useStateFrom_m2483939EAAD5950014A020C5A056DE99484CAF86(CustomAttributesCache* cache)
@@ -17666,8 +17631,8 @@ static void ControlItem_tE80D7AB28DDEB6D515E566B444D86A8303CB778D_CustomAttribut
 		CompilerGeneratedAttribute__ctor_m9DC3E4E2DA76FE93948D44199213E2E924DCBE35(tmp, NULL);
 	}
 	{
-		IsReadOnlyAttribute_t545ECE2B402890B8978FB2B6BD9B405C0C67C193 * tmp = (IsReadOnlyAttribute_t545ECE2B402890B8978FB2B6BD9B405C0C67C193 *)cache->attributes[1];
-		IsReadOnlyAttribute__ctor_m9162ED12EC6603A57ABEF95706F0BB727210A6CD(tmp, NULL);
+		IsReadOnlyAttribute_tB6E31A0106212818B0AB6DC627AA320291BD7566 * tmp = (IsReadOnlyAttribute_tB6E31A0106212818B0AB6DC627AA320291BD7566 *)cache->attributes[1];
+		IsReadOnlyAttribute__ctor_m02F9F7CD56DE227F7ABDD1E2593D82E6FFA57E9A(tmp, NULL);
 	}
 }
 static void ControlItem_tE80D7AB28DDEB6D515E566B444D86A8303CB778D_CustomAttributesCacheGenerator_ControlItem_set_displayName_mB29B2CA5BDF6A4617795C5CD01FD2AD5DA17AE8A(CustomAttributesCache* cache)
@@ -17684,8 +17649,8 @@ static void ControlItem_tE80D7AB28DDEB6D515E566B444D86A8303CB778D_CustomAttribut
 		CompilerGeneratedAttribute__ctor_m9DC3E4E2DA76FE93948D44199213E2E924DCBE35(tmp, NULL);
 	}
 	{
-		IsReadOnlyAttribute_t545ECE2B402890B8978FB2B6BD9B405C0C67C193 * tmp = (IsReadOnlyAttribute_t545ECE2B402890B8978FB2B6BD9B405C0C67C193 *)cache->attributes[1];
-		IsReadOnlyAttribute__ctor_m9162ED12EC6603A57ABEF95706F0BB727210A6CD(tmp, NULL);
+		IsReadOnlyAttribute_tB6E31A0106212818B0AB6DC627AA320291BD7566 * tmp = (IsReadOnlyAttribute_tB6E31A0106212818B0AB6DC627AA320291BD7566 *)cache->attributes[1];
+		IsReadOnlyAttribute__ctor_m02F9F7CD56DE227F7ABDD1E2593D82E6FFA57E9A(tmp, NULL);
 	}
 }
 static void ControlItem_tE80D7AB28DDEB6D515E566B444D86A8303CB778D_CustomAttributesCacheGenerator_ControlItem_set_shortDisplayName_mF0FA44AB654255A9435C62A56E31137A1A7FAD34(CustomAttributesCache* cache)
@@ -17702,8 +17667,8 @@ static void ControlItem_tE80D7AB28DDEB6D515E566B444D86A8303CB778D_CustomAttribut
 		CompilerGeneratedAttribute__ctor_m9DC3E4E2DA76FE93948D44199213E2E924DCBE35(tmp, NULL);
 	}
 	{
-		IsReadOnlyAttribute_t545ECE2B402890B8978FB2B6BD9B405C0C67C193 * tmp = (IsReadOnlyAttribute_t545ECE2B402890B8978FB2B6BD9B405C0C67C193 *)cache->attributes[1];
-		IsReadOnlyAttribute__ctor_m9162ED12EC6603A57ABEF95706F0BB727210A6CD(tmp, NULL);
+		IsReadOnlyAttribute_tB6E31A0106212818B0AB6DC627AA320291BD7566 * tmp = (IsReadOnlyAttribute_tB6E31A0106212818B0AB6DC627AA320291BD7566 *)cache->attributes[1];
+		IsReadOnlyAttribute__ctor_m02F9F7CD56DE227F7ABDD1E2593D82E6FFA57E9A(tmp, NULL);
 	}
 }
 static void ControlItem_tE80D7AB28DDEB6D515E566B444D86A8303CB778D_CustomAttributesCacheGenerator_ControlItem_set_usages_m565AB9F1578DEA1A853FD37AC283E82838B7F934(CustomAttributesCache* cache)
@@ -17720,8 +17685,8 @@ static void ControlItem_tE80D7AB28DDEB6D515E566B444D86A8303CB778D_CustomAttribut
 		CompilerGeneratedAttribute__ctor_m9DC3E4E2DA76FE93948D44199213E2E924DCBE35(tmp, NULL);
 	}
 	{
-		IsReadOnlyAttribute_t545ECE2B402890B8978FB2B6BD9B405C0C67C193 * tmp = (IsReadOnlyAttribute_t545ECE2B402890B8978FB2B6BD9B405C0C67C193 *)cache->attributes[1];
-		IsReadOnlyAttribute__ctor_m9162ED12EC6603A57ABEF95706F0BB727210A6CD(tmp, NULL);
+		IsReadOnlyAttribute_tB6E31A0106212818B0AB6DC627AA320291BD7566 * tmp = (IsReadOnlyAttribute_tB6E31A0106212818B0AB6DC627AA320291BD7566 *)cache->attributes[1];
+		IsReadOnlyAttribute__ctor_m02F9F7CD56DE227F7ABDD1E2593D82E6FFA57E9A(tmp, NULL);
 	}
 }
 static void ControlItem_tE80D7AB28DDEB6D515E566B444D86A8303CB778D_CustomAttributesCacheGenerator_ControlItem_set_aliases_m64871492AE97FD57C3AD9B9B2C45BC209721AE5E(CustomAttributesCache* cache)
@@ -17738,8 +17703,8 @@ static void ControlItem_tE80D7AB28DDEB6D515E566B444D86A8303CB778D_CustomAttribut
 		CompilerGeneratedAttribute__ctor_m9DC3E4E2DA76FE93948D44199213E2E924DCBE35(tmp, NULL);
 	}
 	{
-		IsReadOnlyAttribute_t545ECE2B402890B8978FB2B6BD9B405C0C67C193 * tmp = (IsReadOnlyAttribute_t545ECE2B402890B8978FB2B6BD9B405C0C67C193 *)cache->attributes[1];
-		IsReadOnlyAttribute__ctor_m9162ED12EC6603A57ABEF95706F0BB727210A6CD(tmp, NULL);
+		IsReadOnlyAttribute_tB6E31A0106212818B0AB6DC627AA320291BD7566 * tmp = (IsReadOnlyAttribute_tB6E31A0106212818B0AB6DC627AA320291BD7566 *)cache->attributes[1];
+		IsReadOnlyAttribute__ctor_m02F9F7CD56DE227F7ABDD1E2593D82E6FFA57E9A(tmp, NULL);
 	}
 }
 static void ControlItem_tE80D7AB28DDEB6D515E566B444D86A8303CB778D_CustomAttributesCacheGenerator_ControlItem_set_parameters_m70663F346869784CF8C4E6C5BADDE822F98B8B24(CustomAttributesCache* cache)
@@ -17752,8 +17717,8 @@ static void ControlItem_tE80D7AB28DDEB6D515E566B444D86A8303CB778D_CustomAttribut
 static void ControlItem_tE80D7AB28DDEB6D515E566B444D86A8303CB778D_CustomAttributesCacheGenerator_ControlItem_get_processors_m45E267D9B065E3707C16F3CE268ECB3496FC3AEB(CustomAttributesCache* cache)
 {
 	{
-		IsReadOnlyAttribute_t545ECE2B402890B8978FB2B6BD9B405C0C67C193 * tmp = (IsReadOnlyAttribute_t545ECE2B402890B8978FB2B6BD9B405C0C67C193 *)cache->attributes[0];
-		IsReadOnlyAttribute__ctor_m9162ED12EC6603A57ABEF95706F0BB727210A6CD(tmp, NULL);
+		IsReadOnlyAttribute_tB6E31A0106212818B0AB6DC627AA320291BD7566 * tmp = (IsReadOnlyAttribute_tB6E31A0106212818B0AB6DC627AA320291BD7566 *)cache->attributes[0];
+		IsReadOnlyAttribute__ctor_m02F9F7CD56DE227F7ABDD1E2593D82E6FFA57E9A(tmp, NULL);
 	}
 	{
 		CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C * tmp = (CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C *)cache->attributes[1];
@@ -17770,8 +17735,8 @@ static void ControlItem_tE80D7AB28DDEB6D515E566B444D86A8303CB778D_CustomAttribut
 static void ControlItem_tE80D7AB28DDEB6D515E566B444D86A8303CB778D_CustomAttributesCacheGenerator_ControlItem_get_offset_mFA6A756ED58B4FB56790D88570203B60A6D9584D(CustomAttributesCache* cache)
 {
 	{
-		IsReadOnlyAttribute_t545ECE2B402890B8978FB2B6BD9B405C0C67C193 * tmp = (IsReadOnlyAttribute_t545ECE2B402890B8978FB2B6BD9B405C0C67C193 *)cache->attributes[0];
-		IsReadOnlyAttribute__ctor_m9162ED12EC6603A57ABEF95706F0BB727210A6CD(tmp, NULL);
+		IsReadOnlyAttribute_tB6E31A0106212818B0AB6DC627AA320291BD7566 * tmp = (IsReadOnlyAttribute_tB6E31A0106212818B0AB6DC627AA320291BD7566 *)cache->attributes[0];
+		IsReadOnlyAttribute__ctor_m02F9F7CD56DE227F7ABDD1E2593D82E6FFA57E9A(tmp, NULL);
 	}
 	{
 		CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C * tmp = (CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C *)cache->attributes[1];
@@ -17788,8 +17753,8 @@ static void ControlItem_tE80D7AB28DDEB6D515E566B444D86A8303CB778D_CustomAttribut
 static void ControlItem_tE80D7AB28DDEB6D515E566B444D86A8303CB778D_CustomAttributesCacheGenerator_ControlItem_get_bit_m0B32666006E5126C1EF344D81CA7DC07DC867D97(CustomAttributesCache* cache)
 {
 	{
-		IsReadOnlyAttribute_t545ECE2B402890B8978FB2B6BD9B405C0C67C193 * tmp = (IsReadOnlyAttribute_t545ECE2B402890B8978FB2B6BD9B405C0C67C193 *)cache->attributes[0];
-		IsReadOnlyAttribute__ctor_m9162ED12EC6603A57ABEF95706F0BB727210A6CD(tmp, NULL);
+		IsReadOnlyAttribute_tB6E31A0106212818B0AB6DC627AA320291BD7566 * tmp = (IsReadOnlyAttribute_tB6E31A0106212818B0AB6DC627AA320291BD7566 *)cache->attributes[0];
+		IsReadOnlyAttribute__ctor_m02F9F7CD56DE227F7ABDD1E2593D82E6FFA57E9A(tmp, NULL);
 	}
 	{
 		CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C * tmp = (CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C *)cache->attributes[1];
@@ -17810,8 +17775,8 @@ static void ControlItem_tE80D7AB28DDEB6D515E566B444D86A8303CB778D_CustomAttribut
 		CompilerGeneratedAttribute__ctor_m9DC3E4E2DA76FE93948D44199213E2E924DCBE35(tmp, NULL);
 	}
 	{
-		IsReadOnlyAttribute_t545ECE2B402890B8978FB2B6BD9B405C0C67C193 * tmp = (IsReadOnlyAttribute_t545ECE2B402890B8978FB2B6BD9B405C0C67C193 *)cache->attributes[1];
-		IsReadOnlyAttribute__ctor_m9162ED12EC6603A57ABEF95706F0BB727210A6CD(tmp, NULL);
+		IsReadOnlyAttribute_tB6E31A0106212818B0AB6DC627AA320291BD7566 * tmp = (IsReadOnlyAttribute_tB6E31A0106212818B0AB6DC627AA320291BD7566 *)cache->attributes[1];
+		IsReadOnlyAttribute__ctor_m02F9F7CD56DE227F7ABDD1E2593D82E6FFA57E9A(tmp, NULL);
 	}
 }
 static void ControlItem_tE80D7AB28DDEB6D515E566B444D86A8303CB778D_CustomAttributesCacheGenerator_ControlItem_set_sizeInBits_m8F4F28F7ED19B693DE210492DA15EAEE6C8EB543(CustomAttributesCache* cache)
@@ -17824,8 +17789,8 @@ static void ControlItem_tE80D7AB28DDEB6D515E566B444D86A8303CB778D_CustomAttribut
 static void ControlItem_tE80D7AB28DDEB6D515E566B444D86A8303CB778D_CustomAttributesCacheGenerator_ControlItem_get_format_mD36ADE5082C74145EBE50AFED4EDEBE2C9844838(CustomAttributesCache* cache)
 {
 	{
-		IsReadOnlyAttribute_t545ECE2B402890B8978FB2B6BD9B405C0C67C193 * tmp = (IsReadOnlyAttribute_t545ECE2B402890B8978FB2B6BD9B405C0C67C193 *)cache->attributes[0];
-		IsReadOnlyAttribute__ctor_m9162ED12EC6603A57ABEF95706F0BB727210A6CD(tmp, NULL);
+		IsReadOnlyAttribute_tB6E31A0106212818B0AB6DC627AA320291BD7566 * tmp = (IsReadOnlyAttribute_tB6E31A0106212818B0AB6DC627AA320291BD7566 *)cache->attributes[0];
+		IsReadOnlyAttribute__ctor_m02F9F7CD56DE227F7ABDD1E2593D82E6FFA57E9A(tmp, NULL);
 	}
 	{
 		CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C * tmp = (CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C *)cache->attributes[1];
@@ -17846,8 +17811,8 @@ static void ControlItem_tE80D7AB28DDEB6D515E566B444D86A8303CB778D_CustomAttribut
 		CompilerGeneratedAttribute__ctor_m9DC3E4E2DA76FE93948D44199213E2E924DCBE35(tmp, NULL);
 	}
 	{
-		IsReadOnlyAttribute_t545ECE2B402890B8978FB2B6BD9B405C0C67C193 * tmp = (IsReadOnlyAttribute_t545ECE2B402890B8978FB2B6BD9B405C0C67C193 *)cache->attributes[1];
-		IsReadOnlyAttribute__ctor_m9162ED12EC6603A57ABEF95706F0BB727210A6CD(tmp, NULL);
+		IsReadOnlyAttribute_tB6E31A0106212818B0AB6DC627AA320291BD7566 * tmp = (IsReadOnlyAttribute_tB6E31A0106212818B0AB6DC627AA320291BD7566 *)cache->attributes[1];
+		IsReadOnlyAttribute__ctor_m02F9F7CD56DE227F7ABDD1E2593D82E6FFA57E9A(tmp, NULL);
 	}
 }
 static void ControlItem_tE80D7AB28DDEB6D515E566B444D86A8303CB778D_CustomAttributesCacheGenerator_ControlItem_set_flags_m0379607944F9AAAC7EC0504AAAFB99671230D462(CustomAttributesCache* cache)
@@ -17860,8 +17825,8 @@ static void ControlItem_tE80D7AB28DDEB6D515E566B444D86A8303CB778D_CustomAttribut
 static void ControlItem_tE80D7AB28DDEB6D515E566B444D86A8303CB778D_CustomAttributesCacheGenerator_ControlItem_get_arraySize_mBC56D5C9AAE2E3ED21F8491A63764F64E313762F(CustomAttributesCache* cache)
 {
 	{
-		IsReadOnlyAttribute_t545ECE2B402890B8978FB2B6BD9B405C0C67C193 * tmp = (IsReadOnlyAttribute_t545ECE2B402890B8978FB2B6BD9B405C0C67C193 *)cache->attributes[0];
-		IsReadOnlyAttribute__ctor_m9162ED12EC6603A57ABEF95706F0BB727210A6CD(tmp, NULL);
+		IsReadOnlyAttribute_tB6E31A0106212818B0AB6DC627AA320291BD7566 * tmp = (IsReadOnlyAttribute_tB6E31A0106212818B0AB6DC627AA320291BD7566 *)cache->attributes[0];
+		IsReadOnlyAttribute__ctor_m02F9F7CD56DE227F7ABDD1E2593D82E6FFA57E9A(tmp, NULL);
 	}
 	{
 		CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C * tmp = (CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C *)cache->attributes[1];
@@ -17878,8 +17843,8 @@ static void ControlItem_tE80D7AB28DDEB6D515E566B444D86A8303CB778D_CustomAttribut
 static void ControlItem_tE80D7AB28DDEB6D515E566B444D86A8303CB778D_CustomAttributesCacheGenerator_ControlItem_get_defaultState_m3825EB68EB72ABE3F364A5C24C87B2D552472C03(CustomAttributesCache* cache)
 {
 	{
-		IsReadOnlyAttribute_t545ECE2B402890B8978FB2B6BD9B405C0C67C193 * tmp = (IsReadOnlyAttribute_t545ECE2B402890B8978FB2B6BD9B405C0C67C193 *)cache->attributes[0];
-		IsReadOnlyAttribute__ctor_m9162ED12EC6603A57ABEF95706F0BB727210A6CD(tmp, NULL);
+		IsReadOnlyAttribute_tB6E31A0106212818B0AB6DC627AA320291BD7566 * tmp = (IsReadOnlyAttribute_tB6E31A0106212818B0AB6DC627AA320291BD7566 *)cache->attributes[0];
+		IsReadOnlyAttribute__ctor_m02F9F7CD56DE227F7ABDD1E2593D82E6FFA57E9A(tmp, NULL);
 	}
 	{
 		CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C * tmp = (CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C *)cache->attributes[1];
@@ -17900,8 +17865,8 @@ static void ControlItem_tE80D7AB28DDEB6D515E566B444D86A8303CB778D_CustomAttribut
 		CompilerGeneratedAttribute__ctor_m9DC3E4E2DA76FE93948D44199213E2E924DCBE35(tmp, NULL);
 	}
 	{
-		IsReadOnlyAttribute_t545ECE2B402890B8978FB2B6BD9B405C0C67C193 * tmp = (IsReadOnlyAttribute_t545ECE2B402890B8978FB2B6BD9B405C0C67C193 *)cache->attributes[1];
-		IsReadOnlyAttribute__ctor_m9162ED12EC6603A57ABEF95706F0BB727210A6CD(tmp, NULL);
+		IsReadOnlyAttribute_tB6E31A0106212818B0AB6DC627AA320291BD7566 * tmp = (IsReadOnlyAttribute_tB6E31A0106212818B0AB6DC627AA320291BD7566 *)cache->attributes[1];
+		IsReadOnlyAttribute__ctor_m02F9F7CD56DE227F7ABDD1E2593D82E6FFA57E9A(tmp, NULL);
 	}
 }
 static void ControlItem_tE80D7AB28DDEB6D515E566B444D86A8303CB778D_CustomAttributesCacheGenerator_ControlItem_set_minValue_mAB7186D561C1E98CBFBAFE17A00A0F177B20171D(CustomAttributesCache* cache)
@@ -17914,8 +17879,8 @@ static void ControlItem_tE80D7AB28DDEB6D515E566B444D86A8303CB778D_CustomAttribut
 static void ControlItem_tE80D7AB28DDEB6D515E566B444D86A8303CB778D_CustomAttributesCacheGenerator_ControlItem_get_maxValue_mCD7A75BED08DCB533CBF22C150D7C225B6372500(CustomAttributesCache* cache)
 {
 	{
-		IsReadOnlyAttribute_t545ECE2B402890B8978FB2B6BD9B405C0C67C193 * tmp = (IsReadOnlyAttribute_t545ECE2B402890B8978FB2B6BD9B405C0C67C193 *)cache->attributes[0];
-		IsReadOnlyAttribute__ctor_m9162ED12EC6603A57ABEF95706F0BB727210A6CD(tmp, NULL);
+		IsReadOnlyAttribute_tB6E31A0106212818B0AB6DC627AA320291BD7566 * tmp = (IsReadOnlyAttribute_tB6E31A0106212818B0AB6DC627AA320291BD7566 *)cache->attributes[0];
+		IsReadOnlyAttribute__ctor_m02F9F7CD56DE227F7ABDD1E2593D82E6FFA57E9A(tmp, NULL);
 	}
 	{
 		CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C * tmp = (CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C *)cache->attributes[1];
@@ -18592,24 +18557,24 @@ static void DpadControl_t5E71134031357A38BAA201C1EB87BCD1BE3DCE0B_CustomAttribut
 	{
 		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[0];
 		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
-		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 0LL, NULL);
-		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x55\x70"), NULL);
-	}
-	{
-		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[1];
-		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
 		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x78"), NULL);
 		InputControlAttribute_set_layout_mCF2C40C4FD8A34D75840202460F60D7DB88CF54D_inline(tmp, il2cpp_codegen_string_new_wrapper("\x44\x70\x61\x64\x41\x78\x69\x73"), NULL);
 		InputControlAttribute_set_useStateFrom_m50E1805C16309FF32EC8BC971D2AF038E508F0D9_inline(tmp, il2cpp_codegen_string_new_wrapper("\x72\x69\x67\x68\x74"), NULL);
 		InputControlAttribute_set_synthetic_m4551E74758ECEB54448FE0CD92ABE3A177190502_inline(tmp, true, NULL);
 	}
 	{
-		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[2];
+		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[1];
 		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
 		InputControlAttribute_set_name_mE66A6D0EC1547D2FA96075BCB4ADA83E60090519_inline(tmp, il2cpp_codegen_string_new_wrapper("\x79"), NULL);
 		InputControlAttribute_set_layout_mCF2C40C4FD8A34D75840202460F60D7DB88CF54D_inline(tmp, il2cpp_codegen_string_new_wrapper("\x44\x70\x61\x64\x41\x78\x69\x73"), NULL);
 		InputControlAttribute_set_useStateFrom_m50E1805C16309FF32EC8BC971D2AF038E508F0D9_inline(tmp, il2cpp_codegen_string_new_wrapper("\x75\x70"), NULL);
 		InputControlAttribute_set_synthetic_m4551E74758ECEB54448FE0CD92ABE3A177190502_inline(tmp, true, NULL);
+	}
+	{
+		InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * tmp = (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F *)cache->attributes[2];
+		InputControlAttribute__ctor_m7F83118E69D7ED8935A24D1154B41E5B6DD5BA3A(tmp, NULL);
+		InputControlAttribute_set_bit_mB384B3F2ED3980CE197427ADFF78CA47512AAF6E_inline(tmp, 0LL, NULL);
+		InputControlAttribute_set_displayName_m19109E714A330852B21AAC4BCD7DF2CD44F0C4B2_inline(tmp, il2cpp_codegen_string_new_wrapper("\x55\x70"), NULL);
 	}
 }
 static void DpadControl_t5E71134031357A38BAA201C1EB87BCD1BE3DCE0B_CustomAttributesCacheGenerator_DpadControl_t5E71134031357A38BAA201C1EB87BCD1BE3DCE0B____down_PropertyInfo(CustomAttributesCache* cache)
@@ -19814,8 +19779,8 @@ static void NameAndParameters_tEBC11C9D51435C0932FBCF5076DE970B4A71EC76_CustomAt
 		CompilerGeneratedAttribute__ctor_m9DC3E4E2DA76FE93948D44199213E2E924DCBE35(tmp, NULL);
 	}
 	{
-		IsReadOnlyAttribute_t545ECE2B402890B8978FB2B6BD9B405C0C67C193 * tmp = (IsReadOnlyAttribute_t545ECE2B402890B8978FB2B6BD9B405C0C67C193 *)cache->attributes[1];
-		IsReadOnlyAttribute__ctor_m9162ED12EC6603A57ABEF95706F0BB727210A6CD(tmp, NULL);
+		IsReadOnlyAttribute_tB6E31A0106212818B0AB6DC627AA320291BD7566 * tmp = (IsReadOnlyAttribute_tB6E31A0106212818B0AB6DC627AA320291BD7566 *)cache->attributes[1];
+		IsReadOnlyAttribute__ctor_m02F9F7CD56DE227F7ABDD1E2593D82E6FFA57E9A(tmp, NULL);
 	}
 }
 static void NameAndParameters_tEBC11C9D51435C0932FBCF5076DE970B4A71EC76_CustomAttributesCacheGenerator_NameAndParameters_set_name_mA97317F5AD140DD6A2BF7B9968290CFFBBF7694A(CustomAttributesCache* cache)
@@ -19832,8 +19797,8 @@ static void NameAndParameters_tEBC11C9D51435C0932FBCF5076DE970B4A71EC76_CustomAt
 		CompilerGeneratedAttribute__ctor_m9DC3E4E2DA76FE93948D44199213E2E924DCBE35(tmp, NULL);
 	}
 	{
-		IsReadOnlyAttribute_t545ECE2B402890B8978FB2B6BD9B405C0C67C193 * tmp = (IsReadOnlyAttribute_t545ECE2B402890B8978FB2B6BD9B405C0C67C193 *)cache->attributes[1];
-		IsReadOnlyAttribute__ctor_m9162ED12EC6603A57ABEF95706F0BB727210A6CD(tmp, NULL);
+		IsReadOnlyAttribute_tB6E31A0106212818B0AB6DC627AA320291BD7566 * tmp = (IsReadOnlyAttribute_tB6E31A0106212818B0AB6DC627AA320291BD7566 *)cache->attributes[1];
+		IsReadOnlyAttribute__ctor_m02F9F7CD56DE227F7ABDD1E2593D82E6FFA57E9A(tmp, NULL);
 	}
 }
 static void NameAndParameters_tEBC11C9D51435C0932FBCF5076DE970B4A71EC76_CustomAttributesCacheGenerator_NameAndParameters_set_parameters_mE86EB19043023735C7413742E8ED94DA58ADF3D9(CustomAttributesCache* cache)
@@ -19867,8 +19832,8 @@ static void NamedValue_tE0B0EA747A0E5B3A8B18EA5AD69BB7F7F91D1B94_CustomAttribute
 static void NamedValue_tE0B0EA747A0E5B3A8B18EA5AD69BB7F7F91D1B94_CustomAttributesCacheGenerator_NamedValue_get_name_mFA9E5015F6DD4EEB9437147F0E19BD59CAD74336(CustomAttributesCache* cache)
 {
 	{
-		IsReadOnlyAttribute_t545ECE2B402890B8978FB2B6BD9B405C0C67C193 * tmp = (IsReadOnlyAttribute_t545ECE2B402890B8978FB2B6BD9B405C0C67C193 *)cache->attributes[0];
-		IsReadOnlyAttribute__ctor_m9162ED12EC6603A57ABEF95706F0BB727210A6CD(tmp, NULL);
+		IsReadOnlyAttribute_tB6E31A0106212818B0AB6DC627AA320291BD7566 * tmp = (IsReadOnlyAttribute_tB6E31A0106212818B0AB6DC627AA320291BD7566 *)cache->attributes[0];
+		IsReadOnlyAttribute__ctor_m02F9F7CD56DE227F7ABDD1E2593D82E6FFA57E9A(tmp, NULL);
 	}
 	{
 		CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C * tmp = (CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C *)cache->attributes[1];
@@ -19885,8 +19850,8 @@ static void NamedValue_tE0B0EA747A0E5B3A8B18EA5AD69BB7F7F91D1B94_CustomAttribute
 static void NamedValue_tE0B0EA747A0E5B3A8B18EA5AD69BB7F7F91D1B94_CustomAttributesCacheGenerator_NamedValue_get_value_m1993DFF2F1F067499A8864957A8752DA6AD47D00(CustomAttributesCache* cache)
 {
 	{
-		IsReadOnlyAttribute_t545ECE2B402890B8978FB2B6BD9B405C0C67C193 * tmp = (IsReadOnlyAttribute_t545ECE2B402890B8978FB2B6BD9B405C0C67C193 *)cache->attributes[0];
-		IsReadOnlyAttribute__ctor_m9162ED12EC6603A57ABEF95706F0BB727210A6CD(tmp, NULL);
+		IsReadOnlyAttribute_tB6E31A0106212818B0AB6DC627AA320291BD7566 * tmp = (IsReadOnlyAttribute_tB6E31A0106212818B0AB6DC627AA320291BD7566 *)cache->attributes[0];
+		IsReadOnlyAttribute__ctor_m02F9F7CD56DE227F7ABDD1E2593D82E6FFA57E9A(tmp, NULL);
 	}
 	{
 		CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C * tmp = (CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C *)cache->attributes[1];
@@ -20315,12 +20280,12 @@ static void U3CU3Ec_tF3B179A6D5C9B2684299CC840938D0BF05475F16_CustomAttributesCa
 static void AxisComposite_tED2385BC2ACBB4D313C8B95FF5ED0A6D8C4582DC_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
 {
 	{
-		DisplayStringFormatAttribute_tD2040908E2ED7AC26B46177BD67311726ABFB43D * tmp = (DisplayStringFormatAttribute_tD2040908E2ED7AC26B46177BD67311726ABFB43D *)cache->attributes[0];
-		DisplayStringFormatAttribute__ctor_mDB5D2C66AF226D890877F78A36B02FCCF78DCD3B(tmp, il2cpp_codegen_string_new_wrapper("\x7B\x6E\x65\x67\x61\x74\x69\x76\x65\x7D\x2F\x7B\x70\x6F\x73\x69\x74\x69\x76\x65\x7D"), NULL);
+		DisplayNameAttribute_t23E87B8B23DC5CF5E2A72B8039935029D0A53E85 * tmp = (DisplayNameAttribute_t23E87B8B23DC5CF5E2A72B8039935029D0A53E85 *)cache->attributes[0];
+		DisplayNameAttribute__ctor_m44CB3F48C86138F3E381AF9FE560B959DD73E845(tmp, il2cpp_codegen_string_new_wrapper("\x50\x6F\x73\x69\x74\x69\x76\x65\x2F\x4E\x65\x67\x61\x74\x69\x76\x65\x20\x42\x69\x6E\x64\x69\x6E\x67"), NULL);
 	}
 	{
-		DisplayNameAttribute_t23E87B8B23DC5CF5E2A72B8039935029D0A53E85 * tmp = (DisplayNameAttribute_t23E87B8B23DC5CF5E2A72B8039935029D0A53E85 *)cache->attributes[1];
-		DisplayNameAttribute__ctor_m44CB3F48C86138F3E381AF9FE560B959DD73E845(tmp, il2cpp_codegen_string_new_wrapper("\x50\x6F\x73\x69\x74\x69\x76\x65\x2F\x4E\x65\x67\x61\x74\x69\x76\x65\x20\x42\x69\x6E\x64\x69\x6E\x67"), NULL);
+		DisplayStringFormatAttribute_tD2040908E2ED7AC26B46177BD67311726ABFB43D * tmp = (DisplayStringFormatAttribute_tD2040908E2ED7AC26B46177BD67311726ABFB43D *)cache->attributes[1];
+		DisplayStringFormatAttribute__ctor_mDB5D2C66AF226D890877F78A36B02FCCF78DCD3B(tmp, il2cpp_codegen_string_new_wrapper("\x7B\x6E\x65\x67\x61\x74\x69\x76\x65\x7D\x2F\x7B\x70\x6F\x73\x69\x74\x69\x76\x65\x7D"), NULL);
 	}
 }
 static void AxisComposite_tED2385BC2ACBB4D313C8B95FF5ED0A6D8C4582DC_CustomAttributesCacheGenerator_negative(CustomAttributesCache* cache)
@@ -20451,12 +20416,12 @@ static void OneModifierComposite_t25143E6DF6DE6F5DAF4CF088FA10D42B59BBED65_Custo
 static void TwoModifiersComposite_tC97838F0E163BE8414F96FEF121CDDFA26FB7C30_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
 {
 	{
-		DisplayStringFormatAttribute_tD2040908E2ED7AC26B46177BD67311726ABFB43D * tmp = (DisplayStringFormatAttribute_tD2040908E2ED7AC26B46177BD67311726ABFB43D *)cache->attributes[0];
-		DisplayStringFormatAttribute__ctor_mDB5D2C66AF226D890877F78A36B02FCCF78DCD3B(tmp, il2cpp_codegen_string_new_wrapper("\x7B\x6D\x6F\x64\x69\x66\x69\x65\x72\x31\x7D\x2B\x7B\x6D\x6F\x64\x69\x66\x69\x65\x72\x32\x7D\x2B\x7B\x62\x69\x6E\x64\x69\x6E\x67\x7D"), NULL);
+		DisplayNameAttribute_t23E87B8B23DC5CF5E2A72B8039935029D0A53E85 * tmp = (DisplayNameAttribute_t23E87B8B23DC5CF5E2A72B8039935029D0A53E85 *)cache->attributes[0];
+		DisplayNameAttribute__ctor_m44CB3F48C86138F3E381AF9FE560B959DD73E845(tmp, il2cpp_codegen_string_new_wrapper("\x42\x69\x6E\x64\x69\x6E\x67\x20\x57\x69\x74\x68\x20\x54\x77\x6F\x20\x4D\x6F\x64\x69\x66\x69\x65\x72\x73"), NULL);
 	}
 	{
-		DisplayNameAttribute_t23E87B8B23DC5CF5E2A72B8039935029D0A53E85 * tmp = (DisplayNameAttribute_t23E87B8B23DC5CF5E2A72B8039935029D0A53E85 *)cache->attributes[1];
-		DisplayNameAttribute__ctor_m44CB3F48C86138F3E381AF9FE560B959DD73E845(tmp, il2cpp_codegen_string_new_wrapper("\x42\x69\x6E\x64\x69\x6E\x67\x20\x57\x69\x74\x68\x20\x54\x77\x6F\x20\x4D\x6F\x64\x69\x66\x69\x65\x72\x73"), NULL);
+		DisplayStringFormatAttribute_tD2040908E2ED7AC26B46177BD67311726ABFB43D * tmp = (DisplayStringFormatAttribute_tD2040908E2ED7AC26B46177BD67311726ABFB43D *)cache->attributes[1];
+		DisplayStringFormatAttribute__ctor_mDB5D2C66AF226D890877F78A36B02FCCF78DCD3B(tmp, il2cpp_codegen_string_new_wrapper("\x7B\x6D\x6F\x64\x69\x66\x69\x65\x72\x31\x7D\x2B\x7B\x6D\x6F\x64\x69\x66\x69\x65\x72\x32\x7D\x2B\x7B\x62\x69\x6E\x64\x69\x6E\x67\x7D"), NULL);
 	}
 }
 static void TwoModifiersComposite_tC97838F0E163BE8414F96FEF121CDDFA26FB7C30_CustomAttributesCacheGenerator_modifier1(CustomAttributesCache* cache)
@@ -20486,12 +20451,12 @@ static void TwoModifiersComposite_tC97838F0E163BE8414F96FEF121CDDFA26FB7C30_Cust
 static void Vector2Composite_tD8B71C38D6057180424C38E865BABF786656C97E_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
 {
 	{
-		DisplayNameAttribute_t23E87B8B23DC5CF5E2A72B8039935029D0A53E85 * tmp = (DisplayNameAttribute_t23E87B8B23DC5CF5E2A72B8039935029D0A53E85 *)cache->attributes[0];
-		DisplayNameAttribute__ctor_m44CB3F48C86138F3E381AF9FE560B959DD73E845(tmp, il2cpp_codegen_string_new_wrapper("\x55\x70\x2F\x44\x6F\x77\x6E\x2F\x4C\x65\x66\x74\x2F\x52\x69\x67\x68\x74\x20\x43\x6F\x6D\x70\x6F\x73\x69\x74\x65"), NULL);
+		DisplayStringFormatAttribute_tD2040908E2ED7AC26B46177BD67311726ABFB43D * tmp = (DisplayStringFormatAttribute_tD2040908E2ED7AC26B46177BD67311726ABFB43D *)cache->attributes[0];
+		DisplayStringFormatAttribute__ctor_mDB5D2C66AF226D890877F78A36B02FCCF78DCD3B(tmp, il2cpp_codegen_string_new_wrapper("\x7B\x75\x70\x7D\x2F\x7B\x6C\x65\x66\x74\x7D\x2F\x7B\x64\x6F\x77\x6E\x7D\x2F\x7B\x72\x69\x67\x68\x74\x7D"), NULL);
 	}
 	{
-		DisplayStringFormatAttribute_tD2040908E2ED7AC26B46177BD67311726ABFB43D * tmp = (DisplayStringFormatAttribute_tD2040908E2ED7AC26B46177BD67311726ABFB43D *)cache->attributes[1];
-		DisplayStringFormatAttribute__ctor_mDB5D2C66AF226D890877F78A36B02FCCF78DCD3B(tmp, il2cpp_codegen_string_new_wrapper("\x7B\x75\x70\x7D\x2F\x7B\x6C\x65\x66\x74\x7D\x2F\x7B\x64\x6F\x77\x6E\x7D\x2F\x7B\x72\x69\x67\x68\x74\x7D"), NULL);
+		DisplayNameAttribute_t23E87B8B23DC5CF5E2A72B8039935029D0A53E85 * tmp = (DisplayNameAttribute_t23E87B8B23DC5CF5E2A72B8039935029D0A53E85 *)cache->attributes[1];
+		DisplayNameAttribute__ctor_m44CB3F48C86138F3E381AF9FE560B959DD73E845(tmp, il2cpp_codegen_string_new_wrapper("\x55\x70\x2F\x44\x6F\x77\x6E\x2F\x4C\x65\x66\x74\x2F\x52\x69\x67\x68\x74\x20\x43\x6F\x6D\x70\x6F\x73\x69\x74\x65"), NULL);
 	}
 }
 static void Vector2Composite_tD8B71C38D6057180424C38E865BABF786656C97E_CustomAttributesCacheGenerator_up(CustomAttributesCache* cache)
@@ -20536,12 +20501,12 @@ static void Vector2Composite_tD8B71C38D6057180424C38E865BABF786656C97E_CustomAtt
 static void Vector3Composite_t880CC2516808EB90BC87B9BAA9D733971D01A567_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
 {
 	{
-		DisplayNameAttribute_t23E87B8B23DC5CF5E2A72B8039935029D0A53E85 * tmp = (DisplayNameAttribute_t23E87B8B23DC5CF5E2A72B8039935029D0A53E85 *)cache->attributes[0];
-		DisplayNameAttribute__ctor_m44CB3F48C86138F3E381AF9FE560B959DD73E845(tmp, il2cpp_codegen_string_new_wrapper("\x55\x70\x2F\x44\x6F\x77\x6E\x2F\x4C\x65\x66\x74\x2F\x52\x69\x67\x68\x74\x2F\x46\x6F\x72\x77\x61\x72\x64\x2F\x42\x61\x63\x6B\x77\x61\x72\x64\x20\x43\x6F\x6D\x70\x6F\x73\x69\x74\x65"), NULL);
+		DisplayStringFormatAttribute_tD2040908E2ED7AC26B46177BD67311726ABFB43D * tmp = (DisplayStringFormatAttribute_tD2040908E2ED7AC26B46177BD67311726ABFB43D *)cache->attributes[0];
+		DisplayStringFormatAttribute__ctor_mDB5D2C66AF226D890877F78A36B02FCCF78DCD3B(tmp, il2cpp_codegen_string_new_wrapper("\x7B\x75\x70\x7D\x2B\x7B\x64\x6F\x77\x6E\x7D\x2F\x7B\x6C\x65\x66\x74\x7D\x2B\x7B\x72\x69\x67\x68\x74\x7D\x2F\x7B\x66\x6F\x72\x77\x61\x72\x64\x7D\x2B\x7B\x62\x61\x63\x6B\x77\x61\x72\x64\x7D"), NULL);
 	}
 	{
-		DisplayStringFormatAttribute_tD2040908E2ED7AC26B46177BD67311726ABFB43D * tmp = (DisplayStringFormatAttribute_tD2040908E2ED7AC26B46177BD67311726ABFB43D *)cache->attributes[1];
-		DisplayStringFormatAttribute__ctor_mDB5D2C66AF226D890877F78A36B02FCCF78DCD3B(tmp, il2cpp_codegen_string_new_wrapper("\x7B\x75\x70\x7D\x2B\x7B\x64\x6F\x77\x6E\x7D\x2F\x7B\x6C\x65\x66\x74\x7D\x2B\x7B\x72\x69\x67\x68\x74\x7D\x2F\x7B\x66\x6F\x72\x77\x61\x72\x64\x7D\x2B\x7B\x62\x61\x63\x6B\x77\x61\x72\x64\x7D"), NULL);
+		DisplayNameAttribute_t23E87B8B23DC5CF5E2A72B8039935029D0A53E85 * tmp = (DisplayNameAttribute_t23E87B8B23DC5CF5E2A72B8039935029D0A53E85 *)cache->attributes[1];
+		DisplayNameAttribute__ctor_m44CB3F48C86138F3E381AF9FE560B959DD73E845(tmp, il2cpp_codegen_string_new_wrapper("\x55\x70\x2F\x44\x6F\x77\x6E\x2F\x4C\x65\x66\x74\x2F\x52\x69\x67\x68\x74\x2F\x46\x6F\x72\x77\x61\x72\x64\x2F\x42\x61\x63\x6B\x77\x61\x72\x64\x20\x43\x6F\x6D\x70\x6F\x73\x69\x74\x65"), NULL);
 	}
 }
 static void Vector3Composite_t880CC2516808EB90BC87B9BAA9D733971D01A567_CustomAttributesCacheGenerator_up(CustomAttributesCache* cache)
@@ -20600,10 +20565,8 @@ static void U3CPrivateImplementationDetailsU3E_t212E32A42590232AF75F588FF9838CA3
 	}
 }
 IL2CPP_EXTERN_C const CustomAttributesCacheGenerator g_Unity_InputSystem_AttributeGenerators[];
-const CustomAttributesCacheGenerator g_Unity_InputSystem_AttributeGenerators[2143] = 
+const CustomAttributesCacheGenerator g_Unity_InputSystem_AttributeGenerators[2141] = 
 {
-	EmbeddedAttribute_t19E7B5E26135E3D97E0A65D6FDFF46AFD0D65288_CustomAttributesCacheGenerator,
-	IsReadOnlyAttribute_t545ECE2B402890B8978FB2B6BD9B405C0C67C193_CustomAttributesCacheGenerator,
 	OpenVRHMD_tD894F3E1C3E29DCC40E14DA24512210CCD92216D_CustomAttributesCacheGenerator,
 	OpenVRControllerWMR_tB9E4713EEAE9FD68FD10B63D4E4C5FA1208441AA_CustomAttributesCacheGenerator,
 	ViveWand_t7A77843F2FABA7A481D1916B514376A532204F27_CustomAttributesCacheGenerator,
@@ -22889,15 +22852,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void InputControlLayoutAttribute_
 		return;
 	}
 }
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void InputControlAttribute_set_shortDisplayName_m4DD4109FFFABB8110484A941460E7DA3AA2F73E5_inline (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * __this, String_t* ___value0, const RuntimeMethod* method)
-{
-	{
-		// public string shortDisplayName { get; set; }
-		String_t* L_0 = ___value0;
-		__this->set_U3CshortDisplayNameU3Ek__BackingField_16(L_0);
-		return;
-	}
-}
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void InputControlAttribute_set_alias_m78C253CCD7BD52A5C503F7DF4EAF83E05E342A35_inline (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * __this, String_t* ___value0, const RuntimeMethod* method)
 {
 	{
@@ -22907,12 +22861,12 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void InputControlAttribute_set_al
 		return;
 	}
 }
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void InputControlAttribute_set_usage_mC1F26BE0D5681DA7BA2586E4F960DE53B90CE195_inline (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * __this, String_t* ___value0, const RuntimeMethod* method)
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void InputControlAttribute_set_shortDisplayName_m4DD4109FFFABB8110484A941460E7DA3AA2F73E5_inline (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * __this, String_t* ___value0, const RuntimeMethod* method)
 {
 	{
-		// public string usage { get; set; }
+		// public string shortDisplayName { get; set; }
 		String_t* L_0 = ___value0;
-		__this->set_U3CusageU3Ek__BackingField_4(L_0);
+		__this->set_U3CshortDisplayNameU3Ek__BackingField_16(L_0);
 		return;
 	}
 }
@@ -22922,6 +22876,15 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void InputControlAttribute_set_us
 		// public string[] usages { get; set; }
 		StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A* L_0 = ___value0;
 		__this->set_U3CusagesU3Ek__BackingField_5(L_0);
+		return;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void InputControlAttribute_set_usage_mC1F26BE0D5681DA7BA2586E4F960DE53B90CE195_inline (InputControlAttribute_t55D200EF4CFEC99BF9A7EF502FB6FCEC48E6A86F * __this, String_t* ___value0, const RuntimeMethod* method)
+{
+	{
+		// public string usage { get; set; }
+		String_t* L_0 = ___value0;
+		__this->set_U3CusageU3Ek__BackingField_4(L_0);
 		return;
 	}
 }

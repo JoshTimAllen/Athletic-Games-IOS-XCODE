@@ -35,6 +35,8 @@
       <key>NSAllowsArbitraryLoads</key>
       <true />
     </dict>
+    <key>NSCameraUsageDescription</key>
+    <string>Required for augmented reality support.</string>
     <key>SKAdNetworkItems</key>
     <array>
       <dict>
@@ -188,8 +190,6 @@
     </array>
     <key>UILaunchStoryboardName</key>
     <string>LaunchScreen-iPhone</string>
-    <key>UILaunchStoryboardName~ipad</key>
-    <string>LaunchScreen-iPad</string>
     <key>UILaunchStoryboardName~iphone</key>
     <string>LaunchScreen-iPhone</string>
     <key>UILaunchStoryboardName~ipod</key>

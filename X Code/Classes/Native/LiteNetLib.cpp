@@ -374,8 +374,6 @@ struct InvalidOperationException_t10D3EE59AD28EC641ACEE05BCA4271A527E5ECAB;
 struct InvalidPacketException_t6FCDFEDA0E482D30439ACEEA41E5DDB17DDF0769;
 // LiteNetLib.Utils.InvalidTypeException
 struct InvalidTypeException_t852585CF79404D4CC4528EB6F2FA393710055B93;
-// System.Runtime.CompilerServices.IsReadOnlyAttribute
-struct IsReadOnlyAttribute_t207A472DD96435907B137C4C3709A992B54D3622;
 // System.Runtime.CompilerServices.IsUnmanagedAttribute
 struct IsUnmanagedAttribute_tBF6D230A22AC5B3B64C7B52752617CC6F27319A1;
 // System.LocalDataStoreHolder
@@ -4779,15 +4777,6 @@ public:
 	{
 		___Zero_1 = value;
 	}
-};
-
-
-// System.Runtime.CompilerServices.IsReadOnlyAttribute
-struct IsReadOnlyAttribute_t207A472DD96435907B137C4C3709A992B54D3622  : public Attribute_t037CA9D9F3B742C063DB364D2EEBBF9FC5772C71
-{
-public:
-
-public:
 };
 
 
@@ -14337,22 +14326,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InvalidTypeException__ctor_m77DFDAA2997F
 		String_t* L_0 = ___message0;
 		ArgumentException__ctor_m2D35EAD113C2ADC99EB17B940A2097A93FD23EFC(__this, L_0, /*hidden argument*/NULL);
 		// public InvalidTypeException(string message) : base(message) { }
-		return;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.Void System.Runtime.CompilerServices.IsReadOnlyAttribute::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IsReadOnlyAttribute__ctor_m7453BFD16DB746184EDFCA65F87062D1CEDCFA01 (IsReadOnlyAttribute_t207A472DD96435907B137C4C3709A992B54D3622 * __this, const RuntimeMethod* method)
-{
-	{
-		Attribute__ctor_m5C1862A7DFC2C25A4797A8C5F681FBB5CB53ECE1(__this, /*hidden argument*/NULL);
 		return;
 	}
 }

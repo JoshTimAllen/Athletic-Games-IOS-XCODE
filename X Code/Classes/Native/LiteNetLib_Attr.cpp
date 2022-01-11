@@ -27,7 +27,7 @@ struct EmbeddedAttribute_tDF0D66D1D50EF4BC6AEEDBB695C307ABB098ADFF;
 // System.FlagsAttribute
 struct FlagsAttribute_t511C558FACEF1CC64702A8FAB67CAF3CBA65DF36;
 // System.Runtime.CompilerServices.IsReadOnlyAttribute
-struct IsReadOnlyAttribute_t207A472DD96435907B137C4C3709A992B54D3622;
+struct IsReadOnlyAttribute_tB6E31A0106212818B0AB6DC627AA320291BD7566;
 // System.ParamArrayAttribute
 struct ParamArrayAttribute_t9DCEB4CDDB8EDDB1124171D4C51FA6069EEA5C5F;
 // System.Runtime.CompilerServices.RuntimeCompatibilityAttribute
@@ -267,7 +267,7 @@ public:
 
 
 // System.Runtime.CompilerServices.IsReadOnlyAttribute
-struct IsReadOnlyAttribute_t207A472DD96435907B137C4C3709A992B54D3622  : public Attribute_t037CA9D9F3B742C063DB364D2EEBBF9FC5772C71
+struct IsReadOnlyAttribute_tB6E31A0106212818B0AB6DC627AA320291BD7566  : public Attribute_t037CA9D9F3B742C063DB364D2EEBBF9FC5772C71
 {
 public:
 
@@ -381,7 +381,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CompilerGeneratedAttribute__ctor_m9DC3E4
 // System.Void Microsoft.CodeAnalysis.EmbeddedAttribute::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EmbeddedAttribute__ctor_m7F594E7A23E87F216B6F205AF4331297A2E43804 (EmbeddedAttribute_tDF0D66D1D50EF4BC6AEEDBB695C307ABB098ADFF * __this, const RuntimeMethod* method);
 // System.Void System.Runtime.CompilerServices.IsReadOnlyAttribute::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IsReadOnlyAttribute__ctor_m7453BFD16DB746184EDFCA65F87062D1CEDCFA01 (IsReadOnlyAttribute_t207A472DD96435907B137C4C3709A992B54D3622 * __this, const RuntimeMethod* method);
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IsReadOnlyAttribute__ctor_m02F9F7CD56DE227F7ABDD1E2593D82E6FFA57E9A (IsReadOnlyAttribute_tB6E31A0106212818B0AB6DC627AA320291BD7566 * __this, const RuntimeMethod* method);
 // System.Void System.ParamArrayAttribute::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParamArrayAttribute__ctor_mCC72AFF718185BA7B87FD8D9471F1274400C5719 (ParamArrayAttribute_t9DCEB4CDDB8EDDB1124171D4C51FA6069EEA5C5F * __this, const RuntimeMethod* method);
 // System.Void System.Diagnostics.ConditionalAttribute::.ctor(System.String)
@@ -417,7 +417,7 @@ static void EmbeddedAttribute_tDF0D66D1D50EF4BC6AEEDBB695C307ABB098ADFF_CustomAt
 		EmbeddedAttribute__ctor_m7F594E7A23E87F216B6F205AF4331297A2E43804(tmp, NULL);
 	}
 }
-static void IsReadOnlyAttribute_t207A472DD96435907B137C4C3709A992B54D3622_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
+static void IsUnmanagedAttribute_tBF6D230A22AC5B3B64C7B52752617CC6F27319A1_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
 {
 	{
 		EmbeddedAttribute_tDF0D66D1D50EF4BC6AEEDBB695C307ABB098ADFF * tmp = (EmbeddedAttribute_tDF0D66D1D50EF4BC6AEEDBB695C307ABB098ADFF *)cache->attributes[0];
@@ -426,17 +426,6 @@ static void IsReadOnlyAttribute_t207A472DD96435907B137C4C3709A992B54D3622_Custom
 	{
 		CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C * tmp = (CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C *)cache->attributes[1];
 		CompilerGeneratedAttribute__ctor_m9DC3E4E2DA76FE93948D44199213E2E924DCBE35(tmp, NULL);
-	}
-}
-static void IsUnmanagedAttribute_tBF6D230A22AC5B3B64C7B52752617CC6F27319A1_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
-{
-	{
-		CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C * tmp = (CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C *)cache->attributes[0];
-		CompilerGeneratedAttribute__ctor_m9DC3E4E2DA76FE93948D44199213E2E924DCBE35(tmp, NULL);
-	}
-	{
-		EmbeddedAttribute_tDF0D66D1D50EF4BC6AEEDBB695C307ABB098ADFF * tmp = (EmbeddedAttribute_tDF0D66D1D50EF4BC6AEEDBB695C307ABB098ADFF *)cache->attributes[1];
-		EmbeddedAttribute__ctor_m7F594E7A23E87F216B6F205AF4331297A2E43804(tmp, NULL);
 	}
 }
 static void ConnectionRequest_t448AFA0A5749550B0A8E7C5FFC00633E8B35DA52_CustomAttributesCacheGenerator_U3CResultU3Ek__BackingField(CustomAttributesCache* cache)
@@ -841,8 +830,8 @@ static void NatPunchPacket_t150D8E2B0605521728244A9231A1FD53256F3F84_CustomAttri
 static void NativeAddr_tBFC6DF88AAF150F7A013FA4F8579E8352B5BA421_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
 {
 	{
-		IsReadOnlyAttribute_t207A472DD96435907B137C4C3709A992B54D3622 * tmp = (IsReadOnlyAttribute_t207A472DD96435907B137C4C3709A992B54D3622 *)cache->attributes[0];
-		IsReadOnlyAttribute__ctor_m7453BFD16DB746184EDFCA65F87062D1CEDCFA01(tmp, NULL);
+		IsReadOnlyAttribute_tB6E31A0106212818B0AB6DC627AA320291BD7566 * tmp = (IsReadOnlyAttribute_tB6E31A0106212818B0AB6DC627AA320291BD7566 *)cache->attributes[0];
+		IsReadOnlyAttribute__ctor_m02F9F7CD56DE227F7ABDD1E2593D82E6FFA57E9A(tmp, NULL);
 	}
 }
 static void INetLogger_t24534A6D3B579E7334869B740B1DAEEAAC05E0D3_CustomAttributesCacheGenerator_INetLogger_WriteNet_m3C6BA0D3CF55D31D406BB13C74C4B9963E8CAB74____args2(CustomAttributesCache* cache)
@@ -909,11 +898,11 @@ static void NetDebug_t82550DCF49EB6A03ED21E6D41395BFD2ED2D750B_CustomAttributesC
 {
 	{
 		ConditionalAttribute_t5DD558ED67ECF65952A82B94A75C6E8E121B2D8C * tmp = (ConditionalAttribute_t5DD558ED67ECF65952A82B94A75C6E8E121B2D8C *)cache->attributes[0];
-		ConditionalAttribute__ctor_m43C71F47F8ED8FDF9A11FB20E8916C3737DD66AF(tmp, il2cpp_codegen_string_new_wrapper("\x44\x45\x42\x55\x47\x5F\x4D\x45\x53\x53\x41\x47\x45\x53"), NULL);
+		ConditionalAttribute__ctor_m43C71F47F8ED8FDF9A11FB20E8916C3737DD66AF(tmp, il2cpp_codegen_string_new_wrapper("\x44\x45\x42\x55\x47"), NULL);
 	}
 	{
 		ConditionalAttribute_t5DD558ED67ECF65952A82B94A75C6E8E121B2D8C * tmp = (ConditionalAttribute_t5DD558ED67ECF65952A82B94A75C6E8E121B2D8C *)cache->attributes[1];
-		ConditionalAttribute__ctor_m43C71F47F8ED8FDF9A11FB20E8916C3737DD66AF(tmp, il2cpp_codegen_string_new_wrapper("\x44\x45\x42\x55\x47"), NULL);
+		ConditionalAttribute__ctor_m43C71F47F8ED8FDF9A11FB20E8916C3737DD66AF(tmp, il2cpp_codegen_string_new_wrapper("\x44\x45\x42\x55\x47\x5F\x4D\x45\x53\x53\x41\x47\x45\x53"), NULL);
 	}
 }
 static void NetDebug_t82550DCF49EB6A03ED21E6D41395BFD2ED2D750B_CustomAttributesCacheGenerator_NetDebug_WriteForce_m9A69330FEC42B33FFF96B9981ADBBB3655234500____args2(CustomAttributesCache* cache)
@@ -1085,10 +1074,9 @@ static void U3CPrivateImplementationDetailsU3E_tC1E7D98715835382EA4C1606140F7F24
 	}
 }
 IL2CPP_EXTERN_C const CustomAttributesCacheGenerator g_LiteNetLib_AttributeGenerators[];
-const CustomAttributesCacheGenerator g_LiteNetLib_AttributeGenerators[95] = 
+const CustomAttributesCacheGenerator g_LiteNetLib_AttributeGenerators[94] = 
 {
 	EmbeddedAttribute_tDF0D66D1D50EF4BC6AEEDBB695C307ABB098ADFF_CustomAttributesCacheGenerator,
-	IsReadOnlyAttribute_t207A472DD96435907B137C4C3709A992B54D3622_CustomAttributesCacheGenerator,
 	IsUnmanagedAttribute_tBF6D230A22AC5B3B64C7B52752617CC6F27319A1_CustomAttributesCacheGenerator,
 	NativeAddr_tBFC6DF88AAF150F7A013FA4F8579E8352B5BA421_CustomAttributesCacheGenerator,
 	ConnectionState_t4BCD2501A24AA283394E024CC50074AE38CDC14D_CustomAttributesCacheGenerator,

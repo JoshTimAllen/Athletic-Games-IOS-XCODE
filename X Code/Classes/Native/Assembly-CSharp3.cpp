@@ -421,8 +421,6 @@ struct AthleteLoadout_t172012291A6013DBFABFEF56101F83C39844661B;
 struct AthletePages_tC5123641800615B18BBA907966107717213811BF;
 // AthleteTeam
 struct AthleteTeam_tD3FAB941F6D112E4E2B81BD06332B010CC2B94D9;
-// System.Attribute
-struct Attribute_t037CA9D9F3B742C063DB364D2EEBBF9FC5772C71;
 // Attributes
 struct Attributes_t00F036780ACC5223AF59110F59B1CF0F0D37D4D0;
 // UnityEngine.AudioSource
@@ -535,8 +533,6 @@ struct InventoryItem_tB22B9629D39BEBFB67295E76B28F6EE94796FAF3;
 struct InventoryItemDisplayPanel_t2D73A6EA5BD7A98BC61CA78439CDEF2CFF3DD20E;
 // UnityEngine.Events.InvokableCallList
 struct InvokableCallList_tB7C66AA0C00F9C102C8BDC17A144E569AC7527A9;
-// System.Runtime.CompilerServices.IsReadOnlyAttribute
-struct IsReadOnlyAttribute_t3AF66EFDCBDF4D546C5D58095F0B13B878991914;
 // Item
 struct Item_t834A68C039C5C43B7F2B7D0FF5FEC54B8FD4233C;
 // ItemDisplay
@@ -3519,15 +3515,6 @@ public:
 		___loadout_0 = value;
 		Il2CppCodeGenWriteBarrier((void**)(&___loadout_0), (void*)value);
 	}
-};
-
-
-// System.Attribute
-struct Attribute_t037CA9D9F3B742C063DB364D2EEBBF9FC5772C71  : public RuntimeObject
-{
-public:
-
-public:
 };
 
 
@@ -7100,15 +7087,6 @@ public:
 	{
 		___Zero_1 = value;
 	}
-};
-
-
-// System.Runtime.CompilerServices.IsReadOnlyAttribute
-struct IsReadOnlyAttribute_t3AF66EFDCBDF4D546C5D58095F0B13B878991914  : public Attribute_t037CA9D9F3B742C063DB364D2EEBBF9FC5772C71
-{
-public:
-
-public:
 };
 
 
@@ -24917,8 +24895,6 @@ inline Item_t834A68C039C5C43B7F2B7D0FF5FEC54B8FD4233C * List_1_Find_mE9DEBC49620
 }
 // System.Boolean UnityEngine.Object::op_Equality(UnityEngine.Object,UnityEngine.Object)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Object_op_Equality_mEE9EC7EB5C7DC3E95B94AB904E1986FC4D566D54 (Object_tF2F3778131EFF286AF62B7B013A170F95A91571A * ___x0, Object_tF2F3778131EFF286AF62B7B013A170F95A91571A * ___y1, const RuntimeMethod* method);
-// System.Void System.Attribute::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Attribute__ctor_m5C1862A7DFC2C25A4797A8C5F681FBB5CB53ECE1 (Attribute_t037CA9D9F3B742C063DB364D2EEBBF9FC5772C71 * __this, const RuntimeMethod* method);
 // System.Void UnityEngine.ScriptableObject::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScriptableObject__ctor_m8DAE6CDCFA34E16F2543B02CC3669669FF203063 (ScriptableObject_t4361E08CEBF052C650D3666C7CEC37EB31DE116A * __this, const RuntimeMethod* method);
 // System.Void ItemDisplay::LoadItem(Item)
@@ -27653,22 +27629,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InventoryItemDisplayPanel__ctor_m7716232
 {
 	{
 		MonoBehaviour__ctor_mC0995D847F6A95B1A553652636C38A2AA8B13BED(__this, /*hidden argument*/NULL);
-		return;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.Void System.Runtime.CompilerServices.IsReadOnlyAttribute::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IsReadOnlyAttribute__ctor_mF1843241F60B2240CFAE651F1FD8A7AE17E32ECD (IsReadOnlyAttribute_t3AF66EFDCBDF4D546C5D58095F0B13B878991914 * __this, const RuntimeMethod* method)
-{
-	{
-		Attribute__ctor_m5C1862A7DFC2C25A4797A8C5F681FBB5CB53ECE1(__this, /*hidden argument*/NULL);
 		return;
 	}
 }

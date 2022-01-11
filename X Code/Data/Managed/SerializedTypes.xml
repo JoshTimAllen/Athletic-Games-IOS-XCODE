@@ -8,8 +8,8 @@
 		<type fullname="UnityEngine.UI.AnimationTriggers" preserve="nothing" serialized="true"/>
 		<type fullname="UnityEngine.UI.Button/ButtonClickedEvent" preserve="nothing" serialized="true"/>
 		<type fullname="UnityEngine.UI.ScrollRect/ScrollRectEvent" preserve="nothing" serialized="true"/>
-		<type fullname="UnityEngine.UI.Scrollbar/ScrollEvent" preserve="nothing" serialized="true"/>
 		<type fullname="UnityEngine.UI.Slider/SliderEvent" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.UI.Scrollbar/ScrollEvent" preserve="nothing" serialized="true"/>
 		<type fullname="UnityEngine.UI.InputField/SubmitEvent" preserve="nothing" serialized="true"/>
 		<type fullname="UnityEngine.UI.InputField/OnChangeEvent" preserve="nothing" serialized="true"/>
 		<type fullname="UnityEngine.UI.Toggle/ToggleEvent" preserve="nothing" serialized="true"/>
@@ -70,7 +70,6 @@
 		<type fullname="CharacterGeneratorSettings/MinMaxFacialBlendshapes" preserve="nothing" serialized="true"/>
 		<type fullname="CharacterGeneratorSettings/GeneratorExclude" preserve="nothing" serialized="true"/>
 		<type fullname="CharacterGeneratorSettings/ExcludeIndexes" preserve="nothing" serialized="true"/>
-		<type fullname="Tournaments.Tournament/TournamentData" preserve="nothing" serialized="true"/>
 		<type fullname="LeaderboardResultsPacketContainer" preserve="nothing" serialized="true"/>
 		<type fullname="LanNetworkData" preserve="nothing" serialized="true"/>
 		<type fullname="LanEndpoint" preserve="nothing" serialized="true"/>
@@ -78,6 +77,7 @@
 		<type fullname="CustomMatchRequest" preserve="nothing" serialized="true"/>
 		<type fullname="RoomData" preserve="nothing" serialized="true"/>
 		<type fullname="MaterialNavigator" preserve="nothing" serialized="true"/>
+		<type fullname="Tournaments.Tournament/TournamentData" preserve="nothing" serialized="true"/>
 		<type fullname="CurveMarker/LaneCurveDistanceMarkerPair" preserve="nothing" serialized="true"/>
 		<type fullname="_hurdleContainer" preserve="nothing" serialized="true"/>
 		<type fullname="ArtificialTeam" preserve="nothing" serialized="true"/>

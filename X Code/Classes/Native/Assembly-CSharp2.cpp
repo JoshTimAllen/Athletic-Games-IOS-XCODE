@@ -600,8 +600,6 @@ struct AthleteLoadout_t172012291A6013DBFABFEF56101F83C39844661B;
 struct AthletePages_tC5123641800615B18BBA907966107717213811BF;
 // AthleteTeam
 struct AthleteTeam_tD3FAB941F6D112E4E2B81BD06332B010CC2B94D9;
-// System.Attribute
-struct Attribute_t037CA9D9F3B742C063DB364D2EEBBF9FC5772C71;
 // Attributes
 struct Attributes_t00F036780ACC5223AF59110F59B1CF0F0D37D4D0;
 // UnityEngine.AudioSource
@@ -694,8 +692,6 @@ struct Discovery_Oraganizer_t7CB451F61E43D20AC2B2B7B33CE39135E9FD813F;
 struct DownloadHandler_tEEAE0DD53DB497C8A491C4F7B7A14C3CA027B1DB;
 // UnityEngine.Networking.DownloadHandlerBuffer
 struct DownloadHandlerBuffer_t74D11E891308B7FD5255C8D0D876AD0DBF512B6D;
-// Microsoft.CodeAnalysis.EmbeddedAttribute
-struct EmbeddedAttribute_tD9AECC2A5FF80678B3EF0F991A8F7864D4D6217B;
 // System.Text.EncoderFallback
 struct EncoderFallback_t02AC990075E17EB09F0D7E4831C3B3F264025CC4;
 // System.Text.Encoding
@@ -4297,15 +4293,6 @@ public:
 };
 
 
-// System.Attribute
-struct Attribute_t037CA9D9F3B742C063DB364D2EEBBF9FC5772C71  : public RuntimeObject
-{
-public:
-
-public:
-};
-
-
 // Attributes
 struct Attributes_t00F036780ACC5223AF59110F59B1CF0F0D37D4D0  : public RuntimeObject
 {
@@ -7822,15 +7809,6 @@ public:
 		};
 		uint8_t DrivenRectTransformTracker_t7DAF937E47C63B899C7BA0E9B0F206AAB4D85AC2__padding[1];
 	};
-
-public:
-};
-
-
-// Microsoft.CodeAnalysis.EmbeddedAttribute
-struct EmbeddedAttribute_tD9AECC2A5FF80678B3EF0F991A8F7864D4D6217B  : public Attribute_t037CA9D9F3B742C063DB364D2EEBBF9FC5772C71
-{
-public:
 
 public:
 };
@@ -29283,8 +29261,6 @@ inline void Dictionary_2__ctor_mA6747E78BD4DF1D09D9091C1B3EBAE0FDB200666 (Dictio
 {
 	((  void (*) (Dictionary_2_tDE3227CA5E7A32F5070BD24C69F42204A3ADE9D5 *, const RuntimeMethod*))Dictionary_2__ctor_m2C8EE5C13636D67F6C451C4935049F534AEC658F_gshared)(__this, method);
 }
-// System.Void System.Attribute::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Attribute__ctor_m5C1862A7DFC2C25A4797A8C5F681FBB5CB53ECE1 (Attribute_t037CA9D9F3B742C063DB364D2EEBBF9FC5772C71 * __this, const RuntimeMethod* method);
 // System.String GooglePlayGames.BasicApi.Nearby.EndpointDetails::get_EndpointId()
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* EndpointDetails_get_EndpointId_mD77A6C0F63F4BD90A55D7458A32B75BD10B32C74_inline (EndpointDetails_t4A4E471740BFF63BBFCD935F14E60252590FD288 * __this, const RuntimeMethod* method);
 // System.String GooglePlayGames.BasicApi.Nearby.EndpointDetails::get_Name()
@@ -38963,22 +38939,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Discovery_Oraganizer__ctor_m5394B629EF14
 		Dictionary_2__ctor_mA6747E78BD4DF1D09D9091C1B3EBAE0FDB200666(L_2, /*hidden argument*/Dictionary_2__ctor_mA6747E78BD4DF1D09D9091C1B3EBAE0FDB200666_RuntimeMethod_var);
 		__this->set_ip_data_6(L_2);
 		MonoBehaviour__ctor_mC0995D847F6A95B1A553652636C38A2AA8B13BED(__this, /*hidden argument*/NULL);
-		return;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.Void Microsoft.CodeAnalysis.EmbeddedAttribute::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EmbeddedAttribute__ctor_m90D0B6DEB625101355554D49B2EE2FB67C875860 (EmbeddedAttribute_tD9AECC2A5FF80678B3EF0F991A8F7864D4D6217B * __this, const RuntimeMethod* method)
-{
-	{
-		Attribute__ctor_m5C1862A7DFC2C25A4797A8C5F681FBB5CB53ECE1(__this, /*hidden argument*/NULL);
 		return;
 	}
 }
